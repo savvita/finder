@@ -1,4 +1,4 @@
-import { ScrollView, StyleSheet } from 'react-native';
+import { ScrollView, StyleSheet, Text } from 'react-native';
 import SearchInput from '../components/SearchInput';
 import engine from '../data/search_engine';
 import { useState } from 'react';
@@ -11,36 +11,49 @@ const SearchScreen = () => {
     const [data, setData] = useState([]);
 
     const search = async (text) => {
-        const results = [...data];
-        const radiomag = await engine.Radiomag.searchAsync(text, 'РАДІОМАГ-Дніпро');
-
-        if(radiomag) {
-            const findItem = data.find(item => item.title === 'Радіомаг');
-            if(!findItem) {
-                results.push({
-                    title: 'Радіомаг',
-                    data: radiomag
+        Promise.allSettled([
+            findInRadiomag(text),
+            findInVoron(text), 
+            findInMicroteh(text)
+        ])
+            .then(results => {
+                const values = [];
+                results.forEach((result, num) => {
+                    if (result.status === 'fulfilled') {
+                        values.push(result.value);
+                    }
                 });
-            } else {
-                findItem.data = radiomag;
-            }
-        }
 
+                setData(values);
+            });
+    }
+
+    const findInVoron = async (text) => {
         const voron = await engine.Voron.searchAsync(text);
-        
-        if(voron) {
-            const findItem = data.find(item => item.title === 'Ворон');
-            if(!findItem) {
-                results.push({
-                    title: 'Ворон',
-                    data: voron
-                });
-            } else {
-                findItem.data = voron;
-            }
-        }
 
-        setData([...results]);
+        return {
+            title: 'Ворон',
+            data: voron
+        };
+    }
+
+    const findInRadiomag = async (text) => {
+        const radiomag = await engine.Radiomag.searchAsync(text);
+
+        return {
+            title: 'Радіомаг',
+            data: radiomag
+        };
+    }
+
+    const findInMicroteh = async (text) => {
+        const microteh = await engine.Microteh.searchAsync(text);
+
+        return {
+            title: 'Мікротех',
+            data: microteh,
+            comments: 'Мікротех не надає інформацію про доступну кількість товару'
+        };
     }
 
     return (
@@ -53,6 +66,7 @@ const SearchScreen = () => {
                             title={ `${ item.title } (${ item.data.length })`}
                             headerTitleStyle={ styles.accordionHeader }
                         >
+                            { item.comments && <Text style={ styles.comments }>* {  item.comments }</Text> }
                             { item.data.map((dataItem) => <SearchResultItem key={ dataItem.id } item={ dataItem } />) }
                     </AccordionItem>
                     
@@ -65,6 +79,10 @@ const SearchScreen = () => {
 const styles = StyleSheet.create({
     accordionHeader: {
         paddingStart: 10
+    },
+    comments: {
+        paddingStart: 15,
+        color: '#f54'
     }
 });
 

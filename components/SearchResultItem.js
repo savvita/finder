@@ -33,7 +33,7 @@ const SearchResultItem = ({ item, containerStyle }) => {
 
     return (
         <TouchableOpacity style={ [styles.container, containerStyle ?? {}] }>
-            <View>
+            <View style={ styles.textContainer }>
                 <Text style={ [styles.text, styles.title] }>{ item.name }</Text>
                 <Text style={ styles.text }>У наявності: { item.available } шт.</Text>
                 <Text style={ styles.text }>Ціна: { item.price }&nbsp;&#8372;</Text>
@@ -58,7 +58,10 @@ const styles = StyleSheet.create({
         padding: 5,
         borderColor: '#777',
         flexDirection: 'row',
-        justifyContent: 'space-between'
+        justifyContent: 'space-between',
+    },
+    textContainer: {
+        width: '70%'
     },
     text: {
         paddingHorizontal: 10

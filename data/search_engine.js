@@ -2,6 +2,7 @@ import temp from './temp.js';
 import IDOMParser from 'advanced-html-parser';
 import radiomag from './radiomag.js';
 import voron from './voron.js';
+import microteh from './microteh.js';
 
 const getAsync = async (url) => {
     let results = undefined;
@@ -74,7 +75,32 @@ class Voron extends Basic {
     }
 }
 
+class Microteh extends Basic {
+    constructor() {
+        super('https://microteh.ck.ua/index.php');
+    }
+    searchAsync = async(text) => {
+        const searchText = text.replace(' ', '+');
+        const url = `${ this.url }?route=product/search&search=${ searchText }`;
+        //const html = await getAsync(url);
+        const html = temp.microteh;
+
+        return this.#parseSearchResult(html);
+    }
+
+    #parseSearchResult = (html) => {
+        const doc = IDOMParser.parse(html, {
+            ignoreTags: ['head', 'style'],
+            onlyBody: true
+        });
+        const articles = microteh.parseTable(doc.documentElement);
+        return articles;
+    }
+}
+
+
 export default {
     Radiomag: new Radiomag(),
-    Voron: new Voron()
+    Voron: new Voron(),
+    Microteh: new Microteh()
 }

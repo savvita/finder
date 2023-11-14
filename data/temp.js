@@ -2480,7 +2480,1138 @@ $(".search_overlay").click(function(){
 </body>
 </html>`;
 
+const microteh = `
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<!--[if IE 8 ]><html dir="ltr" lang="ua" class="ie8"><![endif]-->
+<!--[if IE 9 ]><html dir="ltr" lang="ua" class="ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html dir="ltr" lang="ua">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Пошук - jst-xh</title>
+<meta name="robots" content="noindex,follow" />
+<meta name="google-site-verification" content="n7kW6dRf6Y0Q1tl3NG6RiZF8t2IsDrzNqSRnqD94S4k" />
+<base href="https://microteh.ck.ua/" />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+   
+<link href="catalog/view/javascript/bootstrap/css/bootstrap.css" rel="stylesheet" media="screen" />
+<script src="catalog/view/javascript/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<link href="catalog/view/javascript/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+<link href="//fonts.googleapis.com/css?family=Open+Sans:400,400i,300,700" rel="stylesheet" type="text/css" />
+<link href="catalog/view/theme/default/stylesheet/stylesheet.css?v=1699998594" rel="stylesheet">
+<link href="catalog/view/theme/default/stylesheet/owl.carousel.css" rel="stylesheet">
+<link href="catalog/view/theme/default/stylesheet/owl.theme.css" rel="stylesheet">
+<link href="catalog/view/theme/default/stylesheet/sfdevelop.css?v=1699998594" rel="stylesheet">
+<script src="catalog/view/javascript/common.js" type="text/javascript"></script>
+    <script src="catalog/view/javascript/owl.carousel.js" type="text/javascript"></script> 
+<link href="https://microteh.ck.ua/index.php?route=product/search" rel="canonical" />
+<link href="https://microteh.ck.ua/image/catalog/cart.png" rel="icon" />
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MKBZDCN');</script>
+    <!-- End Google Tag Manager -->
+</head>
+<body class="product-search">
+<div style="font-weight:bold;background:#f00;color:#fff;padding:10px;display:none">
+<!-- Режим роботи на час карантину: магазини «Мікротех-1» та «Мікротех-2» у Черкасах працюють в он-лайн режимі. Шукайте необхідні товари на нашому сайті і будьте здорові. Тел для довідок: <a target="_blank" style="color:#fff" href="tel:380504648531">050-464-85-31.-->
+Режим роботи на час карантину: магазини «Мікротех-1» та «Мікротех-2» у Черкасах працюють в он-лайн режимі. Замовляйте необхідні товари на нашому сайті (для черкащан! в коментарях вказуйте самовивіз та бажаний час) і будьте здорові. Тел для довідок: 
+<a target="_blank" style="color:#fff" href="tel:380635679232">(063) 567-92-32</a>, <a target="_blank" style="color:#fff" href="tel:380504648531">(050) 464-85-31</a> 
+</div>
+<!-- Global Site Tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-101647134-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments)};
+  gtag('js', new Date());
+
+  gtag('config', 'UA-‎101647134-1');
+</script>
+ <nav id="top">
+  <div class="">
+   <!--      
+		<div class="pull-left">
+	<div class="btn-group">
+    <button class="btn btn-link dropdown-toggle" data-toggle="dropdown">
+	<i class="fa fa-book"></i> <span class="hidden-xs hidden-sm hidden-md">Блог</span> <i class="fa fa-caret-down"></i>
+	</button>
+	<ul class="dropdown-menu">
+	                <li><a href="https://microteh.ck.ua/index.php?route=blog/category&amp;blog_category_id=69">News (2)</a></li>
+                
+				                <li><a href="https://microteh.ck.ua/index.php?route=blog/category&amp;blog_category_id=69_71"><i class="fa fa-angle-right"></i> Анонсы (2)</a></li>
+										                <li><a href="https://microteh.ck.ua/index.php?route=blog/category&amp;blog_category_id=70">Reviews (1)</a></li>
+        		<li><a href="https://microteh.ck.ua/index.php?route=blog/latest" class="see-all">Дивитися весь Блог</a></li>
+	</ul>
+	</div>
+	</div>    <div id="top-links" class="nav pull-right">
+
+      <ul class="list-inline">
+        <li><a href="https://microteh.ck.ua/index.php?route=information/contact"><i class="fa fa-phone"></i></a> <span class="hidden-xs hidden-sm hidden-md">123456789</span></li>
+        <li class="dropdown"><a href="https://microteh.ck.ua/index.php?route=account/account" title="Особистий кабінет" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> <span class="hidden-xs hidden-sm hidden-md">Особистий кабінет</span> <span class="caret"></span></a>
+          <ul class="dropdown-menu dropdown-menu-right">
+                        <li><a href="https://microteh.ck.ua/simpleregister/">Реєстрація</a></li>
+            <li><a href="https://microteh.ck.ua/index.php?route=account/login">Авторизація</a></li>
+                      </ul>
+        </li>
+        <li><a href="https://microteh.ck.ua/index.php?route=account/wishlist" id="wishlist-total" title="Закладки (0)"><i class="fa fa-heart"></i> <span class="hidden-xs hidden-sm hidden-md">Закладки (0)</span></a></li>
+        <li><a href="https://microteh.ck.ua/index.php?route=checkout/cart" title="Кошик"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Кошик</span></a></li>
+        <li><a href="https://microteh.ck.ua/simplecheckout/" title="Оформлення замовленя"><i class="fa fa-share"></i> <span class="hidden-xs hidden-sm hidden-md">Оформлення замовленя</span></a></li>
+      </ul>
+    </div> -->
+    <div class="sf_none" style="width:100%">  
+    <a href="javascript:void(0);" class="menu-trigger">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+              </a>
+<nav class="menu_top">
+
+  <ul class="hard_menu">
+
+    <li><a href="index.php?route=information/information&information_id=11">Про компанію</a></li>
+    <li><a href="index.php?route=information/information&information_id=7">Як зробити замовлення</a></li>
+    <li><a href="index.php?route=information/information&information_id=13">Доставка і оплата</a></li>
+    <li><a href="index.php?route=information/information&information_id=10">Гарантії МИКРОТЕХ</a></li>
+		<li><a href="/price2" style="font-weight:bold">Price for POWER PC</a></li>
+    <li><a href="http://microteh.ck.ua/price">Прайс</a></li>
+<!--    <li><a href="index.php?route=information/information&information_id=13">Доставка и оплата</a></li> -->
+    <li><a href="index.php?route=information/information&information_id=15">Контакти</a></li>
+    <li class="language">
+        			    <a href="ua" class="header-language active"><img src="image/flags/ua.png" alt="Украинский" title="Украинский"></a>
+    		    </li>
+  </ul>
+</nav>
+</div>
+  </div>
+</nav>
+
+<header>
+  <div class="container" style="width:100%">
+    <div class="row">
+      <div class="col-sm-3">
+        <div id="logo">
+                    <a href="https://microteh.ck.ua/"><img src="https://microteh.ck.ua/image/catalog/logo_micro.png" title="Microteh" alt="Microteh" class="img-responsive" /></a>
+                  </div>
+      </div>
+      <div class="col-sm-5"><div id="search" class="input-group">
+  <input type="text" name="search" value="jst-xh" placeholder="Пошук" class="form-control input-lg" />
+  <span class="input-group-btn">
+    <button type="button" class="btn btn-default btn-lg"><i class="fa fa-search"></i></button>
+  </span>
+</div></div>
+      <div class="col-sm-2 col-xs-6"><div id="cart" class="btn-group btn-block">
+   <button type="button" data-toggle="dropdown" data-loading-text="Завантаження..." class="btn btn-inverse btn-block btn-lg dropdown-toggle"><!--<i class="fa fa-shopping-cart"></i>-->
+     <div class="wrap_cart">
+        <span id="cart-total"> 0</span>
+        <span class="cart_text">Кошик</span>
+     </div>
+   </button>
+
+  <ul class="dropdown-menu pull-right">
+        <li>
+      <p class="text-center">Ваш кошик порожній!</p>
+    </li>
+      </ul>
+</div>
+</div>
+      <div class="col-sm-2 col-xs-6">
+        <ul class="list-inline user_icon">
+          <li class="dropdown"><a href="https://microteh.ck.ua/index.php?route=account/account" title="Особистий кабінет" class="dropdown-toggle" data-toggle="dropdown"><!-- <i class="fa fa-user"></i>--> <span class="hidden-xs hidden-sm hidden-md">Особистий кабінет</span> <span class="caret"></span></a>
+            <ul class="dropdown-menu dropdown-menu-right">
+                            <li><a href="https://microteh.ck.ua/simpleregister/">Реєстрація</a></li>
+              <li><a href="https://microteh.ck.ua/index.php?route=account/login">Авторизація</a></li>
+                          </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  </header>
+
+
+
+<div class="sf_manu">
+    <div class="container sf_beack" style="width:100%">
+      <nav id="menu" class="navbar">
+        <div class="navbar-header"><span id="category" class="visible-xs">Категорії</span>
+          <button type="button" class="btn btn-navbar navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse"><i class="fa fa-bars"></i></button>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav">
+                                    <li class="dropdown"><a href="https://microteh.ck.ua/jelektronnie-komponenti--jek-/" class="dropdown-toggle" data-toggle="dropdown">Електронні компоненти</a>
+              <div class="dropdown-menu">
+                <div class="dropdown-inner">
+                                    <ul class="list-unstyled">
+                                        <li><a href="https://microteh.ck.ua/index.php?route=product/category&amp;path=1_4">Активні компоненти</a></li>
+                                        <li><a href="https://microteh.ck.ua/index.php?route=product/category&amp;path=1_35">Оптоэлектроника</a></li>
+                                        <li><a href="https://microteh.ck.ua/index.php?route=product/category&amp;path=1_5">Пасивні компоненти</a></li>
+                                        <li><a href="https://microteh.ck.ua/index.php?route=product/category&amp;path=1_55">Реле</a></li>
+                                      </ul>
+                                  </div>
+                <a href="https://microteh.ck.ua/jelektronnie-komponenti--jek-/" class="see-all">Перегляд всього Електронні компоненти</a> </div>
+            </li>
+                                                <li class="dropdown"><a href="https://microteh.ck.ua/komplektujushhie-i-materiali-dlja-jelektroniki/" class="dropdown-toggle" data-toggle="dropdown">Комплектуючі та матеріали для електроніки. Електрофурнітура</a>
+              <div class="dropdown-menu">
+                <div class="dropdown-inner">
+                                    <ul class="list-unstyled">
+                                        <li><a href="https://microteh.ck.ua/index.php?route=product/category&amp;path=3_38">TV</a></li>
+                                        <li><a href="https://microteh.ck.ua/index.php?route=product/category&amp;path=3_171">Автомобильные аксессуары</a></li>
+                                        <li><a href="https://microteh.ck.ua/index.php?route=product/category&amp;path=3_33">Акустика</a></li>
+                                        <li><a href="https://microteh.ck.ua/index.php?route=product/category&amp;path=3_188">Антенны</a></li>
+                                        <li><a href="https://microteh.ck.ua/index.php?route=product/category&amp;path=3_32">Вентиляторы</a></li>
+                                        <li><a href="https://microteh.ck.ua/index.php?route=product/category&amp;path=3_115">Замки, беспроводное управление (ДУ)</a></li>
+                                        <li><a href="https://microteh.ck.ua/index.php?route=product/category&amp;path=3_25">Источники питания</a></li>
+                                        <li><a href="https://microteh.ck.ua/index.php?route=product/category&amp;path=3_29">Кабельная продукция</a></li>
+                                        <li><a href="https://microteh.ck.ua/index.php?route=product/category&amp;path=3_31">Кнопки и переключатели</a></li>
+                                        <li><a href="https://microteh.ck.ua/index.php?route=product/category&amp;path=3_30">Корпуса</a></li>
+                                        <li><a href="https://microteh.ck.ua/index.php?route=product/category&amp;path=3_130">Магниты</a></li>
+                                        <li><a href="https://microteh.ck.ua/index.php?route=product/category&amp;path=3_253">Мобильные аксессуары</a></li>
+                                        <li><a href="https://microteh.ck.ua/index.php?route=product/category&amp;path=3_39">Моторы</a></li>
+                                        <li><a href="https://microteh.ck.ua/index.php?route=product/category&amp;path=3_28">Панельки для микросхем</a></li>
+                                        <li><a href="https://microteh.ck.ua/index.php?route=product/category&amp;path=3_36">Платы монтажные, BGA трафареты, платы-переходники</a></li>
+                                        <li><a href="https://microteh.ck.ua/index.php?route=product/category&amp;path=3_40">Радиаторы</a></li>
+                                        <li><a href="https://microteh.ck.ua/index.php?route=product/category&amp;path=3_27">Расходные материалы</a></li>
+                                        <li><a href="https://microteh.ck.ua/index.php?route=product/category&amp;path=3_241">Решетки и фильтры для вентиляторов</a></li>
+                                        <li><a href="https://microteh.ck.ua/index.php?route=product/category&amp;path=3_178">Связь, радиоприемники, радиопередатчики</a></li>
+                                        <li><a href="https://microteh.ck.ua/index.php?route=product/category&amp;path=3_26">Средства коммутации</a></li>
+                                        <li><a href="https://microteh.ck.ua/index.php?route=product/category&amp;path=3_236">Стеклотекстолит</a></li>
+                                        <li><a href="https://microteh.ck.ua/index.php?route=product/category&amp;path=3_113">Счетчики, таймеры</a></li>
+                                        <li><a href="https://microteh.ck.ua/index.php?route=product/category&amp;path=3_237">Флеш память USB</a></li>
+                                        <li><a href="https://microteh.ck.ua/index.php?route=product/category&amp;path=3_43">Фонарики</a></li>
+                                        <li><a href="https://microteh.ck.ua/index.php?route=product/category&amp;path=3_22">Химия</a></li>
+                                        <li><a href="https://microteh.ck.ua/index.php?route=product/category&amp;path=3_223">Часы</a></li>
+                                      </ul>
+                                  </div>
+                <a href="https://microteh.ck.ua/komplektujushhie-i-materiali-dlja-jelektroniki/" class="see-all">Перегляд всього Комплектуючі та матеріали для електроніки. Електрофурнітура</a> </div>
+            </li>
+                                                <li class="dropdown"><a href="https://microteh.ck.ua/pribori-i-instrumenti/" class="dropdown-toggle" data-toggle="dropdown">Прилади та інструменти</a>
+              <div class="dropdown-menu">
+                <div class="dropdown-inner">
+                                    <ul class="list-unstyled">
+                                        <li><a href="https://microteh.ck.ua/index.php?route=product/category&amp;path=2_49">Бинокуляры, линзы, микроскопы</a></li>
+                                        <li><a href="https://microteh.ck.ua/index.php?route=product/category&amp;path=2_118">Весы</a></li>
+                                        <li><a href="https://microteh.ck.ua/index.php?route=product/category&amp;path=2_11">Кассетницы</a></li>
+                                        <li><a href="https://microteh.ck.ua/index.php?route=product/category&amp;path=2_44">Мультиметры и комплектующие</a></li>
+                                        <li><a href="https://microteh.ck.ua/index.php?route=product/category&amp;path=2_45">Паяльное оборудование</a></li>
+                                        <li><a href="https://microteh.ck.ua/index.php?route=product/category&amp;path=2_47">Ручной инструмент</a></li>
+                                        <li><a href="https://microteh.ck.ua/index.php?route=product/category&amp;path=2_11528">Терморегуляторы (термостаты), термометры, таймеры</a></li>
+                                      </ul>
+                                  </div>
+                <a href="https://microteh.ck.ua/pribori-i-instrumenti/" class="see-all">Перегляд всього Прилади та інструменти</a> </div>
+            </li>
+                                  </ul>
+        </div>
+      </nav>
+    </div>
+
+</div>
+    <!--
+    <div class="row links">
+        <div class="container">
+              <div class="col-md-4 col-sm-4 hard_link">
+                <a href="index.php?route=information/information&information_id=7"><span>Как сделать заказ</span> Поиск и выбор товара</a>
+              </div>
+
+
+              <div class="col-md-4 col-sm-4 hard_link">
+                <a href="index.php?route=information/information&information_id=13"><span>Доставка и оплата</span> Способы доставки и оплаты</a>
+              </div>
+
+              <div class="col-md-4 col-sm-4 hard_link">
+                <a href="index.php?route=information/information&information_id=10"><span>Гарантии МИКРОТЕХ</span> Решение спорных ситуаций и возвраты</a>
+              </div>
+        </div>
+    </div>
+    -->
+<div class="container">
+  <div class="row">                <div id="content" class="col-sm-12"><div id="mfilter-content-container">      <h1>Пошук - jst-xh</h1>
+      <label class="control-label" for="input-search">Пошук</label>
+      <div class="row">
+        <div class="col-sm-4">
+          <input type="text" name="search" value="jst-xh" placeholder="Ключові слова" id="input-search" class="form-control" />
+        </div>
+        <div class="col-sm-3">
+          <select name="category_id" class="form-control">
+            <option value="0">Всі категорії</option>
+                                    <option value="1">Електронні компоненти</option>
+                                                <option value="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Активні компоненти</option>
+                                                <option value="23">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Датчики</option>
+                                                <option value="34">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Диоды</option>
+                                                <option value="24">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Микросхемы</option>
+                                                <option value="80">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Оптопары</option>
+                                                <option value="18">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Полупроводниковые модули</option>
+                                                <option value="195">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Програматоры</option>
+                                                <option value="19">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Тиристоры, симисторы, динисторы</option>
+                                                <option value="20">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Транзисторы</option>
+                                                            <option value="35">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Оптоэлектроника</option>
+                                                <option value="285">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Датчики движения</option>
+                                                <option value="75">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Датчики оптические</option>
+                                                <option value="128">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Держатели светодиодов и ламп, радиаторы, коннекторы</option>
+                                                <option value="189">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Индикаторы вакуумные, газоразрядные</option>
+                                                <option value="76">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Индикаторы светодиодные</option>
+                                                <option value="6430">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Индикаторы светодиодные цифровые</option>
+                                                <option value="12700">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Коллиматоры, линзы</option>
+                                                <option value="6400">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Лазер полупроводниковый</option>
+                                                <option value="42">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Лазерные головки</option>
+                                                <option value="279">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Лампы  подсветки LCD</option>
+                                                <option value="77">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Лампы, прожекторы</option>
+                                                <option value="120">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Матрицы светодиодные</option>
+                                                <option value="257">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Модули, линейки светодиодные. Профиль</option>
+                                                <option value="79">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Мощные светодиоды</option>
+                                                <option value="81">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Светодиодные ленты</option>
+                                                <option value="282">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Светодиоды для растений</option>
+                                                <option value="83">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Стандартные светодиоды</option>
+                                                <option value="74">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Управление светодиодами, драйвера, диммеры</option>
+                                                <option value="84">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Фотоприемники</option>
+                                                <option value="11590">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Фоторезисторы</option>
+                                                <option value="85">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Фототранзисторы</option>
+                                                            <option value="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Пасивні компоненти</option>
+                                                <option value="58">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Дроссели</option>
+                                                <option value="300">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Кварцевые генераторы</option>
+                                                <option value="59">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Кварцевые резонаторы</option>
+                                                <option value="60">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Конденсаторы</option>
+                                                <option value="10">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Пристрої захисту та контролю</option>
+                                                <option value="61">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Резистори</option>
+                                                <option value="21">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ферритовые изделия</option>
+                                                <option value="93">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Фильтры</option>
+                                                            <option value="55">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Реле</option>
+                                                <option value="216">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Держатели для реле</option>
+                                                <option value="800">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Реле отечественные</option>
+                                                <option value="56">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Реле твердотельное</option>
+                                                <option value="57">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Реле электомагнитные</option>
+                                                                        <option value="3">Комплектуючі та матеріали для електроніки. Електрофурнітура</option>
+                                                <option value="38">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TV</option>
+                                                            <option value="171">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Автомобильные аксессуары</option>
+                                                <option value="313">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Автодержатели, FM модуляторы</option>
+                                                <option value="299">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Автомобильная диагностика</option>
+                                                <option value="126">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Разъемы питания ISO</option>
+                                                            <option value="33">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Акустика</option>
+                                                <option value="231">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Динамики</option>
+                                                <option value="41">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Микрофоны, пьезоизлучатели</option>
+                                                            <option value="188">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Антенны</option>
+                                                            <option value="32">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Вентиляторы</option>
+                                                            <option value="115">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Замки, беспроводное управление (ДУ)</option>
+                                                            <option value="25">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Источники питания</option>
+                                                <option value="138">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Аккумуляторы, индикаторы ёмкости аккумуляторов</option>
+                                                <option value="139">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Блоки питания</option>
+                                                <option value="140">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Держатели батарей, аккумуляторов</option>
+                                                <option value="141">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Зарядные устройства для аккумуляторов</option>
+                                                <option value="46">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Инверторы</option>
+                                                <option value="302">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Регулятор мощности AC, DC</option>
+                                                <option value="346">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Сонячна енергетика</option>
+                                                <option value="48">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Стабилизатор напряжения</option>
+                                                <option value="91">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Трансформаторы</option>
+                                                <option value="142">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Элементы питания</option>
+                                                            <option value="29">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Кабельная продукция</option>
+                                                <option value="111">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Аксессуары для кабеля</option>
+                                                <option value="232">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Акустический кабель</option>
+                                                <option value="174">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Аудио-видео кабель</option>
+                                                <option value="239">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;З'єднувальні кабелі audio, video, USB</option>
+                                                <option value="11800">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Кабели питания</option>
+                                                <option value="12276">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Коаксіальний кабель</option>
+                                                <option value="170">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Мікрофонний кабель</option>
+                                                <option value="266">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Провід монтажний</option>
+                                                <option value="267">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Сигнальний кабель ALARM</option>
+                                                <option value="229">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Телефонный кабель</option>
+                                                <option value="234">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Шлейфи, перехідники для живлення процесорів, відеокарт</option>
+                                                            <option value="31">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Кнопки и переключатели</option>
+                                                <option value="102">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Геркон</option>
+                                                <option value="16735">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Кнопки мініатюрні</option>
+                                                <option value="204">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Кнопки тактові</option>
+                                                <option value="1016">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Мікроперемикачі</option>
+                                                <option value="17000">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Перемикачі 12V</option>
+                                                <option value="13">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Перемикачі DIP-SWITCH</option>
+                                                <option value="131">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Перемикачі керуючі, сигнальні кнопки та лампи</option>
+                                                <option value="12">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Перемикачі кнопкові</option>
+                                                <option value="17059">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Перемикачі повзункові</option>
+                                                <option value="16686">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Перемикачі рокерні (Rocker)</option>
+                                                <option value="1015">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Тумблери</option>
+                                                <option value="264">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Энкодеры</option>
+                                                            <option value="30">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Корпуса</option>
+                                                            <option value="130">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Магниты</option>
+                                                            <option value="253">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Мобильные аксессуары</option>
+                                                <option value="261">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Аккумуляторы для мобильных телефонов</option>
+                                                <option value="260">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Зарядные устройства для планшетов и мобильных телефонов</option>
+                                                <option value="258">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Звуковые карты, Bluetooth модули</option>
+                                                <option value="259">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Наушники, держатели, защитная пленка для экранов</option>
+                                                <option value="283">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Универсальные мобильные батареи (Power Bank)</option>
+                                                            <option value="39">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Моторы</option>
+                                                            <option value="28">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Панельки для микросхем</option>
+                                                            <option value="36">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Платы монтажные, BGA трафареты, платы-переходники</option>
+                                                <option value="244">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BGA трафареты, фоторезист</option>
+                                                <option value="25192">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bluetooth модули</option>
+                                                <option value="251">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Индикатор уровня сигнала, эквалайзеры</option>
+                                                <option value="249">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Підсилювачі мікрофонні</option>
+                                                <option value="246">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Підсилювачі низької частоти</option>
+                                                <option value="242">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Платы DC/DC</option>
+                                                <option value="256">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Платы и комплектующие Arduino, Raspberry</option>
+                                                <option value="243">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Платы монтажные, макетные, перемычки</option>
+                                                <option value="245">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Платы-переходники</option>
+                                                <option value="262">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Радиоэлектронные конструкторы</option>
+                                                <option value="250">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Темброблоки</option>
+                                                <option value="248">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;УКВ-FM конвертеры и усилители</option>
+                                                <option value="247">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Фильтры для сабвуфера, обработка звукового сигнала</option>
+                                                            <option value="40">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Радиаторы</option>
+                                                            <option value="27">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Расходные материалы</option>
+                                                <option value="11796">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Изолента, скотч, оплетка, ремкомплект</option>
+                                                <option value="205">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Подложка, слюда, стойки, крепеж</option>
+                                                <option value="196">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Термоусадочная трубка</option>
+                                                            <option value="241">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Решетки и фильтры для вентиляторов</option>
+                                                            <option value="178">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Связь, радиоприемники, радиопередатчики</option>
+                                                            <option value="26">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Средства коммутации</option>
+                                                <option value="158">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Адаптеры</option>
+                                                <option value="16694">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Клеммы, наконечники</option>
+                                                <option value="16473">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Роз'єми аудіо, відео</option>
+                                                <option value="177">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Роз'єми ВЧ</option>
+                                                <option value="13001">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Роз'єми для передачі даних</option>
+                                                <option value="175">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Роз'єми живлення</option>
+                                                <option value="287">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Сетевые фильтры и удлинители</option>
+                                                            <option value="236">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Стеклотекстолит</option>
+                                                            <option value="113">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Счетчики, таймеры</option>
+                                                            <option value="237">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Флеш память USB</option>
+                                                            <option value="43">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Фонарики</option>
+                                                            <option value="22">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Химия</option>
+                                                <option value="151">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Клеи</option>
+                                                <option value="12585">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Паста паяльная, флюс, канифоль</option>
+                                                <option value="230">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Покрытия, средства защиты</option>
+                                                <option value="275">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Припой, сплавы</option>
+                                                <option value="12555">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Растворители, чистящие средства, газ</option>
+                                                            <option value="223">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Часы</option>
+                                                                        <option value="2">Прилади та інструменти</option>
+                                                <option value="49">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Бинокуляры, линзы, микроскопы</option>
+                                                            <option value="118">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Весы</option>
+                                                            <option value="11">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Кассетницы</option>
+                                                            <option value="44">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Мультиметры и комплектующие</option>
+                                                            <option value="45">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Паяльное оборудование</option>
+                                                <option value="50">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Жала паяльные</option>
+                                                <option value="51">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Инструменты для пайки</option>
+                                                <option value="240">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Нагревательные элементы</option>
+                                                <option value="280">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Паяльник-выжигатель по дереву</option>
+                                                <option value="52">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Паяльники, паяльные станции, подставки</option>
+                                                <option value="136">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ультразвуковые ванны</option>
+                                                            <option value="47">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ручной инструмент</option>
+                                                <option value="153">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Бокорезы, ножницы</option>
+                                                <option value="152">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Зажимы, щупы, клеммы</option>
+                                                <option value="150">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Клеевой инструмент, комплектующие</option>
+                                                <option value="18790">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Клещи для обжима и зачистки</option>
+                                                <option value="18789">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Лезвия, скальпеля, надфели</option>
+                                                <option value="18788">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Отвертки, ключи</option>
+                                                <option value="154">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Пинцеты, шила, экстракторы</option>
+                                                <option value="18791">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Плоскогубцы, круглогубцы, тиски</option>
+                                                <option value="12791">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Сверла, патроны, шуруповерты</option>
+                                                            <option value="11528">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Терморегуляторы (термостаты), термометры, таймеры</option>
+                                                          </select>
+        </div>
+        <div class="col-sm-3">
+          <label class="checkbox-inline">
+                        <input type="checkbox" name="sub_category" value="1" />
+                        Пошук в підкатегоріях</label>
+        </div>
+      </div>
+      <p>
+        <label class="checkbox-inline">
+                    <input type="checkbox" name="description" value="1" id="description" />
+                    Шукати в описі товарів</label>
+      </p>
+      <input type="button" value="Пошук" id="button-search" class="btn btn-primary" />
+      <h2>Товари, що відповідають критеріям пошуку</h2>
+            <p><a href="https://microteh.ck.ua/index.php?route=product/compare" id="compare-total">Порівняння товарів (0)</a></p>
+      <div class="row">
+        <div class="col-sm-3 hidden-xs">
+          <div class="btn-group">
+            <button type="button" id="list-view" class="btn btn-default" data-toggle="tooltip" title="Список"><i class="fa fa-th-list"></i></button>
+            <button type="button" id="grid-view" class="btn btn-default" data-toggle="tooltip" title="Сітка"><i class="fa fa-th"></i></button>
+          </div>
+        </div>
+        <div class="col-sm-1 col-sm-offset-2 text-right">
+          <label class="control-label" for="input-sort">Сортування:</label>
+        </div>
+        <div class="col-sm-3 text-right">
+          <select id="input-sort" class="form-control col-sm-3" onchange="location = this.value;">
+                                    <option value="https://microteh.ck.ua/index.php?route=product/search&amp;sort=p.sort_order&amp;order=ASC&amp;search=jst-xh" selected="selected">По замовчуванню</option>
+                                                <option value="https://microteh.ck.ua/index.php?route=product/search&amp;sort=pd.name&amp;order=ASC&amp;search=jst-xh">Назва (А - Я)</option>
+                                                <option value="https://microteh.ck.ua/index.php?route=product/search&amp;sort=pd.name&amp;order=DESC&amp;search=jst-xh">Назва (Я - А)</option>
+                                                <option value="https://microteh.ck.ua/index.php?route=product/search&amp;sort=p.price&amp;order=ASC&amp;search=jst-xh">Ціна (низька &gt; висока)</option>
+                                                <option value="https://microteh.ck.ua/index.php?route=product/search&amp;sort=p.price&amp;order=DESC&amp;search=jst-xh">Ціна (висока &gt; низька)</option>
+                                                <option value="https://microteh.ck.ua/index.php?route=product/search&amp;sort=rating&amp;order=DESC&amp;search=jst-xh">Рейтинг (починаючи з високого)</option>
+                                                <option value="https://microteh.ck.ua/index.php?route=product/search&amp;sort=rating&amp;order=ASC&amp;search=jst-xh">Рейтинг (починаючи з нижчого)</option>
+                                                <option value="https://microteh.ck.ua/index.php?route=product/search&amp;sort=p.model&amp;order=ASC&amp;search=jst-xh">Код Товару (А - Я)</option>
+                                                <option value="https://microteh.ck.ua/index.php?route=product/search&amp;sort=p.model&amp;order=DESC&amp;search=jst-xh">Код Товару (Я - А)</option>
+                                  </select>
+        </div>
+        <div class="col-sm-1 text-right">
+          <label class="control-label" for="input-limit">Показати:</label>
+        </div>
+        <div class="col-sm-2 text-right">
+          <select id="input-limit" class="form-control" onchange="location = this.value;">
+                                    <option value="https://microteh.ck.ua/index.php?route=product/search&amp;search=jst-xh&amp;limit=24" selected="selected">24</option>
+                                                <option value="https://microteh.ck.ua/index.php?route=product/search&amp;search=jst-xh&amp;limit=48">48</option>
+                                                <option value="https://microteh.ck.ua/index.php?route=product/search&amp;search=jst-xh&amp;limit=72">72</option>
+                                                <option value="https://microteh.ck.ua/index.php?route=product/search&amp;search=jst-xh&amp;limit=96">96</option>
+                                                <option value="https://microteh.ck.ua/index.php?route=product/search&amp;search=jst-xh&amp;limit=120">120</option>
+                                  </select>
+        </div>
+      </div>
+      <br />
+      <div class="row">
+                <div class="product-layout product-list col-xs-12">
+          <div class="product-thumb">
+            <div class="image"><a href="https://microteh.ck.ua/index.php?route=product/product&amp;path=3_25_25980&amp;product_id=24066"><img src="https://microteh.ck.ua/image/cache/catalog/products/24066-228x228.jpg" alt="Модуль заряду BMS для 5-x Li-ion акумулятор..." title="Модуль заряду BMS для 5-x Li-ion акумулятор..." class="img-responsive" /></a></div>
+            <div class="caption">
+              <h4><a href="https://microteh.ck.ua/index.php?route=product/product&amp;path=3_25_25980&amp;product_id=24066">Модуль заряду BMS для 5-x Li-ion акумулятор...</a></h4>
+              <!-- <p>BMS контроллер BW-6022-5S для управления процессом заряда/разряда и защиты до 5-ти Li-ion аккумулято..</p> -->
+                            <!-- <p class="price">
+                                100.00 грн.                                              </p> -->
+                                        </div>
+        <div class="row">
+            <div class="col-xs-7 sf_proizvod">
+                            </div>
+            <div class="col-xs-5 sf_proizvod">
+                                    Корпус:<br> 60x23mm                            </div>
+        </div>
+            <div class="button-group">
+               <div class="col-xs-7 sf_none sf_cupit">
+                   <button type="button" onclick="cart.add('24066');"><!--<i class="fa fa-shopping-cart"></i>--> <span class="hidden-xs hidden-sm hidden-md">Придбати</span></button>
+                  <button type="button" data-toggle="tooltip" title="В закладки" onclick="wishlist.add('24066');"><i class="fa fa-heart"></i></button>
+                  <button type="button" data-toggle="tooltip" title="Порівняти" onclick="compare.add('24066');"><i class="fa fa-exchange"></i></button>
+              </div>
+                <div class="col-xs-5 sf_price">
+                                                <p class="price">
+                                                        100.00 грн.                                                                                  </p>
+                                      </div>
+            </div>
+          </div>
+        </div>
+                <div class="product-layout product-list col-xs-12">
+          <div class="product-thumb">
+            <div class="image"><a href="https://microteh.ck.ua/index.php?route=product/product&amp;path=3_26_175_182&amp;product_id=22182"><img src="https://microteh.ck.ua/image/cache/catalog/products/22182-228x228.jpg" alt="Штирьовий роз'єм мікро JST-XH-2.54mm 2-Pin ..." title="Штирьовий роз'єм мікро JST-XH-2.54mm 2-Pin ..." class="img-responsive" /></a></div>
+            <div class="caption">
+              <h4><a href="https://microteh.ck.ua/index.php?route=product/product&amp;path=3_26_175_182&amp;product_id=22182">Штирьовий роз'єм мікро JST-XH-2.54mm 2-Pin ...</a></h4>
+              <!-- <p>..</p> -->
+                            <!-- <p class="price">
+                                8.00 грн.                                              </p> -->
+                                        </div>
+        <div class="row">
+            <div class="col-xs-7 sf_proizvod">
+                            </div>
+            <div class="col-xs-5 sf_proizvod">
+                            </div>
+        </div>
+            <div class="button-group">
+               <div class="col-xs-7 sf_none sf_cupit">
+                   <button type="button" onclick="cart.add('22182');"><!--<i class="fa fa-shopping-cart"></i>--> <span class="hidden-xs hidden-sm hidden-md">Придбати</span></button>
+                  <button type="button" data-toggle="tooltip" title="В закладки" onclick="wishlist.add('22182');"><i class="fa fa-heart"></i></button>
+                  <button type="button" data-toggle="tooltip" title="Порівняти" onclick="compare.add('22182');"><i class="fa fa-exchange"></i></button>
+              </div>
+                <div class="col-xs-5 sf_price">
+                                                <p class="price">
+                                                        8.00 грн.                                                                                  </p>
+                                      </div>
+            </div>
+          </div>
+        </div>
+                <div class="product-layout product-list col-xs-12">
+          <div class="product-thumb">
+            <div class="image"><a href="https://microteh.ck.ua/index.php?route=product/product&amp;path=3_26_175_182&amp;product_id=25975"><img src="https://microteh.ck.ua/image/cache/catalog/products/25975-228x228.jpg" alt="Штирьовий роз'єм мікро JST-XH-2.54mm 2-Pin ..." title="Штирьовий роз'єм мікро JST-XH-2.54mm 2-Pin ..." class="img-responsive" /></a></div>
+            <div class="caption">
+              <h4><a href="https://microteh.ck.ua/index.php?route=product/product&amp;path=3_26_175_182&amp;product_id=25975">Штирьовий роз'єм мікро JST-XH-2.54mm 2-Pin ...</a></h4>
+              <!-- <p>..</p> -->
+                            <!-- <p class="price">
+                                8.50 грн.                                              </p> -->
+                                        </div>
+        <div class="row">
+            <div class="col-xs-7 sf_proizvod">
+                            </div>
+            <div class="col-xs-5 sf_proizvod">
+                            </div>
+        </div>
+            <div class="button-group">
+               <div class="col-xs-7 sf_none sf_cupit">
+                   <button type="button" onclick="cart.add('25975');"><!--<i class="fa fa-shopping-cart"></i>--> <span class="hidden-xs hidden-sm hidden-md">Придбати</span></button>
+                  <button type="button" data-toggle="tooltip" title="В закладки" onclick="wishlist.add('25975');"><i class="fa fa-heart"></i></button>
+                  <button type="button" data-toggle="tooltip" title="Порівняти" onclick="compare.add('25975');"><i class="fa fa-exchange"></i></button>
+              </div>
+                <div class="col-xs-5 sf_price">
+                                                <p class="price">
+                                                        8.50 грн.                                                                                  </p>
+                                      </div>
+            </div>
+          </div>
+        </div>
+                <div class="product-layout product-list col-xs-12">
+          <div class="product-thumb">
+            <div class="image"><a href="https://microteh.ck.ua/index.php?route=product/product&amp;path=3_26_175_182&amp;product_id=22184"><img src="https://microteh.ck.ua/image/cache/catalog/products/22184-228x228.jpg" alt="Штирьовий роз'єм мікро JST-XH-2.54mm 3-Pin ..." title="Штирьовий роз'єм мікро JST-XH-2.54mm 3-Pin ..." class="img-responsive" /></a></div>
+            <div class="caption">
+              <h4><a href="https://microteh.ck.ua/index.php?route=product/product&amp;path=3_26_175_182&amp;product_id=22184">Штирьовий роз'єм мікро JST-XH-2.54mm 3-Pin ...</a></h4>
+              <!-- <p>..</p> -->
+                            <!-- <p class="price">
+                                9.00 грн.                                              </p> -->
+                                        </div>
+        <div class="row">
+            <div class="col-xs-7 sf_proizvod">
+                            </div>
+            <div class="col-xs-5 sf_proizvod">
+                            </div>
+        </div>
+            <div class="button-group">
+               <div class="col-xs-7 sf_none sf_cupit">
+                   <button type="button" onclick="cart.add('22184');"><!--<i class="fa fa-shopping-cart"></i>--> <span class="hidden-xs hidden-sm hidden-md">Придбати</span></button>
+                  <button type="button" data-toggle="tooltip" title="В закладки" onclick="wishlist.add('22184');"><i class="fa fa-heart"></i></button>
+                  <button type="button" data-toggle="tooltip" title="Порівняти" onclick="compare.add('22184');"><i class="fa fa-exchange"></i></button>
+              </div>
+                <div class="col-xs-5 sf_price">
+                                                <p class="price">
+                                                        9.00 грн.                                                                                  </p>
+                                      </div>
+            </div>
+          </div>
+        </div>
+                <div class="product-layout product-list col-xs-12">
+          <div class="product-thumb">
+            <div class="image"><a href="https://microteh.ck.ua/index.php?route=product/product&amp;path=3_26_175_182&amp;product_id=23166"><img src="https://microteh.ck.ua/image/cache/catalog/products/23166-228x228.jpg" alt="Штирьовий роз'єм мікро JST-XH-2.54mm 4-Pin ..." title="Штирьовий роз'єм мікро JST-XH-2.54mm 4-Pin ..." class="img-responsive" /></a></div>
+            <div class="caption">
+              <h4><a href="https://microteh.ck.ua/index.php?route=product/product&amp;path=3_26_175_182&amp;product_id=23166">Штирьовий роз'єм мікро JST-XH-2.54mm 4-Pin ...</a></h4>
+              <!-- <p>..</p> -->
+                            <!-- <p class="price">
+                                8.50 грн.                                              </p> -->
+                                        </div>
+        <div class="row">
+            <div class="col-xs-7 sf_proizvod">
+                            </div>
+            <div class="col-xs-5 sf_proizvod">
+                            </div>
+        </div>
+            <div class="button-group">
+               <div class="col-xs-7 sf_none sf_cupit">
+                   <button type="button" onclick="cart.add('23166');"><!--<i class="fa fa-shopping-cart"></i>--> <span class="hidden-xs hidden-sm hidden-md">Придбати</span></button>
+                  <button type="button" data-toggle="tooltip" title="В закладки" onclick="wishlist.add('23166');"><i class="fa fa-heart"></i></button>
+                  <button type="button" data-toggle="tooltip" title="Порівняти" onclick="compare.add('23166');"><i class="fa fa-exchange"></i></button>
+              </div>
+                <div class="col-xs-5 sf_price">
+                                                <p class="price">
+                                                        8.50 грн.                                                                                  </p>
+                                      </div>
+            </div>
+          </div>
+        </div>
+                <div class="product-layout product-list col-xs-12">
+          <div class="product-thumb">
+            <div class="image"><a href="https://microteh.ck.ua/index.php?route=product/product&amp;path=3_26_175_182&amp;product_id=23976"><img src="https://microteh.ck.ua/image/cache/catalog/products/23976-228x228.jpg" alt="Штирьовий роз'єм мікро JST-XH-2.54mm 4-Pin ..." title="Штирьовий роз'єм мікро JST-XH-2.54mm 4-Pin ..." class="img-responsive" /></a></div>
+            <div class="caption">
+              <h4><a href="https://microteh.ck.ua/index.php?route=product/product&amp;path=3_26_175_182&amp;product_id=23976">Штирьовий роз'єм мікро JST-XH-2.54mm 4-Pin ...</a></h4>
+              <!-- <p>..</p> -->
+                            <!-- <p class="price">
+                                10.00 грн.                                              </p> -->
+                                        </div>
+        <div class="row">
+            <div class="col-xs-7 sf_proizvod">
+                            </div>
+            <div class="col-xs-5 sf_proizvod">
+                            </div>
+        </div>
+            <div class="button-group">
+               <div class="col-xs-7 sf_none sf_cupit">
+                   <button type="button" onclick="cart.add('23976');"><!--<i class="fa fa-shopping-cart"></i>--> <span class="hidden-xs hidden-sm hidden-md">Придбати</span></button>
+                  <button type="button" data-toggle="tooltip" title="В закладки" onclick="wishlist.add('23976');"><i class="fa fa-heart"></i></button>
+                  <button type="button" data-toggle="tooltip" title="Порівняти" onclick="compare.add('23976');"><i class="fa fa-exchange"></i></button>
+              </div>
+                <div class="col-xs-5 sf_price">
+                                                <p class="price">
+                                                        10.00 грн.                                                                                  </p>
+                                      </div>
+            </div>
+          </div>
+        </div>
+                <div class="product-layout product-list col-xs-12">
+          <div class="product-thumb">
+            <div class="image"><a href="https://microteh.ck.ua/index.php?route=product/product&amp;path=3_26_175_182&amp;product_id=23167"><img src="https://microteh.ck.ua/image/cache/catalog/products/23167-228x228.jpg" alt="Штирьовий роз'єм мікро JST-XH-2.54mm 5-Pin ..." title="Штирьовий роз'єм мікро JST-XH-2.54mm 5-Pin ..." class="img-responsive" /></a></div>
+            <div class="caption">
+              <h4><a href="https://microteh.ck.ua/index.php?route=product/product&amp;path=3_26_175_182&amp;product_id=23167">Штирьовий роз'єм мікро JST-XH-2.54mm 5-Pin ...</a></h4>
+              <!-- <p>..</p> -->
+                            <!-- <p class="price">
+                                10.00 грн.                                              </p> -->
+                                        </div>
+        <div class="row">
+            <div class="col-xs-7 sf_proizvod">
+                            </div>
+            <div class="col-xs-5 sf_proizvod">
+                            </div>
+        </div>
+            <div class="button-group">
+               <div class="col-xs-7 sf_none sf_cupit">
+                   <button type="button" onclick="cart.add('23167');"><!--<i class="fa fa-shopping-cart"></i>--> <span class="hidden-xs hidden-sm hidden-md">Придбати</span></button>
+                  <button type="button" data-toggle="tooltip" title="В закладки" onclick="wishlist.add('23167');"><i class="fa fa-heart"></i></button>
+                  <button type="button" data-toggle="tooltip" title="Порівняти" onclick="compare.add('23167');"><i class="fa fa-exchange"></i></button>
+              </div>
+                <div class="col-xs-5 sf_price">
+                                                <p class="price">
+                                                        10.00 грн.                                                                                  </p>
+                                      </div>
+            </div>
+          </div>
+        </div>
+                <div class="product-layout product-list col-xs-12">
+          <div class="product-thumb">
+            <div class="image"><a href="https://microteh.ck.ua/index.php?route=product/product&amp;path=3_26_175_182&amp;product_id=24829"><img src="https://microteh.ck.ua/image/cache/catalog/products/24829-228x228.jpg" alt="Штирьовий роз'єм мікро JST-XH-2.54mm 5-Pin ..." title="Штирьовий роз'єм мікро JST-XH-2.54mm 5-Pin ..." class="img-responsive" /></a></div>
+            <div class="caption">
+              <h4><a href="https://microteh.ck.ua/index.php?route=product/product&amp;path=3_26_175_182&amp;product_id=24829">Штирьовий роз'єм мікро JST-XH-2.54mm 5-Pin ...</a></h4>
+              <!-- <p>..</p> -->
+                            <!-- <p class="price">
+                                12.00 грн.                                              </p> -->
+                                        </div>
+        <div class="row">
+            <div class="col-xs-7 sf_proizvod">
+                            </div>
+            <div class="col-xs-5 sf_proizvod">
+                            </div>
+        </div>
+            <div class="button-group">
+               <div class="col-xs-7 sf_none sf_cupit">
+                   <button type="button" onclick="cart.add('24829');"><!--<i class="fa fa-shopping-cart"></i>--> <span class="hidden-xs hidden-sm hidden-md">Придбати</span></button>
+                  <button type="button" data-toggle="tooltip" title="В закладки" onclick="wishlist.add('24829');"><i class="fa fa-heart"></i></button>
+                  <button type="button" data-toggle="tooltip" title="Порівняти" onclick="compare.add('24829');"><i class="fa fa-exchange"></i></button>
+              </div>
+                <div class="col-xs-5 sf_price">
+                                                <p class="price">
+                                                        12.00 грн.                                                                                  </p>
+                                      </div>
+            </div>
+          </div>
+        </div>
+                <div class="product-layout product-list col-xs-12">
+          <div class="product-thumb">
+            <div class="image"><a href="https://microteh.ck.ua/index.php?route=product/product&amp;path=3_26_175_182&amp;product_id=24323"><img src="https://microteh.ck.ua/image/cache/catalog/products/24323-228x228.jpg" alt="Штирьовий роз'єм мікро JST-XH-2.54mm 6-Pin ..." title="Штирьовий роз'єм мікро JST-XH-2.54mm 6-Pin ..." class="img-responsive" /></a></div>
+            <div class="caption">
+              <h4><a href="https://microteh.ck.ua/index.php?route=product/product&amp;path=3_26_175_182&amp;product_id=24323">Штирьовий роз'єм мікро JST-XH-2.54mm 6-Pin ...</a></h4>
+              <!-- <p>..</p> -->
+                            <!-- <p class="price">
+                                11.00 грн.                                              </p> -->
+                                        </div>
+        <div class="row">
+            <div class="col-xs-7 sf_proizvod">
+                            </div>
+            <div class="col-xs-5 sf_proizvod">
+                            </div>
+        </div>
+            <div class="button-group">
+               <div class="col-xs-7 sf_none sf_cupit">
+                   <button type="button" onclick="cart.add('24323');"><!--<i class="fa fa-shopping-cart"></i>--> <span class="hidden-xs hidden-sm hidden-md">Придбати</span></button>
+                  <button type="button" data-toggle="tooltip" title="В закладки" onclick="wishlist.add('24323');"><i class="fa fa-heart"></i></button>
+                  <button type="button" data-toggle="tooltip" title="Порівняти" onclick="compare.add('24323');"><i class="fa fa-exchange"></i></button>
+              </div>
+                <div class="col-xs-5 sf_price">
+                                                <p class="price">
+                                                        11.00 грн.                                                                                  </p>
+                                      </div>
+            </div>
+          </div>
+        </div>
+                <div class="product-layout product-list col-xs-12">
+          <div class="product-thumb">
+            <div class="image"><a href="https://microteh.ck.ua/index.php?route=product/product&amp;path=3_26_175_182&amp;product_id=16858"><img src="https://microteh.ck.ua/image/cache/catalog/products/16858-228x228.jpg" alt="Штирьовий роз'єм мікро JST-XH-2.54mm 6-Pin ..." title="Штирьовий роз'єм мікро JST-XH-2.54mm 6-Pin ..." class="img-responsive" /></a></div>
+            <div class="caption">
+              <h4><a href="https://microteh.ck.ua/index.php?route=product/product&amp;path=3_26_175_182&amp;product_id=16858">Штирьовий роз'єм мікро JST-XH-2.54mm 6-Pin ...</a></h4>
+              <!-- <p>..</p> -->
+                            <!-- <p class="price">
+                                12.00 грн.                                              </p> -->
+                                        </div>
+        <div class="row">
+            <div class="col-xs-7 sf_proizvod">
+                            </div>
+            <div class="col-xs-5 sf_proizvod">
+                            </div>
+        </div>
+            <div class="button-group">
+               <div class="col-xs-7 sf_none sf_cupit">
+                   <button type="button" onclick="cart.add('16858');"><!--<i class="fa fa-shopping-cart"></i>--> <span class="hidden-xs hidden-sm hidden-md">Придбати</span></button>
+                  <button type="button" data-toggle="tooltip" title="В закладки" onclick="wishlist.add('16858');"><i class="fa fa-heart"></i></button>
+                  <button type="button" data-toggle="tooltip" title="Порівняти" onclick="compare.add('16858');"><i class="fa fa-exchange"></i></button>
+              </div>
+                <div class="col-xs-5 sf_price">
+                                                <p class="price">
+                                                        12.00 грн.                                                                                  </p>
+                                      </div>
+            </div>
+          </div>
+        </div>
+                <div class="product-layout product-list col-xs-12">
+          <div class="product-thumb">
+            <div class="image"><a href="https://microteh.ck.ua/index.php?route=product/product&amp;path=3_26_175_182&amp;product_id=24324"><img src="https://microteh.ck.ua/image/cache/catalog/products/24324-228x228.jpg" alt="Штирьовий роз'єм мікро JST-XH-2.54mm 7-Pin ..." title="Штирьовий роз'єм мікро JST-XH-2.54mm 7-Pin ..." class="img-responsive" /></a></div>
+            <div class="caption">
+              <h4><a href="https://microteh.ck.ua/index.php?route=product/product&amp;path=3_26_175_182&amp;product_id=24324">Штирьовий роз'єм мікро JST-XH-2.54mm 7-Pin ...</a></h4>
+              <!-- <p>..</p> -->
+                            <!-- <p class="price">
+                                12.50 грн.                                              </p> -->
+                                        </div>
+        <div class="row">
+            <div class="col-xs-7 sf_proizvod">
+                            </div>
+            <div class="col-xs-5 sf_proizvod">
+                            </div>
+        </div>
+            <div class="button-group">
+               <div class="col-xs-7 sf_none sf_cupit">
+                   <button type="button" onclick="cart.add('24324');"><!--<i class="fa fa-shopping-cart"></i>--> <span class="hidden-xs hidden-sm hidden-md">Придбати</span></button>
+                  <button type="button" data-toggle="tooltip" title="В закладки" onclick="wishlist.add('24324');"><i class="fa fa-heart"></i></button>
+                  <button type="button" data-toggle="tooltip" title="Порівняти" onclick="compare.add('24324');"><i class="fa fa-exchange"></i></button>
+              </div>
+                <div class="col-xs-5 sf_price">
+                                                <p class="price">
+                                                        12.50 грн.                                                                                  </p>
+                                      </div>
+            </div>
+          </div>
+        </div>
+                <div class="product-layout product-list col-xs-12">
+          <div class="product-thumb">
+            <div class="image"><a href="https://microteh.ck.ua/index.php?route=product/product&amp;path=3_26_175_182&amp;product_id=2019"><img src="https://microteh.ck.ua/image/cache/catalog/products/2019-228x228.jpg" alt="Штирьовий роз'єм мікро JST-XHB-2.54mm 2-Pin..." title="Штирьовий роз'єм мікро JST-XHB-2.54mm 2-Pin..." class="img-responsive" /></a></div>
+            <div class="caption">
+              <h4><a href="https://microteh.ck.ua/index.php?route=product/product&amp;path=3_26_175_182&amp;product_id=2019">Штирьовий роз'єм мікро JST-XHB-2.54mm 2-Pin...</a></h4>
+              <!-- <p>..</p> -->
+                            <!-- <p class="price">
+                                1.00 грн.                                              </p> -->
+                                        </div>
+        <div class="row">
+            <div class="col-xs-7 sf_proizvod">
+                            </div>
+            <div class="col-xs-5 sf_proizvod">
+                            </div>
+        </div>
+            <div class="button-group">
+               <div class="col-xs-7 sf_none sf_cupit">
+                   <button type="button" onclick="cart.add('2019');"><!--<i class="fa fa-shopping-cart"></i>--> <span class="hidden-xs hidden-sm hidden-md">Придбати</span></button>
+                  <button type="button" data-toggle="tooltip" title="В закладки" onclick="wishlist.add('2019');"><i class="fa fa-heart"></i></button>
+                  <button type="button" data-toggle="tooltip" title="Порівняти" onclick="compare.add('2019');"><i class="fa fa-exchange"></i></button>
+              </div>
+                <div class="col-xs-5 sf_price">
+                                                <p class="price">
+                                                        1.00 грн.                                                                                  </p>
+                                      </div>
+            </div>
+          </div>
+        </div>
+                <div class="product-layout product-list col-xs-12">
+          <div class="product-thumb">
+            <div class="image"><a href="https://microteh.ck.ua/index.php?route=product/product&amp;path=3_26_175_182&amp;product_id=2030"><img src="https://microteh.ck.ua/image/cache/catalog/products/2030-228x228.jpg" alt="Штирьовий роз'єм мікро JST-XHB-2.54mm 3-Pin..." title="Штирьовий роз'єм мікро JST-XHB-2.54mm 3-Pin..." class="img-responsive" /></a></div>
+            <div class="caption">
+              <h4><a href="https://microteh.ck.ua/index.php?route=product/product&amp;path=3_26_175_182&amp;product_id=2030">Штирьовий роз'єм мікро JST-XHB-2.54mm 3-Pin...</a></h4>
+              <!-- <p>..</p> -->
+                            <!-- <p class="price">
+                                1.20 грн.                                              </p> -->
+                                        </div>
+        <div class="row">
+            <div class="col-xs-7 sf_proizvod">
+                            </div>
+            <div class="col-xs-5 sf_proizvod">
+                            </div>
+        </div>
+            <div class="button-group">
+               <div class="col-xs-7 sf_none sf_cupit">
+                   <button type="button" onclick="cart.add('2030');"><!--<i class="fa fa-shopping-cart"></i>--> <span class="hidden-xs hidden-sm hidden-md">Придбати</span></button>
+                  <button type="button" data-toggle="tooltip" title="В закладки" onclick="wishlist.add('2030');"><i class="fa fa-heart"></i></button>
+                  <button type="button" data-toggle="tooltip" title="Порівняти" onclick="compare.add('2030');"><i class="fa fa-exchange"></i></button>
+              </div>
+                <div class="col-xs-5 sf_price">
+                                                <p class="price">
+                                                        1.20 грн.                                                                                  </p>
+                                      </div>
+            </div>
+          </div>
+        </div>
+                <div class="product-layout product-list col-xs-12">
+          <div class="product-thumb">
+            <div class="image"><a href="https://microteh.ck.ua/index.php?route=product/product&amp;path=3_26_175_182&amp;product_id=3300"><img src="https://microteh.ck.ua/image/cache/catalog/products/3300-228x228.jpg" alt="Штирьовий роз'єм мікро JST-XHB-2.54mm 4-Pin..." title="Штирьовий роз'єм мікро JST-XHB-2.54mm 4-Pin..." class="img-responsive" /></a></div>
+            <div class="caption">
+              <h4><a href="https://microteh.ck.ua/index.php?route=product/product&amp;path=3_26_175_182&amp;product_id=3300">Штирьовий роз'єм мікро JST-XHB-2.54mm 4-Pin...</a></h4>
+              <!-- <p>..</p> -->
+                            <!-- <p class="price">
+                                1.50 грн.                                              </p> -->
+                                        </div>
+        <div class="row">
+            <div class="col-xs-7 sf_proizvod">
+                            </div>
+            <div class="col-xs-5 sf_proizvod">
+                            </div>
+        </div>
+            <div class="button-group">
+               <div class="col-xs-7 sf_none sf_cupit">
+                   <button type="button" onclick="cart.add('3300');"><!--<i class="fa fa-shopping-cart"></i>--> <span class="hidden-xs hidden-sm hidden-md">Придбати</span></button>
+                  <button type="button" data-toggle="tooltip" title="В закладки" onclick="wishlist.add('3300');"><i class="fa fa-heart"></i></button>
+                  <button type="button" data-toggle="tooltip" title="Порівняти" onclick="compare.add('3300');"><i class="fa fa-exchange"></i></button>
+              </div>
+                <div class="col-xs-5 sf_price">
+                                                <p class="price">
+                                                        1.50 грн.                                                                                  </p>
+                                      </div>
+            </div>
+          </div>
+        </div>
+                <div class="product-layout product-list col-xs-12">
+          <div class="product-thumb">
+            <div class="image"><a href="https://microteh.ck.ua/index.php?route=product/product&amp;path=3_26_175_182&amp;product_id=1945"><img src="https://microteh.ck.ua/image/cache/catalog/products/1945-228x228.jpg" alt="Штирьовий роз'єм мікро JST-XHB-2.54mm 5-Pin..." title="Штирьовий роз'єм мікро JST-XHB-2.54mm 5-Pin..." class="img-responsive" /></a></div>
+            <div class="caption">
+              <h4><a href="https://microteh.ck.ua/index.php?route=product/product&amp;path=3_26_175_182&amp;product_id=1945">Штирьовий роз'єм мікро JST-XHB-2.54mm 5-Pin...</a></h4>
+              <!-- <p>..</p> -->
+                            <!-- <p class="price">
+                                1.50 грн.                                              </p> -->
+                                        </div>
+        <div class="row">
+            <div class="col-xs-7 sf_proizvod">
+                            </div>
+            <div class="col-xs-5 sf_proizvod">
+                            </div>
+        </div>
+            <div class="button-group">
+               <div class="col-xs-7 sf_none sf_cupit">
+                   <button type="button" onclick="cart.add('1945');"><!--<i class="fa fa-shopping-cart"></i>--> <span class="hidden-xs hidden-sm hidden-md">Придбати</span></button>
+                  <button type="button" data-toggle="tooltip" title="В закладки" onclick="wishlist.add('1945');"><i class="fa fa-heart"></i></button>
+                  <button type="button" data-toggle="tooltip" title="Порівняти" onclick="compare.add('1945');"><i class="fa fa-exchange"></i></button>
+              </div>
+                <div class="col-xs-5 sf_price">
+                                                <p class="price">
+                                                        1.50 грн.                                                                                  </p>
+                                      </div>
+            </div>
+          </div>
+        </div>
+                <div class="product-layout product-list col-xs-12">
+          <div class="product-thumb">
+            <div class="image"><a href="https://microteh.ck.ua/index.php?route=product/product&amp;path=3_26_175_182&amp;product_id=24863"><img src="https://microteh.ck.ua/image/cache/catalog/products/24863-228x228.jpg" alt="Штыревой разъем микро JST-XH-2.54mm 7-Pin ш..." title="Штыревой разъем микро JST-XH-2.54mm 7-Pin ш..." class="img-responsive" /></a></div>
+            <div class="caption">
+              <h4><a href="https://microteh.ck.ua/index.php?route=product/product&amp;path=3_26_175_182&amp;product_id=24863">Штыревой разъем микро JST-XH-2.54mm 7-Pin ш...</a></h4>
+              <!-- <p>..</p> -->
+                            <!-- <p class="price">
+                                12.50 грн.                                              </p> -->
+                                        </div>
+        <div class="row">
+            <div class="col-xs-7 sf_proizvod">
+                            </div>
+            <div class="col-xs-5 sf_proizvod">
+                            </div>
+        </div>
+            <div class="button-group">
+               <div class="col-xs-7 sf_none sf_cupit">
+                   <button type="button" onclick="cart.add('24863');"><!--<i class="fa fa-shopping-cart"></i>--> <span class="hidden-xs hidden-sm hidden-md">Придбати</span></button>
+                  <button type="button" data-toggle="tooltip" title="В закладки" onclick="wishlist.add('24863');"><i class="fa fa-heart"></i></button>
+                  <button type="button" data-toggle="tooltip" title="Порівняти" onclick="compare.add('24863');"><i class="fa fa-exchange"></i></button>
+              </div>
+                <div class="col-xs-5 sf_price">
+                                                <p class="price">
+                                                        12.50 грн.                                                                                  </p>
+                                      </div>
+            </div>
+          </div>
+        </div>
+              </div>
+      <div class="row">
+        <div class="col-sm-6 text-left"></div>
+        <div class="col-sm-6 text-right">Показано з 1 по 16 із 16 (всього 1 сторінок)</div>
+      </div>
+            </div></div>
+    </div>
+</div>
+<script type="text/javascript"><!--
+$('#button-search').bind('click', function() {
+	url = 'index.php?route=product/search';
+
+	var search = $('#content input[name=\'search\']').prop('value');
+
+	if (search) {
+		url += '&search=' + encodeURIComponent(search);
+	}
+
+	var category_id = $('#content select[name=\'category_id\']').prop('value');
+
+	if (category_id > 0) {
+		url += '&category_id=' + encodeURIComponent(category_id);
+	}
+
+	var sub_category = $('#content input[name=\'sub_category\']:checked').prop('value');
+
+	if (sub_category) {
+		url += '&sub_category=true';
+	}
+
+	var filter_description = $('#content input[name=\'description\']:checked').prop('value');
+
+	if (filter_description) {
+		url += '&description=true';
+	}
+
+	location = url;
+});
+
+$('#content input[name=\'search\']').bind('keydown', function(e) {
+	if (e.keyCode == 13) {
+		$('#button-search').trigger('click');
+	}
+});
+
+$('select[name=\'category_id\']').on('change', function() {
+	if (this.value == '0') {
+		$('input[name=\'sub_category\']').prop('disabled', true);
+	} else {
+		$('input[name=\'sub_category\']').prop('disabled', false);
+	}
+});
+
+$('select[name=\'category_id\']').trigger('change');
+--></script>
+<footer>
+  <div class="container" !style="width:100%">
+    <div class="row">
+            <div class="col-sm-3">
+        <h5>Інформація</h5>
+        <ul class="list-unstyled">
+                    <li><a href="https://microteh.ck.ua/garantii-mikroteh">Гарантії МИКРОТЕХ</a></li>
+                    <li><a href="https://microteh.ck.ua/o-kompanii">Про компанію</a></li>
+                    <li><a href="https://microteh.ck.ua/index.php?route=information/information&amp;information_id=7">Як зробити замовлення</a></li>
+                    <li><a href="https://microteh.ck.ua/dostavka-i-oplata">Доставка і оплата</a></li>
+                  </ul>
+      </div>
+            <div class="col-sm-3">
+        <h5>Служба підтримки</h5>
+        <ul class="list-unstyled">
+          <li><a href="https://microteh.ck.ua/index.php?route=information/contact">Звязатися з нами</a></li>
+          <li><a href="https://microteh.ck.ua/index.php?route=information/sitemap">Мапа сайту</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-3">
+        <h5>Додатково</h5>
+        <ul class="list-unstyled">
+          <li><a href="https://microteh.ck.ua/index.php?route=product/manufacturer">Виробники</a></li>
+          <li><a href="https://microteh.ck.ua/index.php?route=product/special">Акції</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-3">
+        <h5>Особистий кабінет</h5>
+        <ul class="list-unstyled">
+          <li><a href="https://microteh.ck.ua/index.php?route=account/account">Особистий кабінет</a></li>
+          <li><a href="https://microteh.ck.ua/index.php?route=account/order">Історія замовлення</a></li>
+          <li><a href="https://microteh.ck.ua/index.php?route=account/wishlist">Закладки</a></li>
+          <li><a href="https://microteh.ck.ua/index.php?route=account/newsletter">Розсилання</a></li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+    <p style="text-align:center; margin-top:1em">Hosted by <a target="_blank" href="https://bp.svai.net/pl.php?143">SVAI.net</a></p>
+<!--    <p><a href="http://sfdevelop.com/ru" target="_blank" title="Разработано компанией sfdevelop.com">Разработано компанией sfdevelop.com</a></p> -->
+  </div>
+</footer>
+
+            	            <link rel="stylesheet" type="text/css" href="catalog/view/theme/default/stylesheet/live_search.css" />
+				<script type="text/javascript"><!--
+					var live_search = {
+						selector: '#search input[name=\'search\']',
+						text_no_matches: 'Немає товарів, що відповідають критеріям пошуку.',
+						height: '50px'
+					}
+
+					$(document).ready(function() {
+						var html = '';
+						html += '<div class="live-search">';
+						html += '	<ul>';
+						html += '	</ul>';
+						html += '<div class="result-text"></div>';
+						html += '</div>';
+
+						//$(live_search.selector).parent().closest('div').after(html);
+						$(live_search.selector).after(html);
+
+						$(live_search.selector).autocomplete({
+							'source': function(request, response) {
+								var filter_name = $(live_search.selector).val();
+								var live_search_min_length = '3';
+								if (filter_name.length < live_search_min_length) {
+									$('.live-search').css('display','none');
+								}
+								else{
+									var html = '';
+									html += '<li style="text-align: center;height:10px;">';
+									html +=	'<img class="loading" src="catalog/view/theme/default/image/loading.gif" />';
+									html +=	'</li>';
+									$('.live-search ul').html(html);
+									$('.live-search').css('display','block');
+
+									$.ajax({
+										url: 'index.php?route=product/live_search&filter_name=' +  encodeURIComponent(filter_name),
+										dataType: 'json',
+										success: function(result) {
+											var products = result.products;
+											$('.live-search ul li').remove();
+											$('.result-text').html('');
+											if (!$.isEmptyObject(products)) {
+												var show_image = 1;
+												var show_price = 1;
+												var show_description = 0;
+												$('.result-text').html('<a href="https://microteh.ck.ua/index.php?route=product/search&amp;search='+filter_name+'" class="view-all-results">Всі товари ('+result.total+')</a>');
+
+												$.each(products, function(index,product) {
+													var html = '';
+													
+													html += '<li>';
+													html += '<a href="' + product.url + '" title="' + product.name + '">';
+													if(product.image && show_image){
+														html += '	<div class="product-image"><img alt="' + product.name + '" src="' + product.image + '"></div>';
+													}
+													html += '	<div class="product-name">' + product.name ;
+													if(show_description){
+														html += '<p>' + product.extra_info + '</p>';
+													}
+													html += '</div>';
+													if(show_price && product.price){
+														if (product.special) {
+															html += '	<div class="product-price"><span class="special">' + product.price + '</span><span class="price">' + product.special + '</span></div>';
+														} else {
+															html += '	<div class="product-price"><span class="price">' + product.price + '</span></div>';
+														}
+													}
+													html += '<span style="clear:both"></span>';
+													html += '</a>';
+													html += '</li>';
+													$('.live-search ul').append(html);
+												});
+											} else {
+												var html = '';
+												html += '<li style="text-align: center;height:10px;">';
+												html +=	live_search.text_no_matches;
+												html +=	'</li>';
+
+												$('.live-search ul').html(html);
+											}
+											$('.live-search ul li').css('height',live_search.height);
+											$('.live-search').css('display','block');
+											return false;
+										}
+									});
+								}
+							},
+							'select': function(product) {
+								$(live_search.selector).val(product.name);
+							}
+						});
+
+						$(document).bind( "mouseup touchend", function(e){
+						  var container = $('.live-search');
+						  if (!container.is(e.target) && container.has(e.target).length === 0)
+						  {
+						    container.hide();
+						  }
+						});
+					});
+				//--></script>
+			            
+
+</body></html>`;
+
 export default {
     radiomag: radiomag,
-    voron: voron
+    voron: voron,
+    microteh: microteh
 };
