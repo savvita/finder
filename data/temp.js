@@ -3610,8 +3610,2448 @@ $('select[name=\'category_id\']').trigger('change');
 
 </body></html>`;
 
+const categories = `
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <title>Ворон</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content="Микросхемы,Транзисторы,Резисторы,Конденсаторы,Разъёмы,Реле,Диоды,Паяльное Станции,Источники питания,Измерительное оборудование и т.д" />
+    <meta name="keywords" content="ЧП Ворон, электронные компоненты, продажа, Украина, Днепр, Запорожье, микросхемы, радиодетали, реле, диоды, измерительные приборы, оптика, осциллограф, кабель, генератор, кнопки, стабилизатор, купить, конденсатор, резисторы, светодиоды, терминал, транзисторы, трансформатор, каталог, прайс листы, новости, цена, статьи, паяльная станция" />
+    <meta property="og:image" content="https://voron.ua/img/logo/logo.png" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link href = "https://fonts.googleapis.com/css?family=Knewave|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=cyrillic,cyrillic-ext" rel = "stylesheet">
+    <link href="/css/main.css?rev=127" rel="stylesheet" type="text/css" media="screen" />
+    <link href="/css/catalog-product.css?rev=127" rel="stylesheet" type="text/css" media="screen" />
+    <!--link href="/iconfont/material-icons1.css" rel="stylesheet" /-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="/js/croppic/croppic.css" rel="stylesheet" />
+    <link href="/css/popup.2.css" rel="stylesheet" type="text/css" media="screen" />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="/js/jquery/jquery.cookie.js"></script>
+    <script src="/js/jquery/jquery.maskedinput.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.ui/1.13.0/jquery-ui.min.js" crossorigin="anonymous"></script>
+    <link href="https://code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css" rel="stylesheet" media="screen" crossorigin="anonymous">
+    
+    <script src="/js/shop-1.1.js"></script>
+    <script src="/js/start.js?rev=127"></script>
+    <script src="/js/clipboard.js-master/dist/clipboard.min.js"></script>
+            <script>$.cookie("screen_size", screen.width+"x"+screen.height)</script>
+            <script src="https://www.google-analytics.com/urchin.js"></script>
+            <script>
+                _uacct = "UA-1290954-1";
+                urchinTracker();
+            </script>
+            <script src="/js/select2/dist/js/select2.full.js"></script>
+    <link href="/js/select2/dist/css/select2.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+<div style="display:none"><img src="/img/logo/logo.png"></div>
+<div class="overlay"></div><div class="search_overlay"></div><div id="hotkey_info"></div><table cellpadding="0" cellspacing="0" border="0" style="width:100%; /*height:100%*/">
+<tr>
+<td style="height:206px;">
+<table cellpadding="0" cellspacing="0" border="0" style="width:100%; height:100%">
+<tr>
+<td style="height:206px;vertical-align:top;">
+    <table cellpadding="0" cellspacing="0" border="0" style="width:100%; height:100%">
+        <tr>
+            <td style="background-color:#F9F6F6; background-image: url(/img/m-p-new.gif); background-repeat: repeat-x; background-position: right; height:176px">
+                <table cellpadding="0" cellspacing="0" border="0" style="width:100%; background-image: url(/img/m-bg-new.jpg); background-repeat: no-repeat; background-position: right;">
+                    <tr>
+                        <td style="width:350px"><a href="/uk/" title="ЧП Ворон"><img src="/img/logo/logo.png" alt="ЧП Ворон. Электронные компоненты и радиомонтажное оборудование. Микросхемы, транзисторы, реле, резисторы, конденсаторы, паяльное оборудование, припой." style="max-width:327px;max-height:173px;" /></a><br />
+                        </td>
+
+                        <td class="text" style="vertical-align:top;position:relative;">
+                            <div style="position: absolute; right: 32px; bottom: 29px; font-size: 12.5px; text-transform: uppercase; ">
+                                <div><a style="color:white" href="https://voron.dp.ua/blogs.php" title="&raquo; Блоги нашого інтернет-магазину">&raquo;&nbsp;Блоги</a></div>
+                                <div style="margin-top: 7px;"><a style="color:white" href="http://forum.voron.ua" title="&raquo; Форум нашого інтернет-магазину">&raquo;&nbsp;Форум</a></div>
+                                <div style="margin-top: 7px;"><a href="/uk/jobs.php" style="color:white" title="&raquo; Вакансії">&raquo;&nbsp;Вакансії</a></div>
+                            </div>
+                            <div class="h-tel" style="padding-top:20px;padding-bottom: 15px; font-size: 150%">
+                                <a style="margin-left: 10px" href="/uk/contacts-dp.php" title="Детально про магазин Ворон в Дніпрі">Дніпро &nbsp;</a>
+                                <!--a href="/uk/catalog/007730" title="Подарунки" style="color:red">
+                                <div style="position:absolute; top:0; left:90px"><img src="/img/womens-day-64.png"></div>
+                                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Подарунки</a-->
+                                <a style="margin-left: 5%; font-size: 90%" href="/uk/how_to_buy.php" title="» Як оформити замовлення на нашому сайті">Інтернет-магазин</a>
+                            </div>
+<div class="language" style="position: absolute; right: 32px; top: 24px; font-size: 12.5px; text-transform: uppercase; ">
+   <a href="/uk/catalog">УКР</a>
+   <a href="/catalog?lang=ru">РУС</a>
+   <a href="/en/catalog">ENG</a>
+</div>
+                            <div style="display: flex; padding-left: 20px; margin: 10px 0; font-size: 125%; font-weight: bold; color: white; text-shadow: 1px 1px 3px black;">
+                                <style>
+                                    .logo {
+                                        height: 35px;
+                                        opacity: .8;
+                                        padding-left: 10px;
+                                    }
+                                    .logo:hover {
+                                        opacity: 1;
+                                    }
+                                    .logo img {
+                                        height: 32px;
+                                    }
+                                    .logo .phone {
+                                        float: right;
+                                        padding: 6px;
+                                    }
+                                </style>
+                                <div class="logo"><img src="/files/logo/ks3.png"><div class="phone">+38 (067) 565-13-00</div></div>
+                                <div class="logo"><img src="/files/logo/vodafone-240.png"><div class="phone">+38 (050) 58-68-657</div></div>
+                            </div>
+
+                            <div style="line-height:20px">
+                                <div id="for_all_email" style="padding-left: 150px;font-size: 125%;">
+                                    <a href="mailto:unknown" title="Напишіть нам листа">
+                                        <img src="/img/mail.gif" alt="Напишіть нам листа" style="vertical-align:middle " />
+                                    </a>
+                                    <span class="h-tel-l" style="padding-left:4px;font-size: 100%">
+                                      <a href="mailto:unknown" title="Напишіть нам листа">unknown</a></span>
+                                    <br>
+                                                                        <span class="h-tel-l" style="padding-left: 50px;font-size: 100%">
+                                      <a href="/uk/smd-montage" title="контрактне виробництво SMD монтаж">контрактне&nbsp;виробництво&nbsp;SMD&nbsp;монтаж</a>
+                                    </span>
+                                </div>
+
+                                                            </td>
+                    </tr>
+                </table>
+
+            </td>
+        </tr>
+        <tr><td style="background-color: #cfcfcf;"><div style="height:1px; "><img src="/img/t.gif" alt="" style="width:1px; height:1px" /></div></td></tr>
+        <tr>
+            <td style="vertical-align:top;">
+                <div style="height:1px; font-size:1px; background-color:#cfcfcf; width:100%"></div>
+                <table cellpadding="0" cellspacing="0" border="0" style="width:100%;" id="menu">
+                    <tr style="height:25px">
+                        <td class="text" style="text-align:center; white-space:nowrap; ">
+                            &nbsp;&nbsp;<a  href="/uk/catalog" title="&raquo; Каталог продукції, що поставляється">&raquo;&nbsp;Каталог</a></td>
+                        <td class="text" style="text-align:center; white-space:nowrap; ">
+                            &nbsp;&nbsp;<a  href="/uk/sale.php" title="&raquo; Акції нашого магазину">&raquo;&nbsp;Акції</a></td>
+                        <td style="width:1%">&nbsp;</td>
+<!--                        <td class="text" style="text-align:center; white-space:nowrap; ">
+                            &nbsp;&nbsp;<a  href="/uk/prices.php" title="&raquo; Прайс-листи на продукцію, що поставляється">&raquo;&nbsp;Прайс-лист</a></td>
+                        <td style="width:1%">&nbsp;</td>  -->
+                        <td class="text" style="text-align:center; white-space:nowrap; ">
+                            &nbsp;&nbsp;<a  href="/uk/how_to_buy.php" title="&raquo; Як оформити замовлення на нашому сайті">&raquo;&nbsp;Як замовити</a></td>
+                        <td class="text" style="text-align:center; white-space:nowrap; ">
+                            &nbsp;&nbsp;<a  href="/uk/payment.php" title="&raquo; Як оплатити своє замовлення">&raquo;&nbsp;Оплата</a></td>
+                        <td style="width:1%">&nbsp;</td>
+                        <td class="text" style="text-align:center; white-space:nowrap;">
+                            &nbsp;&nbsp;<a  href="/uk/regulations.php" style="color:red" title="&raquo; Правила роботи">&raquo;&nbsp;Правила</a></td>
+                        <td class="text" style="text-align:center; white-space:nowrap; ">
+                            &nbsp;&nbsp;<a  href="/uk/ship.php" title="&raquo; Доставка товарів">&raquo;&nbsp;Доставка</a></td>
+                        <td style="width:1%">&nbsp;</td>
+                        <td class="text" style="text-align:center; white-space:nowrap; ">
+                            &nbsp;&nbsp;<a  href="/uk/contacts.php" title="&raquo; Контакти">&raquo;&nbsp;Контакти</a></td><td style="width:1%">&nbsp;</td>
+                        <td style="width:1%">&nbsp;</td>
+                    </tr>
+
+                </table>
+                <div style="height:2px; font-size:2px; background-color:#dfdfdf; width:100%"></div>
+            </td>
+        </tr>
+    </table>
+</td>
+<td style="background-image: url('/img/basket.gif'); background-repeat: no-repeat; height:206px; width:230px;">
+
+            <div class="basket">
+            <div style="padding-left:50px">
+                <a href="/uk/show.php?p=basket_empty"  title="Інформація про роботу з кошиком" style="font-weight:normal;padding-left:30px"><strong>Кошик порожній!</strong></a>
+                <a href="/uk/show.php?p=basket_empty" title="Як це працює?"><img src="/img/help.gif" alt="" /></a>
+
+                <div style="font-weight: bold;padding: 5px 0 5px 18px;">ВХІД ДЛЯ КЛІЄНТІВ</div><br />
+            </div>
+            <form method="post" action="/login.php">
+                <input type="hidden" name="REQUEST_URI" value="/uk/catalog" />
+                <table style="padding-left:10px;FONT-SIZE: 1em;COLOR: #0071bc;">
+                    <tr>
+                        <td style="text-align:right;"><label>логін</label></td>
+                        <td><input type="text" name="login" style="width: 150px;HEIGHT: 21px;padding-left:5px" placeholder="логін або e-mail" /></td>
+                    </tr>
+                    <tr>
+                        <td><label style="text-align:right;">пароль</label></td>
+                        <td><input type="password" name="password" style="width: 150px;HEIGHT: 21px;padding-left:5px" placeholder="не обов´язково" /></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a class="fb_login_btn" href="https://www.facebook.com/dialog/oauth?client_id=420257079481653&redirect_uri=https://voron.ua/login-facebook.php&scope=email, public_profile&response_type=code&state=fb21"><img src="/img/f_logo_RGB-Blue_58.png" style="width: 2rem;" alt="facebook" title="Войти через facebook"></a>
+                            <a class="go_login_btn" href="https://accounts.google.com/o/oauth2/auth?client_id=963801005578-dj07rlpinndh2sauq6i321vdv8f5vt3v.apps.googleusercontent.com&redirect_uri=https://voron.ua/login-google.php&scope=https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile&response_type=code&state=go21"><img src="/img/google-icon.png" style="width: 2rem;" alt="Google" title="Войти через Google"></a>
+                        </td>
+                        <td>
+                            <table style="FONT-SIZE: 1em;COLOR: #0071bc;">
+                                <tr>
+                                    <td style="vertical-align:middle;"><input type="image" src="/img/shop/btn-enter.gif" title="Увійти в інтернет-магазин" style="margin-top:5px; margin-right:2px; background-color: #eeeeee; width: 52px; height: 19px;"></td>
+                                    <td style="vertical-align:middle;"><input class="i_radio" type="checkbox" id="a-login" name="a-login"></td>
+                                    <td style="vertical-align:middle;"><label for="a-login">Запам'ятати</label></td>
+                                </tr>
+                            </table>
+                            <a href="/uk/pass-recovery.php" style="font-weight:normal;" title="відновлення паролю">Забули пароль?</a><br>
+                            <a href="/uk/register.php" style="font-weight:normal;" title = "Зареєструватися в інтернет-магазині"><b>Зареєструватися</b></a>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+    <script>
+        voron_email('for_all_email','pavel');
+        voron_email('for_all_email2','pavel');
+    </script>
+
+    <td class="body-elements" valign="top" style="height:100%;">
+        <table cellpadding="0" cellspacing="0" border="0" style="width:100%; height:100%; ">
+
+            <tr>
+                <td valign="top" align="left" style="padding: 10px">
+                    <div style="clear: both;display: flex;justify-content: center;">
+                        <div id="news_block" class="price_selector news_selector">
+        <div id="news_paper_1" data-id="113" data-mask="2" class="news_paper news_banner" style="color:blue">
+            <h2 style="font-style:italic">Шановні клієнти інтернет-магазину!</h2>
+<p>
+<br/>
+<strong> Можливі тимчасові затримки відвантаження товарів транспортними компаніями. Вибачте за незручності.</strong></p>
+        </div>
+        <div id="news_paper_2" data-id="109" data-mask="1" class="news_paper news_banner">
+            <p><a href="https://novapay.ua/credit/" target="_blank"><img alt="" src="/files/pic/news/nova_poshta_960%D1%8590.png" style="height:80px; padding-top:10px; width:853px" /></a></p>
+        </div>
+         <div  class="news_all_block" >
+            <a href="https://voron.ua/new.php" title="Посмотреть все Новости">Все Новости</a>
+         </div>
+
+        <div class="news_dot_line">
+          <hr id="news_1" class="news_dot " />          <hr id="news_2" class="news_dot " />        </div>
+    </div>
+    <script src="/js/rotator.js"></script>
+                    </div>
+<style>
+.d-flex {display: flex;}
+.btn-search {align-items: center; border: 0; outline: none; cursor: pointer;}
+.div-search {border: 2px solid #c4c4c4; border-radius: 7px; height: 36px; width: 60%; padding: 0 4px 0 8px;}
+.div-search:focus-within {border: 2px solid black}
+::placeholder {
+    color: lightgray;
+    opacity: 1; /* Firefox */
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: lightgray;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: lightgray;
+}
+#history {
+    display: none;
+    overflow: visible;
+    position: absolute;
+    z-index: 1000;
+    min-width: 400px;
+    background-color: #ffffff;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    padding: 0 0 10px 0;
+    font-size:12px;
+    line-height: normal;
+    box-shadow: 3px 3px 10px 5px #B49999;
+    border-radius: 0px 0px 7px 7px;
+    border: 1px solid #EEEEEE;
+}
+.history_line {
+    padding: 5px 5px 5px 17px;
+}
+.search_history {
+    cursor: pointer;
+}
+.search_overlay {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    display: none;
+    position: fixed;
+    cursor: default;
+}
+</style>
+                    <div class="d-flex" style="padding: 20px 0 0 20px;">
+                        <div id="search_input_name" style="padding-top: 4px; width: 90px; font-size: 25px; color: #898989;">
+                            Пошук:
+                        </div>
+                        <div class="d-flex div-search">
+                            <div class="d-flex" style="flex: 1; z-index: 3;">
+                                <div style="flex: 1; height: 33px; line-height: 33px;">
+                                    <form id="search_form" method="GET" action="/search.php">
+                                        <input class="input" id="search" name="search" style="height: 33px; line-height: 33px; width: 100%; border: none; outline: none; background-color: transparent; color: rgba(0,0,0,.87); font-size: 2em;" value="" autocomplete="off" placeholder="пошук" onkeyup="final_transcript=final_span.innerHTML=search.value; ajax_search()">
+                                    </form>
+                                </div>
+                                <div class="d-flex" style="background-color: #fff; line-height: 33px; padding: 0 8px; border-radius: 16px;">
+                                    <div class="d-flex btn-search" style="color: #898989;" title="Історія" role="button" onClick="$('.search_overlay').show();$('#history').toggle();$('#result').hide();">
+                                        <span class="material-icons">arrow_drop_down</span>
+                                    </div>
+                                    <div class="d-flex btn-search" style="color: #898989;" title="Очистити" role="button" onClick="final_span.innerHTML=search.value=interim_span.innerHTML=final_transcript=interim_transcript=''; $('#result').hide(200); search.focus(); search.placeholder='поиск';">
+                                        <span class="material-icons">close</span>
+                                    </div>
+                                    <div id="div_start" class="d-flex btn-search" title="Голосове введення" role="button">
+                                        <button id="start_button" type="button" onclick="startButton(event)" style="background-color: #fff; border: 0; cursor: pointer; padding: 0 0;">
+                                            <img alt="Start" id="start_img" src="/img/icons/mic.gif" style="height: 30px;">
+                                        </button>
+                                    </div>
+                                    <div class="d-flex btn-search" style="color: #2483ff" title="Шукати" role="button" onclick="$('#search_form').submit()">
+                                        <span class="material-icons">search</span>
+                                        Знайти                                    </div>
+                                </div>
+                            </div>
+                            <div id="results" style="position: absolute; height: 34px; line-height: 34px; font-size: 2em; font-family: Arial; max-width: 60%; overflow: hidden;">
+                                <span class="final" id="final_span" style="color: transparent"></span>
+                                <span class="interim" id="interim_span" style="color: gray"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="info" style="margin: 0 0 10px 110px; font-size: 12px">
+                        <p id="info_start">
+                            Для пошуку введіть текст або натисніть на значок мікрофона і почніть говорити.
+                        </p>
+                        <p id="info_speak_now" style="display:none">
+                            Говоріть зараз.
+                        </p>
+                        <p id="info_network" style="display:none">
+                            Служба розпізнавання мови цього браузера недоступна у вашій країні. Скористайтеся                            <a href="//www.google.com/chrome">Google Chrome</a>.
+                        </p>
+                        <p id="info_no_speech" style="display:none">
+                            Мови не виявлено. Можливо, вам доведеться налаштувати                            <a href="//support.google.com/chrome/answer/2693767?hl=uk&ref_topic=7439724">
+                            параметри мікрофона</a>.
+                        </p>
+                        <p id="info_no_microphone" style="display:none">
+                            Мікрофон не знайдено. Переконайтеся, що мікрофон встановлено та                            <a href="//support.google.com/chrome/answer/2693767?hl=uk&ref_topic=7439724">
+                            налаштован правильно</a>.
+                        </p>
+                        <p id="info_allow" style="display:none">
+                            Натисніть кнопку «Дозволити» вище, щоб увімкнути мікрофон.
+                        </p>
+                        <p id="info_denied" style="display:none">
+                            Було відмовлено у дозволі на використання мікрофона.
+                        </p>
+                        <p id="info_blocked" style="display:none">
+                            Дозвіл на використання мікрофона заблоковано. Щоб змінити, перейдіть до                            <a href="chrome://settings/content/microphone">chrome://settings/content/microphone</a>
+                        </p>
+                        <p id="info_upgrade" style="display:none">
+                            Цей браузер не підтримує API Web Speech. Встановіть                            <a href="//www.google.com/chrome">Google Chrome</a>.
+                            Голосове введення таже працює в Safari, Яндексі, мобільних браузерах Huawei, Opera і Samsung..
+                        </p>
+                    </div>
+                    <div id="history_wrapper" style="margin-left: 92px">
+                        <div id="history" class="voron-modal">
+                            <div class="search-header" style="padding:10px 15px; background-color: #eeeeee; font-size:18px; border-bottom: 2px solid #DFDFDF; color:#898989; margin-bottom:10px">
+                                <div class="close-selector" title="Закрыть" onclick="$('.search_overlay').hide();$('#history').hide(1000)"><b>×</b></div>
+                                История запросов
+                            </div>
+                            <div id="latest">
+
+                              <div class="history_line">ваша история поиска пуста</div>                            </div>
+                        </div>
+                    </div>
+                    <div id="result_wrapper" style="margin-left: 90px">
+                        <div id="result" class="voron-modal"></div><div id="result_product"></div><div id="stock_empty"></div> <div id="popup-content"></div> <div id="mask"></div><div id="loading" class="loading"></div>
+                    </div>
+<script>
+var final_transcript = "";
+var recognizing = false;
+var ignore_onend;
+var start_timestamp;
+if (!("webkitSpeechRecognition" in window))
+  upgrade();
+//else if (navigator.userAgent.indexOf("Edg/") + navigator.userAgent.indexOf("Miui") > 0)
+//  upgrade();
+else {
+  start_button.style.display = 'inline-block';
+  var recognition = new webkitSpeechRecognition();
+  recognition.continuous = true;
+  recognition.interimResults = true;
+
+  recognition.onstart = function() {
+    recognizing = true;
+    showInfo('info_speak_now');
+    start_img.src = '/img/icons/mic-animate.gif';
+  };
+
+  recognition.onerror = function(event) {
+    if (event.error == 'audio-capture') {
+      start_img.src = '/img/icons/mic.gif';
+      showInfo('info_no_microphone');
+      ignore_onend = true;
+    }
+    if (event.error == 'network') {
+      start_img.src = '/img/icons/mic.gif';
+      showInfo('info_network');
+      ignore_onend = true;
+    }
+    if (event.error == 'no-speech') {
+      start_img.src = '/img/icons/mic.gif';
+      showInfo('info_no_speech');
+      ignore_onend = true;
+    }
+    if (event.error == 'not-allowed') {
+      if (event.timeStamp - start_timestamp < 100) {
+        showInfo('info_blocked');
+      } else {
+        showInfo('info_denied');
+      }
+      ignore_onend = true;
+    }
+  };
+
+  recognition.onend = function() {
+    recognizing = false;
+    if (ignore_onend) {
+      return;
+    }
+    start_img.src = '/img/icons/mic.gif';
+    if (!final_transcript) {
+      showInfo('info_start');
+      return;
+    }
+    showInfo('');
+  };
+
+  recognition.onresult = function(event) {
+    var interim_transcript = '';
+    if (typeof(event.results) == 'undefined') {
+      recognition.onend = null;
+      recognition.stop();
+      upgrade();
+      return;
+    }
+    search.removeAttribute("placeholder");
+    for (var i = event.resultIndex; i < event.results.length; ++i) {
+      if (event.results[i].isFinal) {
+        final_transcript += event.results[i][0].transcript;
+      } else {
+        interim_transcript += event.results[i][0].transcript;
+      }
+    }
+    final_span.innerHTML = search.value = final_transcript;
+    interim_span.innerHTML = interim_transcript;
+    ajax_search();
+  };
+}
+
+function upgrade() {
+  start_button.style.visibility = 'hidden';
+  showInfo('info_upgrade');
+}
+
+function startButton(event) {
+  if (recognizing) {
+    recognition.stop();
+    interim_span.innerHTML = '';
+    search.placeholder="поиск";
+    return;
+  }
+  final_transcript = final_span.innerHTML = search.value ? search.value + ' ' : '';
+  interim_span.innerHTML = '';
+  search.placeholder="говорите";
+  search.focus();
+  $('.search_overlay').hide()
+  $('#result').hide(200)
+  recognition.lang = 'uk_UA';
+  recognition.start();
+  ignore_onend = false;
+  start_img.src = '/img/icons/mic-slash.gif';
+  showInfo('info_allow');
+  start_timestamp = event.timeStamp;
+}
+
+function showInfo(s) {
+  if (s) {
+    for (var child = info.firstChild; child; child = child.nextSibling) {
+      if (child.style) {
+        child.style.display = child.id == s ? 'inline' : 'none';
+      }
+    }
+    info.style.visibility = 'visible';
+  } else {
+    info.style.visibility = 'hidden';
+  }
+}
+$(".search_history").click(function(){
+    search.value=$(this).html()
+    $("#history").hide()
+    ajax_search()
+})
+$(".search_overlay").click(function(){
+    search.placeholder="поиск";
+    $(".loading,.search_overlay,.voron-modal").hide()
+})
+</script>
+
+<div style="margin-top:20px; margin-left:110px; font-size:150%"><b>Весь каталог</b></div>
+        <div style="clear:both; padding-top:20px">
+            <div style="float:left; padding:3px; border-radius: 5px; border: 1px #FF6420 dashed;max-width: 108px; max-height: 108px">
+                <img src="/files/pic/d-most/017891-1.jpg" alt="Активні компоненти" style="max-width: 100px; max-height: 100px">
+            </div>
+        </div>
+        <div class="product_info" style="margin:15px 10px 10px 140px;">
+            <a style="font-size:150%; font-weight: normal" href="/uk/catalog/active-components" title="Микросхемы,&#13;Оптопары,&#13;Диоды мосты сборки,&#13;Тиристоры, симисторы, динисторы,&#13;Транзисторы, модули">Активні компоненти<gtran/></a>
+                <hr style="margin-left: -30px;">
+                <div style="margin-top: 15px">
+                    <div style="float:left; width:50%; margin-right: 20px">
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/active-components/integrated-circuit" title="Микросхемы цифровые, логика,&#13;Микросхемы драйверы светодиодов,&#13;Таймеры (микросхемы),&#13;Часы реального времени RTC,&#13;Микросхемы I-button,&#13;Электронные ключи, драйверы дисплеев,&#13;Микросхемы для систем дистанционного управления,&#13;Датчики, контроллеры для датчиков,&#13;Драйверы двигателей, контроллеры,&#13;Источники опорного напряжения, супервизоры,&#13;Операционные усилители, компараторы,&#13;Мультимедийные контроллеры, ЦАП, АЦП,&#13;Драйверы MOSFET IGBT,&#13;Контроллеры питания ШИМ-контроллеры,&#13;Микроконтроллеры ПЛИС,&#13;Микросхемы памяти,&#13;Преобразователи интерфейсов (микросхемы),&#13;Стабилизаторы напряжения линейные,&#13;Усилители мощности звуковых частот,&#13;Сигнальные контроллеры (микросхемы)" style="border:none"><img src="/files/pic/microshema/logika_import.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/active-components/integrated-circuit" title="Микросхемы цифровые, логика,&#13;Микросхемы драйверы светодиодов,&#13;Таймеры (микросхемы),&#13;Часы реального времени RTC,&#13;Микросхемы I-button,&#13;Электронные ключи, драйверы дисплеев,&#13;Микросхемы для систем дистанционного управления,&#13;Датчики, контроллеры для датчиков,&#13;Драйверы двигателей, контроллеры,&#13;Источники опорного напряжения, супервизоры,&#13;Операционные усилители, компараторы,&#13;Мультимедийные контроллеры, ЦАП, АЦП,&#13;Драйверы MOSFET IGBT,&#13;Контроллеры питания ШИМ-контроллеры,&#13;Микроконтроллеры ПЛИС,&#13;Микросхемы памяти,&#13;Преобразователи интерфейсов (микросхемы),&#13;Стабилизаторы напряжения линейные,&#13;Усилители мощности звуковых частот,&#13;Сигнальные контроллеры (микросхемы)">Мікросхеми<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/active-components/optocouplers" title="Оптопари" style="border:none"><img src="/files/pic/optopara/optopari.gif"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/active-components/optocouplers" title="Оптопари">Оптопари<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/active-components/diode-bridge-assembly" title="Диоды,&#13;Диодные мосты,&#13;Стабилитроны,&#13;Диоды ограничивающие (супрессоры), ESD-защита,&#13;Варикапы,&#13;PIN-диоды,&#13;Диоды для стабилизации тока" style="border:none"><img src="/files/pic/diod/diod.gif"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/active-components/diode-bridge-assembly" title="Диоды,&#13;Диодные мосты,&#13;Стабилитроны,&#13;Диоды ограничивающие (супрессоры), ESD-защита,&#13;Варикапы,&#13;PIN-диоды,&#13;Диоды для стабилизации тока">Діоди мости складання<gtran/></a>
+                        </div>
+                    </div>
+                    </div>
+                    <div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/active-components/thyristors-triacs-dinistors" title="Модули, сборки,&#13;Симисторы,&#13;Тиристоры,&#13;Динисторы" style="border:none"><img src="/files/pic/tranzistor/bipolar/017018-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/active-components/thyristors-triacs-dinistors" title="Модули, сборки,&#13;Симисторы,&#13;Тиристоры,&#13;Динисторы">Тиристори, симістори, динисторы<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/active-components/transistors" title="Полевые транзисторы,&#13;Биполярные транзисторы,&#13;IGBT транзисторы и модули" style="border:none"><img src="/files/pic/irf/tranzistor_ir.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/active-components/transistors" title="Полевые транзисторы,&#13;Биполярные транзисторы,&#13;IGBT транзисторы и модули">Транзистори, модулі<gtran/></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="clear:both; padding-top:20px">
+            <div style="float:left; padding:3px; border-radius: 5px; border: 1px #FF6420 dashed;max-width: 108px; max-height: 108px">
+                <img src="/files/pic/passiv/passiv.gif" alt="Пасивні компоненти" style="max-width: 100px; max-height: 100px">
+            </div>
+        </div>
+        <div class="product_info" style="margin:15px 10px 10px 140px;">
+            <a style="font-size:150%; font-weight: normal" href="/uk/catalog/passive-components" title="Резисторы,&#13;Конденсаторы,&#13;Варисторы,&#13;Термисторы (терморезисторы),&#13;Предохранители,&#13;Разрядники,&#13;Трансформаторы,&#13;Сердечники, каркасы, скобы,&#13;Резонаторы кварцевые, керамические,&#13;Кварцевые генераторы,&#13;Звукоизлучатели,&#13;Дроссели, катушки индуктивности,&#13;Микрофоны">Пасивні компоненти<gtran/></a>
+                <hr style="margin-left: -30px;">
+                <div style="margin-top: 15px">
+                    <div style="float:left; width:50%; margin-right: 20px">
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/passive-components/resistors" title="Резисторы металлооксидные углеродные,&#13;Резисторы проволочные цементированные (SQP, PRW),&#13;SMD резисторы,&#13;Резисторы с алюминиевым теплоотводом,&#13;Мощные ВЧ резисторы,&#13;Наборы резисторов,&#13;Резисторы подстроечные,&#13;Потенциометры (переменные резисторы),&#13;Потенциометры многооборотные,&#13;Резисторы дисковые с выключателем,&#13;Резисторы плеерные" style="border:none"><img src="/files/pic/passiv/rezistor.gif"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/passive-components/resistors" title="Резисторы металлооксидные углеродные,&#13;Резисторы проволочные цементированные (SQP, PRW),&#13;SMD резисторы,&#13;Резисторы с алюминиевым теплоотводом,&#13;Мощные ВЧ резисторы,&#13;Наборы резисторов,&#13;Резисторы подстроечные,&#13;Потенциометры (переменные резисторы),&#13;Потенциометры многооборотные,&#13;Резисторы дисковые с выключателем,&#13;Резисторы плеерные">Резистори<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/passive-components/capacitor" title="Конденсаторы электролитические,&#13;Конденсаторы танталовые SMD,&#13;Конденсаторы керамические SMD,&#13;Конденсаторы керамические многослойные выводные,&#13;Конденсаторы керамические высоковольтные,&#13;Конденсаторы пленочные,&#13;Конденсаторы подстроечные,&#13;Конденсаторы пусковые,&#13;Ионисторы" style="border:none"><img src="/files/pic/Kondensator/capxon/014011-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/passive-components/capacitor" title="Конденсаторы электролитические,&#13;Конденсаторы танталовые SMD,&#13;Конденсаторы керамические SMD,&#13;Конденсаторы керамические многослойные выводные,&#13;Конденсаторы керамические высоковольтные,&#13;Конденсаторы пленочные,&#13;Конденсаторы подстроечные,&#13;Конденсаторы пусковые,&#1#13;Ионисторы">Конденсатори<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/passive-components/varistor" title="Варисторы" style="border:none"><img src="/files/pic/varistor/varistor.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/passive-components/varistor" title="Варисторы">Варисторы<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/passive-components/thermistor" title="Термисторы (терморезисторы) измерительные,&#13;Термисторы (терморезисторы) силовые" style="border:none"><img src="/files/pic/termistor/termistor.gif"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/passive-components/thermistor" title="Термисторы (терморезисторы) измерительные,&#13;Термисторы (терморезисторы) силовые">Термістори (терморезистори)<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/passive-components/fuse" title="Предохранители трубчатые,&#13;Предохранители с выводами,&#13;Предохранители миниатюрные для печатного монтажа,&#13;Предохранители восстанавливающиеся,&#13;Термопредохранители, термостаты,&#13;Держатели предохранителей" style="border:none"><img src="/files/pic/predohranitel/amf/risunok.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/passive-components/fuse" title="Предохранители трубчатые,&#13;Предохранители с выводами,&#13;Предохранители миниатюрные для печатного монтажа,&#13;Предохранители восстанавливающиеся,&#13;Термопредохранители, термостаты,&#13;Держатели предохранителей">Запобіжники<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/passive-components/arrester" title="Розрядники" style="border:none"><img src="/files/pic/razriadniki/sparc_gap.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/passive-components/arrester" title="Розрядники">Розрядники<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/passive-components/transformer" title="Трансформаторы прочие,&#13;Трансформаторы тороидальные,&#13;Трансформаторы герметичные (залитые),&#13;Трансформаторы тока,&#13;Трансформаторы для импульсных источников питания,&#13;Трансформаторы Ш-образные" style="border:none"><img src="/files/pic/indel/tran.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/passive-components/transformer" title="Трансформаторы прочие,&#13;Трансформаторы тороидальные,&#13;Трансформаторы герметичные (залитые),&#13;Трансформаторы тока,&#13;Трансформаторы для импульсных источников питания,&#13;Трансформаторы Ш-образные">Трансформатори<gtran/></a>
+                        </div>
+                    </div>
+                    </div>
+                    <div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/passive-components/Core-frame-clamp" title="Провода обмоточные,&#13;Сердечники,&#13;Каркасы к ферритам,&#13;Скобы к ферритам,&#13;Помехоподавляющие элементы" style="border:none"><img src="/files/pic/ferrit/ferrit.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/passive-components/Core-frame-clamp" title="Провода обмоточные,&#13;Сердечники,&#13;Каркасы к ферритам,&#13;Скобы к ферритам,&#13;Помехоподавляющие элементы">Сердечники, каркаси, скоби<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/passive-components/quartz-ceramic-resonators" title="Резонатори кварцеві, керамічні" style="border:none"><img src="/files/pic/crystal/crystal_rezonator.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/passive-components/quartz-ceramic-resonators" title="Резонатори кварцеві, керамічні">Резонатори кварцеві, керамічні<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/passive-components/crystal-oscillators" title="Кварцеві генератори" style="border:none"><img src="/files/pic/kvarc/generator/014786-s-1.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/passive-components/crystal-oscillators" title="Кварцеві генератори">Кварцеві генератори<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/passive-components/sound-emitter" title="Буззеры,&#13;Динамики,&#13;Сирены и звонки" style="border:none"><img src="/files/pic/zvyk/risynok.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/passive-components/sound-emitter" title="Буззеры,&#13;Динамики,&#13;Сирены и звонки">Звуковипромінювачі<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/passive-components/choke" title="Дроссели SMD,&#13;Дроссели выводные аксиальные,&#13;Дроссели выводные радиальные,&#13;Фильтры, помехоподавляющие элементы,&#13;Наборы SMD дросселей" style="border:none"><img src="/files/pic/lenta/009220-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/passive-components/choke" title="Дроссели SMD,&#13;Дроссели выводные аксиальные,&#13;Дроссели выводные радиальные,&#13;Фильтры, помехоподавляющие элементы,&#13;Наборы SMD дросселей">Дроселі, котушки індуктивності<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/passive-components/microphones" title="Мікрофони" style="border:none"><img src="/files/pic/Modules/018128-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/passive-components/microphones" title="Мікрофони">Мікрофони<gtran/></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="clear:both; padding-top:20px">
+            <div style="float:left; padding:3px; border-radius: 5px; border: 1px #FF6420 dashed;max-width: 108px; max-height: 108px">
+                <img src="/files/pic/gerkon/004087-1-s.jpg" alt="Датчики" style="max-width: 100px; max-height: 100px">
+            </div>
+        </div>
+        <div class="product_info" style="margin:15px 10px 10px 140px;">
+            <a style="font-size:150%; font-weight: normal" href="/uk/catalog/sensors" title="ИК-датчики и линзы к ним,&#13;Датчики уровня PH (кислотности),&#13;Датчики приближения и прерывания,&#13;Герконы,&#13;Датчики влажности,&#13;Датчики газовых примесей,&#13;Датчики давления,&#13;Датчики температуры и гильзы,&#13;Датчики удара и вибрации,&#13;Ультразвуковые датчики и излучатели,&#13;Фоторезисторы">Датчики<gtran/></a>
+                <hr style="margin-left: -30px;">
+                <div style="margin-top: 15px">
+                    <div style="float:left; width:50%; margin-right: 20px">
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/sensors/proximity-interruption-sensors" title="Датчики наближення і переривання" style="border:none"><img src="/files/pic/datchiki/inductiv/033453/033453-1_150.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/sensors/proximity-interruption-sensors" title="Датчики наближення і переривання">Датчики наближення і переривання<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/sensors/ph-sensors" title="Датчики рівня PH (кислотності)" style="border:none"><img src="/files/pic/analizator/023142-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/sensors/ph-sensors" title="Датчики рівня PH (кислотності)">Датчики рівня PH (кислотності)<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/sensors/infrared-sensors-and-lenses" title="ІЧ-датчики і лінзи до них" style="border:none"><img src="/files/pic/datchiki/015976-s-1.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/sensors/infrared-sensors-and-lenses" title="ІЧ-датчики і лінзи до них">ІЧ-датчики і лінзи до них<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/sensors/reed-switches" title="Герконы" style="border:none"><img src="/files/pic/gerkon/004087-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/sensors/reed-switches" title="Герконы">Герконы<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/sensors/humidity-sensors" title="Датчики вологості" style="border:none"><img src="/files/pic/datchiki/015676-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/sensors/humidity-sensors" title="Датчики вологості">Датчики вологості<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/sensors/gas-impurity-sensors" title="Датчики газових домішок" style="border:none"><img src="/files/pic/Modules/020089/020089-1_150.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/sensors/gas-impurity-sensors" title="Датчики газових домішок">Датчики газових домішок<gtran/></a>
+                        </div>
+                    </div>
+                    </div>
+                    <div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/sensors/pressure-sensors" title="Датчики тиску" style="border:none"><img src="/files/pic/raznoe/grup/020960-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/sensors/pressure-sensors" title="Датчики тиску">Датчики тиску<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/sensors/temperature-sensors" title="Датчики температури і гільзи" style="border:none"><img src="/files/pic/gerkon/015552-1-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/sensors/temperature-sensors" title="Датчики температури і гільзи">Датчики температури і гільзи<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/sensors/shock-and-vibration-sensors" title="Датчики удару і вібрації" style="border:none"><img src="/files/pic/raznoe/grup/020460-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/sensors/shock-and-vibration-sensors" title="Датчики удару і вібрації">Датчики удару і вібрації<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/sensors/ultrasonic-sensors-emitters-transducers" title="Ультразвукові датчики і випромінювачі" style="border:none"><img src="/files/pic/uz_datchiki/017027-1-1.JPG"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/sensors/ultrasonic-sensors-emitters-transducers" title="Ультразвукові датчики і випромінювачі">Ультразвукові датчики і випромінювачі<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/sensors/photoresistors" title="Фоторезистори" style="border:none"><img src="/files/pic/datchiki/016890.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/sensors/photoresistors" title="Фоторезистори">Фоторезистори<gtran/></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="clear:both; padding-top:20px">
+            <div style="float:left; padding:3px; border-radius: 5px; border: 1px #FF6420 dashed;max-width: 108px; max-height: 108px">
+                <img src="/files/pic/sv/009211-s.jpg" alt="Оптоелектроніка і джерела світла" style="max-width: 100px; max-height: 100px">
+            </div>
+        </div>
+        <div class="product_info" style="margin:15px 10px 10px 140px;">
+            <a style="font-size:150%; font-weight: normal" href="/uk/catalog/optoelectronics-and-light-sources" title="Лазеры,&#13;Держатели светодиодов,&#13;ИК-приемники,&#13;Модули подсветки,&#13;Светодиодные ленты, коммутация и контроллеры,&#13;Светодиодные трубки,&#13;Светодиоды,&#13;Солнечные модули и контроллеры,&#13;Фотодиоды,&#13;Фототранзисторы,&#13;Щелевые оптопары,&#13;Дисплеи (индикаторы),&#13;Линзы и коллиматоры">Оптоелектроніка і джерела світла<gtran/></a>
+                <hr style="margin-left: -30px;">
+                <div style="margin-top: 15px">
+                    <div style="float:left; width:50%; margin-right: 20px">
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/optoelectronics-and-light-sources/lasers" title="Лазери" style="border:none"><img src="/files/pic/lazer/021567-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/optoelectronics-and-light-sources/lasers" title="Лазери">Лазери<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/optoelectronics-and-light-sources/led-holders" title="Утримувачі світлодіодів" style="border:none"><img src="/files/pic/sv/013056-s-1.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/optoelectronics-and-light-sources/led-holders" title="Утримувачі світлодіодів">Утримувачі світлодіодів<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/optoelectronics-and-light-sources/ir-receivers" title="ІЧ-приймачі" style="border:none"><img src="/files/pic/vishay/ik_priemnik.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/optoelectronics-and-light-sources/ir-receivers" title="ІЧ-приймачі">ІЧ-приймачі<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/optoelectronics-and-light-sources/led-units" title="Модулі підсвічування" style="border:none"><img src="/files/pic/podsvetka/009404.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/optoelectronics-and-light-sources/led-units" title="Модулі підсвічування">Модулі підсвічування<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/optoelectronics-and-light-sources/led-strips-commutation-control" title="Контроллеры  светодиодных лент,&#13;Светодиодные ленты,&#13;Коммутация светодиодных лент" style="border:none"><img src="/files/pic/podsvetka/013341-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/optoelectronics-and-light-sources/led-strips-commutation-control" title="Контроллеры  светодиодных лент,&#13;Светодиодные ленты,&#13;Коммутация светодиодных лент">Світлодіодні стрічки, комутація і контроллери<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/optoelectronics-and-light-sources/led-tubs" title="Світлодіодні трубки" style="border:none"><img src="/files/pic/sv/ris-1-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/optoelectronics-and-light-sources/led-tubs" title="Світлодіодні трубки">Світлодіодні трубки<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/optoelectronics-and-light-sources/leds" title="Адресуемые светодиоды,&#13;Светодиоды выводные,&#13;Светодиоды SMD,&#13;Светодиоды для освещения,&#13;Светодиоды ИК-диапазона,&#13;Светодиоды Piranha" style="border:none"><img src="/files/pic/raznoe/grup/009407-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/optoelectronics-and-light-sources/leds" title="Адресуемые светодиоды,&#13;Светодиоды выводные,&#13;Светодиоды SMD,&#13;Светодиоды для освещения,&#13;Светодиоды ИК-диапазона,&#13;Светодиоды Piranha">Світлодіоди<gtran/></a>
+                        </div>
+                    </div>
+                    </div>
+                    <div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/optoelectronics-and-light-sources/solar-modules-controllers" title="Сонячні модулі і контроллери" style="border:none"><img src="/files/pic/solnechn_panel/10Wsmall.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/optoelectronics-and-light-sources/solar-modules-controllers" title="Сонячні модулі і контроллери">Сонячні модулі і контроллери<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/optoelectronics-and-light-sources/photodiodes" title="Фотодіоди" style="border:none"><img src="/files/pic/raznoe/grup/009419-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/optoelectronics-and-light-sources/photodiodes" title="Фотодіоди">Фотодіоди<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/optoelectronics-and-light-sources/phototransistors" title="Фототранзистори" style="border:none"><img src="/files/pic/svetodiod/phototranzistor/phototranz.gif"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/optoelectronics-and-light-sources/phototransistors" title="Фототранзистори">Фототранзистори<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/optoelectronics-and-light-sources/slot-optocouplers" title="Щілинні оптопари" style="border:none"><img src="/files/pic/raznoe/grup/019836-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/optoelectronics-and-light-sources/slot-optocouplers" title="Щілинні оптопари">Щілинні оптопари<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/optoelectronics-and-light-sources/displays-and-indicators" title="Семисегментные индикаторы,&#13;ЖК индикаторы,&#13;Светодиодные точечные матрицы,&#13;Светодиодные символьные матрицы,&#13;OLED дисплеи" style="border:none"><img src="/files/pic/raznoe/grup/018196-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/optoelectronics-and-light-sources/displays-and-indicators" title="Семисегментные индикаторы,&#13;ЖК индикаторы,&#13;Светодиодные точечные матрицы,&#13;Светодиодные символьные матрицы,&#13;OLED дисплеи">Дисплеї (індикатори)<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/optoelectronics-and-light-sources/lenses-and-collimators" title="Лінзи і коліматори" style="border:none"><img src="/files/pic/svetilnik/015252-1.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/optoelectronics-and-light-sources/lenses-and-collimators" title="Лінзи і коліматори">Лінзи і коліматори<gtran/></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="clear:both; padding-top:20px">
+            <div style="float:left; padding:3px; border-radius: 5px; border: 1px #FF6420 dashed;max-width: 108px; max-height: 108px">
+                <img src="/files/pic/proskit/magnification/risynok.jpg" alt="Лампи, світильники, ліхтарики" style="max-width: 100px; max-height: 100px">
+            </div>
+        </div>
+        <div class="product_info" style="margin:15px 10px 10px 140px;">
+            <a style="font-size:150%; font-weight: normal" href="/uk/catalog/lamps-luminaires-lanterns" title="Наборы для сборки ламп и светильников,&#13;Лампы светодиодные,&#13;Светильники светодиодные,&#13;Прожекторы светодиодные,&#13;Ультрафиолетовые лампы и светильники,&#13;Фонарики">Лампи, світильники, ліхтарики<gtran/></a>
+                <hr style="margin-left: -30px;">
+                <div style="margin-top: 15px">
+                    <div style="float:left; width:50%; margin-right: 20px">
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/lamps-luminaires-lanterns/kits-for-assembling-lamps" title="Лампы пластиковые без металлических радиаторов,&#13;Лампы с радиаторами,&#13;Встраиваемые и потолочные светильники,&#13;Накладные светильники" style="border:none"><img src="/files/pic/Comp/026620-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/lamps-luminaires-lanterns/kits-for-assembling-lamps" title="Лампы пластиковые без металлических радиаторов,&#13;Лампы с радиаторами,&#13;Встраиваемые и потолочные светильники,&#13;Накладные светильники">Набори для складання ламп і світильників<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/lamps-luminaires-lanterns/led-lamps" title="Лампи світлодіодні" style="border:none"><img src="/files/pic/Comp/026412-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/lamps-luminaires-lanterns/led-lamps" title="Лампи світлодіодні">Лампи світлодіодні<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/lamps-luminaires-lanterns/luminaires-led" title="Світильники світлодіодні" style="border:none"><img src="/files/pic/lampa/svitilnik/027437-2-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/lamps-luminaires-lanterns/luminaires-led" title="Світильники світлодіодні">Світильники світлодіодні<gtran/></a>
+                        </div>
+                    </div>
+                    </div>
+                    <div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/lamps-luminaires-lanterns/illuminator-led" title="Прожектори світлодіодні" style="border:none"><img src="/files/pic/Comp/026415-1-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/lamps-luminaires-lanterns/illuminator-led" title="Прожектори світлодіодні">Прожектори світлодіодні<draft/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/lamps-luminaires-lanterns/ultraviolet-lamps-and-luminaires" title="Ультрафіолетові лампи і світильники" style="border:none"><img src="/files/pic/raznoe/grup/020503-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/lamps-luminaires-lanterns/ultraviolet-lamps-and-luminaires" title="Ультрафіолетові лампи і світильники">Ультрафіолетові лампи і світильники<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/lamps-luminaires-lanterns/flashlights" title="Ліхтарики" style="border:none"><img src="/files/pic/fonar/014436-s.gif"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/lamps-luminaires-lanterns/flashlights" title="Ліхтарики">Ліхтарики<gtran/></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="clear:both; padding-top:20px">
+            <div style="float:left; padding:3px; border-radius: 5px; border: 1px #FF6420 dashed;max-width: 108px; max-height: 108px">
+                <img src="/files/pic/battery/battery.jpg" alt="Джерела живлення" style="max-width: 100px; max-height: 100px">
+            </div>
+        </div>
+        <div class="product_info" style="margin:15px 10px 10px 140px;">
+            <a style="font-size:150%; font-weight: normal" href="/uk/catalog/power-supplies" title="Адаптеры светодиодных лент,&#13;Аккумуляторы,&#13;Батарейки,&#13;Зарядные устройства для аккумуляторов,&#13;Зарядные устройства для мобильных телефонов,&#13;Драйверы светодиодов,&#13;Модульные источники питания,&#13;Преобразователи напряжения,&#13;Блоки питания для ноутбуков,&#13;Сетевые адаптеры (блоки питания),&#13;Стабилизаторы и инверторы 220В">Джерела живлення<gtran/></a>
+                <hr style="margin-left: -30px;">
+                <div style="margin-top: 15px">
+                    <div style="float:left; width:50%; margin-right: 20px">
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/power-supplies/led-strip-power-supply" title="Адаптери світлодіодних стрічок" style="border:none"><img src="/files/pic/raznoe/grup/022946-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/power-supplies/led-strip-power-supply" title="Адаптери світлодіодних стрічок">Адаптери світлодіодних стрічок<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/power-supplies/accumulators" title="Аккумуляторы Li-Ion, Li-Po, Li-FePO4,&#13;Аккумуляторы АА,&#13;Аккумуляторы ААА,&#13;Аккумуляторы свинцово-кислотные,&#13;Аккумуляторы для радиотелефонов,&#13;Аккумуляторы прочие" style="border:none"><img src="/files/pic/battery/battery.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/power-supplies/accumulators" title="Аккумуляторы Li-Ion, Li-Po, Li-FePO4,&#13;Аккумуляторы АА,&#13;Аккумуляторы ААА,&#13;Аккумуляторы свинцово-кислотные,&#13;Аккумуляторы для радиотелефонов,&#13;Аккумуляторы прочие">Акумулятори<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/power-supplies/batteries" title="Батарейки АА,&#13;Батарейки ААА,&#13;Батарейки Крона,&#13;Батарейки дисковые,&#13;Батарейки литиевые,&#13;Батарейки прочие" style="border:none"><img src="/files/pic/battery/battery_.gif"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/power-supplies/batteries" title="Батарейки АА,&#13;Батарейки ААА,&#13;Батарейки Крона,&#13;Батарейки дисковые,&#13;Батарейки литиевые,&#13;Батарейки прочие">Батарейки<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/power-supplies/battery-chargers" title="Зарядные устройства для NiMH , NiCd аккумуляторов,&#13;Зарядные устройства для свинцово-кислотных АКБ,&#13;Зарядные устройства для Li-ion аккумуляторов,&#13;Imax 6" style="border:none"><img src="/files/pic/battery/zar_battery_gp.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/power-supplies/battery-chargers" title="Зарядные устройства для NiMH , NiCd аккумуляторов,&#13;Зарядные устройства для свинцово-кислотных АКБ,&#13;Зарядные устройства для Li-ion аккумуляторов,&#13;Imax 6">Зарядні пристрої для акумуляторів<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/power-supplies/chargers-for-mobile-phone" title="Зарядні пристрої для мобільних телефонів" style="border:none"><img src="/files/pic/kablo/usd/024045-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/power-supplies/chargers-for-mobile-phone" title="Зарядні пристрої для мобільних телефонів">Зарядні пристрої для мобільних телефонів<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/power-supplies/led-drivers" title="Бескорпусные драйверы светодиодов,&#13;Драйверы в защитном корпусе,&#13;Водозащищенные драйверы IP67" style="border:none"><img src="/files/pic/mean-well/013346-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/power-supplies/led-drivers" title="Бескорпусные драйверы светодиодов,&#13;Драйверы в защитном корпусе,&#13;Водозащищенные драйверы IP67">Драйвери світлодіодів<gtran/></a>
+                        </div>
+                    </div>
+                    </div>
+                    <div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/power-supplies/modular-power-supplies" title="Открытого исполнения,&#13;В кожухе,&#13;На DIN-рейку,&#13;На плату" style="border:none"><img src="/files/pic/mean-well/1.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/power-supplies/modular-power-supplies" title="Открытого исполнения,&#13;В кожухе,&#13;На DIN-рейку,&#13;На плату">Модульні джерела живлення<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/power-supplies/voltage-converters" title="AC-DC преобразователи,&#13;DC-DC преобразователи,&#13;AC-AC преобразователи" style="border:none"><img src="/files/pic/mean-well/ris.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/power-supplies/voltage-converters" title="AC-DC преобразователи,&#13;DC-DC преобразователи,&#13;AC-AC преобразователи">Перетворювачі напруги<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/power-supplies/laptop-notebook-power-supplies" title="Блоки живлення для ноутбуків" style="border:none"><img src="/files/pic/mean-well/risynok.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/power-supplies/laptop-notebook-power-supplies" title="Блоки живлення для ноутбуків">Блоки живлення для ноутбуків<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/power-supplies/power-supplies-220v-adapters" title="Мережеві адаптери (блоки живлення)" style="border:none"><img src="/files/pic/mean-well/adpv88a-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/power-supplies/power-supplies-220v-adapters" title="Мережеві адаптери (блоки живлення)">Мережеві адаптери (блоки живлення)<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/power-supplies/stabilizer-and-invertors-220v" title="Инверторы в 220В,&#13;Источники Бесперебойного Питания (ИБП),&#13;Стабилизаторы напряжения 220В" style="border:none"><img src="/files/pic/raznoe/grup/020455-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/power-supplies/stabilizer-and-invertors-220v" title="Инверторы в 220В,&#13;Источники Бесперебойного Питания (ИБП),&#13;Стабилизаторы напряжения 220В">Стабілізатори і інвертори 220В<gtran/></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="clear:both; padding-top:20px">
+            <div style="float:left; padding:3px; border-radius: 5px; border: 1px #FF6420 dashed;max-width: 108px; max-height: 108px">
+                <img src="/files/pic/lazer/007233.jpg" alt="Запчастини для ремонту електронної техніки" style="max-width: 100px; max-height: 100px">
+            </div>
+        </div>
+        <div class="product_info" style="margin:15px 10px 10px 140px;">
+            <a style="font-size:150%; font-weight: normal" href="/uk/catalog/spare-parts-for-electronic-equipment" title="LED лампы подсветки для LCD-мониторов (ноутбуков),&#13;CCFL лампы подсветки для LCD-мониторов (ноутбуков),&#13;Инверторы для подсветки LCD-мониторов (ноутбуков),&#13;Трансформаторы Инвертора для мониторов (ноутбуков),&#13;Ноутбуки - кабели питания,&#13;Ноутбуки - Петли,&#13;Ноутбуки - Разъемы питания на плату,&#13;Шлейфы Кабели,&#13;Принтеры ЗИП,&#13;Лазерные головки,&#13;Тюнеры">Запчастини для ремонту електронної техніки<gtran/></a>
+                <hr style="margin-left: -30px;">
+                <div style="margin-top: 15px">
+                    <div style="float:left; width:50%; margin-right: 20px">
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/spare-parts-for-electronic-equipment/led-backlight-light-strip-for-lcd-monitors" title="LED лампи підсвічування для LCD-моніторів (ноутбуків)" style="border:none"><img src="/files/pic/zapchasti/lamp/023455-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/spare-parts-for-electronic-equipment/led-backlight-light-strip-for-lcd-monitors" title="LED лампи підсвічування для LCD-моніторів (ноутбуків)">LED лампи підсвічування для LCD-моніторів (ноутбуків)<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/spare-parts-for-electronic-equipment/ccfl-backlight-light-lamp-for-lcd-monitors" title="CCFL лампи підсвічування для LCD-моніторів (ноутбуків)" style="border:none"><img src="/files/pic/zapchasti/lamp/lamp-ccfl-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/spare-parts-for-electronic-equipment/ccfl-backlight-light-lamp-for-lcd-monitors" title="CCFL лампи підсвічування для LCD-моніторів (ноутбуків)">CCFL лампи підсвічування для LCD-моніторів (ноутбуків)<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/spare-parts-for-electronic-equipment/inverters-for-backlight-lcd-monitors-laptops" title="Інвертори для підсвічування LCD-моніторів (ноутбуків)" style="border:none"><img src="/files/pic/invertor/017040-1.JPG"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/spare-parts-for-electronic-equipment/inverters-for-backlight-lcd-monitors-laptops" title="Інвертори для підсвічування LCD-моніторів (ноутбуків)">Інвертори для підсвічування LCD-моніторів (ноутбуків)<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/spare-parts-for-electronic-equipment/inverter-transformers-for-monitors-laptops" title="Трансформатори Інвертора для моніторів (ноутбуків)" style="border:none"><img src="/files/pic/indel/009379-s-1.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/spare-parts-for-electronic-equipment/inverter-transformers-for-monitors-laptops" title="Трансформатори Інвертора для моніторів (ноутбуків)">Трансформатори Інвертора для моніторів (ноутбуків)<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/spare-parts-for-electronic-equipment/power-cables-for-laptop" title="Ноутбуки - кабелі живлення" style="border:none"><img src="/files/pic/razjem/pitanie/016506-1.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/spare-parts-for-electronic-equipment/power-cables-for-laptop" title="Ноутбуки - кабелі живлення">Ноутбуки - кабелі живлення<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/spare-parts-for-electronic-equipment/hinges-for-laptops" title="Ноутбуки - Петлі" style="border:none"><img src="/files/pic/zapchasti/notebook/016062-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/spare-parts-for-electronic-equipment/hinges-for-laptops" title="Ноутбуки - Петлі">Ноутбуки - Петлі<gtran/></a>
+                        </div>
+                    </div>
+                    </div>
+                    <div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/spare-parts-for-electronic-equipment/power-connectors-on-board" title="Ноутбуки - Роз'єми живлення на плату" style="border:none"><img src="/files/pic/razjem/pitanie/014965.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/spare-parts-for-electronic-equipment/power-connectors-on-board" title="Ноутбуки - Роз'єми живлення на плату">Ноутбуки - Роз'єми живлення на плату<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/spare-parts-for-electronic-equipment/flex-cables" title="Шлейфи Кабелі" style="border:none"><img src="/files/pic/kablo/019473_small.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/spare-parts-for-electronic-equipment/flex-cables" title="Шлейфи Кабелі">Шлейфи Кабелі<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/spare-parts-for-electronic-equipment/printer-parts" title="Принтери ЗИП" style="border:none"><img src="/files/pic/printer/007284-1.JPG"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/spare-parts-for-electronic-equipment/printer-parts" title="Принтери ЗИП">Принтери ЗИП<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/spare-parts-for-electronic-equipment/laser-heads" title="Лазерні голівки" style="border:none"><img src="/files/pic/lazer/007233.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/spare-parts-for-electronic-equipment/laser-heads" title="Лазерні голівки">Лазерні голівки<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/spare-parts-for-electronic-equipment/tuner" title="Тюнери" style="border:none"><img src="/files/pic/tuner/006035-s.gif"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/spare-parts-for-electronic-equipment/tuner" title="Тюнери">Тюнери<gtran/></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="clear:both; padding-top:20px">
+            <div style="float:left; padding:3px; border-radius: 5px; border: 1px #FF6420 dashed;max-width: 108px; max-height: 108px">
+                <img src="/files/pic/relays/relay.jpg" alt="Реле, Контактори" style="max-width: 100px; max-height: 100px">
+            </div>
+        </div>
+        <div class="product_info" style="margin:15px 10px 10px 140px;">
+            <a style="font-size:150%; font-weight: normal" href="/uk/catalog/relays-contactors" title="Реле электромагнитные силовые,&#13;Реле электромагнитные сигнальные,&#13;Реле электромагнитные герконовые,&#13;Реле твердотельные,&#13;Радиаторы для твердотельных реле,&#13;Колодки для реле,&#13;Контакторы магнитные">Реле, Контактори<gtran/></a>
+                <hr style="margin-left: -30px;">
+                <div style="margin-top: 15px">
+                    <div style="float:left; width:50%; margin-right: 20px">
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/relays-contactors/power-relays" title="Реле електромагнітні силові" style="border:none"><img src="/files/pic/relays/jzx18ffs.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/relays-contactors/power-relays" title="Реле електромагнітні силові">Реле електромагнітні силові<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/relays-contactors/alarm-signal-relay" title="Реле електромагнітні сигнальні" style="border:none"><img src="/files/pic/relays/nt77s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/relays-contactors/alarm-signal-relay" title="Реле електромагнітні сигнальні">Реле електромагнітні сигнальні<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/relays-contactors/reed-switch-relay" title="Реле електромагнітні герконовые" style="border:none"><img src="/files/pic/relays/he3621_small.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/relays-contactors/reed-switch-relay" title="Реле електромагнітні герконовые">Реле електромагнітні герконовые<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/relays-contactors/automotive-relay" title="Реле електромагнітні автомобільні" style="border:none"><img src="/files/pic/relays/Automotiv/hw6321_s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/relays-contactors/automotive-relay" title="Реле електромагнітні автомобільні">Реле електромагнітні автомобільні<gtran/></a>
+                        </div>
+                    </div>
+                    </div>
+                    <div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/relays-contactors/solid-state-relays" title="Реле твердотілі" style="border:none"><img src="/files/pic/optopara/pvy116_s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/relays-contactors/solid-state-relays" title="Реле твердотілі">Реле твердотілі<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/relays-contactors/radiators-for-solid-state-relay" title="Радіатори для твердотілих реле" style="border:none"><img src="/files/pic/raznoe/grup/009348-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/relays-contactors/radiators-for-solid-state-relay" title="Радіатори для твердотілих реле">Радіатори для твердотілих реле<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/relays-contactors/relay-sockets" title="Колодки для реле" style="border:none"><img src="/files/pic/relays/relay_kolodky.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/relays-contactors/relay-sockets" title="Колодки для реле">Колодки для реле<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/relays-contactors/magnetic-contactors" title="Контактори магнітні" style="border:none"><img src="/files/pic/vuklyhatel/037736-1.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/relays-contactors/magnetic-contactors" title="Контактори магнітні">Контактори магнітні<gtran/></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="clear:both; padding-top:20px">
+            <div style="float:left; padding:3px; border-radius: 5px; border: 1px #FF6420 dashed;max-width: 108px; max-height: 108px">
+                <img src="/files/pic/izmerit/izmerit.jpg" alt="Вимірювальні прилади" style="max-width: 100px; max-height: 100px">
+            </div>
+        </div>
+        <div class="product_info" style="margin:15px 10px 10px 140px;">
+            <a style="font-size:150%; font-weight: normal" href="/uk/catalog/measuring-instruments" title="Генераторы, частотометры,&#13;Ареометры,&#13;Часы (электронные, песочные и пр.),&#13;Измерители панельные (вольтметры, амперметры),&#13;Электронная нагрузка,&#13;Осциллографы, логические анализаторы,&#13;Лабораторные источники питания,&#13;Датчики температуры для приборов,&#13;Ваттметры (измерители мощности),&#13;Кабельные тестеры, трассоискатели,&#13;Металлоискатели, детекторы скрытой проводки,&#13;Анемометры,&#13;Люксметры,&#13;Тахометры,&#13;Измерители физических величин  разные,&#13;Весы - портативные / кухонные / кантеры,&#13;Штангенциркули, линейки, дальномеры,&#13;Термометры, тепловизоры, гигрометры,&#13;Мультиметры, токовые клещи и аксессуары для них">Вимірювальні прилади<gtran/></a>
+                <hr style="margin-left: -30px;">
+                <div style="margin-top: 15px">
+                    <div style="float:left; width:50%; margin-right: 20px">
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/measuring-instruments/generators_frequency_meters" title="Генератори, частотометры" style="border:none"><img src="/files/pic/raznoe/blokpitaniu/025733-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/measuring-instruments/generators_frequency_meters" title="Генератори, частотометры">Генератори, частотометры<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/measuring-instruments/Hydrometers" title="Ареометри" style="border:none"><img src="/files/pic/ampermetr/029725-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/measuring-instruments/Hydrometers" title="Ареометри">Ареометри<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/measuring-instruments/Hourglass" title="Пісочний годинник" style="border:none"><img src="/files/pic/chas/029737-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/measuring-instruments/Hourglass" title="Пісочний годинник">Пісочний годинник<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/measuring-instruments/panel__meters" title="Цифровые вольтметры, амперметры панельные,&#13;Аналоговые вольтметры, амперметры панельные,&#13;Шунты токовые" style="border:none"><img src="/files/pic/multimetr/velleman/risunok.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/measuring-instruments/panel__meters" title="Цифровые вольтметры, амперметры панельные,&#13;Аналоговые вольтметры, амперметры панельные,&#13;Шунты токовые">Вимірники панельні (вольтметри, амперметри)<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/measuring-instruments/electronic-load" title="Електронне навантаження" style="border:none"><img src="/files/pic/bloki_pitania-new/40634-m.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/measuring-instruments/electronic-load" title="Електронне навантаження">Електронне навантаження<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/measuring-instruments/oscilloscopes_logic_analyzers" title="Осциллографы - приставки к ПК (USB-осциллографы),&#13;Осциллографы стационарные,&#13;Логические анализаторы,&#13;Щупы для осциллографов,&#13;Осциллографы портативные,&#13;Осциллографы OSCILL.com и аксессуары к ним" style="border:none"><img src="/files/pic/izmerit/auktion-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/measuring-instruments/oscilloscopes_logic_analyzers" title="Осциллографы - приставки к ПК (USB-осциллографы),&#13;Осциллографы стационарные,&#13;Логические анализаторы,&#13;Щупы для осциллографов,&#13;Осциллографы портативные,&#13;Осциллографы OSCILL.com и аксессуары к ним">Осцилографи, логічні аналізатори<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/measuring-instruments/laboratory_power_supplies" title="Блоки питания лабораторные,&#13;ЛАТРы (лабораторные автотрансформаторы)" style="border:none"><img src="/files/pic/bloki_pitania-new/020456-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/measuring-instruments/laboratory_power_supplies" title="Блоки питания лабораторные,&#13;ЛАТРы (лабораторные автотрансформаторы)">Лабораторні джерела живлення<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/measuring-instruments/temperature_sensors_for_devices" title="Датчики температури для приладів" style="border:none"><img src="/files/pic/multimetr/velleman/tp-06-rr.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/measuring-instruments/temperature_sensors_for_devices" title="Датчики температури для приладів">Датчики температури для приладів<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/measuring-instruments/wattmeter" title="Ватметри (вимірники потужності)" style="border:none"><img src="/files/pic/vattmetr/emf-1-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/measuring-instruments/wattmeter" title="Ватметри (вимірники потужності)">Ватметри (вимірники потужності)<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/measuring-instruments/cable_testers_routing_finders" title="Кабельні тестери, трассоискатели" style="border:none"><img src="/files/pic/proskit/tester/risynok.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/measuring-instruments/cable_testers_routing_finders" title="Кабельні тестери, трассоискатели">Кабельні тестери, трассоискатели<gtran/></a>
+                        </div>
+                    </div>
+                    </div>
+                    <div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/measuring-instruments/metal_detectors_hidden_wiring_detectors" title="Металошукачі, детектори прихованої проводки" style="border:none"><img src="/files/pic/multimetr/velleman/minoiskateli.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/measuring-instruments/metal_detectors_hidden_wiring_detectors" title="Металошукачі, детектори прихованої проводки">Металошукачі, детектори прихованої проводки<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/measuring-instruments/anemometers" title="Анемометри" style="border:none"><img src="/files/pic/raznoe/grup/020939-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/measuring-instruments/anemometers" title="Анемометри">Анемометри<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/measuring-instruments/light_meters" title="Люксметри" style="border:none"><img src="/files/pic/izmerit/022751-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/measuring-instruments/light_meters" title="Люксметри">Люксметри<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/measuring-instruments/tachometers" title="Тахометри" style="border:none"><img src="/files/pic/dalnomer/020632-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/measuring-instruments/tachometers" title="Тахометри">Тахометри<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/measuring-instruments/different_physical_quantity_meters" title="Вимірники фізичних величин  різні" style="border:none"><img src="/files/pic/dalnomer/risynok.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/measuring-instruments/different_physical_quantity_meters" title="Вимірники фізичних величин  різні">Вимірники фізичних величин  різні<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/measuring-instruments/scales_-_portable_kitchen_canter" title="Весы - портативні / кухонні / кантеры" style="border:none"><img src="/files/pic/proskit/tester/risynok-1.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/measuring-instruments/scales_-_portable_kitchen_canter" title="Весы - портативні / кухонні / кантеры">Весы - портативні / кухонні / кантеры<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/measuring-instruments/calipers_rulers_rangefinders" title="Штангенциркулі, лінійки, далекоміри" style="border:none"><img src="/files/pic/proskit/variuos things/shtangencirk.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/measuring-instruments/calipers_rulers_rangefinders" title="Штангенциркулі, лінійки, далекоміри">Штангенциркулі, лінійки, далекоміри<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/measuring-instruments/Thermometers-hygrometers" title="Термометры электронные,&#13;Термогигрометры,&#13;Термометры, термогигрометры комнатные,&#13;Тепловизоры" style="border:none"><img src="/files/pic/raznoe/grup/022981-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/measuring-instruments/Thermometers-hygrometers" title="Термометры электронные,&#13;Термогигрометры,&#13;Термометры, термогигрометры комнатные,&#13;Тепловизоры">Термометри, гігрометри<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/measuring-instruments/multimeters_current_clamps_and_accessories_for_them" title="USB-измерители,&#13;Мультиметры цифровые,&#13;Мультиметры стрелочные (аналоговые),&#13;Токовые клещи,&#13;Щупы для мультиметров, измерительные провода,&#13;Зажимы-крокодилы, клипсы" style="border:none"><img src="/files/pic/raznoe/grup/023195-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/measuring-instruments/multimeters_current_clamps_and_accessories_for_them" title="USB-измерители,&#13;Мультиметры цифровые,&#13;Мультиметры стрелочные (аналоговые),&#13;Токовые клещи,&#13;Щупы для мультиметров, измерительные провода,&#13;Зажимы-крокодилы, клипсы">Мультиметри, струмові кліщі і аксесуари для них<gtran/></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="clear:both; padding-top:20px">
+            <div style="float:left; padding:3px; border-radius: 5px; border: 1px #FF6420 dashed;max-width: 108px; max-height: 108px">
+                <img src="/files/pic/proskit/instrum.jpg" alt="Інструмент і устаткування" style="max-width: 100px; max-height: 100px">
+            </div>
+        </div>
+        <div class="product_info" style="margin:15px 10px 10px 140px;">
+            <a style="font-size:150%; font-weight: normal" href="/uk/catalog/tools-and-equipment" title="Лабораторное оборудование,&#13;Ручной инструмент,&#13;Электроинструменты,&#13;Все для ремонта мобильных телефонов,&#13;Паяльное оборудование, паяльники,&#13;Оборудование рабочих мест,&#13;Ванны ультразвуковые,&#13;Насосы,&#13;Сверла, фрезы, боры, метчики, плашки,&#13;Станки и принадлежности к станкам,&#13;Пневмоинструмент,&#13;Абразивные диски">Інструмент і устаткування<gtran/></a>
+                <hr style="margin-left: -30px;">
+                <div style="margin-top: 15px">
+                    <div style="float:left; width:50%; margin-right: 20px">
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/tools-and-equipment/laboratory-equipment" title="Лабораторне устаткування" style="border:none"><img src="/img/no-img-1.gif"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/tools-and-equipment/laboratory-equipment" title="Лабораторне устаткування">Лабораторне устаткування<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/tools-and-equipment/hand-tool" title="Кабелерезы,&#13;Ножницы,&#13;Напильники, надфили, рашпили,&#13;Съемники, экстракторы,&#13;Ножовки,&#13;Пинцеты,&#13;Пинцеты вакуумные - вампиры,&#13;Бокорезы, кусачки, пассатижи,&#13;Отвертки,&#13;Ключи, насадки, наборы инструмента,&#13;Обжимной инструмент (пресс-клещи, кримперы),&#13;Стрипперы для зачистки проводов,&#13;Ножи, скальпели,&#13;Тиски,&#13;Молотки,&#13;Разный инструмент" style="border:none"><img src="/files/pic/raznoe/grup/020458-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/tools-and-equipment/hand-tool" title="Кабелерезы,&#13;Ножницы,&#13;Напильники, надфили, рашпили,&#13;Съемники, экстракторы,&#13;Ножовки,&#13;Пинцеты,&#13;Пинцеты вакуумные - вампиры,&#13;Бокорезы, кусачки, пассатижи,&#13;Отвертки,&#13;Ключи, насадки, наборы инструмента,&#13;Обжимной инструмент (пресс-клещи, кримперы),&#13;Стрипперы для зачистки проводов,&#13;Ножи, скальпели,&#13;Тиски,&#13;Молотки,&#13;Разный инструмент">Ручний інструмент<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/tools-and-equipment/Power-tools" title="Пистолеты горячего воздуха,&#13;Станки и приспособления,&#13;Патроны сверлильные,&#13;Патроны цанговые и цанги ER,&#13;Аксессуары к дрелям, шуруповертам и УШМ,&#13;Микродрели, гравировальные машинки,&#13;Аксессуары к микродрелям, гравировальным машинкам,&#13;Шуруповерты, электроотвертки,&#13;Пистолеты клеящие,&#13;Сварочные аппараты,&#13;Детали станков, запчасти и аксессуары" style="border:none"><img src="/files/pic/raznoe/grup/020457-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/tools-and-equipment/Power-tools" title="Пистолеты горячего воздуха,&#13;Станки и приспособления,&#13;Патроны сверлильные,&#13;Патроны цанговые и цанги ER,&#13;Аксессуары к дрелям, шуруповертам и УШМ,&#13;Микродрели, гравировальные машинки,&#13;Аксессуары к микродрелям, гравировальным машинкам,&#13;Шуруповерты, электроотвертки,&#13;Пистолеты клеящие,&#13;Сварочные аппараты,&#13;Детали станков, запчасти и аксессуары">Електроінструменти<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/tools-and-equipment/everything_for_mobile_phone_repair" title="Отвертки для ремонта мобилок,&#13;Паяльная станция для ремонта мобилок,&#13;Блок питания для ремонта мобилок,&#13;Флюс, паста, шарики для ремонта мобилок,&#13;Химия для очистки мобилок,&#13;Микроскоп, лупа для ремонта мобилок,&#13;Инструмент для ремонта мобилок,&#13;Трафареты под BGA микросхемы" style="border:none"><img src="/files/pic/raznoe/grup/023269-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/tools-and-equipment/everything_for_mobile_phone_repair" title="Отвертки для ремонта мобилок,&#13;Паяльная станция для ремонта мобилок,&#13;Блок питания для ремонта мобилок,&#13;Флюс, паста, шарики для ремонта мобилок,&#13;Химия для очистки мобилок,&#13;Микроскоп, лупа для ремонта мобилок,&#13;Инструмент для ремонта мобилок,&#13;Трафареты под BGA микросхемы">Все для ремонту мобільних телефонів<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/tools-and-equipment/soldering-equipment-soldering-irons" title="Фен для пайки,&#13;Трафаретные принтеры,&#13;Паяльные станции и демонтажное оборудование,&#13;Паяльники,&#13;Газовые паяльники, горелки портативные,&#13;Оловоотсосы механические,&#13;Подставки для паяльников, губки для очистки жал,&#13;Паяльные ванны (тигели),&#13;Дымоуловители" style="border:none"><img src="/files/pic/proskit/soldering/soldering.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/tools-and-equipment/soldering-equipment-soldering-irons" title="Фен для пайки,&#13;Трафаретные принтеры,&#13;Паяльные станции и демонтажное оборудование,&#13;Паяльники,&#13;Газовые паяльники, горелки портативные,&#13;Оловоотсосы механические,&#13;Подставки для паяльников, губки для очистки жал,&#13;Паяльные ванны (тигели),&#13;Дымоуловители">Паяльне устаткування, паяльники<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/tools-and-equipment/workplace-equipment" title="Кассетницы, ячейки, органайзеры,&#13;Лампы настольные,&#13;Настольные покрытия, коврики,&#13;Средства индивидуальной защиты,&#13;Оптика,&#13;Держатели плат,&#13;Сумки, чемоданы, ящики инструментальные,&#13;Антистатика,&#13;Мебель промышленная" style="border:none"><img src="/files/pic/raznoe/grup/020459-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/tools-and-equipment/workplace-equipment" title="Кассетницы, ячейки, органайзеры,&#13;Лампы настольные,&#13;Настольные покрытия, коврики,&#13;Средства индивидуальной защиты,&#13;Оптика,&#13;Держатели плат,&#13;Сумки, чемоданы, ящики инструментальные,&#13;Антистатика,&#13;Мебель промышленная">Устаткування робочих місць<gtran/></a>
+                        </div>
+                    </div>
+                    </div>
+                    <div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/tools-and-equipment/ultrasonic-cleaner" title="Ванни ультразвукові" style="border:none"><img src="/files/pic/proskit/ultrasonic/ss802fs.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/tools-and-equipment/ultrasonic-cleaner" title="Ванни ультразвукові">Ванни ультразвукові<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/tools-and-equipment/pumps" title="Насоси" style="border:none"><img src="/files/pic/nasos/007300.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/tools-and-equipment/pumps" title="Насоси">Насоси<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/tools-and-equipment/drill-mill-boron-tap-die" title="Сверла спиральные с цилиндрическим хвостовиком,&#13;Сверла твердосплавные с утолщенным хвостовиком,&#13;Сверла Р18 с утолщенным хвостовиком,&#13;Сверла ступенчатые,&#13;Наборы сверл,&#13;Фрезы,&#13;Метчики и плашки,&#13;Буры и сверла строительные,&#13;Боры стоматологические" style="border:none"><img src="/files/pic/proskit/screwdriver/011878-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/tools-and-equipment/drill-mill-boron-tap-die" title="Сверла спиральные с цилиндрическим хвостовиком,&#13;Сверла твердосплавные с утолщенным хвостовиком,&#13;Сверла Р18 с утолщенным хвостовиком,&#13;Сверла ступенчатые,&#13;Наборы сверл,&#13;Фрезы,&#13;Метчики и плашки,&#13;Буры и сверла строительные,&#13;Боры стоматологические">Свердла, фрези, бори, мітчики, плашки<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/tools-and-equipment/machine_tools_and_accessories" title="Верстати і приналежності до верстатів" style="border:none"><img src="/files/pic/tools/stanok/stanok.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/tools-and-equipment/machine_tools_and_accessories" title="Верстати і приналежності до верстатів">Верстати і приналежності до верстатів<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/tools-and-equipment/pneumatic-tool" title="Пневмоинструмент" style="border:none"><img src="/files/pic/tools/Pneumatic/pneumo-m.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/tools-and-equipment/pneumatic-tool" title="Пневмоинструмент">Пневмоинструмент<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/tools-and-equipment/Abrasive-materials-and-tools" title="Абразивні матеріали і інструменти" style="border:none"><img src="/files/pic/tools/abrasive/abrasive.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/tools-and-equipment/Abrasive-materials-and-tools" title="Абразивні матеріали і інструменти">Абразивні матеріали і інструменти<gtran/></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="clear:both; padding-top:20px">
+            <div style="float:left; padding:3px; border-radius: 5px; border: 1px #FF6420 dashed;max-width: 108px; max-height: 108px">
+                <img src="/files/pic/mplat/pu-sss.gif" alt="Засоби розробки" style="max-width: 100px; max-height: 100px">
+            </div>
+        </div>
+        <div class="product_info" style="margin:15px 10px 10px 140px;">
+            <a style="font-size:150%; font-weight: normal" href="/uk/catalog/development-tools" title="Наборы Компонентов, Материалов и Крепежа,&#13;Двигатели,&#13;Макетные платы,&#13;Наборы для самостоятельной сборки,&#13;Одноплатные компьютеры,&#13;Отладчики и программаторы,&#13;3D принтеры  & CNC (ЧПУ),&#13;Модули,&#13;Антенны">Засоби розробки<gtran/></a>
+                <hr style="margin-left: -30px;">
+                <div style="margin-top: 15px">
+                    <div style="float:left; width:50%; margin-right: 20px">
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/development-tools/nabory-komponentov-materialov-i-krepezha" title="Наборы Компонентов, Материалов и Крепежа" style="border:none"><img src="/img/no-img-1.gif"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/development-tools/nabory-komponentov-materialov-i-krepezha" title="Наборы Компонентов, Материалов и Крепежа"><ntran id="products_015694_name">Наборы Компонентов, Материалов и Крепежа</ntran></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/development-tools/engines" title="Шаговые двигатели,&#13;Коллекторные двигатели,&#13;Линейные двигатели,&#13;Велосипедные двигатели" style="border:none"><img src="/files/pic/3dpen/032120-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/development-tools/engines" title="Шаговые двигатели,&#13;Коллекторные двигатели,&#13;Линейные двигатели,&#13;Велосипедные двигатели">Двигуни<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/development-tools/maket-plates" title="Платы переходные SO-SOIC-DIP, QFN, etc,&#13;Макетные платы с разъемами,&#13;Макетные платы двусторонние,&#13;Макетные платы односторонние,&#13;Макетные платы для SMD монтажа,&#13;Платы открытых проектов,&#13;Макетные платы контактные (без пайки)" style="border:none"><img src="/files/pic/mplat/pu008s.gif"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/development-tools/maket-plates" title="Платы переходные SO-SOIC-DIP, QFN, etc,&#13;Макетные платы с разъемами,&#13;Макетные платы двусторонние,&#13;Макетные платы односторонние,&#13;Макетные платы для SMD монтажа,&#13;Платы открытых проектов,&#13;Макетные платы контактные (без пайки)">Макетні плати<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/development-tools/diy-kits" title="Печатные платы для сборки устройств" style="border:none"><img src="/files/pic/raznoe/grup/021037-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/development-tools/diy-kits" title="Печатные платы для сборки устройств">Набори для самостійного складання<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/development-tools/single-board-computers" title="Одноплатні комп'ютери" style="border:none"><img src="/files/pic/raznoe/grup/021520-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/development-tools/single-board-computers" title="Одноплатні комп'ютери">Одноплатні комп'ютери<gtran/></a>
+                        </div>
+                    </div>
+                    </div>
+                    <div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/development-tools/debuggers-and-programmers" title="Atmel  AVR,&#13;Microchip PIC,&#13;ST STM, Cortex JTAG,&#13;USB - COM, UART адаптеры,&#13;Универсальные программаторы, EEPROM и др." style="border:none"><img src="/files/pic/m - plat/009473-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/development-tools/debuggers-and-programmers" title="Atmel  AVR,&#13;Microchip PIC,&#13;ST STM, Cortex JTAG,&#13;USB - COM, UART адаптеры,&#13;Универсальные программаторы, EEPROM и др.">Відладчики і програматори<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/development-tools/3d-printers-and-cnc" title="Направляющие валы,&#13;Пластиковые детали,&#13;Компоненты 3D принтеров,&#13;Направляющие рельсовые,&#13;Подшипники и муфты,&#13;Направляющие SBR,&#13;ШВП,&#13;Прочие компоненты,&#13;Пластик для 3-D принтера" style="border:none"><img src="/files/pic/raznoe/grup/021652-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/development-tools/3d-printers-and-cnc" title="Направляющие валы,&#13;Пластиковые детали,&#13;Компоненты 3D принтеров,&#13;Направляющие рельсовые,&#13;Подшипники и муфты,&#13;Направляющие SBR,&#13;ШВП,&#13;Прочие компоненты,&#13;Пластик для 3-D принтера">3d принтерів  &amp; CNC (ЧПУ)<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/development-tools/modules" title="Модули измерительной техники,&#13;Модули из радиоконструкторов,&#13;Arduino и шилды,&#13;Высоковольтные преобразователи,&#13;Беспроводные зарядные устройства,&#13;GPS,&#13;Arduino модули,&#13;Модули преобразователей питания,&#13;Акселерометры и гироскопы,&#13;Аудиомодули,&#13;Модули ДУ,&#13;Модули с датчиками,&#13;Модули связи,&#13;На базе контроллеров STM,&#13;Робототехника и автоматика" style="border:none"><img src="/files/pic/raznoe/grup/018922-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/development-tools/modules" title="Модули измерительной техники,&#13;Модули из радиоконструкторов,&#13;Arduino и шилды,&#13;Высоковольтные преобразователи,&#13;Беспроводные зарядные устройства,&#13;GPS,&#13;Arduino модули,&#13;Модули преобразователей питания,&#13;Акселерометры и гироскопы,&#13;Аудиомодули,&#13;Модули ДУ,&#13;Модули с датчиками,&#13;Модули связи,&#13;На базе контроллеров STM,&#13;Робототехника и автоматика">Модулі<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/development-tools/antennas" title="Антени" style="border:none"><img src="/files/pic/modyli gsm/012807-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/development-tools/antennas" title="Антени">Антени<gtran/></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="clear:both; padding-top:20px">
+            <div style="float:left; padding:3px; border-radius: 5px; border: 1px #FF6420 dashed;max-width: 108px; max-height: 108px">
+                <img src="/files/pic/raznoe/grup/020416-s.jpg" alt="Матеріали для виробництва і ремонту" style="max-width: 100px; max-height: 100px">
+            </div>
+        </div>
+        <div class="product_info" style="margin:15px 10px 10px 140px;">
+            <a style="font-size:150%; font-weight: normal" href="/uk/catalog/materials-for-production-and-repair" title="Лакокрасочные материалы (ЛКМ),&#13;Теплопроводные материалы,&#13;Трафареты под микросхемы в корпусах BGA,&#13;Маркеры,&#13;Паяльные материалы (припой, флюс, оплетка),&#13;Материалы для изготовления печатных плат,&#13;Изоляционные материалы,&#13;Клей, герметики, пасты, скотч,&#13;Химические средства,&#13;Ленты специальные,&#13;Масла и смазки,&#13;Абразивные, шлифовальные-полировальные материалы,&#13;Кабель, провод">Матеріали для виробництва і ремонту<gtran/></a>
+                <hr style="margin-left: -30px;">
+                <div style="margin-top: 15px">
+                    <div style="float:left; width:50%; margin-right: 20px">
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/materials-for-production-and-repair/autochemistry" title="Автохімія" style="border:none"><img src="/img/no-img-1.gif"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/materials-for-production-and-repair/autochemistry" title="Автохімія">Автохімія<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/materials-for-production-and-repair/markers" title="Маркери" style="border:none"><img src="/files/pic/marker/38562-m.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/materials-for-production-and-repair/markers" title="Маркери">Маркери<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/materials-for-production-and-repair/bga_stencils" title="Трафарети під мікросхеми в корпусах BGA" style="border:none"><img src="/files/pic/raznoe/ball/034078-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/materials-for-production-and-repair/bga_stencils" title="Трафарети під мікросхеми в корпусах BGA">Трафарети під мікросхеми в корпусах BGA<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/materials-for-production-and-repair/heat_conducting_materials" title="Теплопроводный клей,&#13;Подложки теплопроводные,&#13;Теплопроводные пасты" style="border:none"><img src="/files/pic/kontchim/027400-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/materials-for-production-and-repair/heat_conducting_materials" title="Теплопроводный клей,&#13;Подложки теплопроводные,&#13;Теплопроводные пасты">Теплопровідні матеріали<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/materials-for-production-and-repair/paints_and_varnishes" title="Лакофарбні матеріали (ЛКМ)" style="border:none"><img src="/files/pic/kontchim/026340-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/materials-for-production-and-repair/paints_and_varnishes" title="Лакофарбні матеріали (ЛКМ)">Лакофарбні матеріали (ЛКМ)<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/materials-for-production-and-repair/soldering_materials" title="Паста паяльная,&#13;Припой радиомонтажный,&#13;Флюс,&#13;Шарики для реболлинга BGA-микросхем,&#13;Реактиватор (облуживатель) паяльных жал,&#13;Оплетка для снятия припоя" style="border:none"><img src="/files/pic/payalnoe/flus/flus.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/materials-for-production-and-repair/soldering_materials" title="Паста паяльная,&#13;Припой радиомонтажный,&#13;Флюс,&#13;Шарики для реболлинга BGA-микросхем,&#13;Реактиватор (облуживатель) паяльных жал,&#13;Оплетка для снятия припоя">Паяльні матеріали (припій, флюс, обплетення)<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/materials-for-production-and-repair/materials-for-pcb-manufacturing" title="УФ-лампы для экспонирования фоторезиста,&#13;Стеклотекстолит фольгированный,&#13;Протравливатели плат (металлических поверхностей),&#13;Фоторезистивные лаки и пленки,&#13;Проявитель фоторезиста, щелочь,&#13;Лак для рисования плат, маркеры кислотоустойчивые,&#13;Пленка для принтеров,&#13;Зачернители тонера для фотошаблонов,&#13;Маска паяльная, жидкое олово" style="border:none"><img src="/files/pic/kontchim/risynok.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/materials-for-production-and-repair/materials-for-pcb-manufacturing" title="УФ-лампы для экспонирования фоторезиста,&#13;Стеклотекстолит фольгированный,&#13;Протравливатели плат (металлических поверхностей),&#13;Фоторезистивные лаки и пленки,&#13;Проявитель фоторезиста, щелочь,&#13;Лак для рисования плат, маркеры кислотоустойчивые,&#13;Пленка для принтеров,&#13;Зачернители тонера для фотошаблонов,&#13;Маска паяльная, жидкое олово">Матеріали для виготовлення друкованих плат<gtran/></a>
+                        </div>
+                    </div>
+                    </div>
+                    <div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/materials-for-production-and-repair/Insulation-materials" title="Фторопластовые трубки,&#13;ТКР трубки (кремнийорганическая резина),&#13;ПВХ трубки,&#13;Силиконовые трубки,&#13;Каптоновая лента,&#13;Термоусадочные ленты,&#13;Термоусадочные трубки,&#13;Стекловолоконные трубки электроизоляционные ТСП,&#13;Изолента ПВХ и Текстильная (тканевая),&#13;Изолента резиновая самовулканизирующаяся,&#13;Изолента высоковольтная,&#13;Диэлектрические лаки и покрытия,&#13;Подложки и втулки изоляционные,&#13;Слюда, лакоткань" style="border:none"><img src="/files/pic/montazhmaterial/montazhmaterial.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/materials-for-production-and-repair/Insulation-materials" title="Фторопластовые трубки,&#13;ТКР трубки (кремнийорганическая резина),&#13;ПВХ трубки,&#13;Силиконовые трубки,&#13;Каптоновая лента,&#13;Термоусадочные ленты,&#13;Термоусадочные трубки,&#13;Стекловолоконные трубки электроизоляционные ТСП,&#13;Изолента ПВХ и Текстильная (тканевая),&#13;Изолента резиновая самовулканизирующаяся,&#13;Изолента высоковольтная,&#13;Диэлектрические лаки и покрытия,&#13;Подложки и втулки изоляционные,&#13;Слюда, лакоткань">Ізоляційні матеріали<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/materials-for-production-and-repair/glue_sealants_pastes_adhesive_tape" title="Фиксаторы резьбовых соединений,&#13;Скотч монтажный,&#13;Клей ультрафиолетового отверждения,&#13;Токопроводящий клей и покрытия,&#13;Герметики, компаунды, термопластики,&#13;Клей универсальный,&#13;Термоклей для клеевых пистолетов" style="border:none"><img src="/files/pic/cleu/010215.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/materials-for-production-and-repair/glue_sealants_pastes_adhesive_tape" title="Фиксаторы резьбовых соединений,&#13;Скотч монтажный,&#13;Клей ультрафиолетового отверждения,&#13;Токопроводящий клей и покрытия,&#13;Герметики, компаунды, термопластики,&#13;Клей универсальный,&#13;Термоклей для клеевых пистолетов">Клей, герметики, пасти, скотч<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/materials-for-production-and-repair/chemicals" title="Nanolux,&#13;Разные химические средства,&#13;Средства очистки" style="border:none"><img src="/files/pic/kontchim/kontchim.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/materials-for-production-and-repair/chemicals" title="Nanolux,&#13;Разные химические средства,&#13;Средства очистки">Хімічні засоби<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/materials-for-production-and-repair/special_tapes" title="Стрічки спеціальні" style="border:none"><img src="/files/pic/lenta/risynok.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/materials-for-production-and-repair/special_tapes" title="Стрічки спеціальні">Стрічки спеціальні<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/materials-for-production-and-repair/Oils-and-greases" title="Смазка для контактов,&#13;Смазки жидкие,&#13;Смазки консистентные,&#13;Смазки сухие" style="border:none"><img src="/files/pic/raznoe/grup/020239-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/materials-for-production-and-repair/Oils-and-greases" title="Смазка для контактов,&#13;Смазки жидкие,&#13;Смазки консистентные,&#13;Смазки сухие">Олії і мастила<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/materials-for-production-and-repair/abrasive-polishing-polishing-materials" title="Абразивні, шліфувальні-полірувальні матеріали" style="border:none"><img src="/files/pic/kontchim/012689-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/materials-for-production-and-repair/abrasive-polishing-polishing-materials" title="Абразивні, шліфувальні-полірувальні матеріали">Абразивні, шліфувальні-полірувальні матеріали<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/materials-for-production-and-repair/Cable-wire" title="Кабель антенный,&#13;Провод эмалированный,&#13;Кабель силовой,&#13;Кабель акустический,&#13;Провода обмоточные специальные,&#13;Кабель компенсационный для термопар,&#13;HDMI, DVI, VGA кабели,&#13;Кабели питания и переходники,&#13;Кабель сигнальный,&#13;Аудио кабели,&#13;Кабельные Аксессуары,&#13;USB кабели,&#13;МГТФ провод,&#13;Провод монтажный,&#13;Витая пара UTP, FTP, Телефонный кабель,&#13;Шлейфы (Кабель плоский)" style="border:none"><img src="/files/pic/raznoe/grup/020452-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/materials-for-production-and-repair/Cable-wire" title="Кабель антенный,&#13;Провод эмалированный,&#13;Кабель силовой,&#13;Кабель акустический,&#13;Провода обмоточные специальные,&#13;Кабель компенсационный для термопар,&#13;HDMI, DVI, VGA кабели,&#13;Кабели питания и переходники,&#13;Кабель сигнальный,&#13;Аудио кабели,&#13;Кабельные Аксессуары,&#13;USB кабели,&#13;МГТФ провод,&#13;Провод монтажный,&#13;Витая пара UTP, FTP, Телефонный кабель,&#13;Шлейфы (Кабель плоский)">Кабель, дріт<gtran/></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="clear:both; padding-top:20px">
+            <div style="float:left; padding:3px; border-radius: 5px; border: 1px #FF6420 dashed;max-width: 108px; max-height: 108px">
+                <img src="/files/pic/korpus/elektro-korpus-izdelia.jpg" alt="Електромеханічні і Корпусні вироби" style="max-width: 100px; max-height: 100px">
+            </div>
+        </div>
+        <div class="product_info" style="margin:15px 10px 10px 140px;">
+            <a style="font-size:150%; font-weight: normal" href="/uk/catalog/electromechanical-and-housing-products" title="Корпуса для электронной техники,&#13;Кнопки и переключатели,&#13;Вентиляторы,&#13;Радиаторы,&#13;Профили и фурнитура,&#13;Разъемы,&#13;Клеммники,&#13;Клеммы и наконечники,&#13;Крепежные элементы,&#13;Панельки для микросхем,&#13;Зажимы зубчатые,&#13;Сигнальные индикаторы,&#13;Модули Пельтье,&#13;Батарейные отсеки,&#13;Ножки для приборов">Електромеханічні і Корпусні вироби<gtran/></a>
+                <hr style="margin-left: -30px;">
+                <div style="margin-top: 15px">
+                    <div style="float:left; width:50%; margin-right: 20px">
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/electromechanical-and-housing-products/case" title="Корпуси для електронної техніки" style="border:none"><img src="/files/pic/korpus/korpusa.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/electromechanical-and-housing-products/case" title="Корпуси для електронної техніки">Корпуси для електронної техніки<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/electromechanical-and-housing-products/buttons-and-switches" title="Колпачки для кнопок и переключателей,&#13;Защитные выключатели,&#13;Тумблеры,&#13;Переключатели Клавишные,&#13;Переключатели Автомобильные,&#13;Выключатели торшерные,&#13;Переключатели движковые-ползунковые,&#13;Концевые микропереключатели,&#13;DIP-переключатели,&#13;Кнопки Тактовые,&#13;Антивандальные Кнопки  и Индикаторы,&#13;Клавиатуры,&#13;Кнопки и индикаторы щитовые промышленные,&#13;Кнопки Прочие,&#13;Замки для РЭА,&#13;Педали ножные,&#13;Джойстики,&#13;Энкодеры" style="border:none"><img src="/files/pic/button/button.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/electromechanical-and-housing-products/buttons-and-switches" title="Колпачки для кнопок и переключателей,&#13;Защитные выключатели,&#13;Тумблеры,&#13;Переключатели Клавишные,&#13;Переключатели Автомобильные,&#13;Выключатели торшерные,&#13;Переключатели движковые-ползунковые,&#13;Концевые микропереключатели,&#13;DIP-переключатели,&#13;Кнопки Тактовые,&#13;Антивандальные Кнопки  и Индикаторы,&#13;Клавиатуры,&#13;Кнопки и индикаторы щитовые промышленные,&#13;Кнопки Прочие,&#13;Замки для РЭА,&#13;Педали ножные,&#13;Джойстики,&#13;Энкодеры">Кнопки і перемикачі<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/electromechanical-and-housing-products/fans" title="Вентиляторы постоянного тока DC,&#13;Вентиляторы переменного тока AC 220V,&#13;Крепления для Вентиляторов,&#13;Решетки для Вентиляторов,&#13;Кабель питания для вентиляторов" style="border:none"><img src="/files/pic/ventiljator/ventiljator.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/electromechanical-and-housing-products/fans" title="Вентиляторы постоянного тока DC,&#13;Вентиляторы переменного тока AC 220V,&#13;Крепления для Вентиляторов,&#13;Решетки для Вентиляторов,&#13;Кабель питания для вентиляторов">Вентилятори<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/electromechanical-and-housing-products/radiators" title="Радіатори" style="border:none"><img src="/files/pic/radiator/dy-gz-040.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/electromechanical-and-housing-products/radiators" title="Радіатори">Радіатори<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/electromechanical-and-housing-products/metal-plastic-profile" title="Профиль радиаторный,&#13;Профиль общего назначения,&#13;Профиль для корпусов,&#13;Профиль светодиодный,&#13;Фурнитура для профилей" style="border:none"><img src="/files/pic/profile/013376.gif"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/electromechanical-and-housing-products/metal-plastic-profile" title="Профиль радиаторный,&#13;Профиль общего назначения,&#13;Профиль для корпусов,&#13;Профиль светодиодный,&#13;Фурнитура для профилей">Профілі<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/electromechanical-and-housing-products/connectors" title="Разъемы высокочастотные,&#13;Разъемы питания низковольтные,&#13;Разъемы DIN, NCDG, NCDW,&#13;Разъемы сигнальные низковольтные,&#13;Разъемы прочие,&#13;Разъемы питания сетевые [220В],&#13;Разъемы аккумуляторные силовые,&#13;Вилки и колодки сетевые [220В],&#13;USB разъемы,&#13;Разъем типа "банан", клемма приборная,&#13;Разъемы BLD,&#13;Разъемы BLS,&#13;Разъемы BNC,&#13;Разъемы и Корпуса для D-SUB,&#13;Разъемы HDMI,&#13;Разъемы IDC, BH,&#13;Разъемы MINI-FIT,&#13;Разъемы PBD,&#13;Разъемы PBS,&#13;Разъемы RJ (для компьютерной сети и телефонии),&#13;Разъемы аудио-видео,&#13;Разъемы для карт,&#13;Разъемы микрофонные и авиационные цилиндрические,&#13;Межплатные штыревые соединители,&#13;Планки на печатную плату,&#13;Джамперы (Jumper)" style="border:none"><img src="/files/pic/razjem/razjem.gif"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/electromechanical-and-housing-products/connectors" title="Разъемы высокочастотные,&#13;Разъемы питания низковольтные,&#13;Разъемы DIN, NCDG, NCDW,&#13;Разъемы сигнальные низковольтные,&#13;Разъемы прочие,&#13;Разъемы питания сетевые [220В],&#13;Разъемы аккумуляторные силовые,&#13;Вилки и колодки сетевые [220В],&#13;USB разъемы,&#13;Разъем типа "банан", клемма приборная,&#13;Разъемы BLD,&#13;Разъемы BLS,&#13;Разъемы BNC,&#13;Разъемы и Корпуса для D-SUB,&#13;Разъемы HDMI,&#13;Разъемы IDC, BH,&#13;Разъемы MINI-FIT,&#13;Разъемы PBD,&#13;Разъемы PBS,&#13;Разъемы RJ (для компьютерной сети и телефонии),&#13;Разъемы аудио-видео,&#13;Разъемы для карт,&#13;Разъемы микрофонные и авиационные цилиндрические,&#13;Межплатные штыревые соединители,&#13;Планки на печатную плату,&#13;Джамперы (Jumper)">Роз'єми<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/electromechanical-and-housing-products/terminal-blocks" title="Клеммники винтовые,&#13;Клеммники безвинтовые,&#13;Клеммники барьерные,&#13;Клеммники разъемные,&#13;Колодки соединительные" style="border:none"><img src="/files/pic/degson/klemniki-degson.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/electromechanical-and-housing-products/terminal-blocks" title="Клеммники винтовые,&#13;Клеммники безвинтовые,&#13;Клеммники барьерные,&#13;Клеммники разъемные,&#13;Колодки соединительные">Клемники<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/electromechanical-and-housing-products/Terminals-tips" title="Наконечники вилочные,&#13;Наконечники  трубчатые (гильзы),&#13;Наконечники штыревые,&#13;Наконечники кольцевые,&#13;Наконечники ножевые (папа-мама),&#13;Наконечники штекерные,&#13;Соединительные втулки" style="border:none"><img src="/files/pic/klemmy/klemmy.gif"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/electromechanical-and-housing-products/Terminals-tips" title="Наконечники вилочные,&#13;Наконечники  трубчатые (гильзы),&#13;Наконечники штыревые,&#13;Наконечники кольцевые,&#13;Наконечники ножевые (папа-мама),&#13;Наконечники штекерные,&#13;Соединительные втулки">Клеми і наконечники<gtran/></a>
+                        </div>
+                    </div>
+                    </div>
+                    <div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/electromechanical-and-housing-products/fasteners" title="Магнитные держатели,&#13;Гайки металлические,&#13;Шурупы и саморезы,&#13;Магниты,&#13;Наборы крепежа,&#13;Крепеж прочий,&#13;Шплинты,&#13;Крепление тороидальных трансформаторов,&#13;Такелаж,&#13;Din-рейки и крепления,&#13;Анкера, MOLLY,&#13;Ручки зажимные,&#13;Винты металлические,&#13;Винты пластиковые,&#13;Гайки пластиковые,&#13;Стойки Металлические,&#13;Втулка резьбовая,&#13;Стойки Пластиковые,&#13;Заклепки,&#13;Шайбы,&#13;Ленты VELCRO" style="border:none"><img src="/files/pic/montazhmaterial/no-img-3.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/electromechanical-and-housing-products/fasteners" title="Магнитные держатели,&#13;Гайки металлические,&#13;Шурупы и саморезы,&#13;Магниты,&#13;Наборы крепежа,&#13;Крепеж прочий,&#13;Шплинты,&#13;Крепление тороидальных трансформаторов,&#13;Такелаж,&#13;Din-рейки и крепления,&#13;Анкера, MOLLY,&#13;Ручки зажимные,&#13;Винты металлические,&#13;Винты пластиковые,&#13;Гайки пластиковые,&#13;Стойки Металлические,&#13;Втулка резьбовая,&#13;Стойки Пластиковые,&#13;Заклепки,&#13;Шайбы,&#13;Ленты VELCRO">Кріпильні елементи<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/electromechanical-and-housing-products/sockets-for-ic" title="Панельки цанговые,&#13;ZIF-панельки,&#13;Панельки DIP (шаг 2.54мм),&#13;Панельки DIPH (шаг 1.778),&#13;Панельки PLCC" style="border:none"><img src="/files/pic/panel/panel.gif"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/electromechanical-and-housing-products/sockets-for-ic" title="Панельки цанговые,&#13;ZIF-панельки,&#13;Панельки DIP (шаг 2.54мм),&#13;Панельки DIPH (шаг 1.778),&#13;Панельки PLCC">Панельки для мікросхем<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/electromechanical-and-housing-products/alligator-clip" title="Затискачi зубчасті" style="border:none"><img src="/files/pic/zagm/risynok.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/electromechanical-and-housing-products/alligator-clip" title="Затискачi зубчасті">Затискачi зубчасті<draft/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/electromechanical-and-housing-products/signal-indicators" title="Сигнальні індикатори" style="border:none"><img src="/files/pic/signaln_indikator/017991-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/electromechanical-and-housing-products/signal-indicators" title="Сигнальні індикатори">Сигнальні індикатори<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/electromechanical-and-housing-products/peltier-modules" title="Модулі Пельтье" style="border:none"><img src="/files/pic/neponytnoe/riusynok.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/electromechanical-and-housing-products/peltier-modules" title="Модулі Пельтье">Модулі Пельтье<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/electromechanical-and-housing-products/potentiometer-knobs" title="Ручки для потенциометров" style="border:none"><img src="/files/pic/energiu/012147-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/electromechanical-and-housing-products/potentiometer-knobs" title="Ручки для потенциометров">Ручки для потенціометрів<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/electromechanical-and-housing-products/batteries-holder" title="Батарейні відсіки" style="border:none"><img src="/files/pic/korpus/bat.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/electromechanical-and-housing-products/batteries-holder" title="Батарейні відсіки">Батарейні відсіки<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/electromechanical-and-housing-products/legs-for-devices-and-cases" title="Ніжки для приладів" style="border:none"><img src="/files/pic/korpus/nogku/016220-s-1.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/electromechanical-and-housing-products/legs-for-devices-and-cases" title="Ніжки для приладів">Ніжки для приладів<gtran/></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="clear:both; padding-top:20px">
+            <div style="float:left; padding:3px; border-radius: 5px; border: 1px #FF6420 dashed;max-width: 108px; max-height: 108px">
+                <img src="/files/pic/preobrazovatel/risunak-1.jpg" alt="Електротехнічні вироби" style="max-width: 100px; max-height: 100px">
+            </div>
+        </div>
+        <div class="product_info" style="margin:15px 10px 10px 140px;">
+            <a style="font-size:150%; font-weight: normal" href="/uk/catalog/electrical-products" title="Электромагниты, электрозамки и соленоиды,&#13;Промышленные контроллеры,&#13;Генераторы озона,&#13;Преобразователи частоты для асинхронных двигателей,&#13;Защитные устройства,&#13;Реле времени,&#13;Термостаты, терморегуляторы,&#13;Щиты для модульных выключателей (автоматов),&#13;Автоматические выключатели модульные">Електротехнічні вироби<gtran/></a>
+                <hr style="margin-left: -30px;">
+                <div style="margin-top: 15px">
+                    <div style="float:left; width:50%; margin-right: 20px">
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/electrical-products/Electromagnets-solenoids" title="Електромагніти, електрозамки і соленоїди" style="border:none"><img src="/files/pic/Electromagnet/026444-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/electrical-products/Electromagnets-solenoids" title="Електромагніти, електрозамки і соленоїди">Електромагніти, електрозамки і соленоїди<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/electrical-products/industrial-controllers" title="Промислові контроллери" style="border:none"><img src="/img/no-img-1.gif"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/electrical-products/industrial-controllers" title="Промислові контроллери">Промислові контроллери<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/electrical-products/ozone-generators" title="Генератори озону" style="border:none"><img src="/img/no-img-1.gif"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/electrical-products/ozone-generators" title="Генератори озону">Генератори озону</a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/electrical-products/Inverter-induction-motors" title="Перетворювачі частоти для асинхронних двигунів" style="border:none"><img src="/files/pic/preobrazovatel/risunak.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/electrical-products/Inverter-induction-motors" title="Перетворювачі частоти для асинхронних двигунів">Перетворювачі частоти для асинхронних двигунів<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/electrical-products/Protective-devices" title="Захисні пристрої" style="border:none"><img src="/files/pic/otsekateli/009452.gif"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/electrical-products/Protective-devices" title="Захисні пристрої">Захисні пристрої<gtran/></a>
+                        </div>
+                    </div>
+                    </div>
+                    <div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/electrical-products/time-relay" title="Реле часу" style="border:none"><img src="/files/pic/time relay/013830-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/electrical-products/time-relay" title="Реле часу">Реле часу<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/electrical-products/thermostats" title="Термостати" style="border:none"><img src="/files/pic/raznoe/grup/022844-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/electrical-products/thermostats" title="Термостати">Термостати<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/electrical-products/switchboards_for_modular_switches" title="Щити для модульних вимикачів (автоматів)" style="border:none"><img src="/files/pic/alfa/risynok.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/electrical-products/switchboards_for_modular_switches" title="Щити для модульних вимикачів (автоматів)">Щити для модульних вимикачів (автоматів)<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/electrical-products/Modular-circuit-breakers" title="Автоматичні вимикачі модульні" style="border:none"><img src="/files/pic/avtomat vukl/010731.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/electrical-products/Modular-circuit-breakers" title="Автоматичні вимикачі модульні">Автоматичні вимикачі модульні<gtran/></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="clear:both; padding-top:20px">
+            <div style="float:left; padding:3px; border-radius: 5px; border: 1px #FF6420 dashed;max-width: 108px; max-height: 108px">
+                <img src="/files/pic/antena/020396-s.jpg" alt="Автомобільні аксесуари, автодіагностика" style="max-width: 100px; max-height: 100px">
+            </div>
+        </div>
+        <div class="product_info" style="margin:15px 10px 10px 140px;">
+            <a style="font-size:150%; font-weight: normal" href="/uk/catalog/auto" title="Автомобилисту пригодится,&#13;Автомобильные аксессуары,&#13;Диагностическое оборудование автомобильное">Автомобільні аксесуари, автодіагностика<gtran/></a>
+                <hr style="margin-left: -30px;">
+                <div style="margin-top: 15px">
+                    <div style="float:left; width:50%; margin-right: 20px">
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/materials-for-production-and-repair/autochemistry" title="Автохімія" style="border:none"><img src="/img/no-img-1.gif"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/materials-for-production-and-repair/autochemistry" title="Автохімія">Автохімія<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/auto/avtomobilistu-prigoditsya" title="Автомобилисту пригодится" style="border:none"><img src="/img/no-img-1.gif"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/auto/avtomobilistu-prigoditsya" title="Автомобилисту пригодится"><ntran id="products_047497_name">Автомобилисту пригодится</ntran></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/auto/car_accessories" title="Съемники обшивки салона автомобиля,&#13;FM трансмиттеры,&#13;Разъемы автомобильные,&#13;Держатели гаджетов,&#13;Зарядные устройства автомобильные,&#13;Антенны автомобильные" style="border:none"><img src="/files/pic/antena/012272.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/auto/car_accessories" title="Съемники обшивки салона автомобиля,&#13;FM трансмиттеры,&#13;Разъемы автомобильные,&#13;Держатели гаджетов,&#13;Зарядные устройства автомобильные,&#13;Антенны автомобильные">Автомобільні аксесуари<gtran/></a>
+                        </div>
+                    </div>
+                    </div>
+                    <div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/auto/car_diagnostic_equipment" title="Разъемы диагностические автомобильные,&#13;Переходники диагностических разъемов автомобильных" style="border:none"><img src="/files/pic/antena/012650-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/auto/car_diagnostic_equipment" title="Разъемы диагностические автомобильные,&#13;Переходники диагностических разъемов автомобильных">Діагностичне устаткування автомобільне<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/passive-components/fuse/car-fuse" title="Запобіжники автомобільні" style="border:none"><img src="/files/pic/predohranitel/ua/rrisunok.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/passive-components/fuse/car-fuse" title="Запобіжники автомобільні">Запобіжники автомобільні<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/relays-contactors/automotive-relay" title="Реле електромагнітні автомобільні" style="border:none"><img src="/files/pic/relays/Automotiv/hw6321_s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/relays-contactors/automotive-relay" title="Реле електромагнітні автомобільні">Реле електромагнітні автомобільні<gtran/></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="clear:both; padding-top:20px">
+            <div style="float:left; padding:3px; border-radius: 5px; border: 1px #FF6420 dashed;max-width: 108px; max-height: 108px">
+                <img src="/files/pic/nabor/035117-s.jpg" alt="Відпочинок, туризм і розваги" style="max-width: 100px; max-height: 100px">
+            </div>
+        </div>
+        <div class="product_info" style="margin:15px 10px 10px 140px;">
+            <a style="font-size:150%; font-weight: normal" href="/uk/catalog/recreation-tourism-and-entertainment" title="Відпочинок, туризм і розваги">Відпочинок, туризм і розваги<gtran/></a>
+                <hr style="margin-left: -30px;">
+                <div style="margin-top: 15px">
+                    <div style="float:left; width:50%; margin-right: 20px">
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/recreation-tourism-and-entertainment/entertainment" title="Развлечения" style="border:none"><img src="/img/no-img-1.gif"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/recreation-tourism-and-entertainment/entertainment" title="Развлечения">Розваги<gtran/></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="clear:both; padding-top:20px">
+            <div style="float:left; padding:3px; border-radius: 5px; border: 1px #FF6420 dashed;max-width: 108px; max-height: 108px">
+                <img src="/files/pic/raznoe/grup/020420-s.jpg" alt="Товари для будинку і офісу" style="max-width: 100px; max-height: 100px">
+            </div>
+        </div>
+        <div class="product_info" style="margin:15px 10px 10px 140px;">
+            <a style="font-size:150%; font-weight: normal" href="/uk/catalog/home-and-office-supplies" title="Гаджеты,&#13;Литература,&#13;Упаковка,&#13;УДЛИНИТЕЛИ 220 В,&#13;Умный дом,&#13;Модели, аксессуары, запчасти,&#13;Для рукоделия,&#13;НАБОРЫ ДЛЯ ТВОРЧЕСТВА">Товари для будинку і офісу<gtran/></a>
+                <hr style="margin-left: -30px;">
+                <div style="margin-top: 15px">
+                    <div style="float:left; width:50%; margin-right: 20px">
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/home-and-office-supplies/gadgets" title="Гаджети" style="border:none"><img src="/files/pic/gadjet/028063-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/home-and-office-supplies/gadgets" title="Гаджети">Гаджети<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/home-and-office-supplies/literature" title="Журналы" style="border:none"><img src="/files/pic/sven_grup/035558-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/home-and-office-supplies/literature" title="Журналы">Література<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/home-and-office-supplies/packaging" title="Упаковка" style="border:none"><img src="/files/pic/raznoe/skoh/010148-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/home-and-office-supplies/packaging" title="Упаковка">Упаковка<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/home-and-office-supplies/power-cable-surge-protector" title="ПОДОВЖУВАЧІ 220 В" style="border:none"><img src="/files/pic/sven/power_cable_surge_protector.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/home-and-office-supplies/power-cable-surge-protector" title="ПОДОВЖУВАЧІ 220 В">ПОДОВЖУВАЧІ 220 В<gtran/></a>
+                        </div>
+                    </div>
+                    </div>
+                    <div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/home-and-office-supplies/smart-home" title="Терморегуляторы,&#13;Датчики протечки воды,&#13;Видеонаблюдение, охранные системы" style="border:none"><img src="/files/pic/nabor/015158-1-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/home-and-office-supplies/smart-home" title="Терморегуляторы,&#13;Датчики протечки воды,&#13;Видеонаблюдение, охранные системы">Розумний будинок<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/home-and-office-supplies/models-accessories-parts" title="Модели,&#13;Аксессуары и запчасти" style="border:none"><img src="/files/pic/model/016134-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/home-and-office-supplies/models-accessories-parts" title="Модели,&#13;Аксессуары и запчасти">Моделі, аксесуари, запчастини<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/home-and-office-supplies/for_needlework" title="Для рукоділля" style="border:none"><img src="/files/pic/raznoe/grup/020421-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/home-and-office-supplies/for_needlework" title="Для рукоділля">Для рукоділля<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/home-and-office-supplies/creators-kits" title="НАБОРИ ДЛЯ ТВОРЧОСТІ" style="border:none"><img src="/files/pic/nabor/ecopol_s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/home-and-office-supplies/creators-kits" title="НАБОРИ ДЛЯ ТВОРЧОСТІ">НАБОРИ ДЛЯ ТВОРЧОСТІ<gtran/></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="clear:both; padding-top:20px">
+            <div style="float:left; padding:3px; border-radius: 5px; border: 1px #FF6420 dashed;max-width: 108px; max-height: 108px">
+                <img src="/files/pic/Garden/watering/38236-m.jpg" alt="Будинок Сад Город" style="max-width: 100px; max-height: 100px">
+            </div>
+        </div>
+        <div class="product_info" style="margin:15px 10px 10px 140px;">
+            <a style="font-size:150%; font-weight: normal" href="/uk/catalog/dom-sad-ogorod" title="Аквариум,&#13;Фильтры и картриджи для питьевой воды,&#13;Все для полива,&#13;Садовый инструмент,&#13;Фитолампы, светильники">Будинок Сад Город<gtran/></a>
+                <hr style="margin-left: -30px;">
+                <div style="margin-top: 15px">
+                    <div style="float:left; width:50%; margin-right: 20px">
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/dom-sad-ogorod/akvarium" title="Акваріум" style="border:none"><img src="/img/no-img-1.gif"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/dom-sad-ogorod/akvarium" title="Акваріум">Акваріум<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/dom-sad-ogorod/filtry-i-kartridzhi-dlya-pitevoy-vody" title="Фільтри і картріджи для питної води" style="border:none"><img src="/files/pic/Filter_water/038777(1).jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/dom-sad-ogorod/filtry-i-kartridzhi-dlya-pitevoy-vody" title="Фільтри і картріджи для питної води">Фільтри і картріджи для питної води<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/dom-sad-ogorod/vse-dlya-poliva" title="Все для поливу" style="border:none"><img src="/files/pic/Garden/watering/38243-m.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/dom-sad-ogorod/vse-dlya-poliva" title="Все для поливу">Все для поливу<gtran/></a>
+                        </div>
+                    </div>
+                    </div>
+                    <div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/dom-sad-ogorod/sadovyy-instrument" title="Садовий інструмент" style="border:none"><img src="/files/pic/Garden/garden_tools/38286-m.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/dom-sad-ogorod/sadovyy-instrument" title="Садовий інструмент">Садовий інструмент<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/dom-sad-ogorod/fitolampy-svetilniki" title="Фитолампы, світильники" style="border:none"><img src="/files/pic/Desk_lamp/38053-m.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/dom-sad-ogorod/fitolampy-svetilniki" title="Фитолампы, світильники">Фитолампы, світильники<gtran/></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="clear:both; padding-top:20px">
+            <div style="float:left; padding:3px; border-radius: 5px; border: 1px #FF6420 dashed;max-width: 108px; max-height: 108px">
+                <img src="/files/pic/literatura/podarki_1.png" alt="Подарунки" style="max-width: 100px; max-height: 100px">
+            </div>
+        </div>
+        <div class="product_info" style="margin:15px 10px 10px 140px;">
+            <a style="font-size:150%; font-weight: normal" href="/uk/catalog/gifts" title="Небольшой сувенир,&#13;до 500 грн,&#13;до 1000 грн,&#13;до 5000 грн,&#13;Мне для тебя ничего не жалко">Подарунки<gtran/></a>
+                <hr style="margin-left: -30px;">
+                <div style="margin-top: 15px">
+                    <div style="float:left; width:50%; margin-right: 20px">
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/gifts/small-gift" title="Невеликий сувенір" style="border:none"><img src="/files/pic/literatura/035567-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/gifts/small-gift" title="Невеликий сувенір">Невеликий сувенір<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/gifts/gifts-up-to-500-uah" title="до 500 грн" style="border:none"><img src="/files/pic/literatura/035568-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/gifts/gifts-up-to-500-uah" title="до 500 грн">до 500 грн<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/gifts/gift-up-to-1000-uah" title="до 1000 грн" style="border:none"><img src="/files/pic/literatura/035569-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/gifts/gift-up-to-1000-uah" title="до 1000 грн">до 1000 грн<gtran/></a>
+                        </div>
+                    </div>
+                    </div>
+                    <div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/gifts/gifts-up-to-5000-uah" title="до 5000 грн" style="border:none"><img src="/files/pic/literatura/035570-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/gifts/gifts-up-to-5000-uah" title="до 5000 грн">до 5000 грн<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/gifts/super-gift" title="Мені для тебе нічого не не жаль" style="border:none"><img src="/files/pic/literatura/035562-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/gifts/super-gift" title="Мені для тебе нічого не не жаль">Мені для тебе нічого не не жаль<gtran/></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="clear:both; padding-top:20px">
+            <div style="float:left; padding:3px; border-radius: 5px; border: 1px #FF6420 dashed;max-width: 108px; max-height: 108px">
+                <img src="/files/pic/raznoe/grup/017724-s.png" alt="Архів" style="max-width: 100px; max-height: 100px">
+            </div>
+        </div>
+        <div class="product_info" style="margin:15px 10px 10px 140px;">
+            <a style="font-size:150%; font-weight: normal" href="/uk/catalog/archive" title="Строчные трансформаторы (ТДКС),&#13;Автомобильные сканеры, адаптеры диагностические,&#13;Адаптеры автомобильной диагностики  OBD-II,&#13;Универсальные сканеры OBD-II автономные,&#13;Упаковка для товара,&#13;CHIP NEWS Украина / Инженерная микроэлектроника,&#13;Справочники,&#13;Переходники для автомагнитол,&#13;Удлинители, разветвители автомобильные,&#13;Светодиодные линейки,&#13;Рамки для автомагнитол,&#13;Ноутбуки - Штекеры питания на кабель,&#13;Преобразователи напряжения автомобильные">Архів<gtran/></a>
+                <hr style="margin-left: -30px;">
+                <div style="margin-top: 15px">
+                    <div style="float:left; width:50%; margin-right: 20px">
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/archive/line-transformers" title="Рядкові трансформатори (ТДКС)" style="border:none"><img src="/files/pic/3dpen/007294/007294-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/archive/line-transformers" title="Рядкові трансформатори (ТДКС)">Рядкові трансформатори (ТДКС)<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/archive/universal_obd-ii_scanners_standalone" title="Універсальні сканери OBD-II автономні" style="border:none"><img src="/files/pic/korpus/020440-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/archive/universal_obd-ii_scanners_standalone" title="Універсальні сканери OBD-II автономні">Універсальні сканери OBD-II автономні<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/archive/car_diagnostic_adapters_obd-ii" title="Адаптери автомобільної діагностики  OBD-II" style="border:none"><img src="/files/pic/korpus/020439-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/archive/car_diagnostic_adapters_obd-ii" title="Адаптери автомобільної діагностики  OBD-II">Адаптери автомобільної діагностики  OBD-II<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/archive/automotive_scanners_diagnostic_adapters" title="Автомобільні сканери, адаптери діагностичні" style="border:none"><img src="/files/pic/korpus/020269-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/archive/automotive_scanners_diagnostic_adapters" title="Автомобільні сканери, адаптери діагностичні">Автомобільні сканери, адаптери діагностичні<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/archive/UP0000" title="Упаковка для товара" style="border:none"><img src="/files/pic/sven_grup/UP0000-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/archive/UP0000" title="Упаковка для товара"><ntran id="products_UP0000_name">Упаковка для товара</ntran></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/archive/adapters_for_car_radio" title="Перехідники для автомагнітол" style="border:none"><img src="/files/pic/antena/012651-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/archive/adapters_for_car_radio" title="Перехідники для автомагнітол">Перехідники для автомагнітол<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/archive/directory" title="Довідники" style="border:none"><img src="/files/pic/literatura/chipnews-2008-07s.gif"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/archive/directory" title="Довідники">Довідники<gtran/></a>
+                        </div>
+                    </div>
+                    </div>
+                    <div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/archive/chip-news-ukraine" title="CHIP NEWS Україна / Інженерна мікроелектроніка" style="border:none"><img src="/files/pic/literatura/chipnews.gif"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/archive/chip-news-ukraine" title="CHIP NEWS Україна / Інженерна мікроелектроніка">CHIP NEWS Україна / Інженерна мікроелектроніка<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/archive/extension_cords_car_splitters" title="Подовжувачі, розгалужувачі автомобільні" style="border:none"><img src="/files/pic/ydliniteli/012745-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/archive/extension_cords_car_splitters" title="Подовжувачі, розгалужувачі автомобільні">Подовжувачі, розгалужувачі автомобільні<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/archive/led-stripes" title="Світлодіодні лінійки" style="border:none"><img src="/files/pic/podsvetka/009405.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/archive/led-stripes" title="Світлодіодні лінійки">Світлодіодні лінійки<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/archive/framework_for_car_radio" title="Рамки для автомагнітол" style="border:none"><img src="/files/pic/antena/012648-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/archive/framework_for_car_radio" title="Рамки для автомагнітол">Рамки для автомагнітол<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/archive/power-plugs-on-cable" title="Ноутбуки - Штекери живлення на кабель" style="border:none"><img src="/files/pic/razjem/pitanie/016507-1.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/archive/power-plugs-on-cable" title="Ноутбуки - Штекери живлення на кабель">Ноутбуки - Штекери живлення на кабель<gtran/></a>
+                        </div>
+                    </div>
+                    <div class="catalog-pic-main-block">
+                        <div class="catalog-pic">
+                            <a href="/uk/catalog/archive/automotive_voltage_converters" title="Перетворювачі напруга автомобільна" style="border:none"><img src="/files/pic/raznoe/blokpitaniu/013199-s.jpg"></a>
+                        </div>
+                        <div style="padding-top: 10px;" class="product_info">
+                            <a style="margin-left:20px" href="/uk/catalog/archive/automotive_voltage_converters" title="Перетворювачі напруга автомобільна">Перетворювачі напруга автомобільна<gtran/></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>﻿</td>
+</tr>
+</table>
+</td>
+ </tr>
+ <tr>
+  <td id="hot-links" style="height:10px; ">
+    <table cellpadding="0" cellspacing="0" border="0" style="width:100%; " >
+      <tr>
+        <td class="product" style="width:16%; vertical-align:top; text-align:center; ">
+          <div class="text" style="background-image: url(/img/h1-bg.gif); background-repeat: repeat-x; TEXT-TRANSFORM: uppercase;">
+            <a href="/uk/hits.php" title="Найпопулярніші товари" style=" color: #ff6600; ">Хіти</a>
+          </div>
+        </td>
+        <td class="product" style="width:16%; vertical-align:top; text-align:center; ">
+          <div class="text" style="background-image: url(/img/h1-bg.gif); background-repeat: repeat-x; TEXT-TRANSFORM: uppercase;">
+            <a href="/uk/new.php" title="Нові види товарів" style=" color: #ff6600; ">Новинки</a>
+          </div>
+        </td>
+        <td class="product" style="width:18%; vertical-align:top; text-align:center; ">
+          <div class="text" style="background-image: url(/img/h1-bg.gif); background-repeat: repeat-x; TEXT-TRANSFORM: uppercase;">
+            <a href="/uk/manufacturers.php" title="Перелік виробників" style=" color: #ff6600; ">Виробники</a>
+          </div>
+        </td>
+        <td class="product" style="width:16%; vertical-align:top; text-align:center; ">
+          <div class="text" style="background-image: url(/img/h1-bg.gif); background-repeat: repeat-x; TEXT-TRANSFORM: uppercase;">
+            <a href="/uk/pages.php" title="Статті Сайту" style=" color: #ff6600; ">Статті</a>
+          </div>
+        </td>
+        <td class="product" style="width:16%; vertical-align:top; text-align:center; ">
+          <div class="text" style="background-image: url(/img/h1-bg.gif); background-repeat: repeat-x; TEXT-TRANSFORM: uppercase;">
+            <a href="/uk/partners.php" title="Наші партнери" style=" color: #ff6600; ">Партнери</a>
+          </div>
+        </td>
+        <td class="product" style="width:18%; vertical-align:top; text-align:center; ">
+          <div class="text" style="background-image: url(/img/h1-bg.gif); background-repeat: repeat-x; TEXT-TRANSFORM: uppercase;">
+            <a href="/uk/policy.php" title="Політика конфіденційності" style=" color: #ff6600; ">Захист інформації</a>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </td>
+ </tr>
+
+  <tr>
+  <td style="background-color: #F5F5F5; height:90px;" class="footer" valign="top">
+   <table cellpadding="5" cellspacing="0" border="0" style="width:100%; ">
+    <tr>
+    ﻿<td style="vertical-align:top; text-align:left; white-space:nowrap; ">
+  <p class="text_gray"> Наш адрес и телефоны:&nbsp;&nbsp;&nbsp;Украина, г. Днепр,<br />
+    ул. Новокрымская 58 (на углу пересечения с ул. Матросская)<br />
+    +38 (067) 565-89-78<br />
+  </p>
+  <a class="text_gray" title="» Контактная информация и схема проезда" href="/show.php?p=contacts">» Контактная информация и схема проезда</a></td>
+<td style="width:1%; "> &nbsp;</td>
+<td style="vertical-align:top; text-align:left; ">
+  <p class="text_gray_dense"> Отправляем заказанные товары во все регионы Украины : Александрия, Винница, Житомир, Запорожье, Ивано-Франковск, Киев, Кировоград, Краснодон, Львов, Луцк, Мелитополь, Николаев, Одесса, Очаков, Полтава, Переяслав-Хмельницкий, Светловодск, Трускавец, Ужгород, Чоп, Энергодар, Фастов, Херсон, Харьков, Черкассы,Чернигов, Южноукраинск и другие.
+  </p>
+  <a class="text_gray" title  = "» Доставка товров"     href  ="/ship.php">» Подробнее о доставке товаров</a><br />
+</td>
+<td style="width:1%; ">
+  &nbsp;</td>
+<td class="text_gray_dense" style="vertical-align:top; text-align:center; white-space:nowrap; ">
+  2004—2022 (c) ЧП «ВОРОН».<br />
+  Все права защищены.<br />
+  <img src="/img/qrcode-h1px.png" />
+</td>
+    </tr>
+   </table>
+<div id="cloud" style="font-size:75%;font-weight:bold;padding:5px">Популярні пошукові запити: 
+<a href="/search.php?search=%D1%80%D0%B5%D0%BB%D0%B5" title="реле">реле &nbsp; </a>
+<a href="/search.php?search=%D0%BA%D0%BD%D0%BE%D0%BF%D0%BA%D0%B0" title="кнопка">кнопка &nbsp; </a>
+<a href="/search.php?search=arduino" title="arduino">arduino &nbsp; </a>
+<a href="/search.php?search=%D0%BF%D1%80%D0%B8%D0%BF%D0%BE%D0%B9" title="припой">припой &nbsp; </a>
+<a href="/search.php?search=%D1%80%D0%B0%D0%B4%D0%B8%D0%B0%D1%82%D0%BE%D1%80" title="радиатор">радиатор &nbsp; </a>
+<a href="/search.php?search=%D0%BF%D0%B0%D1%8F%D0%BB%D1%8C%D0%BD%D0%B8%D0%BA" title="паяльник">паяльник &nbsp; </a>
+<a href="/search.php?search=%D0%B1%D0%BB%D0%BE%D0%BA+%D0%BF%D0%B8%D1%82%D0%B0%D0%BD%D0%B8%D1%8F" title="блок питания">блок питания &nbsp; </a>
+<a href="/search.php?search=%D1%84%D0%BB%D1%8E%D1%81" title="флюс">флюс &nbsp; </a>
+<a href="/search.php?search=%D0%B2%D0%BE%D0%BB%D1%8C%D1%82%D0%BC%D0%B5%D1%82%D1%80" title="вольтметр">вольтметр &nbsp; </a>
+<a href="/search.php?search=%D0%BF%D1%80%D0%BE%D0%B2%D0%BE%D0%B4" title="провод">провод &nbsp; </a>
+<a href="/search.php?search=%D1%82%D0%B5%D1%80%D0%BC%D0%BE%D0%BF%D0%B0%D1%81%D1%82%D0%B0" title="термопаста">термопаста &nbsp; </a>
+<a href="/search.php?search=%D1%82%D1%80%D0%B0%D0%BD%D1%81%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%BE%D1%80" title="трансформатор">трансформатор &nbsp; </a>
+<a href="/search.php?search=%D1%8D%D0%BD%D0%BA%D0%BE%D0%B4%D0%B5%D1%80" title="энкодер">энкодер &nbsp; </a>
+<a href="/search.php?search=%D1%82%D1%8E%D0%BB%D1%8C%D0%BF%D0%B0%D0%BD+rca" title="тюльпан rca">тюльпан rca &nbsp; </a>
+<a href="/search.php?search=18650" title="18650">18650 &nbsp; </a>
+<a href="/search.php?search=%D1%82%D0%B5%D1%80%D0%BC%D0%BE%D1%81%D1%82%D0%B0%D1%82" title="термостат">термостат &nbsp; </a>
+<a href="/search.php?search=lm317" title="lm317">lm317 &nbsp; </a>
+<a href="/search.php?search=%D0%BC%D0%B0%D0%B3%D0%BD%D0%B8%D1%82" title="магнит">магнит &nbsp; </a>
+<a href="/search.php?search=%D0%B6%D0%B0%D0%BB%D0%BE" title="жало">жало &nbsp; </a>
+<a href="/search.php?search=%D0%B2%D0%B0%D1%80%D0%B8%D1%81%D1%82%D0%BE%D1%80" title="варистор">варистор &nbsp; </a>
+<a href="/search.php?search=%D0%B2%D0%B5%D0%BD%D1%82%D0%B8%D0%BB%D1%8F%D1%82%D0%BE%D1%80" title="вентилятор">вентилятор &nbsp; </a></div>
+   <table cellpadding="0" cellspacing="0" border="0" style="width:100%; "> 
+    <tr>
+    </tr>
+   </table>
+  </td>
+ </tr>
+</table>
+</body>
+</html>`;
+
 export default {
     radiomag: radiomag,
     voron: voron,
-    microteh: microteh
+    microteh: microteh,
+    categories: categories
 };

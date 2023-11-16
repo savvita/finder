@@ -6,8 +6,12 @@ import microteh from './microteh.js';
 
 const getAsync = async (url) => {
     let results = undefined;
+    let controller = new AbortController();
+
+    setTimeout(() => controller.abort(), 20000);
     await fetch(url, {
-        method: 'get'
+        method: 'get',
+        signal: controller.signal
     })
     .then(response => response.text())
     .then(response => {
@@ -43,7 +47,8 @@ class Radiomag extends Basic {
     #parseSearchResult = (html, city) => {
         const doc = IDOMParser.parse(html, {
             ignoreTags: ['head', 'style'],
-            onlyBody: true
+            onlyBody: true,
+            errorHandler: () => {}
         });
         const table = doc.documentElement.querySelector('table.productlist-table');
         const articles = radiomag.parseTable(table, this.url, city);
@@ -52,22 +57,48 @@ class Radiomag extends Basic {
 }
 
 class Voron extends Basic {
+    #lastHtml;
     constructor() {
         super('https://voron.ua');
     }
+    static catalogUrl = 'https://voron.ua/uk/catalog';
+
     searchAsync = async(text) => {
         const searchText = text.replace(' ', '+');
         const url = `${ this.url }/search.php?search=${ searchText }`;
-        //const html = await getAsync(url);
+        // const html = await getAsync(url);
         const html = temp.voron;
 
         return this.#parseSearchResult(html);
     }
 
+    getCategoriesAsync = async (url) => {
+        if(!url) {
+            url = `${ this.url}/uk/catalog`;
+        }
+        const html = await getAsync(url);
+        //const html = temp.categories;
+
+        const doc = IDOMParser.parse(html, {
+            ignoreTags: ['head', 'style'],
+            onlyBody: true,
+            errorHandler: () => {}
+        });
+
+        this.#lastHtml = doc;
+
+        return voron.parseCategories(doc, this.url);
+    }
+
+    loadFiltersAsync = async () => {
+        return voron.parseFilters(this.#lastHtml);
+    }
+
     #parseSearchResult = (html) => {
         const doc = IDOMParser.parse(html, {
             ignoreTags: ['head', 'style'],
-            onlyBody: true
+            onlyBody: true,
+            errorHandler: () => {}
         });
         const table = doc.documentElement.querySelector('table.table_grey');
         const articles = voron.parseTable(table, this.url);
@@ -82,7 +113,7 @@ class Microteh extends Basic {
     searchAsync = async(text) => {
         const searchText = text.replace(' ', '+');
         const url = `${ this.url }?route=product/search&search=${ searchText }`;
-        //const html = await getAsync(url);
+        // const html = await getAsync(url);
         const html = temp.microteh;
 
         return this.#parseSearchResult(html);
@@ -91,7 +122,8 @@ class Microteh extends Basic {
     #parseSearchResult = (html) => {
         const doc = IDOMParser.parse(html, {
             ignoreTags: ['head', 'style'],
-            onlyBody: true
+            onlyBody: true,
+            errorHandler: () => {}
         });
         const articles = microteh.parseTable(doc.documentElement);
         return articles;
@@ -102,5 +134,6 @@ class Microteh extends Basic {
 export default {
     Radiomag: new Radiomag(),
     Voron: new Voron(),
-    Microteh: new Microteh()
+    Microteh: new Microteh(),
+    catalogUrl: Voron.catalogUrl
 }

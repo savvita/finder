@@ -1,4 +1,4 @@
-import { ScrollView, StyleSheet, Text } from 'react-native';
+import { ScrollView, StyleSheet, Text, ActivityIndicator, View } from 'react-native';
 import SearchInput from '../components/SearchInput';
 import engine from '../data/search_engine';
 import { useState } from 'react';
@@ -7,10 +7,13 @@ import Accordion from '../components/Accordion';
 import AccordionItem from '../components/AccordionItem';
 
 
-const SearchScreen = () => {
+const SearchScreen = ({ navigation }) => {
+    // navigation.setOptions({ ...navigation.options, title: 'ssd' });
     const [data, setData] = useState([]);
+    const [isLoading, setIsLoading] = useState(false);
 
     const search = async (text) => {
+        setIsLoading(true);
         Promise.allSettled([
             findInRadiomag(text),
             findInVoron(text), 
@@ -25,6 +28,9 @@ const SearchScreen = () => {
                 });
 
                 setData(values);
+                setTimeout(() => {
+                    setIsLoading(false);
+                  }, 100);
             });
     }
 
@@ -33,16 +39,16 @@ const SearchScreen = () => {
 
         return {
             title: 'Ворон',
-            data: voron
+            data: voron.filter(item => item.available > 0)
         };
     }
 
     const findInRadiomag = async (text) => {
-        const radiomag = await engine.Radiomag.searchAsync(text);
+        const radiomag = await engine.Radiomag.searchAsync(text, 'РАДІОМАГ-Дніпро');
 
         return {
             title: 'Радіомаг',
-            data: radiomag
+            data: radiomag.filter(item => item.available > 0)
         };
     }
 
@@ -51,32 +57,52 @@ const SearchScreen = () => {
 
         return {
             title: 'Мікротех',
-            data: microteh,
+            data: microteh.filter(item => item.available > 0),
             comments: 'Мікротех не надає інформацію про доступну кількість товару'
         };
     }
 
     return (
-        <ScrollView>
+        <View style={ styles.container }>
             <SearchInput onPress={ search } />
-            <Accordion>
-                { data.map((item, index) => 
-                    <AccordionItem
-                            key={ index }
-                            title={ `${ item.title } (${ item.data.length })`}
-                            headerTitleStyle={ styles.accordionHeader }
-                        >
-                            { item.comments && <Text style={ styles.comments }>* {  item.comments }</Text> }
-                            { item.data.map((dataItem) => <SearchResultItem key={ dataItem.id } item={ dataItem } />) }
-                    </AccordionItem>
-                    
-                ) }
-            </Accordion>
-        </ScrollView>
+            { isLoading ? 
+                    <View style={ styles.contentContainer }>
+                        <ActivityIndicator 
+                                size='large'
+                            />
+                    </View>
+                :
+                <ScrollView>
+                    <Accordion>
+                        { data.map((item, index) => 
+                            <AccordionItem
+                                    key={ index }
+                                    title={ `${ item.title } (${ item.data.length })`}
+                                    headerTitleStyle={ styles.accordionHeader }
+                                >
+                                    { item.comments && <Text style={ styles.comments }>* {  item.comments }</Text> }
+                                    { item.data.map((dataItem) => <SearchResultItem key={ dataItem.id } item={ dataItem } />) }
+                            </AccordionItem>
+                            
+                        ) }
+                    </Accordion>
+                </ScrollView>
+            }
+        </View>
     );
 }
 
 const styles = StyleSheet.create({
+    container: {
+        height: '100%',
+        paddingHorizontal: 10,
+        paddingVertical: 10
+    },
+    contentContainer: {
+        height: '100%',
+        justifyContent: 'center',
+        alignItems: 'center'
+    },
     accordionHeader: {
         paddingStart: 10
     },

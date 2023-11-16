@@ -1,3 +1,5 @@
+import IDOMParser from 'advanced-html-parser';
+
 const parseRow = (row, baseUrl) => {
     const article = {
         id: 0,
@@ -64,6 +66,122 @@ const parseTable = (table, baseUrl) => {
     return articles;
 }
 
+const parseCategoryCell = (category, html, baseUrl) => {
+    const a = html.querySelector('a');
+    if(!a) return null;
+
+    const href = a.getAttribute('href');
+    category.url = href.startsWith('http') ? href : baseUrl + href;
+
+    category.title = a.text();
+
+    return category;
+}
+
+const parseCategoryDiv = (html, baseUrl) => {
+    const category = {
+        id: 0,
+        title: '',
+        url: '',
+        image: ''
+    };
+
+    const a = html.querySelector('a');
+    if(!a) return null;
+
+    const title = html.querySelector('div.product_info a');
+    if(!title) return null;
+
+    const href = a.getAttribute('href');
+    category.url = href.startsWith('http') ? href : baseUrl + href;
+    category.title = title.text();
+    category.image = getCategoryImage(html, baseUrl);
+
+    return category;
+}
+
+const getCategoryImage = (html, baseUrl) => {
+    const src = html.querySelector('img')?.getAttribute('src');
+    if(src) {
+        return src.startsWith('http') ? src : baseUrl + src;
+    }
+
+    return '';
+}
+
+const parseCategoryTable = (html, baseUrl) => {
+    const categories = [];
+    const categoriesHtml = html.querySelectorAll('td.body-elements tr td > div');
+    // const categoriesHtml = html.querySelectorAll('td.body-elements tr td > div.product_info');
+    
+    let category = {
+        id: 0,
+        title: '',
+        url: '',
+        image: ''
+    };
+
+    for(let i = 0; i < categoriesHtml.length; i++) {
+        if(categoriesHtml[i].classList.has('product_info')) {
+            parseCategoryCell(category, categoriesHtml[i], baseUrl);
+            if(category != null) {
+                category.id = i;
+                categories.push(category);
+                category = {
+                    id: 0,
+                    title: '',
+                    url: '',
+                    image: ''
+                };
+            }
+        } else {
+            category.image = getCategoryImage(categoriesHtml[i], baseUrl);
+        }
+    }
+
+    return categories;
+}
+
+const parseCategoryDivs = (categoriesHtml, baseUrl) => {
+    const categories = [];
+
+    for(let i = 0; i < categoriesHtml.length; i++) {
+        const category = parseCategoryDiv(categoriesHtml[i], baseUrl);
+        if(category != null) {
+            category.id = i;
+            categories.push(category);
+        }
+    }
+
+    console.log("parseCategoryDivs: " + categories);
+
+    return categories;
+}
+
+const parseCategories = (html, baseUrl) => {
+    const categoriesHtml = html.querySelectorAll('div.catalog-pic-block');
+
+    if(!categoriesHtml || categoriesHtml.length === 0) {
+        return parseCategoryTable(html, baseUrl);
+    }
+
+    return parseCategoryDivs(categoriesHtml, baseUrl);
+}
+
+const parseFilters = (html) => {
+    const filters = [];
+
+    const filtersHtml = html.querySelectorAll('div.check-filter-block');
+    // console.log(filtersHtml.length);
+
+
+    // console.log(filters);
+
+    return filters;
+}
+
 export default {
-    parseTable: parseTable
+    parseTable: parseTable,
+    parseCategories: parseCategories,
+    parseFilters: parseFilters
 };

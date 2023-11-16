@@ -49,8 +49,6 @@ const parseTable = (table) => {
         }
     }
 
-    console.log(articles);
-
     return articles;
 }
 
