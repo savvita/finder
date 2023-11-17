@@ -18,27 +18,35 @@ const Navigate = () => {
                         tabBarIcon: ({ focused, color, size }) => {
                           let iconName;
               
-                          if (route.name === shopSearching) {
+                          if (route.name === 'search_screen') {
                             iconName = focused
                               ? 'search'
                               : 'search-outline';
-                          } else if (route.name === paramSearching) {
+                          } else if (route.name === 'param_searching_screen') {
                             iconName = focused ? 'list-circle' : 'list-circle-outline';
                           }
               
                           return <Ionicons name={ iconName } size={ size } color={ color } />;
                         },
                         tabBarActiveTintColor: 'tomato',
-                        tabBarInactiveTintColor: 'gray',
+                        tabBarInactiveTintColor: 'gray'
                       })}
                 >
                 <Tab.Screen
-                        name={ shopSearching }
+                        name='search_screen'
+                        options={{
+                            title: shopSearching,
+                            tabBarLabel: shopSearching
+                        }}
                         component={ SearchScreen }
                     />
                 <Tab.Screen
-                        name={ paramSearching }
+                        name={ 'param_searching_screen' }
                         component={ ParametersSearchScreen }
+                        options={{
+                            title: paramSearching,
+                            tabBarLabel: paramSearching
+                        }}
                     />
             </Tab.Navigator>
         </NavigationContainer>

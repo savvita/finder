@@ -49,6 +49,8 @@ const parseRow = (row, indexes, baseUrl, city) => {
 
         article.name = a.text();
         article.url = baseUrl + a.getAttribute('href');
+    } else {
+        return null;
     }
 
     if(indexes.available >= 0) {

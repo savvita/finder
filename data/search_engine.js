@@ -94,6 +94,18 @@ class Voron extends Basic {
         return voron.parseFilters(this.#lastHtml);
     }
 
+    filterAsync = async (filters) => {
+        const url = voron.getFilterUrl(filters, this.url);
+        const html = await getAsync(url);
+        const doc = IDOMParser.parse(html, {
+            ignoreTags: ['head', 'style'],
+            onlyBody: true,
+            errorHandler: () => {}
+        });
+
+        return voron.parseFilteredResults(doc, this.url);
+    }
+
     #parseSearchResult = (html) => {
         const doc = IDOMParser.parse(html, {
             ignoreTags: ['head', 'style'],

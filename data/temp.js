@@ -6049,9 +6049,1175 @@ $(".search_overlay").click(function(){
 </body>
 </html>`;
 
+const filters = `
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <title>Конденсатори танталові SMD Купить в интернет-магазине  - Ворон</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content="Конденсатори, конденсатор танталовий 47uf 6v3 c, конденсатор танталовий 1uf 25v b, конденсатор танталовий 1uf 35v b (tajb105k035rnj), конденсатор танталовий 10uf 16v a (taja106k016rnj), конденсатор танталовий 10uf 16v b (tajb106k016rnj), конденсатор танталовий 100uf 16v d, конденсатор танталовий 2.2uf 25v b (tajb225k025rnj), конденсатор танталовий 22uf 16v b (tajb226k016rnj), конденсатор танталовий 22uf 25v d, конденсатор танталовий 22uf 35v d (tajd226k035rnj), конденсатор танталовий 22uf 6v3 a, конденсатор танталовий 33uf 10v b (tajb336k010rnj), конденсатор танталовий 33uf 6v3 a (taja336k006rnj), конденсатор танталовий 4.7uf 16v a (taja475k016rnj), конденсатор танталовий 4.7uf 16v b (tajb475k016rnj), конденсатор танталовий 47uf 10v b (tajb476k010rnj), конденсатор танталовий 47uf 6v3 b (tajb476k006rnj), конденсатор танталовий 4.7uf 25v c (tajc475k025rnj), конденсатор танталовий 47uf 16v c (tajc476k016rnj), конденсатор танталовий 10uf 25v c (tajc106k025rnj), конденсатор танталовий 10uf 25v d (tajd106k025rnj), конденсатор танталовий 22uf 10v c, конденсатор танталовий 22uf 16v c (tajc226k016rnj), конденсатор танталовий 10uf 50v e (taje106k050rnj), конденсатор танталовий 220uf 6v3 d (tajd227k006rnj)" />
+    <meta name="keywords" content="ЧП Ворон, электронные компоненты, продажа, Украина, Днепр, Запорожье, микросхемы, радиодетали, реле, диоды, измерительные приборы, оптика, осциллограф, кабель, генератор, кнопки, стабилизатор, купить, конденсатор, резисторы, светодиоды, терминал, транзисторы, трансформатор, каталог, прайс листы, новости, цена, статьи, паяльная станция" />
+    <meta property="og:image" content="https://voron.ua/img/logo/logo.png" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link href = "https://fonts.googleapis.com/css?family=Knewave|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=cyrillic,cyrillic-ext" rel = "stylesheet">
+    <link href="/css/main.css?rev=127" rel="stylesheet" type="text/css" media="screen" />
+    <link href="/css/catalog-product.css?rev=127" rel="stylesheet" type="text/css" media="screen" />
+    <!--link href="/iconfont/material-icons1.css" rel="stylesheet" /-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="/js/croppic/croppic.css" rel="stylesheet" />
+    <link href="/css/popup.2.css" rel="stylesheet" type="text/css" media="screen" />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="/js/jquery/jquery.cookie.js"></script>
+    <script src="/js/jquery/jquery.maskedinput.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.ui/1.13.0/jquery-ui.min.js" crossorigin="anonymous"></script>
+    <link href="https://code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css" rel="stylesheet" media="screen" crossorigin="anonymous">
+    
+    <script src="/js/shop-1.1.js"></script>
+    <script src="/js/start.js?rev=127"></script>
+    <script src="/js/clipboard.js-master/dist/clipboard.min.js"></script>
+            <script>$.cookie("screen_size", screen.width+"x"+screen.height)</script>
+            <script src="https://www.google-analytics.com/urchin.js"></script>
+            <script>
+                _uacct = "UA-1290954-1";
+                urchinTracker();
+            </script>
+            <script src="/js/select2/dist/js/select2.full.js"></script>
+    <link href="/js/select2/dist/css/select2.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+<div style="display:none"><img src="/img/logo/logo.png"></div>
+<div class="overlay"></div><div class="search_overlay"></div><div id="hotkey_info"></div><table cellpadding="0" cellspacing="0" border="0" style="width:100%; /*height:100%*/">
+<tr>
+<td style="height:206px;">
+<table cellpadding="0" cellspacing="0" border="0" style="width:100%; height:100%">
+<tr>
+<td style="height:206px;vertical-align:top;">
+    <table cellpadding="0" cellspacing="0" border="0" style="width:100%; height:100%">
+        <tr>
+            <td style="background-color:#F9F6F6; background-image: url(/img/m-p-new.gif); background-repeat: repeat-x; background-position: right; height:176px">
+                <table cellpadding="0" cellspacing="0" border="0" style="width:100%; background-image: url(/img/m-bg-new.jpg); background-repeat: no-repeat; background-position: right;">
+                    <tr>
+                        <td style="width:350px"><a href="/uk/" title="ЧП Ворон"><img src="/img/logo/logo.png" alt="ЧП Ворон. Электронные компоненты и радиомонтажное оборудование. Микросхемы, транзисторы, реле, резисторы, конденсаторы, паяльное оборудование, припой." style="max-width:327px;max-height:173px;" /></a><br />
+                        </td>
+
+                        <td class="text" style="vertical-align:top;position:relative;">
+                            <div style="position: absolute; right: 32px; bottom: 29px; font-size: 12.5px; text-transform: uppercase; ">
+                                <div><a style="color:white" href="https://voron.dp.ua/blogs.php" title="&raquo; Блоги нашого інтернет-магазину">&raquo;&nbsp;Блоги</a></div>
+                                <div style="margin-top: 7px;"><a style="color:white" href="http://forum.voron.ua" title="&raquo; Форум нашого інтернет-магазину">&raquo;&nbsp;Форум</a></div>
+                                <div style="margin-top: 7px;"><a href="/uk/jobs.php" style="color:white" title="&raquo; Вакансії">&raquo;&nbsp;Вакансії</a></div>
+                            </div>
+                            <div class="h-tel" style="padding-top:20px;padding-bottom: 15px; font-size: 150%">
+                                <a style="margin-left: 10px" href="/uk/contacts-dp.php" title="Детально про магазин Ворон в Дніпрі">Дніпро &nbsp;</a>
+                                <!--a href="/uk/catalog/007730" title="Подарунки" style="color:red">
+                                <div style="position:absolute; top:0; left:90px"><img src="/img/womens-day-64.png"></div>
+                                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Подарунки</a-->
+                                <a style="margin-left: 5%; font-size: 90%" href="/uk/how_to_buy.php" title="» Як оформити замовлення на нашому сайті">Інтернет-магазин</a>
+                            </div>
+<div class="language" style="position: absolute; right: 32px; top: 24px; font-size: 12.5px; text-transform: uppercase; ">
+   <a href="/uk/catalog/passive-components/capacitor/tantalum-capacitor">УКР</a>
+   <a href="/catalog/passive-components/capacitor/tantalum-capacitor?lang=ru">РУС</a>
+   <a href="/en/catalog/passive-components/capacitor/tantalum-capacitor">ENG</a>
+</div>
+                            <div style="display: flex; padding-left: 20px; margin: 10px 0; font-size: 125%; font-weight: bold; color: white; text-shadow: 1px 1px 3px black;">
+                                <style>
+                                    .logo {
+                                        height: 35px;
+                                        opacity: .8;
+                                        padding-left: 10px;
+                                    }
+                                    .logo:hover {
+                                        opacity: 1;
+                                    }
+                                    .logo img {
+                                        height: 32px;
+                                    }
+                                    .logo .phone {
+                                        float: right;
+                                        padding: 6px;
+                                    }
+                                </style>
+                                <div class="logo"><img src="/files/logo/ks3.png"><div class="phone">+38 (067) 565-13-00</div></div>
+                                <div class="logo"><img src="/files/logo/vodafone-240.png"><div class="phone">+38 (050) 58-68-657</div></div>
+                            </div>
+
+                            <div style="line-height:20px">
+                                <div id="for_all_email" style="padding-left: 150px;font-size: 125%;">
+                                    <a href="mailto:unknown" title="Напишіть нам листа">
+                                        <img src="/img/mail.gif" alt="Напишіть нам листа" style="vertical-align:middle " />
+                                    </a>
+                                    <span class="h-tel-l" style="padding-left:4px;font-size: 100%">
+                                      <a href="mailto:unknown" title="Напишіть нам листа">unknown</a></span>
+                                    <br>
+                                                                        <span class="h-tel-l" style="padding-left: 50px;font-size: 100%">
+                                      <a href="/uk/smd-montage" title="контрактне виробництво SMD монтаж">контрактне&nbsp;виробництво&nbsp;SMD&nbsp;монтаж</a>
+                                    </span>
+                                </div>
+
+                                                            </td>
+                    </tr>
+                </table>
+
+            </td>
+        </tr>
+        <tr><td style="background-color: #cfcfcf;"><div style="height:1px; "><img src="/img/t.gif" alt="" style="width:1px; height:1px" /></div></td></tr>
+        <tr>
+            <td style="vertical-align:top;">
+                <div style="height:1px; font-size:1px; background-color:#cfcfcf; width:100%"></div>
+                <table cellpadding="0" cellspacing="0" border="0" style="width:100%;" id="menu">
+                    <tr style="height:25px">
+                        <td class="text" style="text-align:center; white-space:nowrap; ">
+                            &nbsp;&nbsp;<a  href="/uk/catalog" title="&raquo; Каталог продукції, що поставляється">&raquo;&nbsp;Каталог</a></td>
+                        <td class="text" style="text-align:center; white-space:nowrap; ">
+                            &nbsp;&nbsp;<a  href="/uk/sale.php" title="&raquo; Акції нашого магазину">&raquo;&nbsp;Акції</a></td>
+                        <td style="width:1%">&nbsp;</td>
+<!--                        <td class="text" style="text-align:center; white-space:nowrap; ">
+                            &nbsp;&nbsp;<a  href="/uk/prices.php" title="&raquo; Прайс-листи на продукцію, що поставляється">&raquo;&nbsp;Прайс-лист</a></td>
+                        <td style="width:1%">&nbsp;</td>  -->
+                        <td class="text" style="text-align:center; white-space:nowrap; ">
+                            &nbsp;&nbsp;<a  href="/uk/how_to_buy.php" title="&raquo; Як оформити замовлення на нашому сайті">&raquo;&nbsp;Як замовити</a></td>
+                        <td class="text" style="text-align:center; white-space:nowrap; ">
+                            &nbsp;&nbsp;<a  href="/uk/payment.php" title="&raquo; Як оплатити своє замовлення">&raquo;&nbsp;Оплата</a></td>
+                        <td style="width:1%">&nbsp;</td>
+                        <td class="text" style="text-align:center; white-space:nowrap;">
+                            &nbsp;&nbsp;<a  href="/uk/regulations.php" style="color:red" title="&raquo; Правила роботи">&raquo;&nbsp;Правила</a></td>
+                        <td class="text" style="text-align:center; white-space:nowrap; ">
+                            &nbsp;&nbsp;<a  href="/uk/ship.php" title="&raquo; Доставка товарів">&raquo;&nbsp;Доставка</a></td>
+                        <td style="width:1%">&nbsp;</td>
+                        <td class="text" style="text-align:center; white-space:nowrap; ">
+                            &nbsp;&nbsp;<a  href="/uk/contacts.php" title="&raquo; Контакти">&raquo;&nbsp;Контакти</a></td><td style="width:1%">&nbsp;</td>
+                        <td style="width:1%">&nbsp;</td>
+                    </tr>
+
+                </table>
+                <div style="height:2px; font-size:2px; background-color:#dfdfdf; width:100%"></div>
+            </td>
+        </tr>
+    </table>
+</td>
+<td style="background-image: url('/img/basket.gif'); background-repeat: no-repeat; height:206px; width:230px;">
+
+            <div class="basket">
+            <div style="padding-left:50px">
+                <a href="/uk/show.php?p=basket_empty"  title="Інформація про роботу з кошиком" style="font-weight:normal;padding-left:30px"><strong>Кошик порожній!</strong></a>
+                <a href="/uk/show.php?p=basket_empty" title="Як це працює?"><img src="/img/help.gif" alt="" /></a>
+
+                <div style="font-weight: bold;padding: 5px 0 5px 18px;">ВХІД ДЛЯ КЛІЄНТІВ</div><br />
+            </div>
+            <form method="post" action="/login.php">
+                <input type="hidden" name="REQUEST_URI" value="/uk/catalog/passive-components/capacitor" />
+                <table style="padding-left:10px;FONT-SIZE: 1em;COLOR: #0071bc;">
+                    <tr>
+                        <td style="text-align:right;"><label>логін</label></td>
+                        <td><input type="text" name="login" style="width: 150px;HEIGHT: 21px;padding-left:5px" placeholder="логін або e-mail" /></td>
+                    </tr>
+                    <tr>
+                        <td><label style="text-align:right;">пароль</label></td>
+                        <td><input type="password" name="password" style="width: 150px;HEIGHT: 21px;padding-left:5px" placeholder="не обов´язково" /></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a class="fb_login_btn" href="https://www.facebook.com/dialog/oauth?client_id=420257079481653&redirect_uri=https://voron.ua/login-facebook.php&scope=email, public_profile&response_type=code&state=fb21"><img src="/img/f_logo_RGB-Blue_58.png" style="width: 2rem;" alt="facebook" title="Войти через facebook"></a>
+                            <a class="go_login_btn" href="https://accounts.google.com/o/oauth2/auth?client_id=963801005578-dj07rlpinndh2sauq6i321vdv8f5vt3v.apps.googleusercontent.com&redirect_uri=https://voron.ua/login-google.php&scope=https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile&response_type=code&state=go21"><img src="/img/google-icon.png" style="width: 2rem;" alt="Google" title="Войти через Google"></a>
+                        </td>
+                        <td>
+                            <table style="FONT-SIZE: 1em;COLOR: #0071bc;">
+                                <tr>
+                                    <td style="vertical-align:middle;"><input type="image" src="/img/shop/btn-enter.gif" title="Увійти в інтернет-магазин" style="margin-top:5px; margin-right:2px; background-color: #eeeeee; width: 52px; height: 19px;"></td>
+                                    <td style="vertical-align:middle;"><input class="i_radio" type="checkbox" id="a-login" name="a-login"></td>
+                                    <td style="vertical-align:middle;"><label for="a-login">Запам'ятати</label></td>
+                                </tr>
+                            </table>
+                            <a href="/uk/pass-recovery.php" style="font-weight:normal;" title="відновлення паролю">Забули пароль?</a><br>
+                            <a href="/uk/register.php" style="font-weight:normal;" title = "Зареєструватися в інтернет-магазині"><b>Зареєструватися</b></a>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+    <script>
+        voron_email('for_all_email','pavel');
+        voron_email('for_all_email2','pavel');
+    </script>
+
+    <td class="body-elements" valign="top" style="height:100%;">
+        <table cellpadding="0" cellspacing="0" border="0" style="width:100%; height:100%; ">
+
+            <tr>
+                <td valign="top" align="left" style="padding: 10px">
+                    <div style="clear: both;display: flex;justify-content: center;">
+                        <div id="news_block" class="price_selector news_selector">
+        <div id="news_paper_1" data-id="113" data-mask="2" class="news_paper news_banner" style="color:blue">
+            <h2 style="font-style:italic">Шановні клієнти інтернет-магазину!</h2>
+<p>
+<br/>
+<strong> Можливі тимчасові затримки відвантаження товарів транспортними компаніями. Вибачте за незручності.</strong></p>
+        </div>
+        <div id="news_paper_2" data-id="109" data-mask="1" class="news_paper news_banner">
+            <p><a href="https://novapay.ua/credit/" target="_blank"><img alt="" src="/files/pic/news/nova_poshta_960%D1%8590.png" style="height:80px; padding-top:10px; width:853px" /></a></p>
+        </div>
+         <div  class="news_all_block" >
+            <a href="https://voron.ua/new.php" title="Посмотреть все Новости">Все Новости</a>
+         </div>
+
+        <div class="news_dot_line">
+          <hr id="news_1" class="news_dot " />          <hr id="news_2" class="news_dot " />        </div>
+    </div>
+    <script src="/js/rotator.js"></script>
+                    </div>
+<style>
+.d-flex {display: flex;}
+.btn-search {align-items: center; border: 0; outline: none; cursor: pointer;}
+.div-search {border: 2px solid #c4c4c4; border-radius: 7px; height: 36px; width: 60%; padding: 0 4px 0 8px;}
+.div-search:focus-within {border: 2px solid black}
+::placeholder {
+    color: lightgray;
+    opacity: 1; /* Firefox */
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: lightgray;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: lightgray;
+}
+#history {
+    display: none;
+    overflow: visible;
+    position: absolute;
+    z-index: 1000;
+    min-width: 400px;
+    background-color: #ffffff;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    padding: 0 0 10px 0;
+    font-size:12px;
+    line-height: normal;
+    box-shadow: 3px 3px 10px 5px #B49999;
+    border-radius: 0px 0px 7px 7px;
+    border: 1px solid #EEEEEE;
+}
+.history_line {
+    padding: 5px 5px 5px 17px;
+}
+.search_history {
+    cursor: pointer;
+}
+.search_overlay {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    display: none;
+    position: fixed;
+    cursor: default;
+}
+</style>
+                    <div class="d-flex" style="padding: 20px 0 0 20px;">
+                        <div id="search_input_name" style="padding-top: 4px; width: 90px; font-size: 25px; color: #898989;">
+                            Пошук:
+                        </div>
+                        <div class="d-flex div-search">
+                            <div class="d-flex" style="flex: 1; z-index: 3;">
+                                <div style="flex: 1; height: 33px; line-height: 33px;">
+                                    <form id="search_form" method="GET" action="/search.php">
+                                        <input class="input" id="search" name="search" style="height: 33px; line-height: 33px; width: 100%; border: none; outline: none; background-color: transparent; color: rgba(0,0,0,.87); font-size: 2em;" value="" autocomplete="off" placeholder="пошук" onkeyup="final_transcript=final_span.innerHTML=search.value; ajax_search()">
+                                    </form>
+                                </div>
+                                <div class="d-flex" style="background-color: #fff; line-height: 33px; padding: 0 8px; border-radius: 16px;">
+                                    <div class="d-flex btn-search" style="color: #898989;" title="Історія" role="button" onClick="$('.search_overlay').show();$('#history').toggle();$('#result').hide();">
+                                        <span class="material-icons">arrow_drop_down</span>
+                                    </div>
+                                    <div class="d-flex btn-search" style="color: #898989;" title="Очистити" role="button" onClick="final_span.innerHTML=search.value=interim_span.innerHTML=final_transcript=interim_transcript=''; $('#result').hide(200); search.focus(); search.placeholder='поиск';">
+                                        <span class="material-icons">close</span>
+                                    </div>
+                                    <div id="div_start" class="d-flex btn-search" title="Голосове введення" role="button">
+                                        <button id="start_button" type="button" onclick="startButton(event)" style="background-color: #fff; border: 0; cursor: pointer; padding: 0 0;">
+                                            <img alt="Start" id="start_img" src="/img/icons/mic.gif" style="height: 30px;">
+                                        </button>
+                                    </div>
+                                    <div class="d-flex btn-search" style="color: #2483ff" title="Шукати" role="button" onclick="$('#search_form').submit()">
+                                        <span class="material-icons">search</span>
+                                        Знайти                                    </div>
+                                </div>
+                            </div>
+                            <div id="results" style="position: absolute; height: 34px; line-height: 34px; font-size: 2em; font-family: Arial; max-width: 60%; overflow: hidden;">
+                                <span class="final" id="final_span" style="color: transparent"></span>
+                                <span class="interim" id="interim_span" style="color: gray"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="info" style="margin: 0 0 10px 110px; font-size: 12px">
+                        <p id="info_start">
+                            Для пошуку введіть текст або натисніть на значок мікрофона і почніть говорити.
+                        </p>
+                        <p id="info_speak_now" style="display:none">
+                            Говоріть зараз.
+                        </p>
+                        <p id="info_network" style="display:none">
+                            Служба розпізнавання мови цього браузера недоступна у вашій країні. Скористайтеся                            <a href="//www.google.com/chrome">Google Chrome</a>.
+                        </p>
+                        <p id="info_no_speech" style="display:none">
+                            Мови не виявлено. Можливо, вам доведеться налаштувати                            <a href="//support.google.com/chrome/answer/2693767?hl=uk&ref_topic=7439724">
+                            параметри мікрофона</a>.
+                        </p>
+                        <p id="info_no_microphone" style="display:none">
+                            Мікрофон не знайдено. Переконайтеся, що мікрофон встановлено та                            <a href="//support.google.com/chrome/answer/2693767?hl=uk&ref_topic=7439724">
+                            налаштован правильно</a>.
+                        </p>
+                        <p id="info_allow" style="display:none">
+                            Натисніть кнопку «Дозволити» вище, щоб увімкнути мікрофон.
+                        </p>
+                        <p id="info_denied" style="display:none">
+                            Було відмовлено у дозволі на використання мікрофона.
+                        </p>
+                        <p id="info_blocked" style="display:none">
+                            Дозвіл на використання мікрофона заблоковано. Щоб змінити, перейдіть до                            <a href="chrome://settings/content/microphone">chrome://settings/content/microphone</a>
+                        </p>
+                        <p id="info_upgrade" style="display:none">
+                            Цей браузер не підтримує API Web Speech. Встановіть                            <a href="//www.google.com/chrome">Google Chrome</a>.
+                            Голосове введення таже працює в Safari, Яндексі, мобільних браузерах Huawei, Opera і Samsung..
+                        </p>
+                    </div>
+                    <div id="history_wrapper" style="margin-left: 92px">
+                        <div id="history" class="voron-modal">
+                            <div class="search-header" style="padding:10px 15px; background-color: #eeeeee; font-size:18px; border-bottom: 2px solid #DFDFDF; color:#898989; margin-bottom:10px">
+                                <div class="close-selector" title="Закрыть" onclick="$('.search_overlay').hide();$('#history').hide(1000)"><b>×</b></div>
+                                История запросов
+                            </div>
+                            <div id="latest">
+
+                              <div class="history_line">ваша история поиска пуста</div>                            </div>
+                        </div>
+                    </div>
+                    <div id="result_wrapper" style="margin-left: 90px">
+                        <div id="result" class="voron-modal"></div><div id="result_product"></div><div id="stock_empty"></div> <div id="popup-content"></div> <div id="mask"></div><div id="loading" class="loading"></div>
+                    </div>
+<script>
+var final_transcript = "";
+var recognizing = false;
+var ignore_onend;
+var start_timestamp;
+if (!("webkitSpeechRecognition" in window))
+  upgrade();
+//else if (navigator.userAgent.indexOf("Edg/") + navigator.userAgent.indexOf("Miui") > 0)
+//  upgrade();
+else {
+  start_button.style.display = 'inline-block';
+  var recognition = new webkitSpeechRecognition();
+  recognition.continuous = true;
+  recognition.interimResults = true;
+
+  recognition.onstart = function() {
+    recognizing = true;
+    showInfo('info_speak_now');
+    start_img.src = '/img/icons/mic-animate.gif';
+  };
+
+  recognition.onerror = function(event) {
+    if (event.error == 'audio-capture') {
+      start_img.src = '/img/icons/mic.gif';
+      showInfo('info_no_microphone');
+      ignore_onend = true;
+    }
+    if (event.error == 'network') {
+      start_img.src = '/img/icons/mic.gif';
+      showInfo('info_network');
+      ignore_onend = true;
+    }
+    if (event.error == 'no-speech') {
+      start_img.src = '/img/icons/mic.gif';
+      showInfo('info_no_speech');
+      ignore_onend = true;
+    }
+    if (event.error == 'not-allowed') {
+      if (event.timeStamp - start_timestamp < 100) {
+        showInfo('info_blocked');
+      } else {
+        showInfo('info_denied');
+      }
+      ignore_onend = true;
+    }
+  };
+
+  recognition.onend = function() {
+    recognizing = false;
+    if (ignore_onend) {
+      return;
+    }
+    start_img.src = '/img/icons/mic.gif';
+    if (!final_transcript) {
+      showInfo('info_start');
+      return;
+    }
+    showInfo('');
+  };
+
+  recognition.onresult = function(event) {
+    var interim_transcript = '';
+    if (typeof(event.results) == 'undefined') {
+      recognition.onend = null;
+      recognition.stop();
+      upgrade();
+      return;
+    }
+    search.removeAttribute("placeholder");
+    for (var i = event.resultIndex; i < event.results.length; ++i) {
+      if (event.results[i].isFinal) {
+        final_transcript += event.results[i][0].transcript;
+      } else {
+        interim_transcript += event.results[i][0].transcript;
+      }
+    }
+    final_span.innerHTML = search.value = final_transcript;
+    interim_span.innerHTML = interim_transcript;
+    ajax_search();
+  };
+}
+
+function upgrade() {
+  start_button.style.visibility = 'hidden';
+  showInfo('info_upgrade');
+}
+
+function startButton(event) {
+  if (recognizing) {
+    recognition.stop();
+    interim_span.innerHTML = '';
+    search.placeholder="поиск";
+    return;
+  }
+  final_transcript = final_span.innerHTML = search.value ? search.value + ' ' : '';
+  interim_span.innerHTML = '';
+  search.placeholder="говорите";
+  search.focus();
+  $('.search_overlay').hide()
+  $('#result').hide(200)
+  recognition.lang = 'uk_UA';
+  recognition.start();
+  ignore_onend = false;
+  start_img.src = '/img/icons/mic-slash.gif';
+  showInfo('info_allow');
+  start_timestamp = event.timeStamp;
+}
+
+function showInfo(s) {
+  if (s) {
+    for (var child = info.firstChild; child; child = child.nextSibling) {
+      if (child.style) {
+        child.style.display = child.id == s ? 'inline' : 'none';
+      }
+    }
+    info.style.visibility = 'visible';
+  } else {
+    info.style.visibility = 'hidden';
+  }
+}
+$(".search_history").click(function(){
+    search.value=$(this).html()
+    $("#history").hide()
+    ajax_search()
+})
+$(".search_overlay").click(function(){
+    search.placeholder="поиск";
+    $(".loading,.search_overlay,.voron-modal").hide()
+})
+</script>
+
+    <div class="head_col">
+<style>
+.item, .item a{
+    font-size: 12px;
+    font-weight: normal;
+}
+</style>
+        <span class="all">
+            <a href="/uk/catalog" style="padding-left: 53px;" title="Весь каталог">Весь каталог</a>
+        </span>
+        <span class="item">
+            ↠ <a href="/uk/catalog/passive-components" title="Резисторы,&#13;Конденсаторы,&#13;Варисторы,&#13;Термисторы (терморезисторы),&#13;Предохранители,&#13;Разрядники,&#13;Трансформаторы,&#13;Сердечники, каркасы, скобы,&#13;Резонаторы кварцевые, керамические,&#13;Кварцевые генераторы,&#13;Звукоизлучатели,&#13;Дроссели, катушки индуктивности,&#13;Микрофоны">Пасивні компоненти<gtran/></a>
+            ↠ <a href="/uk/catalog/passive-components/capacitor" title="Конденсаторы электролитические,&#13;Конденсаторы танталовые SMD,&#13;Конденсаторы керамические SMD,&#13;Конденсаторы керамические многослойные выводные,&#13;Конденсаторы керамические высоковольтные,&#13;Конденсаторы пленочные,&#13;Конденсаторы подстроечные,&#13;Конденсаторы пусковые,&#13;Ионисторы">Конденсатори<gtran/></a>
+            ↠ <a href="/uk/catalog/passive-components/capacitor/tantalum-capacitor" title="Конденсатори танталові SMD">Конденсатори танталові SMD<gtran/></a>
+        </span>
+</div>
+    <div style="margin-top:10px; margin-left:110px; font-size:150%; margin-bottom: 15px;"><b>Конденсатори танталові SMD<gtran/></b>
+            </div>
+    <div id="flt_res_009239">    <div style=" display: flex; ">
+        <div style=" display: flex; flex-direction: column; flex-wrap: wrap; height: 100%;">
+            <div style="order: 2;"> <div style="margin: 5px 5px 10px 10px;font-size: 13px;">
+                <h2 style=" text-transform: uppercase; text-align: left; padding: 10px 0; color: #ff6420; ">Фільтр параметрів</h2><div style="display: flex;align-items:center;"><table style="padding-top: 5px;"><tr>
+                                        <td nowrap><b>Тип конденсатора:</b> </td>
+                                        </tr><tr>
+                                        <td>Танталовый</td>
+                                        </tr><tr>
+                                        <td nowrap><b>Применение/серия:</b> </td>
+                                        </tr><tr>
+                                        <td>Общего применения</td>
+                                        </tr><tr>
+                                        <td nowrap><b>Рабочая температура:</b> </td>
+                                        </tr><tr>
+                                        <td>-55°C ... +125°C</td>
+                                        </tr></table></div></div><div id="filter_009239" style="display: flex;flex-wrap: wrap; flex-direction: column;float:left;">
+    <div class="check-filter-block" ><div class="caption" style="">Виробник</div>
+     <div id="fl_manufacturer_009239" class="check-filter"><label  >            
+                 <input type="checkbox" name="manufacturer" value="532"  >
+                 <span class="check-filter-value" >AVX</span> 
+                 <span class="check-filter-amount">31</span>
+             </label><label class="input-disabled" >            
+                 <input type="checkbox" name="manufacturer" value="0"  disabled>
+                 <span class="check-filter-value" >Не вказано</span> 
+                 <span class="check-filter-amount">0</span>
+             </label><label class="input-disabled" >            
+                 <input type="checkbox" name="manufacturer" value="534"  disabled>
+                 <span class="check-filter-value" >KEMET</span> 
+                 <span class="check-filter-amount">0</span>
+             </label></div></div>
+    <div class="check-filter-block" ><div class="caption" style="">Корпус</div>
+     <div id="fl_cover_009239" class="check-filter"><label  >            
+                 <input type="checkbox" name="cover" value="147"  >
+                 <span class="check-filter-value" >A</span> 
+                 <span class="check-filter-amount">2</span>
+             </label><label  >            
+                 <input type="checkbox" name="cover" value="106"  >
+                 <span class="check-filter-value" >B</span> 
+                 <span class="check-filter-amount">10</span>
+             </label><label  >            
+                 <input type="checkbox" name="cover" value="103"  >
+                 <span class="check-filter-value" >C</span> 
+                 <span class="check-filter-amount">5</span>
+             </label><label  >            
+                 <input type="checkbox" name="cover" value="102"  >
+                 <span class="check-filter-value" >D</span> 
+                 <span class="check-filter-amount">12</span>
+             </label><label  >            
+                 <input type="checkbox" name="cover" value="231"  >
+                 <span class="check-filter-value" >E</span> 
+                 <span class="check-filter-amount">2</span>
+             </label></div></div><div class="check-filter-block" ><div class="caption" style="" title="Номинальная Емкость">C<sub>ном</sub></div><div id="fl_Емкость_009239" class="check-filter"><label  >
+        <input type="checkbox" name="param_10" value="1.0E-6"  >
+        <span class="check-filter-value" >1 uF</span>
+        <span class="check-filter-amount">1</span>
+  </label><label  >
+        <input type="checkbox" name="param_10" value="2.2E-6"  >
+        <span class="check-filter-value" >2.2 uF</span>
+        <span class="check-filter-amount">2</span>
+  </label><label  >
+        <input type="checkbox" name="param_10" value="3.3E-6"  >
+        <span class="check-filter-value" >3.3 uF</span>
+        <span class="check-filter-amount">1</span>
+  </label><label  >
+        <input type="checkbox" name="param_10" value="4.7E-6"  >
+        <span class="check-filter-value" >4.7 uF</span>
+        <span class="check-filter-amount">3</span>
+  </label><label  >
+        <input type="checkbox" name="param_10" value="1.0E-5"  >
+        <span class="check-filter-value" >10 uF</span>
+        <span class="check-filter-amount">6</span>
+  </label><label  >
+        <input type="checkbox" name="param_10" value="2.2E-5"  >
+        <span class="check-filter-value" >22 uF</span>
+        <span class="check-filter-amount">5</span>
+  </label><label  >
+        <input type="checkbox" name="param_10" value="3.3E-5"  >
+        <span class="check-filter-value" >33 uF</span>
+        <span class="check-filter-amount">2</span>
+  </label><label  >
+        <input type="checkbox" name="param_10" value="4.7E-5"  >
+        <span class="check-filter-value" >47 uF</span>
+        <span class="check-filter-amount">1</span>
+  </label><label  >
+        <input type="checkbox" name="param_10" value="0.0001"  >
+        <span class="check-filter-value" >100 uF</span>
+        <span class="check-filter-amount">5</span>
+  </label><label  >
+        <input type="checkbox" name="param_10" value="0.00015"  >
+        <span class="check-filter-value" >150 uF</span>
+        <span class="check-filter-amount">1</span>
+  </label><label  >
+        <input type="checkbox" name="param_10" value="0.00022"  >
+        <span class="check-filter-value" >220 uF</span>
+        <span class="check-filter-amount">2</span>
+  </label><label  >
+        <input type="checkbox" name="param_10" value="0.00033"  >
+        <span class="check-filter-value" >330 uF</span>
+        <span class="check-filter-amount">1</span>
+  </label><label  >
+        <input type="checkbox" name="param_10" value="0.00047"  >
+        <span class="check-filter-value" >470 uF</span>
+        <span class="check-filter-amount">1</span>
+  </label><label class="input-disabled" >
+        <input type="checkbox" name="param_10" value="6.8E-6"  disabled>
+        <span class="check-filter-value" >6.8 uF</span>
+        <span class="check-filter-amount">0</span>
+  </label><label class="input-disabled" >
+        <input type="checkbox" name="param_10" value="1.5E-5"  disabled>
+        <span class="check-filter-value" >15 uF</span>
+        <span class="check-filter-amount">0</span>
+  </label><label class="input-disabled" >
+        <input type="checkbox" name="param_10" value="6.8E-5"  disabled>
+        <span class="check-filter-value" >68 uF</span>
+        <span class="check-filter-amount">0</span>
+  </label></div></div><div class="check-filter-block" ><div class="caption" style="" title="Допуск">±%</div><div id="fl_Tolerance_009239" class="check-filter"><label  >
+        <input type="checkbox" name="param_322" value="10:"  >
+        <span class="check-filter-value" >±10 %</span>
+        <span class="check-filter-amount">30</span>
+  </label><label  >
+        <input type="checkbox" name="param_322" value="20:"  >
+        <span class="check-filter-value" >±20 %</span>
+        <span class="check-filter-amount">1</span>
+  </label></div></div><div class="check-filter-block" ><div class="caption" style="" title="Номинальное Напряжение">V<sub>ном</sub></div><div id="fl_U_rab_009239" class="check-filter"><label  >
+        <input type="checkbox" name="param_33" value="6.3"  >
+        <span class="check-filter-value" >6.3 V</span>
+        <span class="check-filter-amount">1</span>
+  </label><label  >
+        <input type="checkbox" name="param_33" value="10"  >
+        <span class="check-filter-value" >10 V</span>
+        <span class="check-filter-amount">6</span>
+  </label><label  >
+        <input type="checkbox" name="param_33" value="16"  >
+        <span class="check-filter-value" >16 V</span>
+        <span class="check-filter-amount">9</span>
+  </label><label  >
+        <input type="checkbox" name="param_33" value="20"  >
+        <span class="check-filter-value" >20 V</span>
+        <span class="check-filter-amount">3</span>
+  </label><label  >
+        <input type="checkbox" name="param_33" value="25"  >
+        <span class="check-filter-value" >25 V</span>
+        <span class="check-filter-amount">7</span>
+  </label><label  >
+        <input type="checkbox" name="param_33" value="35"  >
+        <span class="check-filter-value" >35 V</span>
+        <span class="check-filter-amount">3</span>
+  </label><label  >
+        <input type="checkbox" name="param_33" value="50"  >
+        <span class="check-filter-value" >50 V</span>
+        <span class="check-filter-amount">2</span>
+  </label></div></div><div class="check-filter-block" ><div class="caption" style="" title="Способ монтажа">Монтаж</div><div id="fl_Mont_009239" class="check-filter"><label  >
+        <input type="checkbox" name="param_290" value="1"  >
+        <span class="check-filter-value" >Поверхностный (SMD)</span>
+        <span class="check-filter-amount">31</span>
+  </label><label class="input-disabled" >
+        <input type="checkbox" name="param_290" value="6"  disabled>
+        <span class="check-filter-value" >SMD монтаж</span>
+        <span class="check-filter-amount">0</span>
+  </label></div></div><div class="check-filter-block" ><div class="caption" style="" title="" style="text-overflow: ellipsis;">Маркировка</div><div id="fl_mark_009239" class="check-filter"><label  >
+        <input type="checkbox" name="param_287" value="105V"  >
+        <span class="check-filter-value" >105V</span>
+        <span class="check-filter-amount">1</span>
+  </label><label  >
+        <input type="checkbox" name="param_287" value="106C"  >
+        <span class="check-filter-value" >106C</span>
+        <span class="check-filter-amount">1</span>
+  </label><label  >
+        <input type="checkbox" name="param_287" value="106D"  >
+        <span class="check-filter-value" >106D</span>
+        <span class="check-filter-amount">1</span>
+  </label><label  >
+        <input type="checkbox" name="param_287" value="106E"  >
+        <span class="check-filter-value" >106E</span>
+        <span class="check-filter-amount">1</span>
+  </label><label  >
+        <input type="checkbox" name="param_287" value="106T"  >
+        <span class="check-filter-value" >106T</span>
+        <span class="check-filter-amount">2</span>
+  </label><label  >
+        <input type="checkbox" name="param_287" value="106V"  >
+        <span class="check-filter-value" >106V</span>
+        <span class="check-filter-amount">1</span>
+  </label><label  >
+        <input type="checkbox" name="param_287" value="107A"  >
+        <span class="check-filter-value" >107A</span>
+        <span class="check-filter-amount">3</span>
+  </label><label  >
+        <input type="checkbox" name="param_287" value="107C"  >
+        <span class="check-filter-value" >107C</span>
+        <span class="check-filter-amount">1</span>
+  </label><label  >
+        <input type="checkbox" name="param_287" value="107D"  >
+        <span class="check-filter-value" >107D</span>
+        <span class="check-filter-amount">1</span>
+  </label><label  >
+        <input type="checkbox" name="param_287" value="157C"  >
+        <span class="check-filter-value" >157C</span>
+        <span class="check-filter-amount">1</span>
+  </label><label  >
+        <input type="checkbox" name="param_287" value="225E"  >
+        <span class="check-filter-value" >225E</span>
+        <span class="check-filter-amount">2</span>
+  </label><label  >
+        <input type="checkbox" name="param_287" value="226C"  >
+        <span class="check-filter-value" >226C</span>
+        <span class="check-filter-amount">2</span>
+  </label><label  >
+        <input type="checkbox" name="param_287" value="226E"  >
+        <span class="check-filter-value" >226E</span>
+        <span class="check-filter-amount">2</span>
+  </label><label  >
+        <input type="checkbox" name="param_287" value="226V"  >
+        <span class="check-filter-value" >226V</span>
+        <span class="check-filter-amount">1</span>
+  </label><label  >
+        <input type="checkbox" name="param_287" value="227A"  >
+        <span class="check-filter-value" >227A</span>
+        <span class="check-filter-amount">1</span>
+  </label><label  >
+        <input type="checkbox" name="param_287" value="227C"  >
+        <span class="check-filter-value" >227C</span>
+        <span class="check-filter-amount">1</span>
+  </label><label  >
+        <input type="checkbox" name="param_287" value="335E"  >
+        <span class="check-filter-value" >335E</span>
+        <span class="check-filter-amount">1</span>
+  </label><label  >
+        <input type="checkbox" name="param_287" value="336A"  >
+        <span class="check-filter-value" >336A</span>
+        <span class="check-filter-amount">1</span>
+  </label><label  >
+        <input type="checkbox" name="param_287" value="336C"  >
+        <span class="check-filter-value" >336C</span>
+        <span class="check-filter-amount">1</span>
+  </label><label  >
+        <input type="checkbox" name="param_287" value="337A"  >
+        <span class="check-filter-value" >337A</span>
+        <span class="check-filter-amount">1</span>
+  </label><label  >
+        <input type="checkbox" name="param_287" value="475C"  >
+        <span class="check-filter-value" >475C</span>
+        <span class="check-filter-amount">1</span>
+  </label><label  >
+        <input type="checkbox" name="param_287" value="475D"  >
+        <span class="check-filter-value" >475D</span>
+        <span class="check-filter-amount">1</span>
+  </label><label  >
+        <input type="checkbox" name="param_287" value="475E"  >
+        <span class="check-filter-value" >475E</span>
+        <span class="check-filter-amount">1</span>
+  </label><label  >
+        <input type="checkbox" name="param_287" value="476C"  >
+        <span class="check-filter-value" >476C</span>
+        <span class="check-filter-amount">1</span>
+  </label><label  >
+        <input type="checkbox" name="param_287" value="477J"  >
+        <span class="check-filter-value" >477J</span>
+        <span class="check-filter-amount">1</span>
+  </label><label class="input-disabled" >
+        <input type="checkbox" name="param_287" value=""  disabled>
+        <span class="check-filter-value" >Не вказано</span>
+        <span class="check-filter-amount">0</span>
+  </label><label class="input-disabled" >
+        <input type="checkbox" name="param_287" value="105E"  disabled>
+        <span class="check-filter-value" >105E</span>
+        <span class="check-filter-amount">0</span>
+  </label><label class="input-disabled" >
+        <input type="checkbox" name="param_287" value="105T"  disabled>
+        <span class="check-filter-value" >105T</span>
+        <span class="check-filter-amount">0</span>
+  </label><label class="input-disabled" >
+        <input type="checkbox" name="param_287" value="106A"  disabled>
+        <span class="check-filter-value" >106A</span>
+        <span class="check-filter-amount">0</span>
+  </label><label class="input-disabled" >
+        <input type="checkbox" name="param_287" value="107J"  disabled>
+        <span class="check-filter-value" >107J</span>
+        <span class="check-filter-amount">0</span>
+  </label><label class="input-disabled" >
+        <input type="checkbox" name="param_287" value="225V"  disabled>
+        <span class="check-filter-value" >225V</span>
+        <span class="check-filter-amount">0</span>
+  </label><label class="input-disabled" >
+        <input type="checkbox" name="param_287" value="226A"  disabled>
+        <span class="check-filter-value" >226A</span>
+        <span class="check-filter-amount">0</span>
+  </label><label class="input-disabled" >
+        <input type="checkbox" name="param_287" value="227J"  disabled>
+        <span class="check-filter-value" >227J</span>
+        <span class="check-filter-amount">0</span>
+  </label><label class="input-disabled" >
+        <input type="checkbox" name="param_287" value="335D"  disabled>
+        <span class="check-filter-value" >335D</span>
+        <span class="check-filter-amount">0</span>
+  </label><label class="input-disabled" >
+        <input type="checkbox" name="param_287" value="336E"  disabled>
+        <span class="check-filter-value" >336E</span>
+        <span class="check-filter-amount">0</span>
+  </label><label class="input-disabled" >
+        <input type="checkbox" name="param_287" value="336J"  disabled>
+        <span class="check-filter-value" >336J</span>
+        <span class="check-filter-amount">0</span>
+  </label><label class="input-disabled" >
+        <input type="checkbox" name="param_287" value="337J"  disabled>
+        <span class="check-filter-value" >337J</span>
+        <span class="check-filter-amount">0</span>
+  </label><label class="input-disabled" >
+        <input type="checkbox" name="param_287" value="475V"  disabled>
+        <span class="check-filter-value" >475V</span>
+        <span class="check-filter-amount">0</span>
+  </label><label class="input-disabled" >
+        <input type="checkbox" name="param_287" value="476A"  disabled>
+        <span class="check-filter-value" >476A</span>
+        <span class="check-filter-amount">0</span>
+  </label><label class="input-disabled" >
+        <input type="checkbox" name="param_287" value="476E"  disabled>
+        <span class="check-filter-value" >476E</span>
+        <span class="check-filter-amount">0</span>
+  </label><label class="input-disabled" >
+        <input type="checkbox" name="param_287" value="476J"  disabled>
+        <span class="check-filter-value" >476J</span>
+        <span class="check-filter-amount">0</span>
+  </label><label class="input-disabled" >
+        <input type="checkbox" name="param_287" value="477A"  disabled>
+        <span class="check-filter-value" >477A</span>
+        <span class="check-filter-amount">0</span>
+  </label><label class="input-disabled" >
+        <input type="checkbox" name="param_287" value="686A"  disabled>
+        <span class="check-filter-value" >686A</span>
+        <span class="check-filter-amount">0</span>
+  </label></div></div></div> </div>         </div>
+        <div class="text" style=" width: 100%; ">
+            <div class="text" style="padding:5px 0 10px 10px;clear:both;display: flex;align-items: center;">
+                <div id="page_nav" style="text-align: left;"></div>
+                                    <div style="font-size: 13px;"><b>Показано товарів: </b> з 1                        по 31                        (31 всього)
+                    </div>
+                                <div id="is_available" style="margin:0 15px 0 15px;cursor: default;display: inline;vertical-align: middle;">
+                    <input type="checkbox" style="vertical-align: middle;"
+                           value="1" checked>
+                    <span style="color: #FF8C57">В наявності</span>
+                </div>
+                <div id="is_sale" style="margin:0 15px 0 0;cursor: default;display: inline;vertical-align: middle;">
+                    <input type="checkbox" style="vertical-align: middle;"
+                           value="0" >
+                    <span style="">Акційні</span>
+                </div>
+                <div id="is_discount" style="margin:0 35px 0 0;cursor: default;display: inline;vertical-align: middle;">
+                    <input type="checkbox" style="vertical-align: middle;"
+                           value="0" >
+                    <span style="">Уцінені</span>
+                </div>
+                <div>
+                    <input type="button" id="copy_link_show" class="button_simple" style="margin: 0 auto; display: inline-block;height:20px;"
+                           onclick="copy_link_show('009239');" value="Поділитися"></div>
+                <div id="copy_link" style="display:none;">
+                    <input type="button" class="button_simple clip_link_btn" data-clipboard-target="#clip_link"
+                           style="margin: 0 auto; display: inline-block; height:20px;" value="Копіювати посилання">
+                    <textarea type="text" id="clip_link" readonly style="margin: 0 auto; width: 250px; display: inline-block; margin-left: 15px; height: 50px; vertical-align: middle;" onclick="this.select();"></textarea>
+                </div>
+                <div><input type="button" class="button_simple" style="margin: 0 auto; display: inline-block; margin-left: 35px;height:20px;"
+                            onclick="clear_filter_var('filter_009239');" value="Скинути все">
+                </div>
+            </div>
+                            <div id="product_line_container">
+                    <table id="product_line" class="table_grey" style="clear: both;width: 99%;">
+                        <tr style="height: 3em;" id="product_line_head"><th>Код</th><th><i class="material-icons">photo_camera</i></th><th style='min-width: 240px'><div style="white-space:nowrap;">
+<div >Найменування</div>
+<a href="#" title="Сортування за Збільшенням" style="white-space: nowrap;font-size:12px;;color:#0071bc"  onclick="return sort_item_col('name', 1);">&#9650;</a
+><a href="#" title="Сортування за Зменшенням" style="white-space: nowrap;font-size:12px;;color:#0071bc"  onclick="return sort_item_col('name', 2);">&#9660;</a></div></th><th>Залишки</th><th><div style="white-space:nowrap;">
+<div >Ціна</div>
+<a href="#" title="Сортування за Збільшенням" style="white-space: nowrap;font-size:12px;;color:#0071bc"  onclick="return sort_item_col('price_roznica', 1);">&#9650;</a
+><a href="#" title="Сортування за Зменшенням" style="white-space: nowrap;font-size:12px;;color:#0071bc"  onclick="return sort_item_col('price_roznica', 2);">&#9660;</a></div></th><th><i title="Кошик" class="material-icons">shopping_cart</i></th><th title='Номинальная Емкость'><div style="font-size: 40px;text-align: left;color: #dfdfdf;margin-left: -10px;">1</div><div style="white-space:nowrap;margin-top:-40px;">
+<div style="color:#FF6600;">C<sub>ном</sub></div>
+<a href="#" title="Сортування за Збільшенням" style="white-space: nowrap;font-size:17px;color:#FF6600" sort1="10:1" onclick="return sort_item_col('10', 1);">&#9650;</a
+><a href="#" title="Сортування за Зменшенням" style="white-space: nowrap;font-size:12px;;color:#0071bc"  onclick="return sort_item_col('10', 2);">&#9660;</a><b style='position: relative;top: -7px;font-size: 12px;' title='Убрать сортировку'><a href="#" title="Убрать сортировку" onclick="return sort_item_col('10', 0)";>×</a></b></div></th><th title='Номинальное Напряжение'><div style="font-size: 40px;text-align: left;color: #dfdfdf;margin-left: -10px;">2</div><div style="white-space:nowrap;margin-top:-40px;">
+<div style="color:#FF6600;">V<sub>ном</sub></div>
+<a href="#" title="Сортування за Збільшенням" style="white-space: nowrap;font-size:17px;color:#FF6600" sort2="33:1" onclick="return sort_item_col('33', 1);">&#9650;</a
+><a href="#" title="Сортування за Зменшенням" style="white-space: nowrap;font-size:12px;;color:#0071bc"  onclick="return sort_item_col('33', 2);">&#9660;</a><b style='position: relative;top: -7px;font-size: 12px;' title='Убрать сортировку'><a href="#" title="Убрать сортировку" onclick="return sort_item_col('33', 0)";>×</a></b></div></th><th title='Допуск'><div style="white-space:nowrap;">
+<div >±%</div>
+<a href="#" title="Сортування за Збільшенням" style="white-space: nowrap;font-size:12px;;color:#0071bc"  onclick="return sort_item_col('322', 1);">&#9650;</a
+><a href="#" title="Сортування за Зменшенням" style="white-space: nowrap;font-size:12px;;color:#0071bc"  onclick="return sort_item_col('322', 2);">&#9660;</a></div></th><th title='Рабочая температура'><div style="white-space:nowrap;">
+<div >t<sub>раб</sub></div>
+<a href="#" title="Сортування за Збільшенням" style="white-space: nowrap;font-size:12px;;color:#0071bc"  onclick="return sort_item_col('288', 1);">&#9650;</a
+><a href="#" title="Сортування за Зменшенням" style="white-space: nowrap;font-size:12px;;color:#0071bc"  onclick="return sort_item_col('288', 2);">&#9660;</a></div></th><th title='Маркировка'><div style="white-space:nowrap;">
+<div >Маркировка</div>
+<a href="#" title="Сортування за Збільшенням" style="white-space: nowrap;font-size:12px;;color:#0071bc"  onclick="return sort_item_col('287', 1);">&#9650;</a
+><a href="#" title="Сортування за Зменшенням" style="white-space: nowrap;font-size:12px;;color:#0071bc"  onclick="return sort_item_col('287', 2);">&#9660;</a></div></th></tr> <script>
+        // сортировка колонки
+        function sort_item_col(id, val) {
+            filter_ajax("sort_col", [id, val]);
+            return false;
+        }
+        </script> 
+        <tr id="product_line_002575" data-parent="009239" data-view="1" ><td>002575</td><td style='padding: 2px;'>        <div class="imgsize3"><img src="/files/pic/Kondensator/tecap-b-s.jpg" alt="Конденсатор танталовий<gtran/> 1uF 35V B (TAJB105K035RNJ)" class="pic_small_item item"></div></td><td style='position:relative;'><a href="/uk/catalog/002575--kondensator_tantalovyy_1uf_35v_b_tajb105k035rnj_avx_avx_corporation_b_b" id='title_product' title="Описание и цены Конденсатор танталовий<gtran/> 1uF 35V B (TAJB105K035RNJ)" >Конденсатор танталовий<gtran/> 1uF 35V B (TAJB105K035RNJ)</a><br><div style="font-size:80%;margin:0.25em 0em 0em 1em"></div></td><td align='right' nowrap><b>всього: 601 шт.</b><br><span style="color:rgba(0,0,255,0.75);" title="Магазин-Днепр">маг ДП: 601 шт.</span></td><td><table><tr>
+        <td style="text-align: right; border: none;padding: 0; padding-right:0px; border-right-width: 0px"><span style= "font-size:10px;">5:</span><br><span style= "font-size:10px;">100:</span><br><span style= "font-size:10px;">1000:</span></td>
+        <td style="text-align: right; border: none;padding: 0; padding-left:3px;border-left-width: 0px"><nobr>4,60</nobr><span style="font-size:10px">грн</span><br><nobr>4,14</nobr><span style="font-size:10px">грн</span><br><nobr>3,91</nobr><span style="font-size:10px">грн</span></td>
+        </tr></table></td><td>            <div id="but_prod_002575" class="no-basket-search"></div></td><td align='right' >1 uF</td><td align='right' >35 V</td><td align='right' >±10 %</td><td align='right' >-55°C ... +125°C</td><td >105V</td></tr>
+        <tr id="product_line_002579" data-parent="009239" data-view="2" ><td>002579</td><td style='padding: 2px;'>        <div class="imgsize3"><img src="/files/pic/Kondensator/tecap-b-s.jpg" alt="Конденсатор танталовий<gtran/> 2.2uF 25V B (TAJB225K025RNJ)" class="pic_small_item item"></div></td><td style='position:relative;'><a href="/uk/catalog/002579--kondensator_tantalovyy_22uf_25v_b_tajb225k025rnj_avx_avx_corporation_b_b" id='title_product' title="Описание и цены Конденсатор танталовий<gtran/> 2.2uF 25V B (TAJB225K025RNJ)" >Конденсатор танталовий<gtran/> 2.2uF 25V B (TAJB225K025RNJ)</a><br><div style="font-size:80%;margin:0.25em 0em 0em 1em"></div></td><td align='right' nowrap><b>всього: 30 шт.</b><br><span style="color:rgba(0,0,255,0.75);" title="Магазин-Днепр">маг ДП: 30 шт.</span></td><td><table><tr>
+        <td style="text-align: right; border: none;padding: 0; padding-right:0px; border-right-width: 0px"><span style= "font-size:10px;">5:</span><br><span style= "font-size:10px;">100:</span><br><span style= "font-size:10px;">1000:</span></td>
+        <td style="text-align: right; border: none;padding: 0; padding-left:3px;border-left-width: 0px"><nobr>4,56</nobr><span style="font-size:10px">грн</span><br><nobr>4,10</nobr><span style="font-size:10px">грн</span><br><nobr>3,42</nobr><span style="font-size:10px">грн</span></td>
+        </tr></table></td><td>            <div id="but_prod_002579" class="no-basket-search"></div></td><td align='right' >2.2 uF</td><td align='right' >25 V</td><td align='right' >±10 %</td><td align='right' >-55°C ... +125°C</td><td >225E</td></tr>
+        <tr id="product_line_014220" data-parent="009239" data-view="3" ><td>014220</td><td style='padding: 2px;'>        <div class="imgsize3"><img src="/files/pic/Kondensator/tecap-a-s.jpg" alt="Конденсатор танталовий<gtran/> 2.2uF 25V A (TAJA225K025RNJ)" class="pic_small_item item"></div></td><td style='position:relative;'><a href="/uk/catalog/014220--kondensator_tantalovyy_22uf_25v_a_taja225k025rnj_avx_avx_corporation_a_a" id='title_product' title="Описание и цены Конденсатор танталовий<gtran/> 2.2uF 25V A (TAJA225K025RNJ)" >Конденсатор танталовий<gtran/> 2.2uF 25V A (TAJA225K025RNJ)</a><br><div style="font-size:80%;margin:0.25em 0em 0em 1em"></div></td><td align='right' nowrap><b>всього: 1990 шт.</b><br><span style="color:rgba(0,0,255,0.75);" title="Магазин-Днепр">маг ДП: 1990 шт.</span></td><td><table><tr>
+        <td style="text-align: right; border: none;padding: 0; padding-right:0px; border-right-width: 0px"><span style= "font-size:10px;">5:</span><br><span style= "font-size:10px;">100:</span><br><span style= "font-size:10px;">1000:</span></td>
+        <td style="text-align: right; border: none;padding: 0; padding-left:3px;border-left-width: 0px"><nobr>6,40</nobr><span style="font-size:10px">грн</span><br><nobr>5,76</nobr><span style="font-size:10px">грн</span><br><nobr>5,12</nobr><span style="font-size:10px">грн</span></td>
+        </tr></table></td><td>            <div id="but_prod_014220" class="no-basket-search"></div></td><td align='right' >2.2 uF</td><td align='right' >25 V</td><td align='right' >±10 %</td><td align='right' >-55°C ... +125°C</td><td >225E</td></tr>
+        <tr id="product_line_014214" data-parent="009239" data-view="4" ><td>014214</td><td style='padding: 2px;'>        <div class="imgsize3"><img src="/files/pic/Kondensator/tecap-b-s.jpg" alt="Конденсатор танталовий<gtran/> 3.3uF 25V B (TAJB335K025RNJ)" class="pic_small_item item"></div></td><td style='position:relative;'><a href="/uk/catalog/014214--kondensator_tantalovyy_33uf_25v_b_tajb335k025rnj_b_b" id='title_product' title="Описание и цены Конденсатор танталовий<gtran/> 3.3uF 25V B (TAJB335K025RNJ)" >Конденсатор танталовий<gtran/> 3.3uF 25V B (TAJB335K025RNJ)</a><br><div style="font-size:80%;margin:0.25em 0em 0em 1em"></div></td><td align='right' nowrap><b>всього: 765 шт.</b><br><span style="color:rgba(0,0,255,0.75);" title="Магазин-Днепр">маг ДП: 765 шт.</span></td><td><table><tr>
+        <td style="text-align: right; border: none;padding: 0; padding-right:0px; border-right-width: 0px"><span style= "font-size:10px;">5:</span><br><span style= "font-size:10px;">100:</span><br><span style= "font-size:10px;">1000:</span></td>
+        <td style="text-align: right; border: none;padding: 0; padding-left:3px;border-left-width: 0px"><nobr>4,28</nobr><span style="font-size:10px">грн</span><br><nobr>3,85</nobr><span style="font-size:10px">грн</span><br><nobr>3,21</nobr><span style="font-size:10px">грн</span></td>
+        </tr></table></td><td>            <div id="but_prod_014214" class="no-basket-search"></div></td><td align='right' >3.3 uF</td><td align='right' >25 V</td><td align='right' >±10 %</td><td align='right' >-55°C ... +125°C</td><td >335E</td></tr>
+        <tr id="product_line_002589" data-parent="009239" data-view="5" ><td>002589</td><td style='padding: 2px;'>        <div class="imgsize3"><img src="/files/pic/Kondensator/tecap-b-s.jpg" alt="Конденсатор танталовий<gtran/> 4.7uF 16V B (TAJB475K016RNJ)" class="pic_small_item item"></div></td><td style='position:relative;'><a href="/uk/catalog/002589--kondensator_tantalovyy_47uf_16v_b_tajb475k016rnj_avx_avx_corporation_b_b" id='title_product' title="Описание и цены Конденсатор танталовий<gtran/> 4.7uF 16V B (TAJB475K016RNJ)" >Конденсатор танталовий<gtran/> 4.7uF 16V B (TAJB475K016RNJ)</a><br><div style="font-size:80%;margin:0.25em 0em 0em 1em"></div></td><td align='right' nowrap><b>всього: 1260 шт.</b><br><span style="color:rgba(0,0,255,0.75);" title="Магазин-Днепр">маг ДП: 1260 шт.</span></td><td><table><tr>
+        <td style="text-align: right; border: none;padding: 0; padding-right:0px; border-right-width: 0px"><span style= "font-size:10px;">10:</span><br><span style= "font-size:10px;">100:</span><br><span style= "font-size:10px;">1000:</span></td>
+        <td style="text-align: right; border: none;padding: 0; padding-left:3px;border-left-width: 0px"><nobr>6,00</nobr><span style="font-size:10px">грн</span><br><nobr>5,40</nobr><span style="font-size:10px">грн</span><br><nobr>4,80</nobr><span style="font-size:10px">грн</span></td>
+        </tr></table></td><td>            <div id="but_prod_002589" class="no-basket-search"></div></td><td align='right' >4.7 uF</td><td align='right' >16 V</td><td align='right' >±10 %</td><td align='right' >-55°C ... +125°C</td><td >475C</td></tr>
+        <tr id="product_line_014877" data-parent="009239" data-view="6" ><td>014877</td><td style='padding: 2px;'>        <div class="imgsize3"><img src="/files/pic/Kondensator/014877-s.jpg" alt="Конденсатор танталовий<gtran/> 4.7uF 20V A (TAJA475K020RNJ)" class="pic_small_item item"></div></td><td style='position:relative;'><a href="/uk/catalog/014877--kondensator_tantalovyy_47uf_20v_a_taja475k020rnj_avx_avx_corporation_a_a" id='title_product' title="Описание и цены Конденсатор танталовий<gtran/> 4.7uF 20V A (TAJA475K020RNJ)" >Конденсатор танталовий<gtran/> 4.7uF 20V A (TAJA475K020RNJ)</a><br><div style="font-size:80%;margin:0.25em 0em 0em 1em"></div></td><td align='right' nowrap><b>всього: 375 шт.</b><br><span style="color:rgba(0,0,255,0.75);" title="Магазин-Днепр">маг ДП: 375 шт.</span></td><td><table><tr>
+        <td style="text-align: right; border: none;padding: 0; padding-right:0px; border-right-width: 0px"><span style= "font-size:10px;">5:</span><br><span style= "font-size:10px;">100:</span><br><span style= "font-size:10px;">1000:</span></td>
+        <td style="text-align: right; border: none;padding: 0; padding-left:3px;border-left-width: 0px"><nobr>6,00</nobr><span style="font-size:10px">грн</span><br><nobr>5,40</nobr><span style="font-size:10px">грн</span><br><nobr>4,80</nobr><span style="font-size:10px">грн</span></td>
+        </tr></table></td><td>            <div id="but_prod_014877" class="no-basket-search"></div></td><td align='right' >4.7 uF</td><td align='right' >20 V</td><td align='right' >±10 %</td><td align='right' >-55°C ... +125°C</td><td >475D</td></tr>
+        <tr id="product_line_014215" data-parent="009239" data-view="7" ><td>014215</td><td style='padding: 2px;'>        <div class="imgsize3"><img src="/files/pic/Kondensator/tecap-b-s.jpg" alt="Конденсатор танталовий<gtran/> 4.7uF 25V B (TAJB475K025RNJ)" class="pic_small_item item"></div></td><td style='position:relative;'><a href="/uk/catalog/014215--kondensator_tantalovyy_47uf_25v_b_tajb475k025rnj_avx_avx_corporation_b_b" id='title_product' title="Описание и цены Конденсатор танталовий<gtran/> 4.7uF 25V B (TAJB475K025RNJ)" >Конденсатор танталовий<gtran/> 4.7uF 25V B (TAJB475K025RNJ)</a><br><div style="font-size:80%;margin:0.25em 0em 0em 1em"></div></td><td align='right' nowrap><b>всього: 1042 шт.</b><br><span style="color:rgba(0,0,255,0.75);" title="Магазин-Днепр">маг ДП: 1042 шт.</span></td><td><table><tr>
+        <td style="text-align: right; border: none;padding: 0; padding-right:0px; border-right-width: 0px"><span style= "font-size:10px;">5:</span><br><span style= "font-size:10px;">100:</span><br><span style= "font-size:10px;">1000:</span></td>
+        <td style="text-align: right; border: none;padding: 0; padding-left:3px;border-left-width: 0px"><nobr>6,20</nobr><span style="font-size:10px">грн</span><br><nobr>5,58</nobr><span style="font-size:10px">грн</span><br><nobr>4,96</nobr><span style="font-size:10px">грн</span></td>
+        </tr></table></td><td>            <div id="but_prod_014215" class="no-basket-search"></div></td><td align='right' >4.7 uF</td><td align='right' >25 V</td><td align='right' >±10 %</td><td align='right' >-55°C ... +125°C</td><td >475E</td></tr>
+        <tr id="product_line_002577" data-parent="009239" data-view="8" ><td>002577</td><td style='padding: 2px;'>        <div class="imgsize3"><img src="/files/pic/Kondensator/tecap-b-s.jpg" alt="Конденсатор танталовий<gtran/> 10uF 16V B (TAJB106K016RNJ)" class="pic_small_item item"></div></td><td style='position:relative;'><a href="/uk/catalog/002577--kondensator_tantalovyy_10uf_16v_b_tajb106k016rnj_avx_avx_corporation_b_b" id='title_product' title="Описание и цены Конденсатор танталовий<gtran/> 10uF 16V B (TAJB106K016RNJ)" >Конденсатор танталовий<gtran/> 10uF 16V B (TAJB106K016RNJ)</a><br><div style="font-size:80%;margin:0.25em 0em 0em 1em"></div></td><td align='right' nowrap><b>всього: 1290 шт.</b><br><span style="color:rgba(0,0,255,0.75);" title="Магазин-Днепр">маг ДП: 1290 шт.</span></td><td><table><tr>
+        <td style="text-align: right; border: none;padding: 0; padding-right:0px; border-right-width: 0px"><span style= "font-size:10px;">10:</span><br><span style= "font-size:10px;">100:</span><br><span style= "font-size:10px;">1000:</span></td>
+        <td style="text-align: right; border: none;padding: 0; padding-left:3px;border-left-width: 0px"><nobr>9,00</nobr><span style="font-size:10px">грн</span><br><nobr>8,10</nobr><span style="font-size:10px">грн</span><br><nobr>7,65</nobr><span style="font-size:10px">грн</span></td>
+        </tr></table></td><td>            <div id="but_prod_002577" class="no-basket-search"></div></td><td align='right' >10 uF</td><td align='right' >16 V</td><td align='right' >±10 %</td><td align='right' >-55°C ... +125°C</td><td >106C</td></tr>
+        <tr id="product_line_014881" data-parent="009239" data-view="9" ><td>014881</td><td style='padding: 2px;'>        <div class="imgsize3"><img src="/files/pic/Kondensator/014881-s.jpg" alt="Конденсатор танталовий<gtran/> 10uF 20V B (TAJB106K020RNJ)" class="pic_small_item item"></div></td><td style='position:relative;'><a href="/uk/catalog/014881--kondensator_tantalovyy_10uf_20v_b_tajb106k020rnj_avx_avx_corporation_b_b" id='title_product' title="Описание и цены Конденсатор танталовий<gtran/> 10uF 20V B (TAJB106K020RNJ)" >Конденсатор танталовий<gtran/> 10uF 20V B (TAJB106K020RNJ)</a><br><div style="font-size:80%;margin:0.25em 0em 0em 1em"></div></td><td align='right' nowrap><b>всього: 1145 шт.</b><br><span style="color:rgba(0,0,255,0.75);" title="Магазин-Днепр">маг ДП: 1145 шт.</span></td><td><table><tr>
+        <td style="text-align: right; border: none;padding: 0; padding-right:0px; border-right-width: 0px"><span style= "font-size:10px;">5:</span><br><span style= "font-size:10px;">100:</span><br><span style= "font-size:10px;">1000:</span></td>
+        <td style="text-align: right; border: none;padding: 0; padding-left:3px;border-left-width: 0px"><nobr>11,40</nobr><span style="font-size:10px">грн</span><br><nobr>10,26</nobr><span style="font-size:10px">грн</span><br><nobr>9,69</nobr><span style="font-size:10px">грн</span></td>
+        </tr></table></td><td>            <div id="but_prod_014881" class="no-basket-search"></div></td><td align='right' >10 uF</td><td align='right' >20 V</td><td align='right' >±10 %</td><td align='right' >-55°C ... +125°C</td><td >106D</td></tr>
+        <tr id="product_line_004290" data-parent="009239" data-view="10" ><td>004290</td><td style='padding: 2px;'>        <div class="imgsize3"><img src="/files/pic/Kondensator/tecap-c-s.jpg" alt="Конденсатор танталовий<gtran/> 10uF 25V C (TAJC106K025RNJ)" class="pic_small_item item"></div></td><td style='position:relative;'><a href="/uk/catalog/004290--kondensator_tantalovyy_10uf_25v_c_tajc106k025rnj_avx_avx_corporation_c_c" id='title_product' title="Описание и цены Конденсатор танталовий<gtran/> 10uF 25V C (TAJC106K025RNJ)" >Конденсатор танталовий<gtran/> 10uF 25V C (TAJC106K025RNJ)</a><br><div style="font-size:80%;margin:0.25em 0em 0em 1em"></div></td><td align='right' nowrap><b>всього: 132 шт.</b><br><span style="color:rgba(0,0,255,0.75);" title="Магазин-Днепр">маг ДП: 132 шт.</span></td><td><table><tr>
+        <td style="text-align: right; border: none;padding: 0; padding-right:0px; border-right-width: 0px"><span style= "font-size:10px;">5:</span><br><span style= "font-size:10px;">50:</span><br><span style= "font-size:10px;">500:</span></td>
+        <td style="text-align: right; border: none;padding: 0; padding-left:3px;border-left-width: 0px"><nobr>8,00</nobr><span style="font-size:10px">грн</span><br><nobr>7,20</nobr><span style="font-size:10px">грн</span><br><nobr>6,00</nobr><span style="font-size:10px">грн</span></td>
+        </tr></table></td><td>            <div id="but_prod_004290" class="no-basket-search"></div></td><td align='right' >10 uF</td><td align='right' >25 V</td><td align='right' >±10 %</td><td align='right' >-55°C ... +125°C</td><td >106E</td></tr>
+        <tr id="product_line_014880" data-parent="009239" data-view="11" ><td>014880</td><td style='padding: 2px;'>        <div class="imgsize3"><img src="/files/pic/Kondensator/014880-s.jpg" alt="Конденсатор танталовий<gtran/> 10uF 35V D (TAJD106K035RNJ)" class="pic_small_item item"></div></td><td style='position:relative;'><a href="/uk/catalog/014880--kondensator_tantalovyy_10uf_35v_d_tajd106k035rnj_avx_avx_corporation_d_d" id='title_product' title="Описание и цены Конденсатор танталовий<gtran/> 10uF 35V D (TAJD106K035RNJ)" >Конденсатор танталовий<gtran/> 10uF 35V D (TAJD106K035RNJ)</a><br><div style="font-size:80%;margin:0.25em 0em 0em 1em"></div></td><td align='right' nowrap><b>всього: 585 шт.</b><br><span style="color:rgba(0,0,255,0.75);" title="Магазин-Днепр">маг ДП: 585 шт.</span></td><td><table><tr>
+        <td style="text-align: right; border: none;padding: 0; padding-right:0px; border-right-width: 0px"><span style= "font-size:10px;">1:</span><br><span style= "font-size:10px;">50:</span><br><span style= "font-size:10px;">500:</span></td>
+        <td style="text-align: right; border: none;padding: 0; padding-left:3px;border-left-width: 0px"><nobr>18,00</nobr><span style="font-size:10px">грн</span><br><nobr>16,20</nobr><span style="font-size:10px">грн</span><br><nobr>14,40</nobr><span style="font-size:10px">грн</span></td>
+        </tr></table></td><td>            <div id="but_prod_014880" class="no-basket-search"></div></td><td align='right' >10 uF</td><td align='right' >35 V</td><td align='right' >±10 %</td><td align='right' >-55°C ... +125°C</td><td >106V</td></tr>
+        <tr id="product_line_005978" data-parent="009239" data-view="12" ><td>005978</td><td style='padding: 2px;'>        <div class="imgsize3"><img src="/files/pic/Kondensator/tecap-e-s.jpg" alt="Конденсатор танталовий<gtran/> 10uF 50V E (TAJE106K050RNJ)" class="pic_small_item item"></div></td><td style='position:relative;'><a href="/uk/catalog/005978--kondensator_tantalovyy_10uf_50v_e_taje106k050rnj_e_e" id='title_product' title="Описание и цены Конденсатор танталовий<gtran/> 10uF 50V E (TAJE106K050RNJ)" >Конденсатор танталовий<gtran/> 10uF 50V E (TAJE106K050RNJ)</a><br><div style="font-size:80%;margin:0.25em 0em 0em 1em"></div></td><td align='right' nowrap><b>всього: 31 шт.</b><br><span style="color:rgba(0,0,255,0.75);" title="Магазин-Днепр">маг ДП: 31 шт.</span></td><td><table><tr>
+        <td style="text-align: right; border: none;padding: 0; padding-right:0px; border-right-width: 0px"><span style= "font-size:10px;">1:</span><br><span style= "font-size:10px;">10:</span><br><span style= "font-size:10px;">100:</span></td>
+        <td style="text-align: right; border: none;padding: 0; padding-left:3px;border-left-width: 0px"><nobr>26,00</nobr><span style="font-size:10px">грн</span><br><nobr>24,70</nobr><span style="font-size:10px">грн</span><br><nobr>22,10</nobr><span style="font-size:10px">грн</span></td>
+        </tr></table></td><td>            <div id="but_prod_005978" class="no-basket-search"></div></td><td align='right' >10 uF</td><td align='right' >50 V</td><td align='right' >±10 %</td><td align='right' >-55°C ... +125°C</td><td >106T</td></tr>
+        <tr id="product_line_014879" data-parent="009239" data-view="13" ><td>014879</td><td style='padding: 2px;'>        <div class="imgsize3"><img src="/files/pic/Kondensator/014879-s.jpg" alt="Конденсатор танталовий<gtran/> 10uF 50V D (TAJD106K050RNJ)" class="pic_small_item item"></div></td><td style='position:relative;'><a href="/uk/catalog/014879--kondensator_tantalovyy_10uf_50v_d_tajd106k050rnj_avx_avx_corporation_d_d" id='title_product' title="Описание и цены Конденсатор танталовий<gtran/> 10uF 50V D (TAJD106K050RNJ)" >Конденсатор танталовий<gtran/> 10uF 50V D (TAJD106K050RNJ)</a><br><div style="font-size:80%;margin:0.25em 0em 0em 1em"></div></td><td align='right' nowrap><b>всього: 475 шт.</b><br><span style="color:rgba(0,0,255,0.75);" title="Магазин-Днепр">маг ДП: 475 шт.</span></td><td><table><tr>
+        <td style="text-align: right; border: none;padding: 0; padding-right:0px; border-right-width: 0px"><span style= "font-size:10px;">1:</span><br><span style= "font-size:10px;">50:</span><br><span style= "font-size:10px;">500:</span></td>
+        <td style="text-align: right; border: none;padding: 0; padding-left:3px;border-left-width: 0px"><nobr>48,00</nobr><span style="font-size:10px">грн</span><br><nobr>45,60</nobr><span style="font-size:10px">грн</span><br><nobr>40,80</nobr><span style="font-size:10px">грн</span></td>
+        </tr></table></td><td>            <div id="but_prod_014879" class="no-basket-search"></div></td><td align='right' >10 uF</td><td align='right' >50 V</td><td align='right' >±10 %</td><td align='right' >-55°C ... +125°C</td><td >106T</td></tr>
+        <tr id="product_line_002580" data-parent="009239" data-view="14" ><td>002580</td><td style='padding: 2px;'>        <div class="imgsize3"><img src="/files/pic/Kondensator/tecap-b-s.jpg" alt="Конденсатор танталовий<gtran/> 22uF 16V B (TAJB226K016RNJ)" class="pic_small_item item"></div></td><td style='position:relative;'><a href="/uk/catalog/002580--kondensator_tantalovyy_22uf_16v_b_tajb226k016rnj_avx_avx_corporation_b_b" id='title_product' title="Описание и цены Конденсатор танталовий<gtran/> 22uF 16V B (TAJB226K016RNJ)" >Конденсатор танталовий<gtran/> 22uF 16V B (TAJB226K016RNJ)</a><br><div style="font-size:80%;margin:0.25em 0em 0em 1em"></div></td><td align='right' nowrap><b>всього: 1165 шт.</b><br><span style="color:rgba(0,0,255,0.75);" title="Магазин-Днепр">маг ДП: 1165 шт.</span></td><td><table><tr>
+        <td style="text-align: right; border: none;padding: 0; padding-right:0px; border-right-width: 0px"><span style= "font-size:10px;">5:</span><br><span style= "font-size:10px;">50:</span><br><span style= "font-size:10px;">500:</span></td>
+        <td style="text-align: right; border: none;padding: 0; padding-left:3px;border-left-width: 0px"><nobr>5,60</nobr><span style="font-size:10px">грн</span><br><nobr>5,04</nobr><span style="font-size:10px">грн</span><br><nobr>4,48</nobr><span style="font-size:10px">грн</span></td>
+        </tr></table></td><td>            <div id="but_prod_002580" class="no-basket-search"></div></td><td align='right' >22 uF</td><td align='right' >16 V</td><td align='right' >±10 %</td><td align='right' >-55°C ... +125°C</td><td >226C</td></tr>
+        <tr id="product_line_004298" data-parent="009239" data-view="15" ><td>004298</td><td style='padding: 2px;'>        <div class="imgsize3"><img src="/files/pic/Kondensator/tecap-d-s.jpg" alt="Конденсатор танталовий<gtran/> 22uF 16V C (TAJC226K016RNJ)" class="pic_small_item item"></div></td><td style='position:relative;'><a href="/uk/catalog/004298--kondensator_tantalovyy_22uf_16v_c_tajc226k016rnj_avx_avx_corporation_c_c" id='title_product' title="Описание и цены Конденсатор танталовий<gtran/> 22uF 16V C (TAJC226K016RNJ)" >Конденсатор танталовий<gtran/> 22uF 16V C (TAJC226K016RNJ)</a><br><div style="font-size:80%;margin:0.25em 0em 0em 1em"></div></td><td align='right' nowrap><b>всього: 35 шт.</b><br><span style="color:rgba(0,0,255,0.75);" title="Магазин-Днепр">маг ДП: 35 шт.</span></td><td><table><tr>
+        <td style="text-align: right; border: none;padding: 0; padding-right:0px; border-right-width: 0px"><span style= "font-size:10px;">5:</span><br><span style= "font-size:10px;">50:</span><br><span style= "font-size:10px;">500:</span></td>
+        <td style="text-align: right; border: none;padding: 0; padding-left:3px;border-left-width: 0px"><nobr>10,00</nobr><span style="font-size:10px">грн</span><br><nobr>9,00</nobr><span style="font-size:10px">грн</span><br><nobr>8,50</nobr><span style="font-size:10px">грн</span></td>
+        </tr></table></td><td>            <div id="but_prod_004298" class="no-basket-search"></div></td><td align='right' >22 uF</td><td align='right' >16 V</td><td align='right' >±10 %</td><td align='right' >-55°C ... +125°C</td><td >226C</td></tr>
+        <tr id="product_line_014223" data-parent="009239" data-view="16" ><td>014223</td><td style='padding: 2px;'>        <div class="imgsize3"><img src="/files/pic/Kondensator/tecap-c-s.jpg" alt="Конденсатор танталовий<gtran/> 22uF 25V C (TAJC226K025RNJ)" class="pic_small_item item"></div></td><td style='position:relative;'><a href="/uk/catalog/014223--kondensator_tantalovyy_22uf_25v_c_tajc226k025rnj_avx_avx_corporation_c_c" id='title_product' title="Описание и цены Конденсатор танталовий<gtran/> 22uF 25V C (TAJC226K025RNJ)" >Конденсатор танталовий<gtran/> 22uF 25V C (TAJC226K025RNJ)</a><br><div style="font-size:80%;margin:0.25em 0em 0em 1em"></div></td><td align='right' nowrap><b>всього: 465 шт.</b><br><span style="color:rgba(0,0,255,0.75);" title="Магазин-Днепр">маг ДП: 465 шт.</span></td><td><table><tr>
+        <td style="text-align: right; border: none;padding: 0; padding-right:0px; border-right-width: 0px"><span style= "font-size:10px;">5:</span><br><span style= "font-size:10px;">50:</span><br><span style= "font-size:10px;">500:</span></td>
+        <td style="text-align: right; border: none;padding: 0; padding-left:3px;border-left-width: 0px"><nobr>16,00</nobr><span style="font-size:10px">грн</span><br><nobr>14,40</nobr><span style="font-size:10px">грн</span><br><nobr>12,80</nobr><span style="font-size:10px">грн</span></td>
+        </tr></table></td><td>            <div id="but_prod_014223" class="no-basket-search"></div></td><td align='right' >22 uF</td><td align='right' >25 V</td><td align='right' >±10 %</td><td align='right' >-55°C ... +125°C</td><td >226E</td></tr>
+        <tr id="product_line_019235" data-parent="009239" data-view="17" ><td>019235</td><td style='padding: 2px;'>        <div class="imgsize3"><img src="/files/pic/Kondensator/D_tantallum_100.jpg" alt="Конденсатор танталовий<gtran/> 22uF 25V D (TAJD226K025RNJ)" class="pic_small_item item"></div></td><td style='position:relative;'><a href="/uk/catalog/019235--kondensator_tantalovyy_22uf_25v_d_tajd226k025rnj_d_d" id='title_product' title="Описание и цены Конденсатор танталовий<gtran/> 22uF 25V D (TAJD226K025RNJ)" >Конденсатор танталовий<gtran/> 22uF 25V D (TAJD226K025RNJ)</a><br><div style="font-size:80%;margin:0.25em 0em 0em 1em"></div></td><td align='right' nowrap><b>всього: 433 шт.</b><br><span style="color:rgba(0,0,255,0.75);" title="Магазин-Днепр">маг ДП: 433 шт.</span></td><td><table><tr>
+        <td style="text-align: right; border: none;padding: 0; padding-right:0px; border-right-width: 0px"><span style= "font-size:10px;">1:</span><br><span style= "font-size:10px;">50:</span><br><span style= "font-size:10px;">500:</span></td>
+        <td style="text-align: right; border: none;padding: 0; padding-left:3px;border-left-width: 0px"><nobr>28,80</nobr><span style="font-size:10px">грн</span><br><nobr>25,92</nobr><span style="font-size:10px">грн</span><br><nobr>24,48</nobr><span style="font-size:10px">грн</span></td>
+        </tr></table></td><td>            <div id="but_prod_019235" class="no-basket-search"></div></td><td align='right' >22 uF</td><td align='right' >25 V</td><td align='right' >±10 %</td><td align='right' >-55°C ... +125°C</td><td >226E</td></tr>
+        <tr id="product_line_002582" data-parent="009239" data-view="18" ><td>002582</td><td style='padding: 2px;'>        <div class="imgsize3"><img src="/files/pic/Kondensator/D_tantallum_100.jpg" alt="Конденсатор танталовий<gtran/> 22uF 35V D (TAJD226K035RNJ)" class="pic_small_item item"></div></td><td style='position:relative;'><a href="/uk/catalog/002582--kondensator_tantalovyy_22uf_35v_d_tajd226k035rnj_avx_avx_corporation_d_d" id='title_product' title="Описание и цены Конденсатор танталовий<gtran/> 22uF 35V D (TAJD226K035RNJ)" >Конденсатор танталовий<gtran/> 22uF 35V D (TAJD226K035RNJ)</a><br><div style="font-size:80%;margin:0.25em 0em 0em 1em"></div></td><td align='right' nowrap><b>всього: 418 шт.</b><br><span style="color:rgba(0,0,255,0.75);" title="Магазин-Днепр">маг ДП: 418 шт.</span></td><td><table><tr>
+        <td style="text-align: right; border: none;padding: 0; padding-right:0px; border-right-width: 0px"><span style= "font-size:10px;">1:</span><br><span style= "font-size:10px;">50:</span><br><span style= "font-size:10px;">500:</span></td>
+        <td style="text-align: right; border: none;padding: 0; padding-left:3px;border-left-width: 0px"><nobr>32,00</nobr><span style="font-size:10px">грн</span><br><nobr>28,80</nobr><span style="font-size:10px">грн</span><br><nobr>27,20</nobr><span style="font-size:10px">грн</span></td>
+        </tr></table></td><td>            <div id="but_prod_002582" class="no-basket-search"></div></td><td align='right' >22 uF</td><td align='right' >35 V</td><td align='right' >±10 %</td><td align='right' >-55°C ... +125°C</td><td >226V</td></tr>
+        <tr id="product_line_002584" data-parent="009239" data-view="19" ><td>002584</td><td style='padding: 2px;'>        <div class="imgsize3"><img src="/files/pic/Kondensator/tecap-b-s.jpg" alt="Конденсатор танталовий<gtran/> 33uF 10V B (TAJB336K010RNJ)" class="pic_small_item item"></div></td><td style='position:relative;'><a href="/uk/catalog/002584--kondensator_tantalovyy_33uf_10v_b_tajb336k010rnj_b_b" id='title_product' title="Описание и цены Конденсатор танталовий<gtran/> 33uF 10V B (TAJB336K010RNJ)" >Конденсатор танталовий<gtran/> 33uF 10V B (TAJB336K010RNJ)</a><br><div style="font-size:80%;margin:0.25em 0em 0em 1em"></div></td><td align='right' nowrap><b>всього: 1725 шт.</b><br><span style="color:rgba(0,0,255,0.75);" title="Магазин-Днепр">маг ДП: 1725 шт.</span></td><td><table><tr>
+        <td style="text-align: right; border: none;padding: 0; padding-right:0px; border-right-width: 0px"><span style= "font-size:10px;">5:</span><br><span style= "font-size:10px;">100:</span><br><span style= "font-size:10px;">1000:</span></td>
+        <td style="text-align: right; border: none;padding: 0; padding-left:3px;border-left-width: 0px"><nobr>8,80</nobr><span style="font-size:10px">грн</span><br><nobr>7,92</nobr><span style="font-size:10px">грн</span><br><nobr>7,04</nobr><span style="font-size:10px">грн</span></td>
+        </tr></table></td><td>            <div id="but_prod_002584" class="no-basket-search"></div></td><td align='right' >33 uF</td><td align='right' >10 V</td><td align='right' >±10 %</td><td align='right' >-55°C ... +125°C</td><td >336A</td></tr>
+        <tr id="product_line_014219" data-parent="009239" data-view="20" ><td>014219</td><td style='padding: 2px;'>        <div class="imgsize3"><img src="/files/pic/Kondensator/tecap-c-s.jpg" alt="Конденсатор танталовий<gtran/> 33uF 16V C (TAJC336K016RNJ)" class="pic_small_item item"></div></td><td style='position:relative;'><a href="/uk/catalog/014219--kondensator_tantalovyy_33uf_16v_c_tajc336k016rnj_avx_avx_corporation_c_c" id='title_product' title="Описание и цены Конденсатор танталовий<gtran/> 33uF 16V C (TAJC336K016RNJ)" >Конденсатор танталовий<gtran/> 33uF 16V C (TAJC336K016RNJ)</a><br><div style="font-size:80%;margin:0.25em 0em 0em 1em"></div></td><td align='right' nowrap><b>всього: 472 шт.</b><br><span style="color:rgba(0,0,255,0.75);" title="Магазин-Днепр">маг ДП: 472 шт.</span></td><td><table><tr>
+        <td style="text-align: right; border: none;padding: 0; padding-right:0px; border-right-width: 0px"><span style= "font-size:10px;">5:</span><br><span style= "font-size:10px;">50:</span><br><span style= "font-size:10px;">500:</span></td>
+        <td style="text-align: right; border: none;padding: 0; padding-left:3px;border-left-width: 0px"><nobr>12,00</nobr><span style="font-size:10px">грн</span><br><nobr>10,80</nobr><span style="font-size:10px">грн</span><br><nobr>10,20</nobr><span style="font-size:10px">грн</span></td>
+        </tr></table></td><td>            <div id="but_prod_014219" class="no-basket-search"></div></td><td align='right' >33 uF</td><td align='right' >16 V</td><td align='right' >±10 %</td><td align='right' >-55°C ... +125°C</td><td >336C</td></tr>
+        <tr id="product_line_019234" data-parent="009239" data-view="21" ><td>019234</td><td style='padding: 2px;'>        <div class="imgsize3"><img src="/files/pic/Kondensator/D_tantallum_100.jpg" alt="Конденсатор танталовий<gtran/> 47uF 16V D (TAJD476K016RNJ)" class="pic_small_item item"></div></td><td style='position:relative;'><a href="/uk/catalog/019234--kondensator_tantalovyy_47uf_16v_d_tajd476k016rnj_avx_avx_corporation_d_d" id='title_product' title="Описание и цены Конденсатор танталовий<gtran/> 47uF 16V D (TAJD476K016RNJ)" >Конденсатор танталовий<gtran/> 47uF 16V D (TAJD476K016RNJ)</a><br><div style="font-size:80%;margin:0.25em 0em 0em 1em"></div></td><td align='right' nowrap><b>всього: 108 шт.</b><br><span style="color:rgba(0,0,255,0.75);" title="Магазин-Днепр">маг ДП: 108 шт.</span></td><td><table><tr>
+        <td style="text-align: right; border: none;padding: 0; padding-right:0px; border-right-width: 0px"><span style= "font-size:10px;">1:</span><br><span style= "font-size:10px;">50:</span><br><span style= "font-size:10px;">500:</span></td>
+        <td style="text-align: right; border: none;padding: 0; padding-left:3px;border-left-width: 0px"><nobr>20,00</nobr><span style="font-size:10px">грн</span><br><nobr>18,00</nobr><span style="font-size:10px">грн</span><br><nobr>16,00</nobr><span style="font-size:10px">грн</span></td>
+        </tr></table></td><td>            <div id="but_prod_019234" class="no-basket-search"></div></td><td align='right' >47 uF</td><td align='right' >16 V</td><td align='right' >±10 %</td><td align='right' >-55°C ... +125°C</td><td >476C</td></tr>
+        <tr id="product_line_014231" data-parent="009239" data-view="22" ><td>014231</td><td style='padding: 2px;'>        <div class="imgsize3"><img src="/files/pic/Kondensator/tecap-c-s.jpg" alt="Конденсатор танталовий<gtran/> 100uF 10V C (TAJC107K010RNJ)" class="pic_small_item item"></div></td><td style='position:relative;'><a href="/uk/catalog/014231--kondensator_tantalovyy_100uf_10v_c_tajc107k010rnj_avx_avx_corporation_c_c" id='title_product' title="Описание и цены Конденсатор танталовий<gtran/> 100uF 10V C (TAJC107K010RNJ)" >Конденсатор танталовий<gtran/> 100uF 10V C (TAJC107K010RNJ)</a><br><div style="font-size:80%;margin:0.25em 0em 0em 1em"></div></td><td align='right' nowrap><b>всього: 385 шт.</b><br><span style="color:rgba(0,0,255,0.75);" title="Магазин-Днепр">маг ДП: 385 шт.</span></td><td><table><tr>
+        <td style="text-align: right; border: none;padding: 0; padding-right:0px; border-right-width: 0px"><span style= "font-size:10px;">5:</span><br><span style= "font-size:10px;">50:</span><br><span style= "font-size:10px;">500:</span></td>
+        <td style="text-align: right; border: none;padding: 0; padding-left:3px;border-left-width: 0px"><nobr>11,80</nobr><span style="font-size:10px">грн</span><br><nobr>10,62</nobr><span style="font-size:10px">грн</span><br><nobr>9,44</nobr><span style="font-size:10px">грн</span></td>
+        </tr></table></td><td>            <div id="but_prod_014231" class="no-basket-search"></div></td><td align='right' >100 uF</td><td align='right' >10 V</td><td align='right' >±10 %</td><td align='right' >-55°C ... +125°C</td><td >107A</td></tr>
+        <tr id="product_line_019233" data-parent="009239" data-view="23" ><td>019233</td><td style='padding: 2px;'>        <div class="imgsize3"><img src="/files/pic/Kondensator/D_tantallum_100.jpg" alt="Конденсатор танталовий<gtran/> 100uF 10V D (TAJD107K010RNJ)" class="pic_small_item item"></div></td><td style='position:relative;'><a href="/uk/catalog/019233--kondensator_tantalovyy_100uf_10v_d_tajd107k010rnj_avx_avx_corporation_d_d" id='title_product' title="Описание и цены Конденсатор танталовий<gtran/> 100uF 10V D (TAJD107K010RNJ)" >Конденсатор танталовий<gtran/> 100uF 10V D (TAJD107K010RNJ)</a><br><div style="font-size:80%;margin:0.25em 0em 0em 1em"></div></td><td align='right' nowrap><b>всього: 375 шт.</b><br><span style="color:rgba(0,0,255,0.75);" title="Магазин-Днепр">маг ДП: 375 шт.</span></td><td><table><tr>
+        <td style="text-align: right; border: none;padding: 0; padding-right:0px; border-right-width: 0px"><span style= "font-size:10px;">5:</span><br><span style= "font-size:10px;">50:</span><br><span style= "font-size:10px;">500:</span></td>
+        <td style="text-align: right; border: none;padding: 0; padding-left:3px;border-left-width: 0px"><nobr>14,00</nobr><span style="font-size:10px">грн</span><br><nobr>12,60</nobr><span style="font-size:10px">грн</span><br><nobr>11,90</nobr><span style="font-size:10px">грн</span></td>
+        </tr></table></td><td>            <div id="but_prod_019233" class="no-basket-search"></div></td><td align='right' >100 uF</td><td align='right' >10 V</td><td align='right' >±10 %</td><td align='right' >-55°C ... +125°C</td><td >107A</td></tr>
+        <tr id="product_line_028211" data-parent="009239" data-view="24" ><td>028211</td><td style='padding: 2px;'>        <div class="imgsize3"><img src="/files/pic/Kondensator/014881-s.jpg" alt="Конденсатор танталовий<gtran/> 100uF 10V B (TAJB107M010RNJ)" class="pic_small_item item"></div></td><td style='position:relative;'><a href="/uk/catalog/028211--kondensator_tantalovyy_100uf_10v_b_tajb107m010rnj_avx_avx_corporation_b_b" id='title_product' title="Описание и цены Конденсатор танталовий<gtran/> 100uF 10V B (TAJB107M010RNJ)" >Конденсатор танталовий<gtran/> 100uF 10V B (TAJB107M010RNJ)</a><br><div style="font-size:80%;margin:0.25em 0em 0em 1em"></div></td><td align='right' nowrap><b>всього: 5 шт.</b><br><span style="color:rgba(0,0,255,0.75);" title="Магазин-Днепр">маг ДП: 5 шт.</span></td><td><table><tr>
+        <td style="text-align: right; border: none;padding: 0; padding-right:0px; border-right-width: 0px"><span style= "font-size:10px;">5:</span><br><span style= "font-size:10px;">50:</span><br><span style= "font-size:10px;">500:</span></td>
+        <td style="text-align: right; border: none;padding: 0; padding-left:3px;border-left-width: 0px"><nobr>16,00</nobr><span style="font-size:10px">грн</span><br><nobr>14,40</nobr><span style="font-size:10px">грн</span><br><nobr>13,60</nobr><span style="font-size:10px">грн</span></td>
+        </tr></table></td><td>            <div id="but_prod_028211" class="no-basket-search"></div></td><td align='right' >100 uF</td><td align='right' >10 V</td><td align='right' >±20 %</td><td align='right' >-55°C ... +125°C</td><td >107A</td></tr>
+        <tr id="product_line_014663" data-parent="009239" data-view="25" ><td>014663</td><td style='padding: 2px;'>        <div class="imgsize3"><img src="/files/pic/Kondensator/014880-s.jpg" alt="Конденсатор танталовий<gtran/> 100uF 16V D (TAJD107K016RNJ)" class="pic_small_item item"></div></td><td style='position:relative;'><a href="/uk/catalog/014663--kondensator_tantalovyy_100uf_16v_d_tajd107k016rnj_avx_avx_corporation_d_d" id='title_product' title="Описание и цены Конденсатор танталовий<gtran/> 100uF 16V D (TAJD107K016RNJ)" >Конденсатор танталовий<gtran/> 100uF 16V D (TAJD107K016RNJ)</a><br><div style="font-size:80%;margin:0.25em 0em 0em 1em"></div></td><td align='right' nowrap><b>всього: 316 шт.</b><br><span style="color:rgba(0,0,255,0.75);" title="Магазин-Днепр">маг ДП: 316 шт.</span></td><td><table><tr>
+        <td style="text-align: right; border: none;padding: 0; padding-right:0px; border-right-width: 0px"><span style= "font-size:10px;">5:</span><br><span style= "font-size:10px;">50:</span><br><span style= "font-size:10px;">500:</span></td>
+        <td style="text-align: right; border: none;padding: 0; padding-left:3px;border-left-width: 0px"><nobr>21,00</nobr><span style="font-size:10px">грн</span><br><nobr>18,90</nobr><span style="font-size:10px">грн</span><br><nobr>16,80</nobr><span style="font-size:10px">грн</span></td>
+        </tr></table></td><td>            <div id="but_prod_014663" class="no-basket-search"></div></td><td align='right' >100 uF</td><td align='right' >16 V</td><td align='right' >±10 %</td><td align='right' >-55°C ... +125°C</td><td >107C</td></tr>
+        <tr id="product_line_017379" data-parent="009239" data-view="26" ><td>017379</td><td style='padding: 2px;'>        <div class="imgsize3"><img src="/files/pic/Kondensator/D_tantallum_100.jpg" alt="Конденсатор танталовий<gtran/> 100uF 20V D (TAJD107K020RNJ)" class="pic_small_item item"></div></td><td style='position:relative;'><a href="/uk/catalog/017379--kondensator_tantalovyy_100uf_20v_d_tajd107k020rnj_avx_avx_corporation_d_d" id='title_product' title="Описание и цены Конденсатор танталовий<gtran/> 100uF 20V D (TAJD107K020RNJ)" >Конденсатор танталовий<gtran/> 100uF 20V D (TAJD107K020RNJ)</a><br><div style="font-size:80%;margin:0.25em 0em 0em 1em"></div></td><td align='right' nowrap><b>всього: 415 шт.</b><br><span style="color:rgba(0,0,255,0.75);" title="Магазин-Днепр">маг ДП: 415 шт.</span></td><td><table><tr>
+        <td style="text-align: right; border: none;padding: 0; padding-right:0px; border-right-width: 0px"><span style= "font-size:10px;">1:</span><br><span style= "font-size:10px;">50:</span><br><span style= "font-size:10px;">500:</span></td>
+        <td style="text-align: right; border: none;padding: 0; padding-left:3px;border-left-width: 0px"><nobr>38,00</nobr><span style="font-size:10px">грн</span><br><nobr>34,20</nobr><span style="font-size:10px">грн</span><br><nobr>30,40</nobr><span style="font-size:10px">грн</span></td>
+        </tr></table></td><td>            <div id="but_prod_017379" class="no-basket-search"></div></td><td align='right' >100 uF</td><td align='right' >20 V</td><td align='right' >±10 %</td><td align='right' >-55°C ... +125°C</td><td >107D</td></tr>
+        <tr id="product_line_017380" data-parent="009239" data-view="27" ><td>017380</td><td style='padding: 2px;'>        <div class="imgsize3"><img src="/files/pic/Kondensator/D_tantallum_100.jpg" alt="Конденсатор танталовий<gtran/> 150uF 16V D (TAJD157K016RNJ)" class="pic_small_item item"></div></td><td style='position:relative;'><a href="/uk/catalog/017380--kondensator_tantalovyy_150uf_16v_d_tajd157k016rnj_avx_avx_corporation_d_d" id='title_product' title="Описание и цены Конденсатор танталовий<gtran/> 150uF 16V D (TAJD157K016RNJ)" >Конденсатор танталовий<gtran/> 150uF 16V D (TAJD157K016RNJ)</a><br><div style="font-size:80%;margin:0.25em 0em 0em 1em"></div></td><td align='right' nowrap><b>всього: 254 шт.</b><br><span style="color:rgba(0,0,255,0.75);" title="Магазин-Днепр">маг ДП: 254 шт.</span></td><td><table><tr>
+        <td style="text-align: right; border: none;padding: 0; padding-right:0px; border-right-width: 0px"><span style= "font-size:10px;">1:</span><br><span style= "font-size:10px;">50:</span><br><span style= "font-size:10px;">500:</span></td>
+        <td style="text-align: right; border: none;padding: 0; padding-left:3px;border-left-width: 0px"><nobr>31,60</nobr><span style="font-size:10px">грн</span><br><nobr>28,44</nobr><span style="font-size:10px">грн</span><br><nobr>25,28</nobr><span style="font-size:10px">грн</span></td>
+        </tr></table></td><td>            <div id="but_prod_017380" class="no-basket-search"></div></td><td align='right' >150 uF</td><td align='right' >16 V</td><td align='right' >±10 %</td><td align='right' >-55°C ... +125°C</td><td >157C</td></tr>
+        <tr id="product_line_017381" data-parent="009239" data-view="28" ><td>017381</td><td style='padding: 2px;'>        <div class="imgsize3"><img src="/files/pic/Kondensator/D_tantallum_100.jpg" alt="Конденсатор танталовий<gtran/> 220uF 10V D (TAJD227K010RNJ)" class="pic_small_item item"></div></td><td style='position:relative;'><a href="/uk/catalog/017381--kondensator_tantalovyy_220uf_10v_d_tajd227k010rnj_d_d" id='title_product' title="Описание и цены Конденсатор танталовий<gtran/> 220uF 10V D (TAJD227K010RNJ)" >Конденсатор танталовий<gtran/> 220uF 10V D (TAJD227K010RNJ)</a><br><div style="font-size:80%;margin:0.25em 0em 0em 1em"></div></td><td align='right' nowrap><b>всього: 237 шт.</b><br><span style="color:rgba(0,0,255,0.75);" title="Магазин-Днепр">маг ДП: 237 шт.</span></td><td><table><tr>
+        <td style="text-align: right; border: none;padding: 0; padding-right:0px; border-right-width: 0px"><span style= "font-size:10px;">1:</span><br><span style= "font-size:10px;">50:</span><br><span style= "font-size:10px;">500:</span></td>
+        <td style="text-align: right; border: none;padding: 0; padding-left:3px;border-left-width: 0px"><nobr>31,20</nobr><span style="font-size:10px">грн</span><br><nobr>28,08</nobr><span style="font-size:10px">грн</span><br><nobr>24,96</nobr><span style="font-size:10px">грн</span></td>
+        </tr></table></td><td>            <div id="but_prod_017381" class="no-basket-search"></div></td><td align='right' >220 uF</td><td align='right' >10 V</td><td align='right' >±10 %</td><td align='right' >-55°C ... +125°C</td><td >227A</td></tr>
+        <tr id="product_line_019231" data-parent="009239" data-view="29" ><td>019231</td><td style='padding: 2px;'>        <div class="imgsize3"><img src="/files/pic/Kondensator/E_tantallum_100.jpg" alt="Конденсатор танталовий<gtran/> 220uF 16V E (TAJE227K016RNJ)" class="pic_small_item item"></div></td><td style='position:relative;'><a href="/uk/catalog/019231--kondensator_tantalovyy_220uf_16v_e_taje227k016rnj_avx_avx_corporation_e_e" id='title_product' title="Описание и цены Конденсатор танталовий<gtran/> 220uF 16V E (TAJE227K016RNJ)" >Конденсатор танталовий<gtran/> 220uF 16V E (TAJE227K016RNJ)</a><br><div style="font-size:80%;margin:0.25em 0em 0em 1em"></div></td><td align='right' nowrap><b>всього: 184 шт.</b><br><span style="color:rgba(0,0,255,0.75);" title="Магазин-Днепр">маг ДП: 184 шт.</span></td><td><table><tr>
+        <td style="text-align: right; border: none;padding: 0; padding-right:0px; border-right-width: 0px"><span style= "font-size:10px;">1:</span><br><span style= "font-size:10px;">50:</span><br><span style= "font-size:10px;">400:</span></td>
+        <td style="text-align: right; border: none;padding: 0; padding-left:3px;border-left-width: 0px"><nobr>86,00</nobr><span style="font-size:10px">грн</span><br><nobr>77,40</nobr><span style="font-size:10px">грн</span><br><nobr>73,10</nobr><span style="font-size:10px">грн</span></td>
+        </tr></table></td><td>            <div id="but_prod_019231" class="no-basket-search"></div></td><td align='right' >220 uF</td><td align='right' >16 V</td><td align='right' >±10 %</td><td align='right' >-55°C ... +125°C</td><td >227C</td></tr>
+        <tr id="product_line_044489" data-parent="009239" data-view="30" ><td>044489</td><td style='padding: 2px;'>        <div class="imgsize3"><img src="/files/pic/Kondensator/D_tantallum_100.jpg" alt="Конденсатор танталовий<gtran/> 330uF 10V D (TAJD337K010RNJ)" class="pic_small_item item"></div></td><td style='position:relative;'><a href="/uk/catalog/044489--kondensator-tantalovyy-330uf-10v-d-tajd337k010rnj-avx-corporation" id='title_product' title="Описание и цены Конденсатор танталовий<gtran/> 330uF 10V D (TAJD337K010RNJ)" >Конденсатор танталовий<gtran/> 330uF 10V D (TAJD337K010RNJ)</a><br><div style="font-size:80%;margin:0.25em 0em 0em 1em"></div></td><td align='right' nowrap><b>всього: 916 шт.</b><br><span style="color:rgba(0,0,255,0.75);" title="Магазин-Днепр">маг ДП: 916 шт.</span></td><td><table><tr>
+        <td style="text-align: right; border: none;padding: 0; padding-right:0px; border-right-width: 0px"><span style= "font-size:10px;">1:</span><br><span style= "font-size:10px;">50:</span><br><span style= "font-size:10px;">500:</span></td>
+        <td style="text-align: right; border: none;padding: 0; padding-left:3px;border-left-width: 0px"><nobr>41,60</nobr><span style="font-size:10px">грн</span><br><nobr>37,44</nobr><span style="font-size:10px">грн</span><br><nobr>35,36</nobr><span style="font-size:10px">грн</span></td>
+        </tr></table></td><td>            <div id="but_prod_044489" class="no-basket-search"></div></td><td align='right' >330 uF</td><td align='right' >10 V</td><td align='right' >±10 %</td><td align='right' >-55°C ... +125°C</td><td >337A</td></tr>
+        <tr id="product_line_014661" data-parent="009239" data-view="31" ><td>014661</td><td style='padding: 2px;'>        <div class="imgsize3"><img src="/files/pic/Kondensator/D_tantallum_100.jpg" alt="Конденсатор танталовий<gtran/> 470uF 6V3 D (TAJD477K006RNJ)" class="pic_small_item item"></div></td><td style='position:relative;'><a href="/uk/catalog/014661--kondensator_tantalovyy_470uf_6v3_d_tajd477k006rnj_avx_avx_corporation_d_d" id='title_product' title="Описание и цены Конденсатор танталовий<gtran/> 470uF 6V3 D (TAJD477K006RNJ)" >Конденсатор танталовий<gtran/> 470uF 6V3 D (TAJD477K006RNJ)</a><br><div style="font-size:80%;margin:0.25em 0em 0em 1em"></div></td><td align='right' nowrap><b>всього: 342 шт.</b><br><span style="color:rgba(0,0,255,0.75);" title="Магазин-Днепр">маг ДП: 342 шт.</span></td><td><table><tr>
+        <td style="text-align: right; border: none;padding: 0; padding-right:0px; border-right-width: 0px"><span style= "font-size:10px;">1:</span><br><span style= "font-size:10px;">50:</span><br><span style= "font-size:10px;">500:</span></td>
+        <td style="text-align: right; border: none;padding: 0; padding-left:3px;border-left-width: 0px"><nobr>52,00</nobr><span style="font-size:10px">грн</span><br><nobr>46,80</nobr><span style="font-size:10px">грн</span><br><nobr>41,60</nobr><span style="font-size:10px">грн</span></td>
+        </tr></table></td><td>            <div id="but_prod_014661" class="no-basket-search"></div></td><td align='right' >470 uF</td><td align='right' >6.3 V</td><td align='right' >±10 %</td><td align='right' >-55°C ... +125°C</td><td >477J</td></tr>                    </table>
+                    <div id="bottom_product_line">
+
+                                            </div>
+                </div>
+                <div id="page_nav" class="text" style=" text-align: left;"></div><div class="text" style=" padding: 15px 10px 0px 10px; "></div>          </div>
+    </div>     <script type="text/javascript" charset="utf-8">
+        // увеличение картинки при наведении
+        imgsize();
+        //2021-03-04 sessa: обработка filter_memory закомментирована в скриптах сайта         // клик параметра
+        //        $("[id ^= filter_] input").click(function(){
+        //            filter_ajax("param", $(this));
+        //            if ($(this).prop("checked"))
+        //                filter_memory('passive-components/capacitor/tantalum-capacitor',$(this).attr("name").replace("param_",""),$(this).attr("value"));
+        //        });
+        // навигация
+        $("div#page_nav a").click(function(){
+            filter_ajax("page_nav",$(this));
+            return false;
+        });
+        // в наличии сверху
+        $("#is_available").click(function(){
+            filter_ajax("is_available",$(this));
+        });
+        // в наличии сверху
+        $("#is_sale").click(function(){
+            filter_ajax("is_sale",$(this));
+        });
+        // в наличии сверху
+        $("#is_discount").click(function(){
+            filter_ajax("is_discount",$(this));
+        });
+    </script> </div>
+    <div id="tooltip_filter" class="tooltip">
+        Знайдено товарів: <span id="tooltip_filter_found"></span><br />
+        <div><i style="font-size: 75%;">Вибирай значення тільки в одному</i></div>
+        <div><i style="font-size: 75%;">фільтрі, потім натисни Показати</i></div>
+        <input type="button" class="clear_filter" onclick="info_filter(false);filter_ajax('param', $(last_input_check));" value="Показати">
+
+        <input type="button" class="clear_filter" onclick="filter_cancel()"  value="Скасувати">
+    </div>
+    <div id="tooltip_icon" class="tooltip">Розгорнути фільтр</div>
+    ﻿</td>
+</tr>
+</table>
+</td>
+ </tr>
+ <tr>
+  <td id="hot-links" style="height:10px; ">
+    <table cellpadding="0" cellspacing="0" border="0" style="width:100%; " >
+      <tr>
+        <td class="product" style="width:16%; vertical-align:top; text-align:center; ">
+          <div class="text" style="background-image: url(/img/h1-bg.gif); background-repeat: repeat-x; TEXT-TRANSFORM: uppercase;">
+            <a href="/uk/hits.php" title="Найпопулярніші товари" style=" color: #ff6600; ">Хіти</a>
+          </div>
+        </td>
+        <td class="product" style="width:16%; vertical-align:top; text-align:center; ">
+          <div class="text" style="background-image: url(/img/h1-bg.gif); background-repeat: repeat-x; TEXT-TRANSFORM: uppercase;">
+            <a href="/uk/new.php" title="Нові види товарів" style=" color: #ff6600; ">Новинки</a>
+          </div>
+        </td>
+        <td class="product" style="width:18%; vertical-align:top; text-align:center; ">
+          <div class="text" style="background-image: url(/img/h1-bg.gif); background-repeat: repeat-x; TEXT-TRANSFORM: uppercase;">
+            <a href="/uk/manufacturers.php" title="Перелік виробників" style=" color: #ff6600; ">Виробники</a>
+          </div>
+        </td>
+        <td class="product" style="width:16%; vertical-align:top; text-align:center; ">
+          <div class="text" style="background-image: url(/img/h1-bg.gif); background-repeat: repeat-x; TEXT-TRANSFORM: uppercase;">
+            <a href="/uk/pages.php" title="Статті Сайту" style=" color: #ff6600; ">Статті</a>
+          </div>
+        </td>
+        <td class="product" style="width:16%; vertical-align:top; text-align:center; ">
+          <div class="text" style="background-image: url(/img/h1-bg.gif); background-repeat: repeat-x; TEXT-TRANSFORM: uppercase;">
+            <a href="/uk/partners.php" title="Наші партнери" style=" color: #ff6600; ">Партнери</a>
+          </div>
+        </td>
+        <td class="product" style="width:18%; vertical-align:top; text-align:center; ">
+          <div class="text" style="background-image: url(/img/h1-bg.gif); background-repeat: repeat-x; TEXT-TRANSFORM: uppercase;">
+            <a href="/uk/policy.php" title="Політика конфіденційності" style=" color: #ff6600; ">Захист інформації</a>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </td>
+ </tr>
+
+  <tr>
+  <td style="background-color: #F5F5F5; height:90px;" class="footer" valign="top">
+   <table cellpadding="5" cellspacing="0" border="0" style="width:100%; ">
+    <tr>
+    ﻿<td style="vertical-align:top; text-align:left; white-space:nowrap; ">
+  <p class="text_gray"> Наш адрес и телефоны:&nbsp;&nbsp;&nbsp;Украина, г. Днепр,<br />
+    ул. Новокрымская 58 (на углу пересечения с ул. Матросская)<br />
+    +38 (067) 565-89-78<br />
+  </p>
+  <a class="text_gray" title="» Контактная информация и схема проезда" href="/show.php?p=contacts">» Контактная информация и схема проезда</a></td>
+<td style="width:1%; "> &nbsp;</td>
+<td style="vertical-align:top; text-align:left; ">
+  <p class="text_gray_dense"> Отправляем заказанные товары во все регионы Украины : Александрия, Винница, Житомир, Запорожье, Ивано-Франковск, Киев, Кировоград, Краснодон, Львов, Луцк, Мелитополь, Николаев, Одесса, Очаков, Полтава, Переяслав-Хмельницкий, Светловодск, Трускавец, Ужгород, Чоп, Энергодар, Фастов, Херсон, Харьков, Черкассы,Чернигов, Южноукраинск и другие.
+  </p>
+  <a class="text_gray" title  = "» Доставка товров"     href  ="/ship.php">» Подробнее о доставке товаров</a><br />
+</td>
+<td style="width:1%; ">
+  &nbsp;</td>
+<td class="text_gray_dense" style="vertical-align:top; text-align:center; white-space:nowrap; ">
+  2004—2022 (c) ЧП «ВОРОН».<br />
+  Все права защищены.<br />
+  <img src="/img/qrcode-h1px.png" />
+</td>
+    </tr>
+   </table>
+<div id="cloud" style="font-size:75%;font-weight:bold;padding:5px">Популярні пошукові запити: 
+<a href="/search.php?search=%D1%80%D0%B5%D0%BB%D0%B5" title="реле">реле &nbsp; </a>
+<a href="/search.php?search=%D0%BA%D0%BD%D0%BE%D0%BF%D0%BA%D0%B0" title="кнопка">кнопка &nbsp; </a>
+<a href="/search.php?search=arduino" title="arduino">arduino &nbsp; </a>
+<a href="/search.php?search=%D0%BF%D1%80%D0%B8%D0%BF%D0%BE%D0%B9" title="припой">припой &nbsp; </a>
+<a href="/search.php?search=%D1%80%D0%B0%D0%B4%D0%B8%D0%B0%D1%82%D0%BE%D1%80" title="радиатор">радиатор &nbsp; </a>
+<a href="/search.php?search=%D0%BF%D0%B0%D1%8F%D0%BB%D1%8C%D0%BD%D0%B8%D0%BA" title="паяльник">паяльник &nbsp; </a>
+<a href="/search.php?search=%D0%B1%D0%BB%D0%BE%D0%BA+%D0%BF%D0%B8%D1%82%D0%B0%D0%BD%D0%B8%D1%8F" title="блок питания">блок питания &nbsp; </a>
+<a href="/search.php?search=%D1%84%D0%BB%D1%8E%D1%81" title="флюс">флюс &nbsp; </a>
+<a href="/search.php?search=%D0%B2%D0%BE%D0%BB%D1%8C%D1%82%D0%BC%D0%B5%D1%82%D1%80" title="вольтметр">вольтметр &nbsp; </a>
+<a href="/search.php?search=%D0%BF%D1%80%D0%BE%D0%B2%D0%BE%D0%B4" title="провод">провод &nbsp; </a>
+<a href="/search.php?search=%D1%82%D0%B5%D1%80%D0%BC%D0%BE%D0%BF%D0%B0%D1%81%D1%82%D0%B0" title="термопаста">термопаста &nbsp; </a>
+<a href="/search.php?search=%D1%82%D1%80%D0%B0%D0%BD%D1%81%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%BE%D1%80" title="трансформатор">трансформатор &nbsp; </a>
+<a href="/search.php?search=%D1%8D%D0%BD%D0%BA%D0%BE%D0%B4%D0%B5%D1%80" title="энкодер">энкодер &nbsp; </a>
+<a href="/search.php?search=%D1%82%D1%8E%D0%BB%D1%8C%D0%BF%D0%B0%D0%BD+rca" title="тюльпан rca">тюльпан rca &nbsp; </a>
+<a href="/search.php?search=18650" title="18650">18650 &nbsp; </a>
+<a href="/search.php?search=%D1%82%D0%B5%D1%80%D0%BC%D0%BE%D1%81%D1%82%D0%B0%D1%82" title="термостат">термостат &nbsp; </a>
+<a href="/search.php?search=lm317" title="lm317">lm317 &nbsp; </a>
+<a href="/search.php?search=%D0%BC%D0%B0%D0%B3%D0%BD%D0%B8%D1%82" title="магнит">магнит &nbsp; </a>
+<a href="/search.php?search=%D0%B6%D0%B0%D0%BB%D0%BE" title="жало">жало &nbsp; </a>
+<a href="/search.php?search=%D0%B2%D0%B0%D1%80%D0%B8%D1%81%D1%82%D0%BE%D1%80" title="варистор">варистор &nbsp; </a>
+<a href="/search.php?search=%D0%B2%D0%B5%D0%BD%D1%82%D0%B8%D0%BB%D1%8F%D1%82%D0%BE%D1%80" title="вентилятор">вентилятор &nbsp; </a></div>
+   <table cellpadding="0" cellspacing="0" border="0" style="width:100%; "> 
+    <tr>
+    </tr>
+   </table>
+  </td>
+ </tr>
+</table>
+  <script>
+  $(document).ready(function(){
+    $('img[src ^= "/img/otvertki"]').on("error",function(){
+        $(this).attr('src', '/img/white_icon.gif');
+    });
+  });
+  </script>
+</body>
+</html>`;
+
 export default {
     radiomag: radiomag,
     voron: voron,
     microteh: microteh,
-    categories: categories
+    categories: categories,
+    filters: filters
 };

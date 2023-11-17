@@ -1,9 +1,15 @@
 import { View, StyleSheet, TextInput, Image, Text, TouchableOpacity } from 'react-native';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
-const SearchInput = ({ containerStyle, inputStyle, iconStyle, onPress }) => {
+const SearchInput = ({ containerStyle, inputStyle, iconStyle, onPress, value }) => {
     const [text, setText] = useState('');
     const [validationError, setValidationError] = useState(false);
+
+    useEffect(() => {
+        if(value) {
+            setText(value);
+        }
+    }, [value]);
 
     const handleInput = (txt) => {
         setText(txt);

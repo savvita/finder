@@ -1,16 +1,25 @@
 import { ScrollView, StyleSheet, Text, ActivityIndicator, View } from 'react-native';
 import SearchInput from '../components/SearchInput';
 import engine from '../data/search_engine';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import SearchResultItem from '../components/SearchResultItem';
 import Accordion from '../components/Accordion';
 import AccordionItem from '../components/AccordionItem';
 
 
-const SearchScreen = ({ navigation }) => {
+const SearchScreen = ({ navigation, route }) => {
     // navigation.setOptions({ ...navigation.options, title: 'ssd' });
     const [data, setData] = useState([]);
+    const [searchText, setSearchText] = useState('');
     const [isLoading, setIsLoading] = useState(false);
+
+    useEffect(() => {
+        if(route.params && route.params.text) {
+            setSearchText(route.params.text);
+            search(route.params.text);
+        }
+        
+    }, [route]);
 
     const search = async (text) => {
         setIsLoading(true);
@@ -64,7 +73,7 @@ const SearchScreen = ({ navigation }) => {
 
     return (
         <View style={ styles.container }>
-            <SearchInput onPress={ search } />
+            <SearchInput onPress={ search } value={ searchText } />
             { isLoading ? 
                     <View style={ styles.contentContainer }>
                         <ActivityIndicator 
