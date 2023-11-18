@@ -10,17 +10,18 @@ const SettingsScreen = () => {
     const [shops, setShops] = useState([]);
 
     useEffect(() => {
-        const getCity = async () => {
-            setCity(await preferences.getCity());
-        }
-
-        const getShops = async () => {
-            setShops(await preferences.getShops());
-        }
-
         getCity();
         getShops();
     }, []);
+
+    const getCity = async () => {
+        setCity(await preferences.getCity());
+    }
+
+    const getShops = async () => {
+        setShops(await preferences.getShops());
+    }
+
     const cityOptions = [
         {
             name: 'Дніпро',
@@ -66,23 +67,25 @@ const SettingsScreen = () => {
 
     const shopsChanged = async (values) => {
         await preferences.setShops(values);
-        console.log(values);
+        await getShops();
     }
     return (
         <View style={ styles.container }>
-            <RadioGroup 
-                    title='Місто'
-                    options={ cityOptions }
-                    onSelectChanged={ cityChanged }
-                    checked={ city }
-                />
-
             <CheckGroup 
                     title='Магазини'
                     options={ shopsOptions }
                     onSelectChanged={ shopsChanged }
                     checked={ shops }
                 />
+            {
+                shops.find(shop => shop === 'radiomag') && 
+                <RadioGroup 
+                    title='Місто (Радіомаг)'
+                    options={ cityOptions }
+                    onSelectChanged={ cityChanged }
+                    checked={ city }
+                />
+            }
         </View>
     );
 }
