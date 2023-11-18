@@ -40,6 +40,8 @@ const SearchResultItem = ({ item, containerStyle }) => {
                 <CustomizedButton
                         title='У магазин'
                         onPress={ openUrl }
+                        buttonStyle={ styles.button }
+                        textStyle={ styles.buttonText }
                     />
             </View>
             { imageSource && 
@@ -73,6 +75,12 @@ const styles = StyleSheet.create({
         width: 80, 
         height: 80,
         resizeMode: 'contain'
+    },
+    button: {
+        backgroundColor: '#333'
+    },
+    buttonText: {
+        color: '#fff'
     }
 });
 

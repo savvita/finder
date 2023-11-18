@@ -66,6 +66,7 @@ const SettingsScreen = () => {
 
     const shopsChanged = async (values) => {
         await preferences.setShops(values);
+        console.log(values);
     }
     return (
         <View style={ styles.container }>

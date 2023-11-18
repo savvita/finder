@@ -1,7 +1,7 @@
-import { View, StyleSheet, TextInput, Image, Text, TouchableOpacity, Linking } from 'react-native';
+import { View, StyleSheet, TextInput, Image, Text, TouchableOpacity } from 'react-native';
 import { useState, useEffect } from 'react';
 
-const SearchInput = ({ containerStyle, inputStyle, iconStyle, onPress, value }) => {
+const SearchInput = ({ containerStyle, inputStyle, iconStyle, onPress, value, onChange, valid, onValidChange }) => {
     const [text, setText] = useState('');
     const [validationError, setValidationError] = useState(false);
 
@@ -11,9 +11,18 @@ const SearchInput = ({ containerStyle, inputStyle, iconStyle, onPress, value }) 
         }
     }, [value]);
 
+    useEffect(() => {
+        setValidationError(!valid);
+    }, [valid]);
+
+    useEffect(() => {
+        onValidChange && onValidChange(!validationError);
+    }, [validationError]);
+
     const handleInput = (txt) => {
         setText(txt);
         validate(txt);
+        onChange && onChange(txt);
     }
 
     const validate = (txt) => {
@@ -33,42 +42,16 @@ const SearchInput = ({ containerStyle, inputStyle, iconStyle, onPress, value }) 
         }
     }
 
-    const findInGoogle = () => {
-        if(validate(text)) {
-            openUrl('https://google.com.ua/search?q=' + encodeURI(text));
-        } else {
-            setValidationError(true);
-        }
-    }
-
-    const findInAliExpress = () => {
-        if(validate(text)) {
-            openUrl('https://www.aliexpress.com/w/wholesale-' + text.replace(' ', '-') + '.html');
-        } else {
-            setValidationError(true);
-        }
-    }
-
-    const openUrl = (url) => {
-        Linking.canOpenURL(url)
-            .then(supported => {
-                if (supported) {
-                    Linking.openURL(url);
-                } else {
-                    console.log("Don't know how to open URI: " + url);
-                }
-            });
-    }
 
     return (
         <View style={ containerStyle ?? {} }>
-        <View style={ [styles.container] }>
-            <TextInput 
-                    value={ text }
-                    onChangeText={ handleInput }
-                    placeholder='Пошук...' 
-                    style={ [styles.input, validationError ? styles.inputError : {}, inputStyle ?? {}] }
-                />
+            <View style={ [styles.container] }>
+                <TextInput 
+                        value={ text }
+                        onChangeText={ handleInput }
+                        placeholder='Пошук...' 
+                        style={ [styles.input, validationError ? styles.inputError : {}, inputStyle ?? {}] }
+                    />
                 <TouchableOpacity
                         style={ styles.imageContainer }
                         onPress={ press }
@@ -80,25 +63,17 @@ const SearchInput = ({ containerStyle, inputStyle, iconStyle, onPress, value }) 
                 </TouchableOpacity>
             </View>
             { validationError && <Text style={ styles.errorText }>Обов'язкове поле</Text> }
-            <View style={ styles.buttonContainer }>
-                <CustomizedButton
-                        buttonStyle={ styles.button }
-                        title='Шукати у Google'
-                        onPress={ findInGoogle }
-                    />
-                <CustomizedButton
-                        buttonStyle={ styles.button }
-                        title='Шукати на AliExpress'
-                        onPress={ findInAliExpress }
-                    />
-            </View>
+
         </View>
     );
 }
 
 const styles = StyleSheet.create({
     container: {
-        flexDirection: 'row'
+        flexDirection: 'row',
+        borderWidth: 1,
+        borderRadius: 10,
+        paddingHorizontal: 10,
     },
     imageContainer: {
         alignSelf: 'center'
@@ -108,8 +83,6 @@ const styles = StyleSheet.create({
         height: 30
     },
     input: {
-        borderBottomWidth: 1,
-        borderBottomColor: '#777',
         flexGrow: 1,
         paddingBottom: 4
     },
@@ -118,13 +91,6 @@ const styles = StyleSheet.create({
     },
     errorText: {
         color: '#f23'
-    },
-    buttonContainer: { 
-        flexDirection: 'row',
-        marginVertical: 10,
-    },
-    button: {
-        width: '50%'
     }
 });
 

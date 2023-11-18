@@ -1,12 +1,13 @@
 import { TouchableOpacity, Text, StyleSheet } from "react-native";
 
 
-export default CustomizedButton = ({ title, buttonStyle, textStyle, onPress }) => {
+export default CustomizedButton = ({ title, buttonStyle, textStyle, onPress, children }) => {
     return (
         <TouchableOpacity 
                 style={ [defaultStyles.button, buttonStyle ?? {} ] }
                 onPress={ onPress }>
             <Text style={ [defaultStyles.text, textStyle ?? {} ] }>{ title }</Text>
+            { children }
         </TouchableOpacity>
     );
 }

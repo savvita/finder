@@ -22,7 +22,12 @@ const OptionItem = ({ item, onChange }) => {
                     value={ isSelected }
                     onValueChange={ valueChanged }
                 />
-            <Text style={ styles.text }>{ item.title } ({ item.amount })</Text>
+            <Text 
+                    style={ styles.text }
+                    onPress={ () => valueChanged(!isSelected) }
+                >
+                    { item.title } ({ item.amount })
+            </Text>
         </View>
     )
 }

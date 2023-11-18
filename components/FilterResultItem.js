@@ -26,6 +26,7 @@ const FilterResultItem = ({ item, containerStyle, onPress }) => {
                 <Text style={ [styles.text, styles.title] }>{ item.name }</Text>
                 <CustomizedButton
                         buttonStyle={ styles.button }
+                        textStyle={ styles.buttonText }
                         title='Перейти до пошуку'
                         onPress={ onPress }
                     />
@@ -43,10 +44,11 @@ const FilterResultItem = ({ item, containerStyle, onPress }) => {
 const styles = StyleSheet.create({
     container: {
         borderBottomWidth: 1,
-        padding: 5,
+        padding: 10,
         borderColor: '#777',
         flexDirection: 'row',
         justifyContent: 'space-between',
+        backgroundColor: '#fff'
     },
     textContainer: {
         width: '70%'
@@ -63,7 +65,11 @@ const styles = StyleSheet.create({
         resizeMode: 'contain'
     },
     button: {
-        marginTop: 20
+        marginTop: 10,
+        backgroundColor: '#333'
+    },
+    buttonText: {
+        color: '#fff'
     }
 });
 

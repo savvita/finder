@@ -76,7 +76,7 @@ const FiltersScreen = ({ navigation, route }) => {
         <View style={ styles.container }>
             {
                 filters.filters.length > 0 ?
-                    <View>
+                    <View style={{ height: '100%', justifyContent: 'space-between'}}>
                         <Filters 
                                 items={ filters.filters } 
                                 refreshControl={ <RefreshControl refreshing={ isLoading } 
@@ -86,6 +86,7 @@ const FiltersScreen = ({ navigation, route }) => {
                             <CustomizedButton
                                     title="Шукати"
                                     buttonStyle={ styles.button }
+                                    textStyle={ styles.buttonText }
                                     onPress={ find }
                                 />
                     </View>
@@ -100,13 +101,18 @@ const styles = StyleSheet.create({
     container: {
         height: '100%',
         paddingHorizontal: 10,
-        paddingVertical: 10
+        paddingVertical: 10,
+        backgroundColor: '#fff'
     },
     noFiltersText: {
         marginTop: 20
     },
     button: {
-        marginTop: 20
+        marginTop: 20,
+        backgroundColor: '#333'
+    },
+    buttonText: {
+        color: '#fff'
     }
 });
 

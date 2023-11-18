@@ -1,4 +1,4 @@
-import { StyleSheet } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { getHeaderTitle } from '@react-navigation/elements';
 import Ionicons from 'react-native-vector-icons/Ionicons';
@@ -26,10 +26,10 @@ const TabNavigate = () => {
                             iconName = focused ? 'list-circle' : 'list-circle-outline';
                           }
               
-                          return <Ionicons name={ iconName } size={ size } color={ color } />;
+                          return <View style={{ paddingTop: 10 }}><Ionicons name={ iconName } size={ size } color={ color } /></View>;
                         },
-                        tabBarActiveTintColor: 'tomato',
-                        tabBarInactiveTintColor: 'gray',
+                        tabBarActiveTintColor: '#bfffd0',
+                        tabBarInactiveTintColor: '#ddd',
                         header: ({ navigation, route, options }) => {
                             const title = getHeaderTitle(options, route.name);
                           
@@ -40,7 +40,11 @@ const TabNavigate = () => {
                                         isSettings={ true }
                                         onSettingsPress={ () => navigation.navigate('settings') }
                                     />);
-                          }
+                        },
+                        tabBarStyle: { backgroundColor: '#333', height: 60 },
+                        tabBarLabelStyle: {
+                            paddingBottom: 10
+                        }
                       })}
                 >
                 <Tab.Screen
