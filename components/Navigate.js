@@ -1,54 +1,33 @@
 import { StyleSheet } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
-import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import Ionicons from 'react-native-vector-icons/Ionicons';
-import SearchScreen from "../screens/SearchScreen";
-import ParametersSearchScreen from '../screens/ParametersSearchScreen';
+import Header from '../components/Header';
 
+import { createStackNavigator } from '@react-navigation/stack';
+import TabNavigate from './TabNavigate';
+import SettingsScreen from '../screens/SettingsScreen';
 
 const Navigate = () => {
-    const Tab = createBottomTabNavigator();
+    const Stack = createStackNavigator();
 
-    const shopSearching = 'Пошук у магазинах';
-    const paramSearching = 'Пошук за параметрами';
     return (
         <NavigationContainer>
-            <Tab.Navigator
-                    screenOptions={({ route }) => ({
-                        tabBarIcon: ({ focused, color, size }) => {
-                          let iconName;
-              
-                          if (route.name === 'search_screen') {
-                            iconName = focused
-                              ? 'search'
-                              : 'search-outline';
-                          } else if (route.name === 'param_searching_screen') {
-                            iconName = focused ? 'list-circle' : 'list-circle-outline';
-                          }
-              
-                          return <Ionicons name={ iconName } size={ size } color={ color } />;
-                        },
-                        tabBarActiveTintColor: 'tomato',
-                        tabBarInactiveTintColor: 'gray'
-                      })}
-                >
-                <Tab.Screen
-                        name='search_screen'
+            <Stack.Navigator>
+                <Stack.Screen
+                        name="content"
+                        component={ TabNavigate }
                         options={{
-                            title: shopSearching,
-                            tabBarLabel: shopSearching
-                        }}
-                        component={ SearchScreen }
-                    />
-                <Tab.Screen
-                        name={ 'param_searching_screen' }
-                        component={ ParametersSearchScreen }
-                        options={{
-                            title: paramSearching,
-                            tabBarLabel: paramSearching
+                            headerShown: false
                         }}
                     />
-            </Tab.Navigator>
+                <Stack.Screen
+                        name="settings"
+                        component={ SettingsScreen }
+                        options={{
+                            title: 'Налаштування',
+                            header: (props) => <Header title={ props.options.title } isBack={ true } isSettings={ false }                                         onBackPress={ () => props.navigation.navigate('content') } />
+                        }}
+                    />
+            </Stack.Navigator>
         </NavigationContainer>
     );
 }

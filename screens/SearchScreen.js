@@ -5,6 +5,7 @@ import { useState, useEffect } from 'react';
 import SearchResultItem from '../components/SearchResultItem';
 import Accordion from '../components/Accordion';
 import AccordionItem from '../components/AccordionItem';
+import preferences from '../data/preferences';
 
 
 const SearchScreen = ({ navigation, route }) => {
@@ -12,22 +13,25 @@ const SearchScreen = ({ navigation, route }) => {
     const [data, setData] = useState([]);
     const [searchText, setSearchText] = useState('');
     const [isLoading, setIsLoading] = useState(false);
+    const tasks = {
+        'radiomag': (str) => findInRadiomag(str),
+        'voron': (str) => findInVoron(str),
+        'microteh': (str) => findInMicroteh(str)
+    };
+
 
     useEffect(() => {
         if(route.params && route.params.text) {
             setSearchText(route.params.text);
             search(route.params.text);
         }
-        
-    }, [route]);
+    }, [route, route.params]);
 
     const search = async (text) => {
+        const shops = await preferences.getShops();
+  
         setIsLoading(true);
-        Promise.allSettled([
-            findInRadiomag(text),
-            findInVoron(text), 
-            findInMicroteh(text)
-        ])
+        Promise.allSettled(shops.map(shop => tasks[shop](text)))
             .then(results => {
                 const values = [];
                 results.forEach((result, num) => {
@@ -53,7 +57,8 @@ const SearchScreen = ({ navigation, route }) => {
     }
 
     const findInRadiomag = async (text) => {
-        const radiomag = await engine.Radiomag.searchAsync(text, 'РАДІОМАГ-Дніпро');
+        const city = await preferences.getCity();
+        const radiomag = await engine.Radiomag.searchAsync(text, city ?? 'РАДІОМАГ-Дніпро');
 
         return {
             title: 'Радіомаг',
@@ -70,6 +75,7 @@ const SearchScreen = ({ navigation, route }) => {
             comments: 'Мікротех не надає інформацію про доступну кількість товару'
         };
     }
+
 
     return (
         <View style={ styles.container }>

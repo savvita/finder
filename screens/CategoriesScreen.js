@@ -58,7 +58,6 @@ const CategoriesScreen = ({ navigation }) => {
         try {
             const _categories = await engine.Voron.getCategoriesAsync(category ? category.url : currentCategory);
             if(_categories) {
-
                 if(_categories.length === 0 && category) {
                     navigation.navigate('filters', { title: category.title });
                     return false;
@@ -97,7 +96,7 @@ const CategoriesScreen = ({ navigation }) => {
 
     const breadcrumbPress = async (item) => {
         if (!item) return;
-        await loadCategories(item.url);
+        await loadCategories(item);
         setBreadcrumbs(item.breadcrumbs);
     }
 
