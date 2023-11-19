@@ -1,15 +1,17 @@
-import { ScrollView, StyleSheet, Text, ActivityIndicator, View, Linking, Image } from 'react-native';
+import { StyleSheet, Text, ActivityIndicator, View, Linking, Image } from 'react-native';
 import SearchInput from '../components/SearchInput';
 import engine from '../data/search_engine';
 import { useState, useEffect } from 'react';
 import SearchResultItem from '../components/SearchResultItem';
-import Accordion from '../components/Accordion';
 import AccordionItem from '../components/AccordionItem';
 import preferences from '../data/preferences';
+import useTheme from '../theme/useTheme';
+import useThemedStyles from '../theme/useThemedStyles';
+import { FlatList } from 'react-native-gesture-handler';
 
 
-const SearchScreen = ({ navigation, route }) => {
-    // navigation.setOptions({ ...navigation.options, title: 'ssd' });
+
+const SearchScreen = ({ route }) => {
     const [data, setData] = useState([]);
     const [searchText, setSearchText] = useState('');
     const [isLoading, setIsLoading] = useState(false);
@@ -18,6 +20,9 @@ const SearchScreen = ({ navigation, route }) => {
         'voron': (str) => findInVoron(str),
         'microteh': (str) => findInMicroteh(str)
     };
+
+    const theme = useTheme();
+    const style = useThemedStyles(styles);
 
     const shops = {
         'radiomag': 'Радіомаг',
@@ -62,12 +67,12 @@ const SearchScreen = ({ navigation, route }) => {
             const voron = await engine.Voron.searchAsync(text);
 
             return {
-                title: 'Ворон',
+                title: shops.voron,
                 data: voron.filter(item => item.available > 0)
             };
         } catch(e) {
             return {
-                title: 'Ворон',
+                title: shops.voron,
                 data: []
             };
         }
@@ -79,12 +84,12 @@ const SearchScreen = ({ navigation, route }) => {
             const radiomag = await engine.Radiomag.searchAsync(text, city ?? 'РАДІОМАГ-Дніпро');
 
             return {
-                title: 'Радіомаг',
+                title: shops.radiomag,
                 data: radiomag.filter(item => item.available > 0)
             };
         } catch (e) {
             return {
-                title: 'Радіомаг',
+                title: shops.radiomag,
                 data: []
             };
         }
@@ -95,13 +100,13 @@ const SearchScreen = ({ navigation, route }) => {
             const microteh = await engine.Microteh.searchAsync(text);
 
             return {
-                title: 'Мікротех',
+                title: shops.microteh,
                 data: microteh.filter(item => item.available > 0),
                 comments: 'Мікротех не надає інформацію про доступну кількість товару'
             };
         } catch (e) {
             return {
-                title: 'Мікротех',
+                title: shops.microteh,
                 data: []
             };
         }
@@ -137,60 +142,67 @@ const SearchScreen = ({ navigation, route }) => {
 
 
     return (
-        <View style={ styles.container }>
+        <View style={ style.container }>
             <SearchInput 
-                    containerStyle={{ marginHorizontal: 10, marginBottom: 10 }}
+                    containerStyle={ style.inputContainer }
+                    inputStyle={ style.input }
+                    errorStyle={ style.error }
                     onPress={ search } 
                     value={ searchText } 
                     onChange={ (text) => setSearchText(text) }
                     valid={ valid }
                     onValidChange={ (value) => setValid(value) }
                 />
-            { isLoading ? 
-                    <View style={ styles.contentContainer }>
-                        <ActivityIndicator 
-                                size='large'
+                { isLoading ? 
+                        <View style={ style.contentContainer }>
+                            <ActivityIndicator 
+                                    size='large'
+                                />
+                        </View>
+                    :
+                    <FlatList
+                            data={ data }
+                            keyExtractor={ item => item.title }
+                            renderItem={ ({ item }) => 
+                                <AccordionItem
+                                        title={ `${ item.title } (${ item.data.length })`}
+                                        headerContainerStyle={ style.accordionHeaderContainer }
+                                        headerTitleStyle={ style.accordionHeader }
+                                    >
+                                        { item.comments && <Text style={ style.comments }>* {  item.comments }</Text> }
+                                        { item.data.map((dataItem) => <SearchResultItem 
+                                                key={ dataItem.id } 
+                                                item={ dataItem } 
+                                                containerStyle={ { borderColor: theme.colors.BORDER }}
+                                                titleStyle={ { color: theme.colors.TEXT } }
+                                                textStyle={ { color: theme.colors.TEXT } }
+                                                buttonStyle={ { backgroundColor: theme.colors.BUTTON }}
+                                                buttonTextStyle={ { color: theme.colors.BUTTON_TEXT }}
+                                            />) }
+                                    </AccordionItem>
+                                }
                             />
-                    </View>
-                :
-                <ScrollView>
-                    <Accordion>
-                        { data.map((item, index) => 
-                            <AccordionItem
-                                    key={ index }
-                                    title={ `${ item.title } (${ item.data.length })`}
-                                    headerContainerStyle={ styles.accordionHeaderContainer }
-                                    iconStyle={ styles.accordionIcon }
-                                    headerTitleStyle={ styles.accordionHeader }
-                                >
-                                    { item.comments && <Text style={ styles.comments }>* {  item.comments }</Text> }
-                                    { item.data.map((dataItem) => <SearchResultItem key={ dataItem.id } item={ dataItem } />) }
-                            </AccordionItem>
-                            
-                        ) }
-                    </Accordion>
-                </ScrollView>
-            }
-            <View style={ styles.buttonContainer }>
+                }
+            <View style={ style.buttonContainer }>
                 <CustomizedButton
-                        buttonStyle={ styles.button }
+                        buttonStyle={ style.button }
                         title='Шукати у Google'
                         onPress={ findInGoogle }
                     >
                         <Image 
                                 source={ require('../assets/images/google_icon.png') } 
-                                style={ styles.buttonIcon }
+                                style={ style.buttonIcon }
                             />
                 </CustomizedButton>
                 <CustomizedButton
-                        buttonStyle={ styles.button }
-                        textStyle={ styles.buttonText }
+                        buttonStyle={ style.button }
+                        textStyle={ style.buttonText }
                         title='Шукати на AliExpress'
                         onPress={ findInAliExpress }
                     >
                     <Image 
                             source={ require('../assets/images/ali_icon.png') } 
-                            style={ styles.buttonIcon }
+                            style={ style.buttonIcon }
                         />
                 </CustomizedButton>
             </View>
@@ -198,11 +210,22 @@ const SearchScreen = ({ navigation, route }) => {
     );
 }
 
-const styles = StyleSheet.create({
+const styles = theme => StyleSheet.create({
     container: {
         height: '100%',
         paddingVertical: 10,
-        backgroundColor: '#fff'
+        backgroundColor: theme.colors.BACKGROUND
+    },
+    inputContainer: {
+        marginHorizontal: 10,
+        marginBottom: 10
+    },
+    input: {
+        backgroundColor: theme.colors.LIGHT
+    },
+    error: {
+        color: theme.colors.ERROR,
+        marginStart: 10
     },
     contentContainer: {
         height: '100%',
@@ -210,21 +233,19 @@ const styles = StyleSheet.create({
         alignItems: 'center'
     },
     accordionHeaderContainer: {
-        backgroundColor: '#eeeeee44',
-        // backgroundColor: '#efffefaa',
-        borderTopWidth: 0
+        backgroundColor: theme.colors.SECONDARY,
+        borderTopWidth: 0,
+        borderBottomColor: theme.colors.BORDER,
+        paddingHorizontal: 30,
     },
     accordionHeader: {
-        paddingStart: 30,
         fontSize: 18,
-        fontWeight: 'bold'
-    },
-    accordionIcon: {
-        marginEnd: 10
+        fontWeight: 'bold',
+        color: theme.colors.TEXT
     },
     comments: {
         paddingStart: 15,
-        color: '#f54'
+        color: theme.colors.ERROR
     },
     buttonContainer: { 
         flexDirection: 'row',

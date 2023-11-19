@@ -3,7 +3,7 @@ import OptionItem from '../components/OptionItem';
 import AccordionItem from '../components/AccordionItem';
 import Accordion from './Accordion';
 
-const FilterItem = ({ item, onChange }) => {
+const FilterItem = ({ item, onChange, textStyle, tintColors }) => {
     const valueChanged = (option, value) => {
         onChange && onChange(item, option, value);
     }
@@ -14,10 +14,18 @@ const FilterItem = ({ item, onChange }) => {
         <Accordion>
             <AccordionItem 
                     title={ item.title }
-                    headerTitleStyle={ styles.accordionHeader }
-                    iconStyle={ { marginEnd: 10 }}
+                    headerTitleStyle={ textStyle }
+                    headerContainerStyle={ styles.accordionHeader }
                 >
-                { item.options.map((item) => <OptionItem key={ item.id } item={ item } onChange={ (value) => valueChanged(item, value) } />) }
+                { item.options.map((item) => 
+                    <OptionItem 
+                            key={ item.id } 
+                            item={ item } 
+                            onChange={ (value) => valueChanged(item, value) } 
+                            textStyle={ textStyle }
+                            tintColors={ tintColors }
+                        />) 
+                }
             </AccordionItem>
         </Accordion>
     );
@@ -28,7 +36,7 @@ const styles = StyleSheet.create({
         fontSize: 16
     },
     accordionHeader: {
-        paddingStart: 10
+        paddingHorizontal: 10
     }
 });
 

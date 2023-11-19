@@ -2,7 +2,7 @@ import { View, StyleSheet, Text } from 'react-native';
 import CheckBox from '@react-native-community/checkbox';
 import { useState, useEffect } from 'react';
 
-const OptionItem = ({ item, onChange }) => {
+const OptionItem = ({ item, onChange, textStyle, tintColors }) => {
     const [isSelected, setIsSelected] = useState(false);
 
     useEffect(() => {
@@ -21,9 +21,10 @@ const OptionItem = ({ item, onChange }) => {
             <CheckBox
                     value={ isSelected }
                     onValueChange={ valueChanged }
+                    tintColors={ tintColors ?? { true: '#F15927', false: 'black' }}
                 />
             <Text 
-                    style={ styles.text }
+                    style={ [styles.text, textStyle ?? {}] }
                     onPress={ () => valueChanged(!isSelected) }
                 >
                     { item.title } ({ item.amount })

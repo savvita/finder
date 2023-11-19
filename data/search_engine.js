@@ -39,7 +39,7 @@ class Radiomag extends Basic {
         const searchText = text.replace(' ', '+');
         const url = `${ this.url }/search?q=${ searchText }`;
         const html = await getAsync(url);
-        // const html = temp.radiomag;
+        //const html = temp.radiomag;
 
         return this.#parseSearchResult(html, city);
     }
@@ -67,7 +67,7 @@ class Voron extends Basic {
         const searchText = text.replace(' ', '+');
         const url = `${ this.url }/search.php?search=${ searchText }`;
         const html = await getAsync(url);
-        // const html = temp.voron;
+        //const html = temp.voron;
 
         return this.#parseSearchResult(html);
     }
@@ -126,7 +126,7 @@ class Microteh extends Basic {
         const searchText = text.replace(' ', '+');
         const url = `${ this.url }?route=product/search&search=${ searchText }`;
         const html = await getAsync(url);
-        // const html = temp.microteh;
+        //const html = temp.microteh;
 
         return this.#parseSearchResult(html);
     }

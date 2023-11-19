@@ -1,7 +1,7 @@
 import { View, StyleSheet, Text } from 'react-native';
 import BreadcrumbItem from './BreadcrumbItem';
 
-const Breadcrumbs = ({ items, onPress}) => {
+const Breadcrumbs = ({ items, onPress, textStyle }) => {
     const press = (item) => {
         onPress && onPress(item);
     }
@@ -15,9 +15,9 @@ const Breadcrumbs = ({ items, onPress}) => {
                     <BreadcrumbItem
                             item={ item.title }
                             onPress={ () => press(item) }
-                            textStyle={ styles.text }
+                            textStyle={ [styles.text, textStyle ?? {}] }
                         />
-                    { index !== items.length - 1 && <Text style={ [styles.text, styles.separator] }>/</Text> }
+                    { index !== items.length - 1 && <Text style={ [styles.text, styles.separator, textStyle ?? {}] }>/</Text> }
                 </View>
             ) }
         </View>
@@ -32,10 +32,10 @@ const styles = StyleSheet.create({
     separator: {
         paddingHorizontal: 5
     },
-     text: {
+    text: {
         fontSize: 18,
         fontWeight: 'bold'
-     }
+    }
 });
 
 export default Breadcrumbs;

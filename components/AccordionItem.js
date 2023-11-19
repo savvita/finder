@@ -1,32 +1,27 @@
-import { TouchableOpacity, View, Text, Image, StyleSheet } from "react-native";
+import { TouchableOpacity, View, Text, StyleSheet } from "react-native";
 
 import { useState } from 'react';
+import Ionicons from 'react-native-vector-icons/Ionicons';
 
 
 
-export default function AccordionItem({ title, children, headerContainerStyle, headerTitleStyle, iconStyle, onToggle }) {
+export default function AccordionItem({ title, children, headerContainerStyle, headerTitleStyle }) {
     const [isCollapsed, setIsCollapsed] = useState(true);
-    const icons = [
-        require('../assets/images/up_icon.png'),
-        require('../assets/images/down_icon.png')
-    ];
-    const [currentIcon, setCurrentIcon] = useState(icons[1]);
 
     const toggle = () => {
         setIsCollapsed(prev => !prev);
-        setCurrentIcon(isCollapsed ? icons[0] : icons[1]);
-        onToggle && onToggle();
     }
-
     return (
-        <View style={{ maxHeight: '80%'}}>
+        <View>
             <TouchableOpacity
                 style={ [styles.headerContainer, headerContainerStyle ?? {}] }
                 onPress={ toggle }>
                 <Text style={ [styles.title, headerTitleStyle ?? {}] }>{ title }</Text>
-                <Image
-                    source={ currentIcon }
-                    style={ [styles.icon, iconStyle ?? {}] } />
+                <Ionicons 
+                        name={ isCollapsed ? 'chevron-down' : 'chevron-up'} 
+                        size={ 24 } 
+                        color={ headerTitleStyle?.color ?? '#007AFF' } 
+                    /> 
             </TouchableOpacity>
             { !isCollapsed && children }
         </View>
@@ -42,10 +37,6 @@ const styles = StyleSheet.create({
         borderBottomColor: '#aaa',
         borderTopWidth: 1,
         borderTopColor: '#aaa'
-    },
-    icon: {
-        width: 20,
-        height: 20
     },
     title: {
         fontFamily: 'mt-bold'

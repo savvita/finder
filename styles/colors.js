@@ -1,0 +1,58 @@
+const SUN_FLOWER = '#f1c40f';
+const ASBESTOS = '#7f8c8d';
+const MIDNIGHT_BLUE = '#2c3e50';
+const EMERALD = '#2ecc71';
+const ALIZARIN = '#e74c3c';
+const WHITE = '#ffffff';
+const BLACK = '#000000';
+const SILVER = '#bdc3c7';
+const CLOUDS = '#ecf0f1';
+const LIGHT_GRAY = '#efefef';
+const DARK_GRAY = '#666';
+const DARK_DARK_GRAY = '#333';
+const MEDIUM_GRAY = '#ccc';
+const BLUE = '#007AFF';
+const ALICE_BLUE = '#F0F8FF';
+const CHOCOLATE = '#D2691E';
+
+const common = {
+    PRIMARY: SUN_FLOWER,
+    SUCCESS: EMERALD,
+    LIGHT: WHITE
+};
+
+const light = {
+    ...common,
+    BACKGROUND: WHITE,
+    TEXT: DARK_GRAY,
+    TEXT_SECONDARY: ASBESTOS,
+    SECONDARY: LIGHT_GRAY,
+    BORDER: MEDIUM_GRAY,
+    CHECK_MARK: BLUE,
+    TRACK: MEDIUM_GRAY,
+    THUMB: BLUE,
+    ERROR: ALIZARIN,
+    BUTTON: DARK_DARK_GRAY,
+    BUTTON_TEXT: WHITE,
+    CHECKBOX_CHECKED: CHOCOLATE,
+    CHECKBOX_UNCHECKED: DARK_DARK_GRAY
+};
+
+const dark = {
+    ...common,
+    BACKGROUND: MIDNIGHT_BLUE,
+    TEXT: WHITE,
+    TEXT_SECONDARY: LIGHT_GRAY,
+    SECONDARY: DARK_DARK_GRAY,
+    BORDER: MEDIUM_GRAY,
+    CHECK_MARK: WHITE,
+    TRACK: SILVER,
+    THUMB: SUN_FLOWER,
+    ERROR: SUN_FLOWER,
+    BUTTON: ALICE_BLUE,
+    BUTTON_TEXT: DARK_DARK_GRAY,
+    CHECKBOX_CHECKED: SUN_FLOWER,
+    CHECKBOX_UNCHECKED: ALICE_BLUE
+};
+
+export const colors = { light, dark };

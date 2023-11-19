@@ -2,7 +2,7 @@ import { View, StyleSheet, Text } from 'react-native';
 import { useEffect, useState } from 'react';
 import RadioGroupOption from './RadioGroupOption';
 
-const CheckGroup = ({ title, options, checked, containerStyle, onSelectChanged }) => {
+const CheckGroup = ({ title, options, checked, containerStyle, onSelectChanged,titleStyle, optionTextStyle, checkMarkColor }) => {
     const [selected, setSelected] = useState(checked);
 
     useEffect(() => {
@@ -31,13 +31,15 @@ const CheckGroup = ({ title, options, checked, containerStyle, onSelectChanged }
 
     return (
         <View>
-            <Text style={ styles.title }>{ title }</Text>
+            <Text style={ [styles.title, titleStyle ?? {} ]}>{ title }</Text>
             <View style={ [styles.container, containerStyle ?? {}] }>
                 { options.map((item, index) => 
                     <RadioGroupOption
                             key={ index }
                             option={ item.name }
+                            textStyle={ optionTextStyle }
                             selected={ selected.find(i => i === item.value) }
+                            checkMarkColor={ checkMarkColor }
                             onSelect={ () => selectedChanged(item.value) }
                             index={ index }
                         />
@@ -50,11 +52,10 @@ const CheckGroup = ({ title, options, checked, containerStyle, onSelectChanged }
 const styles = StyleSheet.create({
     container: {
         backgroundColor: 'white',
-        paddingLeft: 20,
         borderTopWidth: 1,
         borderTopColor: '#cccccc',
-        borderWidth: 1,
-        borderColor: '#cccccc'
+        borderBottomWidth: 1,
+        borderBottomColor: '#cccccc'
     }, 
     title: {
         fontSize: 18,

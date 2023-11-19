@@ -3,10 +3,15 @@ import { useEffect, useState } from 'react';
 import engine from '../data/search_engine';
 import Filters from '../components/Filters';
 import CustomizedButton from '../components/CustomizedButton';
+import useTheme from '../theme/useTheme';
+import useThemedStyles from '../theme/useThemedStyles';
 
 const FiltersScreen = ({ navigation, route }) => {
     const [isLoading, setIsLoading] = useState(false);
     const [filters, setFilters] = useState(null);
+
+    const theme = useTheme();
+    const style = useThemedStyles(styles);
 
     useEffect(() => {
         loadFilters();
@@ -73,46 +78,54 @@ const FiltersScreen = ({ navigation, route }) => {
     if(!filters) return null;
     
     return (
-        <View style={ styles.container }>
+        <View style={ style.container }>
             {
                 filters.filters.length > 0 ?
                     <View style={{ height: '100%', justifyContent: 'space-between'}}>
-                        <Filters 
-                                items={ filters.filters } 
-                                refreshControl={ <RefreshControl refreshing={ isLoading } 
-                                onRefresh={ refresh } /> } 
-                                onChange={ onChange }
-                            />
-                            <CustomizedButton
-                                    title="Шукати"
-                                    buttonStyle={ styles.button }
-                                    textStyle={ styles.buttonText }
-                                    onPress={ find }
+                        <View style={{ maxHeight: '80%', flexGrow: 1}}>
+                            <Filters 
+                                    items={ filters.filters } 
+                                    refreshControl={ <RefreshControl refreshing={ isLoading } 
+                                    onRefresh={ refresh } /> } 
+                                    onChange={ onChange }
+                                    textStyle={ style.text }
+                                    tintColors={{ true: theme.colors.CHECKBOX_CHECKED, false: theme.colors.CHECKBOX_UNCHECKED }}
                                 />
+                        </View>
+                        <CustomizedButton
+                                title="Шукати"
+                                buttonStyle={ style.button }
+                                textStyle={ style.buttonText }
+                                onPress={ find }
+                            />
                     </View>
                 :
-                    <Text style={ styles.noFiltersText }>Фільтрів не знайдено</Text>
+                    <Text style={ style.noFiltersText }>Фільтрів не знайдено</Text>
             }
         </View>
     );
 }
 
-const styles = StyleSheet.create({
+const styles = theme => StyleSheet.create({
     container: {
         height: '100%',
         paddingHorizontal: 10,
         paddingVertical: 10,
-        backgroundColor: '#fff'
+        backgroundColor: theme.colors.BACKGROUND
     },
     noFiltersText: {
-        marginTop: 20
+        marginTop: 20,
+        color: theme.colors.TEXT
+    },
+    text: {
+        color: theme.colors.TEXT
     },
     button: {
         marginTop: 20,
-        backgroundColor: '#333'
+        backgroundColor: theme.colors.BUTTON
     },
     buttonText: {
-        color: '#fff'
+        color: theme.colors.BUTTON_TEXT
     }
 });
 

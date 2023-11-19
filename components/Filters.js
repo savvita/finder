@@ -1,28 +1,24 @@
-import { ScrollView, StyleSheet, View, Text } from 'react-native';
+import { FlatList } from 'react-native';
 import FilterItem from './FilterItem';
 
-const Filters = ({ items, refreshControl, onChange }) => {
+const Filters = ({ items, refreshControl, onChange, textStyle, tintColors }) => {
     if(!items) return null;
-    console.log(items)
+    
     return (
-        // <FlatList
-        //         data={ items }
-        //         keyExtractor={ item => item.id }
-        //         renderItem={ ({ item }) =>
-        //             <FilterItem item={ item } onChange={ onChange } />
-        //         }
-        //         refreshControl={ refreshControl }
-        //     />
-        <ScrollView style={{ maxHeight: '90%' }} refreshControl={ refreshControl }>
-            { items.map((item) =>
-                <FilterItem key={ item.id } item={ item } onChange={ onChange } />
-            )}
-        </ScrollView>
+        <FlatList
+                keyExtractor={ item => item.id }
+                data={ items }
+                refreshControl={ refreshControl }
+                renderItem={ ({ item }) => 
+                    <FilterItem 
+                            item={ item } 
+                            onChange={ onChange } 
+                            textStyle={ textStyle }
+                            tintColors={ tintColors }
+                        />
+                    }   
+            />
     );
 }
-
-const styles = StyleSheet.create({
-
-});
 
 export default Filters;

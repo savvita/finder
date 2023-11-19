@@ -2,12 +2,21 @@ import { createStackNavigator } from '@react-navigation/stack';
 import CategoriesScreen from './CategoriesScreen';
 import FiltersScreen from './FiltersScreen';
 import FiltersResultsScreen from './FiltersResultsScreen';
+import useTheme from '../theme/useTheme';
 
 const ParametersSearchScreen = () => {
     const Stack = createStackNavigator();
+    const theme = useTheme();
     
     return (
-        <Stack.Navigator>
+        <Stack.Navigator
+                screenOptions={{
+                    headerStyle: {
+                        backgroundColor: theme.colors.BACKGROUND,
+                    },
+                    headerTintColor: theme.colors.TEXT
+                }}
+            >
             <Stack.Screen
                     name="categories"
                     component={ CategoriesScreen }

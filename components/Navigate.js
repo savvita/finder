@@ -1,10 +1,10 @@
-import { StyleSheet } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import Header from '../components/Header';
 
 import { createStackNavigator } from '@react-navigation/stack';
 import TabNavigate from './TabNavigate';
 import SettingsScreen from '../screens/SettingsScreen';
+
 
 const Navigate = () => {
     const Stack = createStackNavigator();
@@ -31,14 +31,4 @@ const Navigate = () => {
         </NavigationContainer>
     );
 }
-
-const styles = StyleSheet.create({
-    header: {
-        backgroundColor: '#333'
-    },
-    headerTitle: {
-
-    }
-});
-
 export default Navigate;

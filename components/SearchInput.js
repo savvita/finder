@@ -1,7 +1,7 @@
 import { View, StyleSheet, TextInput, Image, Text, TouchableOpacity } from 'react-native';
 import { useState, useEffect } from 'react';
 
-const SearchInput = ({ containerStyle, inputStyle, iconStyle, onPress, value, onChange, valid, onValidChange }) => {
+const SearchInput = ({ containerStyle, inputStyle, iconStyle, onPress, value, onChange, valid, onValidChange, errorStyle }) => {
     const [text, setText] = useState('');
     const [validationError, setValidationError] = useState(false);
 
@@ -45,12 +45,12 @@ const SearchInput = ({ containerStyle, inputStyle, iconStyle, onPress, value, on
 
     return (
         <View style={ containerStyle ?? {} }>
-            <View style={ [styles.container] }>
+            <View style={ [styles.container, inputStyle ?? {}] }>
                 <TextInput 
                         value={ text }
                         onChangeText={ handleInput }
                         placeholder='Пошук...' 
-                        style={ [styles.input, validationError ? styles.inputError : {}, inputStyle ?? {}] }
+                        style={ [styles.input, validationError ? styles.inputError : {}] }
                     />
                 <TouchableOpacity
                         style={ styles.imageContainer }
@@ -62,7 +62,7 @@ const SearchInput = ({ containerStyle, inputStyle, iconStyle, onPress, value, on
                         />
                 </TouchableOpacity>
             </View>
-            { validationError && <Text style={ styles.errorText }>Обов'язкове поле</Text> }
+            { validationError && <Text style={ [styles.errorText, errorStyle ?? {}] }>Обов'язкове поле</Text> }
 
         </View>
     );

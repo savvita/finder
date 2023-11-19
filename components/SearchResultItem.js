@@ -2,7 +2,7 @@ import { TouchableOpacity, StyleSheet, Text, Image, View, Linking } from 'react-
 import { useEffect, useState } from 'react';
 import CustomizedButton from './CustomizedButton';
 
-const SearchResultItem = ({ item, containerStyle }) => {
+const SearchResultItem = ({ item, containerStyle, titleStyle, textStyle, buttonStyle, buttonTextStyle }) => {
     const [imageSource, setImageSource] = useState(null);
 
     useEffect(() => {
@@ -34,14 +34,14 @@ const SearchResultItem = ({ item, containerStyle }) => {
     return (
         <TouchableOpacity style={ [styles.container, containerStyle ?? {}] }>
             <View style={ styles.textContainer }>
-                <Text style={ [styles.text, styles.title] }>{ item.name }</Text>
-                <Text style={ styles.text }>У наявності: { item.available } шт.</Text>
-                <Text style={ styles.text }>Ціна: { item.price }&nbsp;&#8372;</Text>
+                <Text style={ [styles.text, styles.title, titleStyle ?? {}] }>{ item.name }</Text>
+                <Text style={ [styles.text, textStyle ?? {}] }>У наявності: { item.available } шт.</Text>
+                <Text style={ [styles.text, textStyle ?? {}] }>Ціна: { item.price }&nbsp;&#8372;</Text>
                 <CustomizedButton
                         title='У магазин'
                         onPress={ openUrl }
-                        buttonStyle={ styles.button }
-                        textStyle={ styles.buttonText }
+                        buttonStyle={ [styles.button, buttonStyle ?? {}] }
+                        textStyle={ [styles.buttonText, buttonTextStyle ?? {}] }
                     />
             </View>
             { imageSource && 
@@ -74,7 +74,8 @@ const styles = StyleSheet.create({
     image: {
         width: 80, 
         height: 80,
-        resizeMode: 'contain'
+        resizeMode: 'contain',
+        alignSelf: 'center'
     },
     button: {
         backgroundColor: '#333'

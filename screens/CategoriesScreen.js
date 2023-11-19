@@ -1,14 +1,20 @@
-import { View, StyleSheet, FlatList, BackHandler, AppState, ToastAndroid, RefreshControl } from 'react-native';
-import { useEffect, useState, useRef } from 'react';
+import { View, StyleSheet, FlatList, BackHandler, ToastAndroid, RefreshControl } from 'react-native';
+import { useEffect, useState } from 'react';
 import engine from '../data/search_engine';
 import CategoryItem from '../components/CategoryItem';
 import Breadcrumbs from '../components/Breadcrumbs';
+import useTheme from '../theme/useTheme';
+import useThemedStyles from '../theme/useThemedStyles';
 
 const CategoriesScreen = ({ navigation }) => {
     const [categories, setCategories] = useState([]);
     const [isLoading, setIsLoading] = useState(false);
     const [breadcrumbs, setBreadcrumbs] = useState([]);
     const [currentCategory, setCurrentCategory] = useState(engine.catalogUrl);
+
+    const theme = useTheme();
+    const style = useThemedStyles(styles);
+
 
     const initializeBreadcrumbs = () => {
         const breadcrumb = {
@@ -105,10 +111,12 @@ const CategoriesScreen = ({ navigation }) => {
     }
     
     return (
-        <View style={ styles.container }>
+        <View style={ style.container }>
+
             <Breadcrumbs 
                     items={ breadcrumbs } 
                     onPress={ breadcrumbPress }
+                    textStyle={ style.text }
                 />
                 <FlatList
                         data={ categories }
@@ -117,6 +125,8 @@ const CategoriesScreen = ({ navigation }) => {
                             <CategoryItem 
                                     item={ item } 
                                     onPress={ () => categoryPress(item) }
+                                    textStyle={ style.text }
+                                    containerStyle={{ borderBottomColor: theme.colors.BORDER }}
                                 />
                         }
                         refreshControl={ <RefreshControl refreshing={ isLoading } onRefresh={ refresh } /> }
@@ -125,20 +135,15 @@ const CategoriesScreen = ({ navigation }) => {
     );
 }
 
-const styles = StyleSheet.create({
+const styles = theme => StyleSheet.create({
     container: {
         height: '100%',
         paddingHorizontal: 10,
         paddingVertical: 10,
-        backgroundColor: '#fff'
-    },
-    contentContainer: {
-        height: '100%',
-        justifyContent: 'center',
-        alignItems: 'center'
+        backgroundColor: theme.colors.BACKGROUND
     },
     text: {
-
+        color: theme.colors.TEXT
     },
     title: {
         fontSize: 18,
