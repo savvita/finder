@@ -2,7 +2,7 @@ import { View, StyleSheet, Image, TouchableOpacity, Text } from 'react-native';
 import { useState, useEffect } from 'react';
 import CustomizedButton from './CustomizedButton';
 
-const FilterResultItem = ({ item, containerStyle, onPress }) => {
+const FilterResultItem = ({ item, containerStyle, onPress, textStyle, buttonStyle, buttonTextStyle }) => {
     const [imageSource, setImageSource] = useState(null);
 
     useEffect(() => {
@@ -23,10 +23,10 @@ const FilterResultItem = ({ item, containerStyle, onPress }) => {
     return (
         <TouchableOpacity style={ [styles.container, containerStyle ?? {}] }>
             <View style={ styles.textContainer }>
-                <Text style={ [styles.text, styles.title] }>{ item.name }</Text>
+                <Text style={ [styles.text, styles.title, textStyle ?? {}] }>{ item.name }</Text>
                 <CustomizedButton
-                        buttonStyle={ styles.button }
-                        textStyle={ styles.buttonText }
+                        buttonStyle={ [styles.button, buttonStyle] }
+                        textStyle={ [styles.buttonText, buttonTextStyle] }
                         title='Перейти до пошуку'
                         onPress={ onPress }
                     />

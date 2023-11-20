@@ -2,10 +2,15 @@ import { View, StyleSheet, FlatList, Text, RefreshControl, ToastAndroid } from '
 import { useState, useEffect } from 'react';
 import FilterResultItem from '../components/FilterResultItem';
 import engine from '../data/search_engine';
+import useTheme from '../theme/useTheme';
+import useThemedStyles from '../theme/useThemedStyles';
 
 const FiltersResultsScreen = ({ navigation, route }) => {
     const [items, setItems] = useState([]);
     const [isLoading, setIsLoading] = useState(false);
+
+    const theme = useTheme();
+    const style = useThemedStyles(styles);
 
     useEffect(() => {
         load();
@@ -41,7 +46,7 @@ const FiltersResultsScreen = ({ navigation, route }) => {
     }
 
     return (
-        <View style={ styles.container }>
+        <View style={ style.container }>
             {
                 items.length > 0 ?
                     <FlatList
@@ -51,23 +56,27 @@ const FiltersResultsScreen = ({ navigation, route }) => {
                             <FilterResultItem 
                                     item={ item } 
                                     onPress={ () => navigateToSearching(item) }
+                                    textStyle={ style.text }
+                                    buttonStyle={ style.button }
+                                    buttonTextStyle={ style.buttonText }
+                                    containerStyle={ { backgroundColor: theme.colors.BACKGROUND } }
                                 />
                         }
                         refreshControl={ <RefreshControl refreshing={ isLoading } onRefresh={ load } /> }
                     />
                 :
-                    <Text style={ styles.noFoundText } refreshControl={ <RefreshControl refreshing={ isLoading } onRefresh={ load } /> } >Нічого не знайдено</Text>
+                    <Text style={ style.noFoundText } refreshControl={ <RefreshControl refreshing={ isLoading } onRefresh={ load } /> } >Нічого не знайдено</Text>
             }
         </View>
     );
 }
 
-const styles = StyleSheet.create({
+const styles = theme => StyleSheet.create({
     container: {
         height: '100%',
         paddingHorizontal: 10,
         paddingVertical: 10,
-        backgroundColor: '#fff'
+        backgroundColor: theme.colors.BACKGROUND
     },
     contentContainer: {
         height: '100%',
@@ -75,14 +84,21 @@ const styles = StyleSheet.create({
         alignItems: 'center'
     },
     text: {
-
+        color: theme.colors.TEXT
+    },
+    button: {
+        backgroundColor: theme.colors.BUTTON
+    },
+    buttonText: {
+        color: theme.colors.BUTTON_TEXT
     },
     title: {
         fontSize: 18,
         fontWeight: '400'
     },
     noFoundText: {
-        marginTop: 20
+        marginTop: 20,
+        color: theme.colors.TEXT
     }
 });
 
