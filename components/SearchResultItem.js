@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import CustomizedButton from './CustomizedButton';
 
-const SearchResultItem = ({ item, containerStyle, titleStyle, textStyle, buttonStyle, buttonTextStyle, favouriteColor, favouriteSize, isFavourite, onFavouritePress }) => {
+const SearchResultItem = ({ item, containerStyle, titleStyle, textStyle, buttonStyle, buttonTextStyle, favouriteColor, favouriteSize, isFavourite, onFavouritePress, onSpecPress }) => {
     const [imageSource, setImageSource] = useState(null);
 
     useEffect(() => {
@@ -29,6 +29,7 @@ const SearchResultItem = ({ item, containerStyle, titleStyle, textStyle, buttonS
                 }
             });
     }
+    
 
     if(!item) return null;
 
@@ -50,6 +51,14 @@ const SearchResultItem = ({ item, containerStyle, titleStyle, textStyle, buttonS
                         source={ imageSource }
                         style={ styles.image }
                     /> 
+            }
+            { item.datasheet && 
+            <TouchableOpacity style={ styles.specIconContainer } onPress={ onSpecPress }>
+                <Image
+                        source={ require('../assets/images/pdf.png') }
+                        style={ styles.specIcon }
+                    />
+                </TouchableOpacity>
             }
             <Ionicons 
                     style={ styles.icon }
@@ -95,6 +104,15 @@ const styles = StyleSheet.create({
         position: 'absolute',
         top: 5,
         right: 10
+    },
+    specIcon: {
+        width: 40, 
+        height: 40
+    },
+    specIconContainer: {
+        position: 'absolute',
+        right: 0,
+        bottom: 5
     }
 });
 

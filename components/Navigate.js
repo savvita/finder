@@ -5,6 +5,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import TabNavigate from './TabNavigate';
 import SettingsScreen from '../screens/SettingsScreen';
 import FavouritesScreen from '../screens/FavouritesScreen';
+import PdfScreen from '../screens/PdfScreen';
 
 
 const Navigate = () => {
@@ -39,6 +40,21 @@ const Navigate = () => {
                         component={ FavouritesScreen }
                         options={{
                             title: 'Улюблене',
+                            header: (props) => 
+                                <Header 
+                                        title={ props.options.title } 
+                                        isBack={ true } 
+                                        isSettings={ false } 
+                                        isFavourite={ false }
+                                        onBackPress={ () => props.navigation.navigate('content') } 
+                                    />
+                        }}
+                    />
+                <Stack.Screen
+                        name="pdf"
+                        component={ PdfScreen }
+                        options={{
+                            title: 'Специфікація',
                             header: (props) => 
                                 <Header 
                                         title={ props.options.title } 

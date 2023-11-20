@@ -72,6 +72,15 @@ const parseRow = (row, indexes, baseUrl, city) => {
         }
     }
 
+    const datasheet = row.querySelector('a.datasheet-link');
+    if(datasheet) {
+        let url = datasheet.getAttribute('href');
+        if(!url.startsWith('http')) {
+            url = baseUrl + url;
+        }
+        article.datasheet = url;
+    }
+
     return article;
 }
 

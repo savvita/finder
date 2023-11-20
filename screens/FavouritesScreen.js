@@ -1,6 +1,6 @@
 import { View, StyleSheet, Linking, Text, FlatList, RefreshControl } from 'react-native';
 import { useState, useEffect } from 'react';
-import FavouriteItem from './FavouriteItem';
+import FavouriteItem from '../components/FavouriteItem';
 import preferences from '../data/preferences';
 import useTheme from '../theme/useTheme';
 import useThemedStyles from '../theme/useThemedStyles';

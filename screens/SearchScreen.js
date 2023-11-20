@@ -11,7 +11,7 @@ import { FlatList } from 'react-native-gesture-handler';
 
 
 
-const SearchScreen = ({ route }) => {
+const SearchScreen = ({ route, navigation }) => {
     const [data, setData] = useState([]);
     const [searchText, setSearchText] = useState('');
     const [isLoading, setIsLoading] = useState(false);
@@ -166,6 +166,10 @@ const SearchScreen = ({ route }) => {
         return favourites.find(f => f.url === item.url) !== undefined;
     }
 
+    const openPdf = (url) => {
+        navigation.navigate('pdf', { url: url});
+    }
+
     return (
         <View style={ style.container }>
             <SearchInput 
@@ -207,6 +211,7 @@ const SearchScreen = ({ route }) => {
                                                 favouriteColor={ theme.colors.FAVOURITE }
                                                 isFavourite = { isFavourite(dataItem) }
                                                 onFavouritePress={ () => toggleFavourite(dataItem, item.title) }
+                                                onSpecPress={ () => openPdf(dataItem.datasheet) }
                                             />) }
                                     </AccordionItem>
                                 }
