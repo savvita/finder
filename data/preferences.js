@@ -3,6 +3,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 const CITY_KEY = 'city';
 const SHOP_KEY = 'shop';
 const THEME_KEY = 'light_theme';
+const FAVOURITE_KEY = 'favourite';
 
 const setCity = (value) => {
     if(value) {
@@ -39,6 +40,20 @@ const getShops = async () => {
     return [];
 }
 
+const setFavourites = async (values) => {
+    if(values) {
+        await storeData(FAVOURITE_KEY, JSON.stringify(values));
+    }
+}
+
+const getFavourites = async () => {
+    const values = await getData(FAVOURITE_KEY);
+    if(values) {
+        return JSON.parse(values);
+    }
+
+    return [];
+}
 
 const storeData = async (key, value) => {
     try {
@@ -62,5 +77,7 @@ export default {
     setShops: setShops,
     getShops: getShops,
     setTheme: setTheme,
-    getTheme: getTheme
+    getTheme: getTheme,
+    setFavourites: setFavourites,
+    getFavourites: getFavourites
 }

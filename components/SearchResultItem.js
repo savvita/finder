@@ -1,8 +1,9 @@
 import { TouchableOpacity, StyleSheet, Text, Image, View, Linking } from 'react-native';
 import { useEffect, useState } from 'react';
+import Ionicons from 'react-native-vector-icons/Ionicons';
 import CustomizedButton from './CustomizedButton';
 
-const SearchResultItem = ({ item, containerStyle, titleStyle, textStyle, buttonStyle, buttonTextStyle }) => {
+const SearchResultItem = ({ item, containerStyle, titleStyle, textStyle, buttonStyle, buttonTextStyle, favouriteColor, favouriteSize, isFavourite, onFavouritePress }) => {
     const [imageSource, setImageSource] = useState(null);
 
     useEffect(() => {
@@ -50,6 +51,13 @@ const SearchResultItem = ({ item, containerStyle, titleStyle, textStyle, buttonS
                         style={ styles.image }
                     /> 
             }
+            <Ionicons 
+                    style={ styles.icon }
+                    name={ isFavourite === true ? 'star' : 'star-outline' }
+                    size={ favouriteSize ?? 24 } 
+                    color={ favouriteColor ?? '#007AFF' } 
+                    onPress={ onFavouritePress }
+                /> 
         </TouchableOpacity>
     );
 }
@@ -82,6 +90,11 @@ const styles = StyleSheet.create({
     },
     buttonText: {
         color: '#fff'
+    },
+    icon: {
+        position: 'absolute',
+        top: 5,
+        right: 10
     }
 });
 

@@ -15,6 +15,7 @@ const SearchScreen = ({ route }) => {
     const [data, setData] = useState([]);
     const [searchText, setSearchText] = useState('');
     const [isLoading, setIsLoading] = useState(false);
+    const [favourites, setFavourites] = useState([]);
     const tasks = {
         'radiomag': (str) => findInRadiomag(str),
         'voron': (str) => findInVoron(str),
@@ -32,7 +33,6 @@ const SearchScreen = ({ route }) => {
 
     const [valid, setValid] = useState(true);
 
-
     useEffect(() => {
         if(route.params && route.params.text) {
             setSearchText(route.params.text);
@@ -40,7 +40,13 @@ const SearchScreen = ({ route }) => {
         }
     }, [route, route.params]);
 
+    const loadFavourites = async () => {
+        const _values = await preferences.getFavourites();
+        setFavourites(_values);
+        return _values;
+    }
     const search = async (text) => {
+        await loadFavourites();
         const _shops = await preferences.getShops();
   
         setIsLoading(true);
@@ -140,6 +146,25 @@ const SearchScreen = ({ route }) => {
             });
     }
 
+    const toggleFavourite = async (item, shop) => {
+        const _favourites = await loadFavourites();
+        const val = _favourites.find(i => i.url === item.url);
+        if(val) {
+            await preferences.setFavourites(_favourites.filter(i => i.url !== item.url));
+        } else {
+            await preferences.setFavourites([..._favourites, {
+                title: item.name,
+                url: item.url,
+                shop: shop
+            }]);
+        }
+        
+        await loadFavourites();
+    }
+
+    const isFavourite = (item) => {
+        return favourites.find(f => f.url === item.url) !== undefined;
+    }
 
     return (
         <View style={ style.container }>
@@ -152,6 +177,7 @@ const SearchScreen = ({ route }) => {
                     onChange={ (text) => setSearchText(text) }
                     valid={ valid }
                     onValidChange={ (value) => setValid(value) }
+                    validation={ true }
                 />
                 { isLoading ? 
                         <View style={ style.contentContainer }>
@@ -178,6 +204,9 @@ const SearchScreen = ({ route }) => {
                                                 textStyle={ { color: theme.colors.TEXT } }
                                                 buttonStyle={ { backgroundColor: theme.colors.BUTTON }}
                                                 buttonTextStyle={ { color: theme.colors.BUTTON_TEXT }}
+                                                favouriteColor={ theme.colors.FAVOURITE }
+                                                isFavourite = { isFavourite(dataItem) }
+                                                onFavouritePress={ () => toggleFavourite(dataItem, item.title) }
                                             />) }
                                     </AccordionItem>
                                 }

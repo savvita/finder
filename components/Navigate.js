@@ -4,6 +4,7 @@ import Header from '../components/Header';
 import { createStackNavigator } from '@react-navigation/stack';
 import TabNavigate from './TabNavigate';
 import SettingsScreen from '../screens/SettingsScreen';
+import FavouritesScreen from '../screens/FavouritesScreen';
 
 
 const Navigate = () => {
@@ -24,7 +25,28 @@ const Navigate = () => {
                         component={ SettingsScreen }
                         options={{
                             title: 'Налаштування',
-                            header: (props) => <Header title={ props.options.title } isBack={ true } isSettings={ false }                                         onBackPress={ () => props.navigation.navigate('content') } />
+                            header: (props) => 
+                            <Header 
+                                    title={ props.options.title } 
+                                    isBack={ true } 
+                                    isSettings={ false } isFavourite={ false }
+                                    onBackPress={ () => props.navigation.navigate('content') } 
+                                />
+                        }}
+                    />
+                <Stack.Screen
+                        name="favourites"
+                        component={ FavouritesScreen }
+                        options={{
+                            title: 'Улюблене',
+                            header: (props) => 
+                                <Header 
+                                        title={ props.options.title } 
+                                        isBack={ true } 
+                                        isSettings={ false } 
+                                        isFavourite={ false }
+                                        onBackPress={ () => props.navigation.navigate('content') } 
+                                    />
                         }}
                     />
             </Stack.Navigator>

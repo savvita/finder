@@ -38,7 +38,9 @@ const TabNavigate = () => {
                                         title={ title } 
                                         containerStyle={ options.headerStyle }
                                         isSettings={ true }
+                                        isFavourite={ true }
                                         onSettingsPress={ () => navigation.navigate('settings') }
+                                        onFavouritesPress={ () => navigation.navigate('favourites') }
                                     />);
                         },
                         tabBarStyle: { backgroundColor: '#333', height: 60 },

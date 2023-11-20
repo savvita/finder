@@ -1,7 +1,7 @@
 import { View, StyleSheet, TextInput, Image, Text, TouchableOpacity } from 'react-native';
 import { useState, useEffect } from 'react';
 
-const SearchInput = ({ containerStyle, inputStyle, iconStyle, onPress, value, onChange, valid, onValidChange, errorStyle }) => {
+const SearchInput = ({ containerStyle, inputStyle, iconStyle, onPress, value, onChange, valid, onValidChange, errorStyle, validation }) => {
     const [text, setText] = useState('');
     const [validationError, setValidationError] = useState(false);
 
@@ -12,7 +12,8 @@ const SearchInput = ({ containerStyle, inputStyle, iconStyle, onPress, value, on
     }, [value]);
 
     useEffect(() => {
-        setValidationError(!valid);
+        if(validation === true)
+            setValidationError(!valid);
     }, [valid]);
 
     useEffect(() => {
@@ -26,6 +27,7 @@ const SearchInput = ({ containerStyle, inputStyle, iconStyle, onPress, value, on
     }
 
     const validate = (txt) => {
+        if(validation !== true) return true;
         if(txt.length > 0) {
             setValidationError(false);
             return true;
