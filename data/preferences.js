@@ -5,6 +5,14 @@ const SHOP_KEY = 'shop';
 const THEME_KEY = 'light_theme';
 const FAVOURITE_KEY = 'favourite';
 
+const removeCity = async () => {
+    await removeItem(CITY_KEY);
+}
+
+const removeItem = async (key) => {
+    await AsyncStorage.removeItem(key);
+}
+
 const setCity = (value) => {
     if(value) {
         storeData(CITY_KEY, value);
@@ -74,6 +82,7 @@ const getData = async (key) => {
 export default {
     setCity: setCity,
     getCity: getCity,
+    removeCity: removeCity,
     setShops: setShops,
     getShops: getShops,
     setTheme: setTheme,

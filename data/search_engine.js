@@ -36,11 +36,13 @@ class Radiomag extends Basic {
         super('https://www.rcscomponents.kiev.ua/');
     }
     searchAsync = async(text, city) => {
+        if(!text) return [];
         const searchText = text.replace(' ', '+');
         const url = `${ this.url }/search?q=${ searchText }`;
         const html = await getAsync(url);
         //const html = temp.radiomag;
 
+        if(!html) return [];
         return this.#parseSearchResult(html, city);
     }
 
@@ -64,10 +66,13 @@ class Voron extends Basic {
     static catalogUrl = 'https://voron.ua/uk/catalog';
 
     searchAsync = async(text) => {
+        if(!text) return [];
         const searchText = text.replace(' ', '+');
         const url = `${ this.url }/search.php?search=${ searchText }`;
         const html = await getAsync(url);
         //const html = temp.voron;
+
+        if(!html) return [];
 
         return this.#parseSearchResult(html);
     }
@@ -123,12 +128,23 @@ class Microteh extends Basic {
         super('https://microteh.ck.ua/index.php');
     }
     searchAsync = async(text) => {
+        if(!text) return [];
         const searchText = text.replace(' ', '+');
         const url = `${ this.url }?route=product/search&search=${ searchText }`;
         const html = await getAsync(url);
-        //const html = temp.microteh;
+        // const html = temp.microteh;
 
         return this.#parseSearchResult(html);
+    }
+
+    checkAvailableAsync = async (item) => {
+        const html = await getAsync(item.url);
+        const doc = IDOMParser.parse(html, {
+            ignoreTags: ['head', 'style'],
+            onlyBody: true,
+            errorHandler: () => {}
+        });
+        return microteh.checkAvailable(doc);
     }
 
     #parseSearchResult = (html) => {

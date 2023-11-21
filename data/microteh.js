@@ -52,6 +52,19 @@ const parseTable = (table) => {
     return articles;
 }
 
+const checkAvailable = (html) => {
+    const content = html.querySelector('div#content div.col-sm-4 ul.list-unstyled')?.querySelectorAll('li');
+    const div = content[content.length - 1]?.querySelectorAll('div');
+    if(!div || div.length === 0) return false;
+
+
+    const text = div[div.length - 1].text().toLowerCase();
+    if(!text.includes('наявності')) return false;
+
+    return !div[div.length - 1].text().toLowerCase().includes('немає');
+}
+
 export default {
-    parseTable: parseTable
+    parseTable: parseTable,
+    checkAvailable: checkAvailable
 };

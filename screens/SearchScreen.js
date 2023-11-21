@@ -170,6 +170,10 @@ const SearchScreen = ({ route, navigation }) => {
         navigation.navigate('pdf', { url: url});
     }
 
+    const checkAvailable = async (item) => {
+        return await engine.Microteh.checkAvailableAsync(item);
+    }
+
     return (
         <View style={ style.container }>
             <SearchInput 
@@ -212,6 +216,7 @@ const SearchScreen = ({ route, navigation }) => {
                                                 isFavourite = { isFavourite(dataItem) }
                                                 onFavouritePress={ () => toggleFavourite(dataItem, item.title) }
                                                 onSpecPress={ () => openPdf(dataItem.datasheet) }
+                                                onCheckAvailablePress={ () => checkAvailable(dataItem) }
                                             />) }
                                     </AccordionItem>
                                 }
@@ -246,7 +251,8 @@ const SearchScreen = ({ route, navigation }) => {
 
 const styles = theme => StyleSheet.create({
     container: {
-        height: '100%',
+        // height: '100%',
+        flex: 1,
         paddingVertical: 10,
         backgroundColor: theme.colors.BACKGROUND
     },
@@ -262,7 +268,8 @@ const styles = theme => StyleSheet.create({
         marginStart: 10
     },
     contentContainer: {
-        height: '100%',
+        // height: '100%',
+        flex: 1,
         justifyContent: 'center',
         alignItems: 'center'
     },

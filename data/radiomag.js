@@ -67,7 +67,7 @@ const parseRow = (row, indexes, baseUrl, city) => {
     if(indexes.price >= 0 && article.available > 0) {
         const priceColumns = columns[indexes.price]?.querySelectorAll('table tr td');
 
-        if(priceColumns) {
+        if(priceColumns && priceColumns[1] && priceColumns[1].text()) {
             article.price = parseFloat(priceColumns[1].text().replace(',', '.'));
         }
     }

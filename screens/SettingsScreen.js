@@ -15,12 +15,20 @@ const SettingsScreen = () => {
     const style = useThemedStyles(styles);
 
     useEffect(() => {
+        //preferences.removeCity();
         getCity();
         getShops();
     }, []);
 
     const getCity = async () => {
-        setCity(await preferences.getCity());
+        const _city = await preferences.getCity();
+
+        if(!_city) {
+            preferences.setCity('РАДІОМАГ-Дніпро');
+            setCity(await preferences.getCity());
+        } else {
+            setCity(_city);
+        }
     }
 
     const getShops = async () => {

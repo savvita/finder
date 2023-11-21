@@ -73,13 +73,15 @@ const FiltersResultsScreen = ({ navigation, route }) => {
 
 const styles = theme => StyleSheet.create({
     container: {
-        height: '100%',
+        // height: '100%',
+        flex: 1,
         paddingHorizontal: 10,
         paddingVertical: 10,
         backgroundColor: theme.colors.BACKGROUND
     },
     contentContainer: {
-        height: '100%',
+        // height: '100%',
+        flex: 1,
         justifyContent: 'center',
         alignItems: 'center'
     },

@@ -1,10 +1,13 @@
-import { TouchableOpacity, StyleSheet, Text, Image, View, Linking } from 'react-native';
+import { TouchableOpacity, StyleSheet, Text, Image, View, Linking, ToastAndroid, ActivityIndicator } from 'react-native';
 import { useEffect, useState } from 'react';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import CustomizedButton from './CustomizedButton';
 
-const SearchResultItem = ({ item, containerStyle, titleStyle, textStyle, buttonStyle, buttonTextStyle, favouriteColor, favouriteSize, isFavourite, onFavouritePress, onSpecPress }) => {
+const SearchResultItem = ({ item, containerStyle, titleStyle, textStyle, buttonStyle, buttonTextStyle, favouriteColor, favouriteSize, isFavourite, onFavouritePress, onSpecPress, onCheckAvailablePress }) => {
     const [imageSource, setImageSource] = useState(null);
+    const [available, setAvailable] = useState(null);
+    const [availableCheck, setAvailableCheck] = useState(false);
+    const [loading, setLoading] = useState(false);
 
     useEffect(() => {
         if(!item) return;
@@ -17,6 +20,8 @@ const SearchResultItem = ({ item, containerStyle, titleStyle, textStyle, buttonS
         } else {
             setImageSource(require('../assets/images/no_image.png'));
         }
+
+        setAvailableCheck(item.url.includes('microteh'));
     }, []);
 
     const openUrl = () => {
@@ -29,16 +34,57 @@ const SearchResultItem = ({ item, containerStyle, titleStyle, textStyle, buttonS
                 }
             });
     }
+
+    const checkAvailable = async () => {
+        if(!onCheckAvailablePress) return;
+
+        try {
+            setLoading(true);
+            const res = await onCheckAvailablePress(item);
+            if(res === true) {
+                setAvailable('Є в наявності');
+            } else {
+                setAvailable('Немає в наявності');
+            }
+        } catch (e) {
+            console.log(e)
+            ToastAndroid.show('Не можу зв’язатися з сайтом', ToastAndroid.LONG);
+        } finally {
+            setTimeout(() => {
+                setLoading(false);
+              }, 100);
+        }
+    }
     
 
     if(!item) return null;
 
     return (
-        <TouchableOpacity style={ [styles.container, containerStyle ?? {}] }>
+        <View style={ [styles.container, containerStyle ?? {}] }>
             <View style={ styles.textContainer }>
                 <Text style={ [styles.text, styles.title, titleStyle ?? {}] }>{ item.name }</Text>
-                <Text style={ [styles.text, textStyle ?? {}] }>У наявності: { item.available } шт.</Text>
+                {
+                    !availableCheck &&
+                    <Text style={ [styles.text, textStyle ?? {}] }>У наявності: { item.available } шт.</Text>
+                }
+                {
+                    available &&
+                    <Text style={ [styles.text, textStyle ?? {}] }>{ available }</Text>
+                }
                 <Text style={ [styles.text, textStyle ?? {}] }>Ціна: { item.price }&nbsp;&#8372;</Text>
+                {
+                    availableCheck && !available &&
+                    <CustomizedButton
+                            title='Перевірити наявність'
+                            onPress={ checkAvailable }
+                            buttonStyle={ [styles.button, { marginBottom: 3, flexDirection: 'row', justifyContent: 'center'}, buttonStyle ?? {}] }
+                            textStyle={ [styles.buttonText, buttonTextStyle ?? {}] }
+                            disabled={ loading }
+                        >
+                            { loading === true && <ActivityIndicator color={ buttonTextStyle?.color ?? '#00ff00'} />}
+                    </CustomizedButton>
+                }
+                
                 <CustomizedButton
                         title='У магазин'
                         onPress={ openUrl }
@@ -67,7 +113,7 @@ const SearchResultItem = ({ item, containerStyle, titleStyle, textStyle, buttonS
                     color={ favouriteColor ?? '#007AFF' } 
                     onPress={ onFavouritePress }
                 /> 
-        </TouchableOpacity>
+        </View>
     );
 }
 

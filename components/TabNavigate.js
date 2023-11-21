@@ -1,4 +1,4 @@
-import { StyleSheet, View } from 'react-native';
+import { View } from 'react-native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { getHeaderTitle } from '@react-navigation/elements';
 import Ionicons from 'react-native-vector-icons/Ionicons';
@@ -68,14 +68,5 @@ const TabNavigate = () => {
             </Tab.Navigator>
     );
 }
-
-const styles = StyleSheet.create({
-    header: {
-        backgroundColor: '#333'
-    },
-    headerTitle: {
-
-    }
-});
 
 export default TabNavigate;

@@ -1,4 +1,4 @@
-import { View, StyleSheet, Text, TouchableOpacity } from 'react-native';
+import { Text, TouchableOpacity } from 'react-native';
 
 const BreadcrumbItem = ({ item, onPress, textStyle }) => {
     if(!item) return null;
@@ -9,9 +9,5 @@ const BreadcrumbItem = ({ item, onPress, textStyle }) => {
         </TouchableOpacity>
     );
 }
-
-const styles = StyleSheet.create({
-
-});
 
 export default BreadcrumbItem;
