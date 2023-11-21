@@ -1,9 +1,8 @@
-import { StyleSheet, Text, ActivityIndicator, View, Linking, Image } from 'react-native';
+import { StyleSheet, ActivityIndicator, View, Linking, Image } from 'react-native';
 import SearchInput from '../components/SearchInput';
 import engine from '../data/search_engine';
 import { useState, useEffect } from 'react';
-import SearchResultItem from '../components/SearchResultItem';
-import AccordionItem from '../components/AccordionItem';
+import ShopResults from '../components/ShopResults';
 import preferences from '../data/preferences';
 import useTheme from '../theme/useTheme';
 import useThemedStyles from '../theme/useThemedStyles';
@@ -87,7 +86,8 @@ const SearchScreen = ({ route, navigation }) => {
     const findInRadiomag = async (text) => {
         try {
             const city = await preferences.getCity();
-            const radiomag = await engine.Radiomag.searchAsync(text, city ?? 'РАДІОМАГ-Дніпро');
+            const page = await preferences.getRadiomagPage();
+            const radiomag = await engine.Radiomag.searchAsync(text, city ?? 'РАДІОМАГ-Дніпро', parseInt(page ?? '1'));
 
             return {
                 title: shops.radiomag,
@@ -103,7 +103,8 @@ const SearchScreen = ({ route, navigation }) => {
 
     const findInMicroteh = async (text) => {
         try {
-            const microteh = await engine.Microteh.searchAsync(text);
+            const page = await preferences.getMicrotehPage();
+            const microteh = await engine.Microteh.searchAsync(text, parseInt(page ?? '1'));
 
             return {
                 title: shops.microteh,
@@ -111,6 +112,7 @@ const SearchScreen = ({ route, navigation }) => {
                 comments: 'Мікротех не надає інформацію про доступну кількість товару'
             };
         } catch (e) {
+            console.log(e)
             return {
                 title: shops.microteh,
                 data: []
@@ -162,18 +164,6 @@ const SearchScreen = ({ route, navigation }) => {
         await loadFavourites();
     }
 
-    const isFavourite = (item) => {
-        return favourites.find(f => f.url === item.url) !== undefined;
-    }
-
-    const openPdf = (url) => {
-        navigation.navigate('pdf', { url: url});
-    }
-
-    const checkAvailable = async (item) => {
-        return await engine.Microteh.checkAvailableAsync(item);
-    }
-
     return (
         <View style={ style.container }>
             <SearchInput 
@@ -198,27 +188,21 @@ const SearchScreen = ({ route, navigation }) => {
                             data={ data }
                             keyExtractor={ item => item.title }
                             renderItem={ ({ item }) => 
-                                <AccordionItem
-                                        title={ `${ item.title } (${ item.data.length })`}
+                                <ShopResults 
+                                        shop={ item } 
+                                        favourites={ favourites } 
+                                        navigation={ navigation } 
+                                        onToggleFavourite={ toggleFavourite } 
+                                        favouriteColor={ theme.colors.FAVOURITE } 
+                                        buttonStyle={ { backgroundColor: theme.colors.BUTTON } } 
+                                        buttonTextStyle={ { color: theme.colors.BUTTON_TEXT } } 
+                                        textStyle={ { color: theme.colors.TEXT } } 
+                                        titleStyle={ { color: theme.colors.TEXT } } 
+                                        containerStyle={ { borderColor: theme.colors.BORDER } } 
+                                        accordionHeaderStyle={ style.accordionHeader } 
                                         headerContainerStyle={ style.accordionHeaderContainer }
-                                        headerTitleStyle={ style.accordionHeader }
-                                    >
-                                        { item.comments && <Text style={ style.comments }>* {  item.comments }</Text> }
-                                        { item.data.map((dataItem) => <SearchResultItem 
-                                                key={ dataItem.id } 
-                                                item={ dataItem } 
-                                                containerStyle={ { borderColor: theme.colors.BORDER }}
-                                                titleStyle={ { color: theme.colors.TEXT } }
-                                                textStyle={ { color: theme.colors.TEXT } }
-                                                buttonStyle={ { backgroundColor: theme.colors.BUTTON }}
-                                                buttonTextStyle={ { color: theme.colors.BUTTON_TEXT }}
-                                                favouriteColor={ theme.colors.FAVOURITE }
-                                                isFavourite = { isFavourite(dataItem) }
-                                                onFavouritePress={ () => toggleFavourite(dataItem, item.title) }
-                                                onSpecPress={ () => openPdf(dataItem.datasheet) }
-                                                onCheckAvailablePress={ () => checkAvailable(dataItem) }
-                                            />) }
-                                    </AccordionItem>
+                                        commentsStyle={ style.comments }
+                                    />
                                 }
                             />
                 }
@@ -251,7 +235,6 @@ const SearchScreen = ({ route, navigation }) => {
 
 const styles = theme => StyleSheet.create({
     container: {
-        // height: '100%',
         flex: 1,
         paddingVertical: 10,
         backgroundColor: theme.colors.BACKGROUND
@@ -268,7 +251,6 @@ const styles = theme => StyleSheet.create({
         marginStart: 10
     },
     contentContainer: {
-        // height: '100%',
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center'

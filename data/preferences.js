@@ -4,9 +4,11 @@ const CITY_KEY = 'city';
 const SHOP_KEY = 'shop';
 const THEME_KEY = 'light_theme';
 const FAVOURITE_KEY = 'favourite';
+const RADIOMAG_PAGE_KEY = 'radiomag_page';
+const MICROTEH_PAGE_KEY = 'microteh_page';
 
 const removeCity = async () => {
-    await removeItem(CITY_KEY);
+     await removeItem('page');
 }
 
 const removeItem = async (key) => {
@@ -21,6 +23,26 @@ const setCity = (value) => {
 
 const getCity = async () => {
     return await getData(CITY_KEY);
+}
+
+const setRadiomagPage = (value) => {
+    if(value) {
+        storeData(RADIOMAG_PAGE_KEY, value);
+    }
+}
+
+const getRadiomagPage = async () => {
+    return await getData(RADIOMAG_PAGE_KEY);
+}
+
+const setMicrotehPage = (value) => {
+    if(value) {
+        storeData(MICROTEH_PAGE_KEY, value);
+    }
+}
+
+const getMicrotehPage = async () => {
+    return await getData(MICROTEH_PAGE_KEY);
 }
 
 const setTheme = (value) => {
@@ -88,5 +110,9 @@ export default {
     setTheme: setTheme,
     getTheme: getTheme,
     setFavourites: setFavourites,
-    getFavourites: getFavourites
+    getFavourites: getFavourites,
+    setRadiomagPage: setRadiomagPage,
+    getRadiomagPage: getRadiomagPage,
+    setMicrotehPage: setMicrotehPage,
+    getMicrotehPage: getMicrotehPage
 }

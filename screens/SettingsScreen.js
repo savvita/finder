@@ -1,4 +1,4 @@
-import { View, StyleSheet, Switch, Text } from 'react-native';
+import { View, StyleSheet, Switch, Text, ScrollView } from 'react-native';
 import { useState, useEffect } from 'react';
 
 import RadioGroup from '../components/RadioGroup';
@@ -9,15 +9,19 @@ import useThemedStyles from '../theme/useThemedStyles';
 
 const SettingsScreen = () => {
     const [city, setCity] = useState(null);
+    const [radiomagPage, setRadiomagPage] = useState(null);
+    const [microtehPage, setMicrotehPage] = useState(null);
     const [shops, setShops] = useState([]);
 
     const theme = useTheme();
     const style = useThemedStyles(styles);
 
     useEffect(() => {
-        //preferences.removeCity();
+        //  preferences.removeCity();
         getCity();
         getShops();
+        getRadiomagPage();
+        getMicrotehPage();
     }, []);
 
     const getCity = async () => {
@@ -28,6 +32,28 @@ const SettingsScreen = () => {
             setCity(await preferences.getCity());
         } else {
             setCity(_city);
+        }
+    }
+
+    const getRadiomagPage = async () => {
+        const _page = await preferences.getRadiomagPage();
+
+        if(!_page) {
+            preferences.setRadiomagPage('1');
+            setRadiomagPage(await preferences.getRadiomagPage());
+        } else {
+            setRadiomagPage(_page);
+        }
+    }
+
+    const getMicrotehPage = async () => {
+        const _page = await preferences.getMicrotehPage();
+
+        if(!_page) {
+            preferences.setMicrotehPage('1');
+            setMicrotehPage(await preferences.getMicrotehPage());
+        } else {
+            setMicrotehPage(_page);
         }
     }
 
@@ -73,10 +99,65 @@ const SettingsScreen = () => {
         }
     ];
 
+    const radiomagPageOptions = [
+        {
+            name: '60',
+            value: '1'
+        },
+        {
+            name: '120',
+            value: '2'
+        }, 
+        {
+            name: '180',
+            value: '3'
+        },
+        {
+            name: '240',
+            value: '4'
+        }, 
+        {
+            name: '300',
+            value: '5'
+        }
+    ];
+
+    const microtehPageOptions = [
+        {
+            name: '24',
+            value: '1'
+        },
+        {
+            name: '48',
+            value: '2'
+        }, 
+        {
+            name: '72',
+            value: '3'
+        },
+        {
+            name: '96',
+            value: '4'
+        }, 
+        {
+            name: '120',
+            value: '5'
+        }
+    ];
+
 
     const cityChanged = (value) => {
         preferences.setCity(value);
     }
+
+    const radiomagPageChanged = (value) => {
+        preferences.setRadiomagPage(value);
+    }
+
+    const microtehPageChanged = (value) => {
+        preferences.setMicrotehPage(value);
+    }
+
 
     const shopsChanged = async (values) => {
         await preferences.setShops(values);
@@ -89,7 +170,7 @@ const SettingsScreen = () => {
     }
 
     return (
-        <View style={ style.container }>
+        <ScrollView style={ style.container }>
             <View style={ style.switchContainer }>
                 <Text style={ [style.text, { fontSize: 16 }] }>Увімкнути темну тему</Text>
                 <Switch 
@@ -129,7 +210,33 @@ const SettingsScreen = () => {
                     checkMarkColor={ theme.colors.CHECK_MARK }
                 />
             }
-        </View>
+            {
+                shops.find(shop => shop === 'radiomag') && 
+                <RadioGroup 
+                    title='Максимальна кількість результатів (Радіомаг)'
+                    titleStyle={ style.title }
+                    containerStyle={ style.groupContainer }
+                    optionTextStyle={ style.text }
+                    options={ radiomagPageOptions }
+                    onSelectChanged={ radiomagPageChanged }
+                    checked={ radiomagPage }
+                    checkMarkColor={ theme.colors.CHECK_MARK }
+                />
+            }
+            {
+                shops.find(shop => shop === 'microteh') && 
+                <RadioGroup 
+                    title='Максимальна кількість результатів (Мікротех)'
+                    titleStyle={ style.title }
+                    containerStyle={ style.groupContainer }
+                    optionTextStyle={ style.text }
+                    options={ microtehPageOptions }
+                    onSelectChanged={ microtehPageChanged }
+                    checked={ microtehPage }
+                    checkMarkColor={ theme.colors.CHECK_MARK }
+                />
+            }
+        </ScrollView>
     );
 }
 

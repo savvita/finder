@@ -1,5 +1,5 @@
 import { TouchableOpacity, StyleSheet, Text, Image, View, Linking, ToastAndroid, ActivityIndicator } from 'react-native';
-import { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import CustomizedButton from './CustomizedButton';
 
@@ -115,7 +115,7 @@ const SearchResultItem = ({ item, containerStyle, titleStyle, textStyle, buttonS
                 /> 
         </View>
     );
-}
+};
 
 const styles = StyleSheet.create({
     container: {
