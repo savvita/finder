@@ -28,7 +28,7 @@ const SearchInput = ({ containerStyle, inputStyle, iconStyle, onPress, value, on
 
     const validate = (txt) => {
         if(validation !== true) return true;
-        if(txt.length > 0) {
+        if(txt.trim().length > 0) {
             setValidationError(false);
             return true;
         }
@@ -38,7 +38,7 @@ const SearchInput = ({ containerStyle, inputStyle, iconStyle, onPress, value, on
 
     const press = () => {
         if(validate(text)) {
-            onPress && onPress(text);
+            onPress && onPress(text.trim());
         } else {
             setValidationError(true);
         }

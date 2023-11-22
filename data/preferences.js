@@ -8,7 +8,7 @@ const RADIOMAG_PAGE_KEY = 'radiomag_page';
 const MICROTEH_PAGE_KEY = 'microteh_page';
 
 const removeCity = async () => {
-     await removeItem('page');
+     await removeItem(MICROTEH_PAGE_KEY);
 }
 
 const removeItem = async (key) => {

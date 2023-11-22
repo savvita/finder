@@ -39,8 +39,8 @@ class Radiomag extends Basic {
         if(!text) return [];
         const searchText = text.replace(' ', '+');
         const url = `${ this.url }/search?q=${ searchText }`;
-        const html = await getAsync(url);
-        //const html = temp.radiomag;
+        //const html = await getAsync(url);
+        const html = temp.radiomag;
 
         if(!html) return [];
         return this.#parseSearchResult(html, city, maxPages);
@@ -81,6 +81,7 @@ class Radiomag extends Basic {
 
 class Voron extends Basic {
     #lastHtml;
+    #maxResults = 500;
     constructor() {
         super('https://voron.ua');
     }
@@ -89,7 +90,7 @@ class Voron extends Basic {
     searchAsync = async(text) => {
         if(!text) return [];
         const searchText = text.replace(' ', '+');
-        const url = `${ this.url }/search.php?search=${ searchText }`;
+        //const url = `${ this.url }/search.php?search=${ searchText }`;
         // const html = await getAsync(url);
         //const html = temp.voron;
         const html = await this.#getBodyAsync(searchText);
@@ -110,7 +111,7 @@ class Voron extends Basic {
                 "content-type": "application/x-www-form-urlencoded; charset=UTF-8",
                 "x-requested-with": "XMLHttpRequest"
             },
-            "body": `search=${ text }&command=all_product&amount=500`,
+            "body": `search=${ text }&command=all_product&amount=${ this.#maxResults }`,
             "method": "POST",
             signal: controller.signal
             })
@@ -172,17 +173,18 @@ class Voron extends Basic {
 }
 
 class Microteh extends Basic {
+    #maxResults = 500;
     constructor() {
         super('https://microteh.ck.ua/index.php');
     }
-    searchAsync = async(text, maxPages) => {
+    searchAsync = async(text) => {
         if(!text) return [];
         const searchText = text.replace(' ', '+');
-        const url = `${ this.url }?route=product/search&search=${ searchText }`;
-        const html = await getAsync(url);
-        // const html = temp.microteh;
+        const url = `${ this.url }?route=product/search&search=${ searchText }&limit=${ this.#maxResults }`;
+        //const html = await getAsync(url);
+         const html = temp.microteh;
 
-        return this.#parseSearchResult(html, maxPages);
+        return this.#parseSearchResult(html);
     }
 
     checkAvailableAsync = async (item) => {
@@ -195,33 +197,15 @@ class Microteh extends Basic {
         return microteh.checkAvailable(doc);
     }
 
-    #getNextPage = (doc) => {
-        const link = doc.querySelector('ul.pagination li.active + li a');
-        if(!link) return null;
+    #parseSearchResult = (html) => {
+        const doc = IDOMParser.parse(html, {
+            ignoreTags: ['head', 'style'],
+            onlyBody: true,
+            errorHandler: () => {}
+        });
 
-        return link.getAttribute('href');
-    }
+        const articles = microteh.parseTable(doc.documentElement);
 
-    #parseSearchResult = async (html, maxPages) => {
-        const articles = [];
-        let i = 0;
-        do {
-            const doc = IDOMParser.parse(html, {
-                ignoreTags: ['head', 'style'],
-                onlyBody: true,
-                errorHandler: () => {}
-            });
-
-            const _articles = microteh.parseTable(doc.documentElement);
-            if(_articles.length === 0) break;
-            articles.push(..._articles);
-
-            const nextPage = this.#getNextPage(doc);
-            if(!nextPage) break;
-            html = await getAsync(nextPage);
-
-            i++;
-        } while(i < maxPages ?? 1);
         return articles;
     }
 }

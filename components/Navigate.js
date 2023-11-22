@@ -6,6 +6,7 @@ import TabNavigate from './TabNavigate';
 import SettingsScreen from '../screens/SettingsScreen';
 import FavouritesScreen from '../screens/FavouritesScreen';
 import PdfScreen from '../screens/PdfScreen';
+import ShopResultsScreen from '../screens/ShopResultsScreen';
 
 
 const Navigate = () => {
@@ -61,6 +62,21 @@ const Navigate = () => {
                                         isBack={ true } 
                                         isSettings={ false } 
                                         isFavourite={ false }
+                                        onBackPress={ () => props.navigation.goBack() } 
+                                    />
+                        }}
+                    />
+                <Stack.Screen
+                        name="shop"
+                        component={ ShopResultsScreen }
+                        options={{
+                            title: 'Магазин',
+                            header: (props) => 
+                                <Header 
+                                        title={ props.options.title } 
+                                        isBack={ true } 
+                                        isSettings={ true } 
+                                        isFavourite={ true }
                                         onBackPress={ () => props.navigation.navigate('content') } 
                                     />
                         }}

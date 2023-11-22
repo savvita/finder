@@ -1,12 +1,12 @@
-import { StyleSheet, ActivityIndicator, View, Linking, Image } from 'react-native';
+import { StyleSheet, ActivityIndicator, View, Image } from 'react-native';
 import SearchInput from '../components/SearchInput';
 import engine from '../data/search_engine';
 import { useState, useEffect } from 'react';
-import ShopResults from '../components/ShopResults';
 import preferences from '../data/preferences';
 import useTheme from '../theme/useTheme';
 import useThemedStyles from '../theme/useThemedStyles';
 import { FlatList } from 'react-native-gesture-handler';
+import ShopResultListItem from '../components/ShopResultListItem';
 
 
 
@@ -14,7 +14,6 @@ const SearchScreen = ({ route, navigation }) => {
     const [data, setData] = useState([]);
     const [searchText, setSearchText] = useState('');
     const [isLoading, setIsLoading] = useState(false);
-    const [favourites, setFavourites] = useState([]);
     const tasks = {
         'radiomag': (str) => findInRadiomag(str),
         'voron': (str) => findInVoron(str),
@@ -39,13 +38,8 @@ const SearchScreen = ({ route, navigation }) => {
         }
     }, [route, route.params]);
 
-    const loadFavourites = async () => {
-        const _values = await preferences.getFavourites();
-        setFavourites(_values);
-        return _values;
-    }
     const search = async (text) => {
-        await loadFavourites();
+        //await loadFavourites();
         const _shops = await preferences.getShops();
   
         setIsLoading(true);
@@ -103,8 +97,7 @@ const SearchScreen = ({ route, navigation }) => {
 
     const findInMicroteh = async (text) => {
         try {
-            const page = await preferences.getMicrotehPage();
-            const microteh = await engine.Microteh.searchAsync(text, parseInt(page ?? '1'));
+            const microteh = await engine.Microteh.searchAsync(text);
 
             return {
                 title: shops.microteh,
@@ -121,13 +114,13 @@ const SearchScreen = ({ route, navigation }) => {
     }
 
     const validate = (text) => {
-        setValid(text.length > 0);
-        return text.length > 0;
+        setValid(text.trim().length > 0);
+        return text.trim().length > 0;
     }
     
     const findInGoogle = () => {
         if(validate(searchText)) {
-            openUrl('https://google.com.ua/search?q=' + encodeURI(searchText));
+            openUrl('https://google.com.ua/search?q=' + encodeURI(searchText,trim()));
         }
     }
 
@@ -135,33 +128,6 @@ const SearchScreen = ({ route, navigation }) => {
         if(validate(searchText)) {
             openUrl('https://www.aliexpress.com/w/wholesale-' + searchText.replace(' ', '-') + '.html');
         }
-    }
-
-    const openUrl = (url) => {
-        Linking.canOpenURL(url)
-            .then(supported => {
-                if (supported) {
-                    Linking.openURL(url);
-                } else {
-                    console.log("Don't know how to open URI: " + url);
-                }
-            });
-    }
-
-    const toggleFavourite = async (item, shop) => {
-        const _favourites = await loadFavourites();
-        const val = _favourites.find(i => i.url === item.url);
-        if(val) {
-            await preferences.setFavourites(_favourites.filter(i => i.url !== item.url));
-        } else {
-            await preferences.setFavourites([..._favourites, {
-                title: item.name,
-                url: item.url,
-                shop: shop
-            }]);
-        }
-        
-        await loadFavourites();
     }
 
     return (
@@ -188,23 +154,16 @@ const SearchScreen = ({ route, navigation }) => {
                             data={ data }
                             keyExtractor={ item => item.title }
                             renderItem={ ({ item }) => 
-                                <ShopResults 
-                                        shop={ item } 
-                                        favourites={ favourites } 
-                                        navigation={ navigation } 
-                                        onToggleFavourite={ toggleFavourite } 
-                                        favouriteColor={ theme.colors.FAVOURITE } 
-                                        buttonStyle={ { backgroundColor: theme.colors.BUTTON } } 
-                                        buttonTextStyle={ { color: theme.colors.BUTTON_TEXT } } 
-                                        textStyle={ { color: theme.colors.TEXT } } 
-                                        titleStyle={ { color: theme.colors.TEXT } } 
-                                        containerStyle={ { borderColor: theme.colors.BORDER } } 
-                                        accordionHeaderStyle={ style.accordionHeader } 
-                                        headerContainerStyle={ style.accordionHeaderContainer }
-                                        commentsStyle={ style.comments }
+                                <ShopResultListItem
+                                        title={ `${ item.title } (${ item.data.length })` }
+                                        onPress={() => navigation.navigate('shop', {
+                                            value: item 
+                                        })}
+                                        containerStyle={ style.shopContainer }
+                                        textStyle={ style.shopText }
                                     />
-                                }
-                            />
+                         }
+                        />
                 }
             <View style={ style.buttonContainer }>
                 <CustomizedButton
@@ -255,20 +214,16 @@ const styles = theme => StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center'
     },
-    accordionHeaderContainer: {
+    shopContainer: {
         backgroundColor: theme.colors.SECONDARY,
         borderTopWidth: 0,
         borderBottomColor: theme.colors.BORDER,
         paddingHorizontal: 30,
     },
-    accordionHeader: {
+    shopText: {
         fontSize: 18,
         fontWeight: 'bold',
         color: theme.colors.TEXT
-    },
-    comments: {
-        paddingStart: 15,
-        color: theme.colors.ERROR
     },
     buttonContainer: { 
         flexDirection: 'row',

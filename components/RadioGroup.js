@@ -1,9 +1,22 @@
 import { View, StyleSheet, Text } from 'react-native';
 import { useEffect, useState } from 'react';
+import { Tooltip } from '@rneui/themed';
 import RadioGroupOption from './RadioGroupOption';
+import Ionicons from 'react-native-vector-icons/Ionicons';
 
-const RadioGroup = ({ title, options, checked, containerStyle, onSelectChanged, titleStyle, optionTextStyle, checkMarkColor }) => {
+const RadioGroup = ({ 
+    title, 
+    options, 
+    checked, 
+    containerStyle, 
+    onSelectChanged, 
+    titleStyle, 
+    optionTextStyle, 
+    checkMarkColor,
+    tooltip
+}) => {
     const [selected, setSelected] = useState(null);
+    const [toolTipVisible, setToolTipVisible] = useState(false);
 
     useEffect(() => {
         setSelected(checked);
@@ -20,8 +33,29 @@ const RadioGroup = ({ title, options, checked, containerStyle, onSelectChanged, 
 
     return (
         <View>
-            <Text style={ [styles.title, titleStyle ?? {} ]}>{ title }</Text>
-            <View style={ [styles.container, containerStyle ?? {}] }>
+            <View style={ [styles.row, { backgroundColor: titleStyle?.backgroundColor ?? '#eee' }] }>
+                <Text style={ [styles.title, titleStyle ?? {} ]}>{ title }</Text>
+                {
+                    tooltip &&
+                    <Tooltip
+                            visible={ toolTipVisible }
+                            onOpen={() => setToolTipVisible(true) }
+                            onClose={() => setToolTipVisible(false) }
+                            popover={<Text style={ styles.text }>{ tooltip }</Text>}
+                            width={ 260 }
+                            height={ 80 }
+                        >
+                            <Ionicons 
+                                    name='information-circle-outline' 
+                                    size={ 24 } 
+                                    color={ checkMarkColor ?? '#007AFF' } 
+                                    style={ styles.info }
+                                /> 
+                    </Tooltip>
+                }
+            </View>
+             <View style={ [styles.container, containerStyle ?? {}] }>
+                
                 { options.map((item, index) => 
                     <RadioGroupOption
                             key={ index }
@@ -53,6 +87,17 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
         flexGrow:1,
         backgroundColor: '#eee'
+    },
+    text: {
+        color: '#fff'
+    },
+    row: {
+        flexDirection: 'row',
+        justifyContent: 'space-between'
+    },
+    info: {
+        marginRight: 10,
+        marginTop: 10
     }
 });
 
