@@ -1,4 +1,4 @@
-import { StyleSheet, ActivityIndicator, View, Image } from 'react-native';
+import { StyleSheet, ActivityIndicator, View, Image, Linking } from 'react-native';
 import SearchInput from '../components/SearchInput';
 import engine from '../data/search_engine';
 import { useState, useEffect } from 'react';
@@ -117,10 +117,21 @@ const SearchScreen = ({ route, navigation }) => {
         setValid(text.trim().length > 0);
         return text.trim().length > 0;
     }
+
+    openUrl = (url) => {
+        Linking.canOpenURL(url)
+            .then(supported => {
+                if (supported) {
+                    Linking.openURL(url);
+                } else {
+                    console.log("Don't know how to open URI: " + url);
+                }
+            });
+    }
     
     const findInGoogle = () => {
         if(validate(searchText)) {
-            openUrl('https://google.com.ua/search?q=' + encodeURI(searchText,trim()));
+            openUrl('https://google.com.ua/search?q=' + encodeURI(searchText.trim()));
         }
     }
 

@@ -1,44 +1,60 @@
 import { View, StyleSheet, Image, TouchableOpacity, Text } from 'react-native';
-import { useState, useEffect } from 'react';
+import React from 'react';
 import CustomizedButton from './CustomizedButton';
 
-const FilterResultItem = ({ item, containerStyle, onPress, textStyle, buttonStyle, buttonTextStyle }) => {
-    const [imageSource, setImageSource] = useState(null);
+class FilterResultItem extends React.PureComponent {
+    constructor(props) {
+        super(props);
+        this.state = {
+            imageSource: null
+        }
+    }
 
-    useEffect(() => {
-        if(!item) return;
-        if(item.image && item.image.length > 0) {
-            Image.getSize(item.image, (w, h) => {
-                setImageSource({ uri: item.image });
+    componentDidMount = () => {
+        if(!this.props.item) return;
+        if(this.props.item.image && this.props.item.image.length > 0) {
+            Image.getSize(this.props.item.image, (w, h) => {
+                this.setState({
+                    ...this.state,
+                    imageSource: { uri: this.props.item.image }
+                });
             }, (err) => {
-                setImageSource(require('../assets/images/no_image.png'));
+                this.setState({
+                    ...this.state,
+                    imageSource: require('../assets/images/no_image.png')
+                });
             });
         } else {
-            setImageSource(require('../assets/images/no_image.png'));
+            this.setState({
+                ...this.state,
+                imageSource: require('../assets/images/no_image.png')
+            });
         }
-    }, []);
+    }
 
-    if(!item) return;
+    render = () => {
+        if(!this.props.item) return null;
 
-    return (
-        <TouchableOpacity style={ [styles.container, containerStyle ?? {}] }>
-            <View style={ styles.textContainer }>
-                <Text style={ [styles.text, styles.title, textStyle ?? {}] }>{ item.name }</Text>
-                <CustomizedButton
-                        buttonStyle={ [styles.button, buttonStyle] }
-                        textStyle={ [styles.buttonText, buttonTextStyle] }
-                        title='Перейти до пошуку'
-                        onPress={ onPress }
-                    />
-            </View>
-            { imageSource && 
-                <Image
-                        source={ imageSource }
-                        style={ styles.image }
-                    /> 
-            }
-        </TouchableOpacity>
-    );
+        return (
+            <TouchableOpacity style={ [styles.container, this.props.containerStyle ?? {}] }>
+                <View style={ styles.textContainer }>
+                    <Text style={ [styles.text, styles.title, this.props.textStyle ?? {}] }>{ this.props.item.name }</Text>
+                    <CustomizedButton
+                            buttonStyle={ [styles.button, this.props.buttonStyle] }
+                            textStyle={ [styles.buttonText, this.props.buttonTextStyle] }
+                            title='Перейти до пошуку'
+                            onPress={ this.props.onPress }
+                        />
+                </View>
+                { this.state.imageSource && 
+                    <Image
+                            source={ this.state.imageSource }
+                            style={ styles.image }
+                        /> 
+                }
+            </TouchableOpacity>
+        );
+    }
 }
 
 const styles = StyleSheet.create({
