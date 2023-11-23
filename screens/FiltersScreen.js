@@ -39,6 +39,8 @@ const FiltersScreen = ({ navigation, route }) => {
                 }
                 setFilters(_filters);
             }
+
+            console.log(_filters)
         } catch(e) {
             console.log(e);
             ToastAndroid.show('Відсутнє інтернет-з’єднання', ToastAndroid.LONG);
@@ -74,13 +76,11 @@ const FiltersScreen = ({ navigation, route }) => {
 
         navigation.navigate('filters_results', { filters: { code: filters.code, filters: checkedFilters } });
     }
-
-    if(!filters) return null;
     
     return (
         <View style={ style.container }>
             {
-                filters.filters.length > 0 ?
+                filters && filters.filters.length > 0 ?
                     <View style={{ height: '100%', justifyContent: 'space-between'}}>
                         <View style={{ maxHeight: '80%', flexGrow: 1}}>
                             <Filters 
